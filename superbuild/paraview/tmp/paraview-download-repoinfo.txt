@@ -1,0 +1,5 @@
+method=url
+url=https://www.paraview.org/files/v5.12/ParaView-v5.12.0.tar.xz
+hash=MD5=bd946498e74229a65437a7952d4bcaf6
+source_dir=D:/pv/pvsb/superbuild/paraview/src
+

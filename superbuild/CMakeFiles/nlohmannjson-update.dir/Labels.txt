@@ -1,0 +1,8 @@
+# Target labels
+ nlohmannjson
+# Source files and their labels
+D:/pv/pvsb/superbuild/CMakeFiles/nlohmannjson-update
+D:/pv/pvsb/superbuild/CMakeFiles/nlohmannjson-update.rule
+D:/pv/pvsb/superbuild/nlohmannjson/stamp/nlohmannjson-update.rule
+D:/pv/pvsb/superbuild/nlohmannjson/stamp/nlohmannjson-download.rule
+D:/pv/pvsb/superbuild/nlohmannjson/stamp/nlohmannjson-mkdir.rule

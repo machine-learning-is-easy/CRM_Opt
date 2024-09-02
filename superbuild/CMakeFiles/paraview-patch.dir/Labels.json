@@ -1,0 +1,31 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/pv/pvsb/superbuild/CMakeFiles/paraview-patch"
+		},
+		{
+			"file" : "D:/pv/pvsb/superbuild/CMakeFiles/paraview-patch.rule"
+		},
+		{
+			"file" : "D:/pv/pvsb/superbuild/paraview/stamp/paraview-patch.rule"
+		},
+		{
+			"file" : "D:/pv/pvsb/superbuild/paraview/stamp/paraview-update.rule"
+		},
+		{
+			"file" : "D:/pv/pvsb/superbuild/paraview/stamp/paraview-download.rule"
+		},
+		{
+			"file" : "D:/pv/pvsb/superbuild/paraview/stamp/paraview-mkdir.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"paraview"
+		],
+		"name" : "paraview-patch"
+	}
+}

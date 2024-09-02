@@ -1,0 +1,28 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/pv/pvsb/superbuild/CMakeFiles/cxx11-update"
+		},
+		{
+			"file" : "D:/pv/pvsb/superbuild/CMakeFiles/cxx11-update.rule"
+		},
+		{
+			"file" : "D:/pv/pvsb/superbuild/cxx11-prefix/src/cxx11-stamp/cxx11-update.rule"
+		},
+		{
+			"file" : "D:/pv/pvsb/superbuild/cxx11-prefix/src/cxx11-stamp/cxx11-download.rule"
+		},
+		{
+			"file" : "D:/pv/pvsb/superbuild/cxx11-prefix/src/cxx11-stamp/cxx11-mkdir.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"cxx11"
+		],
+		"name" : "cxx11-update"
+	}
+}

@@ -1,0 +1,25 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/pv/pvsb/superbuild/CMakeFiles/nlohmannjson-download"
+		},
+		{
+			"file" : "D:/pv/pvsb/superbuild/CMakeFiles/nlohmannjson-download.rule"
+		},
+		{
+			"file" : "D:/pv/pvsb/superbuild/nlohmannjson/stamp/nlohmannjson-download.rule"
+		},
+		{
+			"file" : "D:/pv/pvsb/superbuild/nlohmannjson/stamp/nlohmannjson-mkdir.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"nlohmannjson"
+		],
+		"name" : "nlohmannjson-download"
+	}
+}

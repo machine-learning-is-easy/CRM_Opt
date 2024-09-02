@@ -1,0 +1,67 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/pv/pvsb/superbuild/CMakeFiles/nlohmannjson"
+		},
+		{
+			"file" : "D:/pv/pvsb/superbuild/CMakeFiles/nlohmannjson.rule"
+		},
+		{
+			"file" : "D:/pv/pvsb/superbuild/CMakeFiles/nlohmannjson-complete.rule"
+		},
+		{
+			"file" : "D:/pv/pvsb/superbuild/nlohmannjson/stamp/nlohmannjson-build.rule"
+		},
+		{
+			"file" : "D:/pv/pvsb/superbuild/nlohmannjson/stamp/nlohmannjson-configure.rule"
+		},
+		{
+			"file" : "D:/pv/pvsb/superbuild/nlohmannjson/stamp/nlohmannjson-download.rule"
+		},
+		{
+			"file" : "D:/pv/pvsb/superbuild/nlohmannjson/stamp/nlohmannjson-install.rule"
+		},
+		{
+			"file" : "D:/pv/pvsb/superbuild/nlohmannjson/stamp/nlohmannjson-install-licenses.rule"
+		},
+		{
+			"file" : "D:/pv/pvsb/superbuild/nlohmannjson/stamp/nlohmannjson-mkdir.rule"
+		},
+		{
+			"file" : "D:/pv/pvsb/superbuild/nlohmannjson/stamp/nlohmannjson-patch.rule"
+		},
+		{
+			"file" : "D:/pv/pvsb/superbuild/nlohmannjson/stamp/nlohmannjson-update.rule"
+		},
+		{
+			"file" : "D:/pv/pvsb/superbuild/CMakeFiles/cxx11-complete.rule"
+		},
+		{
+			"file" : "D:/pv/pvsb/superbuild/cxx11-prefix/src/cxx11-stamp/cxx11-build.rule"
+		},
+		{
+			"file" : "D:/pv/pvsb/superbuild/cxx11-prefix/src/cxx11-stamp/cxx11-configure.rule"
+		},
+		{
+			"file" : "D:/pv/pvsb/superbuild/cxx11-prefix/src/cxx11-stamp/cxx11-download.rule"
+		},
+		{
+			"file" : "D:/pv/pvsb/superbuild/cxx11-prefix/src/cxx11-stamp/cxx11-install.rule"
+		},
+		{
+			"file" : "D:/pv/pvsb/superbuild/cxx11-prefix/src/cxx11-stamp/cxx11-mkdir.rule"
+		},
+		{
+			"file" : "D:/pv/pvsb/superbuild/cxx11-prefix/src/cxx11-stamp/cxx11-patch.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"nlohmannjson"
+		],
+		"name" : "nlohmannjson"
+	}
+}

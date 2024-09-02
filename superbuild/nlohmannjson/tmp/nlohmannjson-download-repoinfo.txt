@@ -1,0 +1,5 @@
+method=url
+url=https://www.paraview.org/files/dependencies/nlohmannjson-3.11.2.tar.gz
+hash=MD5=e8d56bc54621037842ee9f0aeae27746
+source_dir=D:/pv/pvsb/superbuild/nlohmannjson/src
+

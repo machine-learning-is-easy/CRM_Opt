@@ -1,0 +1,31 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/pv/pvsb/superbuild/CMakeFiles/nlohmannjson-patch"
+		},
+		{
+			"file" : "D:/pv/pvsb/superbuild/CMakeFiles/nlohmannjson-patch.rule"
+		},
+		{
+			"file" : "D:/pv/pvsb/superbuild/nlohmannjson/stamp/nlohmannjson-patch.rule"
+		},
+		{
+			"file" : "D:/pv/pvsb/superbuild/nlohmannjson/stamp/nlohmannjson-update.rule"
+		},
+		{
+			"file" : "D:/pv/pvsb/superbuild/nlohmannjson/stamp/nlohmannjson-download.rule"
+		},
+		{
+			"file" : "D:/pv/pvsb/superbuild/nlohmannjson/stamp/nlohmannjson-mkdir.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"nlohmannjson"
+		],
+		"name" : "nlohmannjson-patch"
+	}
+}

@@ -1,0 +1,5 @@
+method=custom
+command=
+source_dir=D:/pv/pvsb/superbuild/cxx11-prefix/src/cxx11
+work_dir=D:/pv/pvsb/superbuild/cxx11-prefix/src
+

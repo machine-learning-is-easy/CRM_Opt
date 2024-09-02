@@ -1,0 +1,25 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/pv/pvsb/superbuild/CMakeFiles/paraview-download"
+		},
+		{
+			"file" : "D:/pv/pvsb/superbuild/CMakeFiles/paraview-download.rule"
+		},
+		{
+			"file" : "D:/pv/pvsb/superbuild/paraview/stamp/paraview-download.rule"
+		},
+		{
+			"file" : "D:/pv/pvsb/superbuild/paraview/stamp/paraview-mkdir.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"paraview"
+		],
+		"name" : "paraview-download"
+	}
+}
