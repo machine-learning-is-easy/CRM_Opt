@@ -1,0 +1,311 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C96E8DD0-4B01-317D-BB4B-377BB67DC9B7}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>vtkLANLX3DReader-hierarchy</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\9c7c783c9a2b088593eebf1cbe2dd094\vtkLANLX3DReader-hierarchy.txt.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating the wrap hierarchy for LANLX3DReader::vtkLANLX3DReader</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+..\..\..\bin\Debug\vtkWrapHierarchy-pv5.13d.exe -MF D:/pv/rebuild/Plugins/LANLX3DReader/Reader/CMakeFiles/vtkLANLX3DReader-hierarchy.txt.Debug.d @D:/pv/rebuild/Plugins/LANLX3DReader/Reader/CMakeFiles/vtkLANLX3DReader-hierarchy.Debug.args -o D:/pv/rebuild/bin/paraview-5.13/plugins/LANLX3DReader/vtk/hierarchy/LANLX3DReader/vtkLANLX3DReader-hierarchy.txt D:/pv/rebuild/Plugins/LANLX3DReader/Reader/CMakeFiles/vtkLANLX3DReader-hierarchy.data @D:/pv/rebuild/Plugins/LANLX3DReader/Reader/CMakeFiles/vtkLANLX3DReader-hierarchy.depends.args
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_transform_depfile "Visual Studio 16 2019" MSBuildAdditionalInputs D:/pv/ParaView D:/pv/ParaView/Plugins/LANLX3DReader/Reader D:/pv/rebuild D:/pv/rebuild/Plugins/LANLX3DReader/Reader D:/pv/rebuild/Plugins/LANLX3DReader/Reader/CMakeFiles/vtkLANLX3DReader-hierarchy.txt.Debug.d D:/pv/rebuild/CMakeFiles/d/637d7b87b705efdbe9c6145ffcf392ae84fa1083a9817e97bac17019502b97ae.AdditionalInputs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\pv\ParaView\Plugins\LANLX3DReader\Reader\vtkLANLX3DReader.h;D:\pv\rebuild\Plugins\LANLX3DReader\Reader\CMakeFiles\vtkLANLX3DReader-hierarchy.Debug.args;D:\pv\rebuild\Plugins\LANLX3DReader\Reader\CMakeFiles\vtkLANLX3DReader-hierarchy.data;D:\pv\rebuild\Plugins\LANLX3DReader\Reader\CMakeFiles\vtkLANLX3DReader-hierarchy.depends.args;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\pv\rebuild\bin\paraview-5.13\plugins\LANLX3DReader\vtk\hierarchy\LANLX3DReader\vtkLANLX3DReader-hierarchy.txt</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <DepFileAdditionalInputsFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\pv\rebuild\CMakeFiles\d\637d7b87b705efdbe9c6145ffcf392ae84fa1083a9817e97bac17019502b97ae.AdditionalInputs</DepFileAdditionalInputsFile>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating the wrap hierarchy for LANLX3DReader::vtkLANLX3DReader</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+..\..\..\bin\Release\vtkWrapHierarchy-pv5.13.exe -MF D:/pv/rebuild/Plugins/LANLX3DReader/Reader/CMakeFiles/vtkLANLX3DReader-hierarchy.txt.Release.d @D:/pv/rebuild/Plugins/LANLX3DReader/Reader/CMakeFiles/vtkLANLX3DReader-hierarchy.Release.args -o D:/pv/rebuild/bin/paraview-5.13/plugins/LANLX3DReader/vtk/hierarchy/LANLX3DReader/vtkLANLX3DReader-hierarchy.txt D:/pv/rebuild/Plugins/LANLX3DReader/Reader/CMakeFiles/vtkLANLX3DReader-hierarchy.data @D:/pv/rebuild/Plugins/LANLX3DReader/Reader/CMakeFiles/vtkLANLX3DReader-hierarchy.depends.args
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_transform_depfile "Visual Studio 16 2019" MSBuildAdditionalInputs D:/pv/ParaView D:/pv/ParaView/Plugins/LANLX3DReader/Reader D:/pv/rebuild D:/pv/rebuild/Plugins/LANLX3DReader/Reader D:/pv/rebuild/Plugins/LANLX3DReader/Reader/CMakeFiles/vtkLANLX3DReader-hierarchy.txt.Release.d D:/pv/rebuild/CMakeFiles/d/d691bfd3e5891996ac9a7e77984080a5661e03e1d5ff12cddb58945b613897a2.AdditionalInputs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\pv\ParaView\Plugins\LANLX3DReader\Reader\vtkLANLX3DReader.h;D:\pv\rebuild\Plugins\LANLX3DReader\Reader\CMakeFiles\vtkLANLX3DReader-hierarchy.Release.args;D:\pv\rebuild\Plugins\LANLX3DReader\Reader\CMakeFiles\vtkLANLX3DReader-hierarchy.data;D:\pv\rebuild\Plugins\LANLX3DReader\Reader\CMakeFiles\vtkLANLX3DReader-hierarchy.depends.args;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\pv\rebuild\bin\paraview-5.13\plugins\LANLX3DReader\vtk\hierarchy\LANLX3DReader\vtkLANLX3DReader-hierarchy.txt</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <DepFileAdditionalInputsFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\pv\rebuild\CMakeFiles\d\d691bfd3e5891996ac9a7e77984080a5661e03e1d5ff12cddb58945b613897a2.AdditionalInputs</DepFileAdditionalInputsFile>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating the wrap hierarchy for LANLX3DReader::vtkLANLX3DReader</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+..\..\..\bin\MinSizeRel\vtkWrapHierarchy-pv5.13.exe -MF D:/pv/rebuild/Plugins/LANLX3DReader/Reader/CMakeFiles/vtkLANLX3DReader-hierarchy.txt.MinSizeRel.d @D:/pv/rebuild/Plugins/LANLX3DReader/Reader/CMakeFiles/vtkLANLX3DReader-hierarchy.MinSizeRel.args -o D:/pv/rebuild/bin/paraview-5.13/plugins/LANLX3DReader/vtk/hierarchy/LANLX3DReader/vtkLANLX3DReader-hierarchy.txt D:/pv/rebuild/Plugins/LANLX3DReader/Reader/CMakeFiles/vtkLANLX3DReader-hierarchy.data @D:/pv/rebuild/Plugins/LANLX3DReader/Reader/CMakeFiles/vtkLANLX3DReader-hierarchy.depends.args
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_transform_depfile "Visual Studio 16 2019" MSBuildAdditionalInputs D:/pv/ParaView D:/pv/ParaView/Plugins/LANLX3DReader/Reader D:/pv/rebuild D:/pv/rebuild/Plugins/LANLX3DReader/Reader D:/pv/rebuild/Plugins/LANLX3DReader/Reader/CMakeFiles/vtkLANLX3DReader-hierarchy.txt.MinSizeRel.d D:/pv/rebuild/CMakeFiles/d/7e9576ee58105ec8395ff06e1db6928b0324a846d12941d0ea7e19d4342b1342.AdditionalInputs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\pv\ParaView\Plugins\LANLX3DReader\Reader\vtkLANLX3DReader.h;D:\pv\rebuild\Plugins\LANLX3DReader\Reader\CMakeFiles\vtkLANLX3DReader-hierarchy.MinSizeRel.args;D:\pv\rebuild\Plugins\LANLX3DReader\Reader\CMakeFiles\vtkLANLX3DReader-hierarchy.data;D:\pv\rebuild\Plugins\LANLX3DReader\Reader\CMakeFiles\vtkLANLX3DReader-hierarchy.depends.args;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\pv\rebuild\bin\paraview-5.13\plugins\LANLX3DReader\vtk\hierarchy\LANLX3DReader\vtkLANLX3DReader-hierarchy.txt</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <DepFileAdditionalInputsFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\pv\rebuild\CMakeFiles\d\7e9576ee58105ec8395ff06e1db6928b0324a846d12941d0ea7e19d4342b1342.AdditionalInputs</DepFileAdditionalInputsFile>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating the wrap hierarchy for LANLX3DReader::vtkLANLX3DReader</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+..\..\..\bin\RelWithDebInfo\vtkWrapHierarchy-pv5.13.exe -MF D:/pv/rebuild/Plugins/LANLX3DReader/Reader/CMakeFiles/vtkLANLX3DReader-hierarchy.txt.RelWithDebInfo.d @D:/pv/rebuild/Plugins/LANLX3DReader/Reader/CMakeFiles/vtkLANLX3DReader-hierarchy.RelWithDebInfo.args -o D:/pv/rebuild/bin/paraview-5.13/plugins/LANLX3DReader/vtk/hierarchy/LANLX3DReader/vtkLANLX3DReader-hierarchy.txt D:/pv/rebuild/Plugins/LANLX3DReader/Reader/CMakeFiles/vtkLANLX3DReader-hierarchy.data @D:/pv/rebuild/Plugins/LANLX3DReader/Reader/CMakeFiles/vtkLANLX3DReader-hierarchy.depends.args
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_transform_depfile "Visual Studio 16 2019" MSBuildAdditionalInputs D:/pv/ParaView D:/pv/ParaView/Plugins/LANLX3DReader/Reader D:/pv/rebuild D:/pv/rebuild/Plugins/LANLX3DReader/Reader D:/pv/rebuild/Plugins/LANLX3DReader/Reader/CMakeFiles/vtkLANLX3DReader-hierarchy.txt.RelWithDebInfo.d D:/pv/rebuild/CMakeFiles/d/83412294f87883f37925dff40ddb6466bf26a47e7e9f3c465439f8b763364a1c.AdditionalInputs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\pv\ParaView\Plugins\LANLX3DReader\Reader\vtkLANLX3DReader.h;D:\pv\rebuild\Plugins\LANLX3DReader\Reader\CMakeFiles\vtkLANLX3DReader-hierarchy.RelWithDebInfo.args;D:\pv\rebuild\Plugins\LANLX3DReader\Reader\CMakeFiles\vtkLANLX3DReader-hierarchy.data;D:\pv\rebuild\Plugins\LANLX3DReader\Reader\CMakeFiles\vtkLANLX3DReader-hierarchy.depends.args;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\pv\rebuild\bin\paraview-5.13\plugins\LANLX3DReader\vtk\hierarchy\LANLX3DReader\vtkLANLX3DReader-hierarchy.txt</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+      <DepFileAdditionalInputsFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\pv\rebuild\CMakeFiles\d\83412294f87883f37925dff40ddb6466bf26a47e7e9f3c465439f8b763364a1c.AdditionalInputs</DepFileAdditionalInputsFile>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\e51f3281c9eb823cdc153e55e5104bfe\vtkLANLX3DReader-hierarchy.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\pv\rebuild\bin\paraview-5.13\plugins\LANLX3DReader\vtk\hierarchy\LANLX3DReader\vtkLANLX3DReader-hierarchy.txt;D:\pv\rebuild\bin\Debug\vtkWrapHierarchy-pv5.13d.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\pv\rebuild\Plugins\LANLX3DReader\Reader\CMakeFiles\vtkLANLX3DReader-hierarchy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\pv\rebuild\bin\paraview-5.13\plugins\LANLX3DReader\vtk\hierarchy\LANLX3DReader\vtkLANLX3DReader-hierarchy.txt;D:\pv\rebuild\bin\Release\vtkWrapHierarchy-pv5.13.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\pv\rebuild\Plugins\LANLX3DReader\Reader\CMakeFiles\vtkLANLX3DReader-hierarchy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\pv\rebuild\bin\paraview-5.13\plugins\LANLX3DReader\vtk\hierarchy\LANLX3DReader\vtkLANLX3DReader-hierarchy.txt;D:\pv\rebuild\bin\MinSizeRel\vtkWrapHierarchy-pv5.13.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\pv\rebuild\Plugins\LANLX3DReader\Reader\CMakeFiles\vtkLANLX3DReader-hierarchy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\pv\rebuild\bin\paraview-5.13\plugins\LANLX3DReader\vtk\hierarchy\LANLX3DReader\vtkLANLX3DReader-hierarchy.txt;D:\pv\rebuild\bin\RelWithDebInfo\vtkWrapHierarchy-pv5.13.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\pv\rebuild\Plugins\LANLX3DReader\Reader\CMakeFiles\vtkLANLX3DReader-hierarchy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</VerifyInputsAndOutputsExist>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\pv\ParaView\Plugins\LANLX3DReader\Reader\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/pv/ParaView/Plugins/LANLX3DReader/Reader/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/pv/ParaView -BD:/pv/rebuild --check-stamp-file D:/pv/rebuild/Plugins/LANLX3DReader/Reader/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\exportheader.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\pv\rebuild\Plugins\LANLX3DReader\Reader\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/pv/ParaView/Plugins/LANLX3DReader/Reader/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/pv/ParaView -BD:/pv/rebuild --check-stamp-file D:/pv/rebuild/Plugins/LANLX3DReader/Reader/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\exportheader.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\pv\rebuild\Plugins\LANLX3DReader\Reader\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/pv/ParaView/Plugins/LANLX3DReader/Reader/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/pv/ParaView -BD:/pv/rebuild --check-stamp-file D:/pv/rebuild/Plugins/LANLX3DReader/Reader/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\exportheader.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\pv\rebuild\Plugins\LANLX3DReader\Reader\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/pv/ParaView/Plugins/LANLX3DReader/Reader/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/pv/ParaView -BD:/pv/rebuild --check-stamp-file D:/pv/rebuild/Plugins/LANLX3DReader/Reader/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\exportheader.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\pv\rebuild\Plugins\LANLX3DReader\Reader\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\pv\rebuild\Plugins\LANLX3DReader\Reader\CMakeFiles\vtkLANLX3DReader-hierarchy">
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="D:\pv\rebuild\ZERO_CHECK.vcxproj">
+      <Project>{F365DAD0-49D0-3E04-B6A0-AEBAF9BD405C}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\Wrapping\Tools\WrapHierarchy.vcxproj">
+      <Project>{6B762A16-ED2D-3193-9824-B7A0CCE4E942}</Project>
+      <Name>WrapHierarchy</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\Filters\Core\vtkFiltersCore-hierarchy.vcxproj">
+      <Project>{9FF0A809-8FE0-3A5B-8A08-DDE99370B1E3}</Project>
+      <Name>vtkFiltersCore-hierarchy</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <Import Project="C:\Program Files\CMake\share\cmake-3.31\Templates\MSBuild\CustomBuildDepFile.targets" />
+</Project>

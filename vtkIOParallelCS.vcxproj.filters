@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkIOParallelCS\vtkEnSightWriterClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkIOParallelCS\vtkMultiBlockPLOT3DReaderClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkIOParallelCS\vtkNek5000ReaderClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkIOParallelCS\vtkPChacoReaderClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkIOParallelCS\vtkPDataSetReaderClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkIOParallelCS\vtkPDataSetWriterClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkIOParallelCS\vtkPImageWriterClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkIOParallelCS\vtkPlot3DMetaReaderClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkIOParallelCS\vtkPOpenFOAMReaderClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkIOParallelCSInit.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\bcc64255e7e68865444cf886eb6cd950\vtkEnSightWriterClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\bcc64255e7e68865444cf886eb6cd950\vtkMultiBlockPLOT3DReaderClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\bcc64255e7e68865444cf886eb6cd950\vtkNek5000ReaderClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\bcc64255e7e68865444cf886eb6cd950\vtkPChacoReaderClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\bcc64255e7e68865444cf886eb6cd950\vtkPDataSetReaderClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\bcc64255e7e68865444cf886eb6cd950\vtkPDataSetWriterClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\bcc64255e7e68865444cf886eb6cd950\vtkPImageWriterClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\bcc64255e7e68865444cf886eb6cd950\vtkPlot3DMetaReaderClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\bcc64255e7e68865444cf886eb6cd950\vtkPOpenFOAMReaderClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\ParaView\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{FEFA764E-8736-3FD4-9B90-BE7174AE3DEA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{CE016C83-18D7-3CBD-A2E7-E2EB93EA0748}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\pv\rebuild\Plugins\StreamLinesRepresentation\Representations\vtkStreamLines_fs.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\Plugins\StreamLinesRepresentation\Representations\vtkStreamLines_gs.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\Plugins\StreamLinesRepresentation\Representations\vtkStreamLines_vs.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\Plugins\StreamLinesRepresentation\Representations\vtkStreamLinesBlending_fs.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\Plugins\StreamLinesRepresentation\Representations\vtkStreamLinesCopy_fs.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Plugins\StreamLinesRepresentation\Representations\vtkStreamLinesMapper.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Plugins\StreamLinesRepresentation\Representations\vtkStreamLinesRepresentation.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\pv\rebuild\Plugins\StreamLinesRepresentation\Representations\vtkStreamLines_fs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Plugins\StreamLinesRepresentation\Representations\vtkStreamLines_gs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Plugins\StreamLinesRepresentation\Representations\vtkStreamLines_vs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Plugins\StreamLinesRepresentation\Representations\vtkStreamLinesBlending_fs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Plugins\StreamLinesRepresentation\Representations\vtkStreamLinesCopy_fs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Plugins\StreamLinesRepresentation\Representations\vtkStreamLinesMapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Plugins\StreamLinesRepresentation\Representations\vtkStreamLinesRepresentation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Plugins\StreamLinesRepresentation\Representations\vtkStreamLinesModule.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\44225c359ac1203a4c626c11d2e28ff9\vtkStreamLines_fs.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\44225c359ac1203a4c626c11d2e28ff9\vtkStreamLines_gs.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\44225c359ac1203a4c626c11d2e28ff9\vtkStreamLines_vs.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\44225c359ac1203a4c626c11d2e28ff9\vtkStreamLinesBlending_fs.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\44225c359ac1203a4c626c11d2e28ff9\vtkStreamLinesCopy_fs.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\ParaView\Plugins\StreamLinesRepresentation\Representations\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{FEFA764E-8736-3FD4-9B90-BE7174AE3DEA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{345BF67A-A46B-3569-AD4B-B0F9BB083ED9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{CE016C83-18D7-3CBD-A2E7-E2EB93EA0748}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

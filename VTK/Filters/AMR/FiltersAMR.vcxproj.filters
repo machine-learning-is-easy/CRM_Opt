@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\pv\ParaView\VTK\Filters\AMR\vtkAMRCutPlane.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\Filters\AMR\vtkAMRGaussianPulseSource.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\Filters\AMR\vtkAMRResampleFilter.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\Filters\AMR\vtkAMRSliceFilter.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\Filters\AMR\vtkAMRToMultiBlockFilter.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\Filters\AMR\vtkImageToAMR.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\Filters\AMR\vtkParallelAMRUtilities.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\pv\ParaView\VTK\Filters\AMR\vtkAMRCutPlane.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\Filters\AMR\vtkAMRGaussianPulseSource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\Filters\AMR\vtkAMRResampleFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\Filters\AMR\vtkAMRSliceFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\Filters\AMR\vtkAMRToMultiBlockFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\Filters\AMR\vtkImageToAMR.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\Filters\AMR\vtkParallelAMRUtilities.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\VTK\Filters\AMR\vtkFiltersAMRModule.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\pv\ParaView\VTK\Filters\AMR\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{345BF67A-A46B-3569-AD4B-B0F9BB083ED9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{CE016C83-18D7-3CBD-A2E7-E2EB93EA0748}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

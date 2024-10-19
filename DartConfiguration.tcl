@@ -4,17 +4,17 @@
 
 
 # Configuration directories and files
-SourceDirectory: D:/pv/paraview-superbuild
-BuildDirectory: D:/pv/pvsb
+SourceDirectory: D:/pv/ParaView
+BuildDirectory: D:/pv/rebuild
 
 # Where to place the cost data store
 CostDataFile: 
 
 # Site is something like machine.domain, i.e. pragmatic.crd
-Site: DESKTOP-1K2SDBF
+Site: Jin-P51
 
 # Build name is osname-revision-compiler, i.e. Linux-2.4.2-2smp-c++
-BuildName: Win32-ninja
+BuildName: Win32-MSBuild
 
 # Subprojects
 LabelsForSubprojects: 
@@ -24,10 +24,10 @@ SubmitURL: https://open.cdash.org/submit.php?project=ParaView
 SubmitInactivityTimeout: 
 
 # Dashboard start time
-NightlyStartTime: 21:00:00 EDT
+NightlyStartTime: 19:00:00 EST
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "C:/Program Files/CMake/bin/cmake.exe" "D:/pv/paraview-superbuild"
+ConfigureCommand: "C:/Program Files/CMake/bin/cmake.exe" "D:/pv/ParaView"
 MakeCommand: "C:\Program Files\CMake\bin\cmake.exe" --build . --config "${CTEST_CONFIGURATION_TYPE}"
 DefaultCTestConfigurationType: Release
 
@@ -63,8 +63,8 @@ UpdateOptions:
 UpdateType: git
 
 # Compiler info
-Compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/bin/Hostx64/x64/cl.exe
-CompilerVersion: 19.39.33523.0
+Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/cl.exe
+CompilerVersion: 19.29.30156.0
 
 # Dynamic analysis (MemCheck)
 PurifyCommand: 
@@ -81,7 +81,7 @@ MemoryCheckCommandOptions:
 MemoryCheckSuppressionFile: 
 
 # Coverage
-CoverageCommand: C:/mingw64/bin/gcov.exe
+CoverageCommand: COVERAGE_COMMAND-NOTFOUND
 CoverageExtraFlags: -l
 
 # Testing options
@@ -95,7 +95,10 @@ TimeOut: 1500
 # so would cause the system load to exceed this value.
 TestLoad: 
 
-UseLaunchers: 
+TLSVerify: 
+TLSVersion: 
+
+UseLaunchers: 0
 CurlOptions: 
 # warning, if you add new options here that have to do with submit,
 # you have to update cmCTestSubmitCommand.cxx

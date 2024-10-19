@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkIOInfovisCS\vtkBiomTableReaderClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkIOInfovisCS\vtkChacoGraphReaderClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkIOInfovisCS\vtkDelimitedTextReaderClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkIOInfovisCS\vtkDIMACSGraphReaderClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkIOInfovisCS\vtkDIMACSGraphWriterClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkIOInfovisCS\vtkFixedWidthTextReaderClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkIOInfovisCS\vtkISIReaderClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkIOInfovisCS\vtkMultiNewickTreeReaderClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkIOInfovisCS\vtkNewickTreeReaderClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkIOInfovisCS\vtkNewickTreeWriterClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkIOInfovisCS\vtkPhyloXMLTreeReaderClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkIOInfovisCS\vtkPhyloXMLTreeWriterClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkIOInfovisCS\vtkRISReaderClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkIOInfovisCS\vtkTemporalDelimitedTextReaderClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkIOInfovisCS\vtkTulipReaderClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkIOInfovisCS\vtkXGMLReaderClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkIOInfovisCS\vtkXMLTreeReaderClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkIOInfovisCSInit.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\2c3fb0cecd99c12fad83d19ec3ed3906\vtkBiomTableReaderClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\2c3fb0cecd99c12fad83d19ec3ed3906\vtkChacoGraphReaderClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\2c3fb0cecd99c12fad83d19ec3ed3906\vtkDelimitedTextReaderClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\2c3fb0cecd99c12fad83d19ec3ed3906\vtkDIMACSGraphReaderClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\2c3fb0cecd99c12fad83d19ec3ed3906\vtkDIMACSGraphWriterClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\2c3fb0cecd99c12fad83d19ec3ed3906\vtkFixedWidthTextReaderClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\2c3fb0cecd99c12fad83d19ec3ed3906\vtkISIReaderClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\2c3fb0cecd99c12fad83d19ec3ed3906\vtkMultiNewickTreeReaderClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\2c3fb0cecd99c12fad83d19ec3ed3906\vtkNewickTreeReaderClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\2c3fb0cecd99c12fad83d19ec3ed3906\vtkNewickTreeWriterClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\2c3fb0cecd99c12fad83d19ec3ed3906\vtkPhyloXMLTreeReaderClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\2c3fb0cecd99c12fad83d19ec3ed3906\vtkPhyloXMLTreeWriterClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\2c3fb0cecd99c12fad83d19ec3ed3906\vtkRISReaderClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\2c3fb0cecd99c12fad83d19ec3ed3906\vtkTemporalDelimitedTextReaderClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\2c3fb0cecd99c12fad83d19ec3ed3906\vtkTulipReaderClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\2c3fb0cecd99c12fad83d19ec3ed3906\vtkXGMLReaderClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\2c3fb0cecd99c12fad83d19ec3ed3906\vtkXMLTreeReaderClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\ParaView\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{FEFA764E-8736-3FD4-9B90-BE7174AE3DEA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{CE016C83-18D7-3CBD-A2E7-E2EB93EA0748}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

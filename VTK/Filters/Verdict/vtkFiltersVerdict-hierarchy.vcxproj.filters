@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\8f409c800f1da56b4716c9500cce654f\vtkFiltersVerdict-hierarchy.txt.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\2ef489279f290f0b5170129a098051e5\vtkFiltersVerdict-hierarchy.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\ParaView\VTK\Filters\Verdict\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\pv\rebuild\VTK\Filters\Verdict\CMakeFiles\vtkFiltersVerdict-hierarchy" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{FEFA764E-8736-3FD4-9B90-BE7174AE3DEA}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkImagingColorCS\vtkImageHSIToRGBClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkImagingColorCS\vtkImageHSVToRGBClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkImagingColorCS\vtkImageLuminanceClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkImagingColorCS\vtkImageMapToRGBAClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkImagingColorCS\vtkImageMapToWindowLevelColorsClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkImagingColorCS\vtkImageQuantizeRGBToIndexClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkImagingColorCS\vtkImageRGBToHSIClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkImagingColorCS\vtkImageRGBToHSVClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkImagingColorCS\vtkImageRGBToXYZClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkImagingColorCS\vtkImageRGBToYIQClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkImagingColorCS\vtkImageXYZToLABClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkImagingColorCS\vtkImageYIQToRGBClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkImagingColorCSInit.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\3530f276d909a5de5c948ad163aecf87\vtkImageHSIToRGBClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\3530f276d909a5de5c948ad163aecf87\vtkImageHSVToRGBClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\3530f276d909a5de5c948ad163aecf87\vtkImageLuminanceClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\3530f276d909a5de5c948ad163aecf87\vtkImageMapToRGBAClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\3530f276d909a5de5c948ad163aecf87\vtkImageMapToWindowLevelColorsClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\3530f276d909a5de5c948ad163aecf87\vtkImageQuantizeRGBToIndexClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\3530f276d909a5de5c948ad163aecf87\vtkImageRGBToHSIClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\3530f276d909a5de5c948ad163aecf87\vtkImageRGBToHSVClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\3530f276d909a5de5c948ad163aecf87\vtkImageRGBToXYZClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\3530f276d909a5de5c948ad163aecf87\vtkImageRGBToYIQClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\3530f276d909a5de5c948ad163aecf87\vtkImageXYZToLABClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\3530f276d909a5de5c948ad163aecf87\vtkImageYIQToRGBClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\ParaView\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{FEFA764E-8736-3FD4-9B90-BE7174AE3DEA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{CE016C83-18D7-3CBD-A2E7-E2EB93EA0748}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

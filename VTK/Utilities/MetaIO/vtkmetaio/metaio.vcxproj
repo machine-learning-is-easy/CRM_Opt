@@ -1,0 +1,410 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{171DA2DA-D9C1-30F9-8A7E-4C87C89D7AEA}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>metaio</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\pv\rebuild\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">metaio.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">vtkmetaio-pv5.13d</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\pv\rebuild\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">metaio.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">vtkmetaio-pv5.13</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\pv\rebuild\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">metaio.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">vtkmetaio-pv5.13</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\pv\rebuild\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">metaio.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">vtkmetaio-pv5.13</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\pv\rebuild\VTK\Utilities\MetaIO\vtkmetaio;D:\pv\ParaView\VTK\Utilities\MetaIO\vtkmetaio;D:\pv\ParaView\VTK\ThirdParty\zlib\vtkzlib;D:\pv\rebuild\VTK\ThirdParty\zlib\vtkzlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/pv/rebuild/VTK/Utilities/MetaIO" /external:I "D:/pv/ParaView/VTK/Utilities/MetaIO" /external:I "D:/pv/rebuild/VTK/ThirdParty/zlib" /external:I "D:/pv/ParaView/VTK/ThirdParty/zlib" /bigobj /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;vtkmetaio_BUILD_SHARED_LIBS;CMAKE_INTDIR="Debug";metaio_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;vtkmetaio_BUILD_SHARED_LIBS;CMAKE_INTDIR=\"Debug\";metaio_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\pv\rebuild\VTK\Utilities\MetaIO\vtkmetaio;D:\pv\ParaView\VTK\Utilities\MetaIO\vtkmetaio;D:\pv\ParaView\VTK\ThirdParty\zlib\vtkzlib;D:\pv\rebuild\VTK\ThirdParty\zlib\vtkzlib;D:\pv\rebuild\VTK\Utilities\MetaIO;D:\pv\ParaView\VTK\Utilities\MetaIO;D:\pv\rebuild\VTK\ThirdParty\zlib;D:\pv\ParaView\VTK\ThirdParty\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\pv\rebuild\VTK\Utilities\MetaIO\vtkmetaio;D:\pv\ParaView\VTK\Utilities\MetaIO\vtkmetaio;D:\pv\ParaView\VTK\ThirdParty\zlib\vtkzlib;D:\pv\rebuild\VTK\ThirdParty\zlib\vtkzlib;D:\pv\rebuild\VTK\Utilities\MetaIO;D:\pv\ParaView\VTK\Utilities\MetaIO;D:\pv\rebuild\VTK\ThirdParty\zlib;D:\pv\ParaView\VTK\ThirdParty\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\..\..\lib\Debug\vtkzlib-pv5.13d.lib;comctl32.lib;wsock32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/pv/rebuild/lib/Debug/vtkmetaio-pv5.13d.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/pv/rebuild/bin/Debug/vtkmetaio-pv5.13d.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\pv\rebuild\VTK\Utilities\MetaIO\vtkmetaio;D:\pv\ParaView\VTK\Utilities\MetaIO\vtkmetaio;D:\pv\ParaView\VTK\ThirdParty\zlib\vtkzlib;D:\pv\rebuild\VTK\ThirdParty\zlib\vtkzlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/pv/rebuild/VTK/Utilities/MetaIO" /external:I "D:/pv/ParaView/VTK/Utilities/MetaIO" /external:I "D:/pv/rebuild/VTK/ThirdParty/zlib" /external:I "D:/pv/ParaView/VTK/ThirdParty/zlib" /bigobj /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;vtkmetaio_BUILD_SHARED_LIBS;CMAKE_INTDIR="Release";metaio_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;vtkmetaio_BUILD_SHARED_LIBS;CMAKE_INTDIR=\"Release\";metaio_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\pv\rebuild\VTK\Utilities\MetaIO\vtkmetaio;D:\pv\ParaView\VTK\Utilities\MetaIO\vtkmetaio;D:\pv\ParaView\VTK\ThirdParty\zlib\vtkzlib;D:\pv\rebuild\VTK\ThirdParty\zlib\vtkzlib;D:\pv\rebuild\VTK\Utilities\MetaIO;D:\pv\ParaView\VTK\Utilities\MetaIO;D:\pv\rebuild\VTK\ThirdParty\zlib;D:\pv\ParaView\VTK\ThirdParty\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\pv\rebuild\VTK\Utilities\MetaIO\vtkmetaio;D:\pv\ParaView\VTK\Utilities\MetaIO\vtkmetaio;D:\pv\ParaView\VTK\ThirdParty\zlib\vtkzlib;D:\pv\rebuild\VTK\ThirdParty\zlib\vtkzlib;D:\pv\rebuild\VTK\Utilities\MetaIO;D:\pv\ParaView\VTK\Utilities\MetaIO;D:\pv\rebuild\VTK\ThirdParty\zlib;D:\pv\ParaView\VTK\ThirdParty\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\..\..\lib\Release\vtkzlib-pv5.13.lib;comctl32.lib;wsock32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/pv/rebuild/lib/Release/vtkmetaio-pv5.13.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/pv/rebuild/bin/Release/vtkmetaio-pv5.13.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\pv\rebuild\VTK\Utilities\MetaIO\vtkmetaio;D:\pv\ParaView\VTK\Utilities\MetaIO\vtkmetaio;D:\pv\ParaView\VTK\ThirdParty\zlib\vtkzlib;D:\pv\rebuild\VTK\ThirdParty\zlib\vtkzlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/pv/rebuild/VTK/Utilities/MetaIO" /external:I "D:/pv/ParaView/VTK/Utilities/MetaIO" /external:I "D:/pv/rebuild/VTK/ThirdParty/zlib" /external:I "D:/pv/ParaView/VTK/ThirdParty/zlib" /bigobj /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;vtkmetaio_BUILD_SHARED_LIBS;CMAKE_INTDIR="MinSizeRel";metaio_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;vtkmetaio_BUILD_SHARED_LIBS;CMAKE_INTDIR=\"MinSizeRel\";metaio_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\pv\rebuild\VTK\Utilities\MetaIO\vtkmetaio;D:\pv\ParaView\VTK\Utilities\MetaIO\vtkmetaio;D:\pv\ParaView\VTK\ThirdParty\zlib\vtkzlib;D:\pv\rebuild\VTK\ThirdParty\zlib\vtkzlib;D:\pv\rebuild\VTK\Utilities\MetaIO;D:\pv\ParaView\VTK\Utilities\MetaIO;D:\pv\rebuild\VTK\ThirdParty\zlib;D:\pv\ParaView\VTK\ThirdParty\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\pv\rebuild\VTK\Utilities\MetaIO\vtkmetaio;D:\pv\ParaView\VTK\Utilities\MetaIO\vtkmetaio;D:\pv\ParaView\VTK\ThirdParty\zlib\vtkzlib;D:\pv\rebuild\VTK\ThirdParty\zlib\vtkzlib;D:\pv\rebuild\VTK\Utilities\MetaIO;D:\pv\ParaView\VTK\Utilities\MetaIO;D:\pv\rebuild\VTK\ThirdParty\zlib;D:\pv\ParaView\VTK\ThirdParty\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\..\..\lib\MinSizeRel\vtkzlib-pv5.13.lib;comctl32.lib;wsock32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/pv/rebuild/lib/MinSizeRel/vtkmetaio-pv5.13.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/pv/rebuild/bin/MinSizeRel/vtkmetaio-pv5.13.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\pv\rebuild\VTK\Utilities\MetaIO\vtkmetaio;D:\pv\ParaView\VTK\Utilities\MetaIO\vtkmetaio;D:\pv\ParaView\VTK\ThirdParty\zlib\vtkzlib;D:\pv\rebuild\VTK\ThirdParty\zlib\vtkzlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/pv/rebuild/VTK/Utilities/MetaIO" /external:I "D:/pv/ParaView/VTK/Utilities/MetaIO" /external:I "D:/pv/rebuild/VTK/ThirdParty/zlib" /external:I "D:/pv/ParaView/VTK/ThirdParty/zlib" /bigobj /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;vtkmetaio_BUILD_SHARED_LIBS;CMAKE_INTDIR="RelWithDebInfo";metaio_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;vtkmetaio_BUILD_SHARED_LIBS;CMAKE_INTDIR=\"RelWithDebInfo\";metaio_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\pv\rebuild\VTK\Utilities\MetaIO\vtkmetaio;D:\pv\ParaView\VTK\Utilities\MetaIO\vtkmetaio;D:\pv\ParaView\VTK\ThirdParty\zlib\vtkzlib;D:\pv\rebuild\VTK\ThirdParty\zlib\vtkzlib;D:\pv\rebuild\VTK\Utilities\MetaIO;D:\pv\ParaView\VTK\Utilities\MetaIO;D:\pv\rebuild\VTK\ThirdParty\zlib;D:\pv\ParaView\VTK\ThirdParty\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\pv\rebuild\VTK\Utilities\MetaIO\vtkmetaio;D:\pv\ParaView\VTK\Utilities\MetaIO\vtkmetaio;D:\pv\ParaView\VTK\ThirdParty\zlib\vtkzlib;D:\pv\rebuild\VTK\ThirdParty\zlib\vtkzlib;D:\pv\rebuild\VTK\Utilities\MetaIO;D:\pv\ParaView\VTK\Utilities\MetaIO;D:\pv\rebuild\VTK\ThirdParty\zlib;D:\pv\ParaView\VTK\ThirdParty\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\..\..\lib\RelWithDebInfo\vtkzlib-pv5.13.lib;comctl32.lib;wsock32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/pv/rebuild/lib/RelWithDebInfo/vtkmetaio-pv5.13.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/pv/rebuild/bin/RelWithDebInfo/vtkmetaio-pv5.13.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\pv\ParaView\VTK\Utilities\MetaIO\vtkmetaio\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/pv/ParaView/VTK/Utilities/MetaIO/vtkmetaio/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/pv/ParaView -BD:/pv/rebuild --check-stamp-file D:/pv/rebuild/VTK/Utilities/MetaIO/vtkmetaio/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\pv\ParaView\VTK\Utilities\MetaIO\vtkmetaio\metaIOConfig.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\pv\rebuild\VTK\Utilities\MetaIO\vtkmetaio\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/pv/ParaView/VTK/Utilities/MetaIO/vtkmetaio/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/pv/ParaView -BD:/pv/rebuild --check-stamp-file D:/pv/rebuild/VTK/Utilities/MetaIO/vtkmetaio/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\pv\ParaView\VTK\Utilities\MetaIO\vtkmetaio\metaIOConfig.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\pv\rebuild\VTK\Utilities\MetaIO\vtkmetaio\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/pv/ParaView/VTK/Utilities/MetaIO/vtkmetaio/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/pv/ParaView -BD:/pv/rebuild --check-stamp-file D:/pv/rebuild/VTK/Utilities/MetaIO/vtkmetaio/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\pv\ParaView\VTK\Utilities\MetaIO\vtkmetaio\metaIOConfig.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\pv\rebuild\VTK\Utilities\MetaIO\vtkmetaio\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/pv/ParaView/VTK/Utilities/MetaIO/vtkmetaio/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/pv/ParaView -BD:/pv/rebuild --check-stamp-file D:/pv/rebuild/VTK/Utilities/MetaIO/vtkmetaio/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\pv\ParaView\VTK\Utilities\MetaIO\vtkmetaio\metaIOConfig.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\pv\rebuild\VTK\Utilities\MetaIO\vtkmetaio\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\pv\ParaView\VTK\Utilities\MetaIO\vtkmetaio\metaUtils.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Utilities\MetaIO\vtkmetaio\metaArray.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Utilities\MetaIO\vtkmetaio\metaArrow.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Utilities\MetaIO\vtkmetaio\metaBlob.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Utilities\MetaIO\vtkmetaio\metaCommand.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Utilities\MetaIO\vtkmetaio\metaContour.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Utilities\MetaIO\vtkmetaio\metaDTITube.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Utilities\MetaIO\vtkmetaio\metaEllipse.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Utilities\MetaIO\vtkmetaio\metaFEMObject.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Utilities\MetaIO\vtkmetaio\metaForm.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Utilities\MetaIO\vtkmetaio\metaGroup.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Utilities\MetaIO\vtkmetaio\metaGaussian.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Utilities\MetaIO\vtkmetaio\metaImage.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Utilities\MetaIO\vtkmetaio\metaImageUtils.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Utilities\MetaIO\vtkmetaio\metaLandmark.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Utilities\MetaIO\vtkmetaio\metaLine.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Utilities\MetaIO\vtkmetaio\metaMesh.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Utilities\MetaIO\vtkmetaio\metaObject.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Utilities\MetaIO\vtkmetaio\metaScene.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Utilities\MetaIO\vtkmetaio\metaSurface.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Utilities\MetaIO\vtkmetaio\metaTube.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Utilities\MetaIO\vtkmetaio\metaTransform.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Utilities\MetaIO\vtkmetaio\metaTubeGraph.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Utilities\MetaIO\vtkmetaio\metaVesselTube.cxx" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Utilities\MetaIO\vtkmetaio\localMetaConfiguration.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Utilities\MetaIO\vtkmetaio\metaArray.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Utilities\MetaIO\vtkmetaio\metaArrow.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Utilities\MetaIO\vtkmetaio\metaBlob.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Utilities\MetaIO\vtkmetaio\metaCommand.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Utilities\MetaIO\vtkmetaio\metaContour.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Utilities\MetaIO\vtkmetaio\metaDTITube.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Utilities\MetaIO\vtkmetaio\metaEllipse.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Utilities\MetaIO\vtkmetaio\metaEvent.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Utilities\MetaIO\vtkmetaio\metaFEMObject.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Utilities\MetaIO\vtkmetaio\metaForm.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Utilities\MetaIO\vtkmetaio\metaGaussian.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Utilities\MetaIO\vtkmetaio\metaGroup.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Utilities\MetaIO\vtkmetaio\metaImage.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Utilities\MetaIO\vtkmetaio\metaImageTypes.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Utilities\MetaIO\vtkmetaio\metaImageUtils.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Utilities\MetaIO\vtkmetaio\metaLandmark.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Utilities\MetaIO\vtkmetaio\metaLine.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Utilities\MetaIO\vtkmetaio\metaMesh.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Utilities\MetaIO\vtkmetaio\metaObject.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Utilities\MetaIO\vtkmetaio\metaScene.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Utilities\MetaIO\vtkmetaio\metaSurface.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Utilities\MetaIO\vtkmetaio\metaTube.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Utilities\MetaIO\vtkmetaio\metaTransform.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Utilities\MetaIO\vtkmetaio\metaTubeGraph.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Utilities\MetaIO\vtkmetaio\metaTypes.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Utilities\MetaIO\vtkmetaio\metaUtils.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Utilities\MetaIO\vtkmetaio\metaVesselTube.h" />
+    <ClInclude Include="D:\pv\rebuild\VTK\Utilities\MetaIO\vtkmetaio\metaIOConfig.h" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="D:\pv\rebuild\ZERO_CHECK.vcxproj">
+      <Project>{F365DAD0-49D0-3E04-B6A0-AEBAF9BD405C}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\ThirdParty\zlib\vtkzlib\zlib.vcxproj">
+      <Project>{BBEDA3FC-E93F-38B4-9C60-55E277D9AFFB}</Project>
+      <Name>zlib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

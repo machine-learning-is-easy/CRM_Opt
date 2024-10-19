@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\1c26228eb763c633d5bbeb28798cecab\BagPlotViewsAndFilters.qch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\ad97f815432399b9b9f30049826fa172\BagPlotViewsAndFilters_qch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\ParaView\Plugins\BagPlotViewsAndFilters\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\pv\rebuild\Plugins\BagPlotViewsAndFilters\CMakeFiles\BagPlotViewsAndFilters_qch" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{FEFA764E-8736-3FD4-9B90-BE7174AE3DEA}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

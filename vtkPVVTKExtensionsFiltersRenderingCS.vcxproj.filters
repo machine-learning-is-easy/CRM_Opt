@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkPVVTKExtensionsFiltersRenderingCS\vtkAbstractChartExporterClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkPVVTKExtensionsFiltersRenderingCS\vtkAllToNRedistributeCompositePolyDataClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkPVVTKExtensionsFiltersRenderingCS\vtkAllToNRedistributePolyDataClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkPVVTKExtensionsFiltersRenderingCS\vtkBalancedRedistributePolyDataClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkPVVTKExtensionsFiltersRenderingCS\vtkBlockDeliveryPreprocessorClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkPVVTKExtensionsFiltersRenderingCS\vtkClientServerMoveDataClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkPVVTKExtensionsFiltersRenderingCS\vtkCSVExporterClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkPVVTKExtensionsFiltersRenderingCS\vtkDataTabulatorClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkPVVTKExtensionsFiltersRenderingCS\vtkImageCompressorClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkPVVTKExtensionsFiltersRenderingCS\vtkImageTransparencyFilterClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkPVVTKExtensionsFiltersRenderingCS\vtkLZ4CompressorClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkPVVTKExtensionsFiltersRenderingCS\vtkMarkSelectedRowsClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkPVVTKExtensionsFiltersRenderingCS\vtkMPIMoveDataClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkPVVTKExtensionsFiltersRenderingCS\vtkNetworkImageSourceClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkPVVTKExtensionsFiltersRenderingCS\vtkOrderedCompositeDistributorClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkPVVTKExtensionsFiltersRenderingCS\vtkPlotlyJsonExporterClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkPVVTKExtensionsFiltersRenderingCS\vtkPVGeometryFilterClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkPVVTKExtensionsFiltersRenderingCS\vtkRedistributePolyDataClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkPVVTKExtensionsFiltersRenderingCS\vtkResampledAMRImageSourceClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkPVVTKExtensionsFiltersRenderingCS\vtkSelectionDeliveryFilterClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkPVVTKExtensionsFiltersRenderingCS\vtkSortedTableStreamerClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkPVVTKExtensionsFiltersRenderingCS\vtkSquirtCompressorClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkPVVTKExtensionsFiltersRenderingCS\vtkVolumeRepresentationPreprocessorClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkPVVTKExtensionsFiltersRenderingCS\vtkWeightedRedistributePolyDataClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkPVVTKExtensionsFiltersRenderingCS\vtkZlibImageCompressorClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkPVVTKExtensionsFiltersRenderingCSInit.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\a6e026939f43d920fff8d66b6001f22e\vtkAbstractChartExporterClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\a6e026939f43d920fff8d66b6001f22e\vtkAllToNRedistributeCompositePolyDataClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\a6e026939f43d920fff8d66b6001f22e\vtkAllToNRedistributePolyDataClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\a6e026939f43d920fff8d66b6001f22e\vtkBalancedRedistributePolyDataClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\a6e026939f43d920fff8d66b6001f22e\vtkBlockDeliveryPreprocessorClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\a6e026939f43d920fff8d66b6001f22e\vtkClientServerMoveDataClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\a6e026939f43d920fff8d66b6001f22e\vtkCSVExporterClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\a6e026939f43d920fff8d66b6001f22e\vtkDataTabulatorClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\a6e026939f43d920fff8d66b6001f22e\vtkImageCompressorClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\a6e026939f43d920fff8d66b6001f22e\vtkImageTransparencyFilterClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\a6e026939f43d920fff8d66b6001f22e\vtkLZ4CompressorClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\a6e026939f43d920fff8d66b6001f22e\vtkMarkSelectedRowsClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\a6e026939f43d920fff8d66b6001f22e\vtkMPIMoveDataClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\a6e026939f43d920fff8d66b6001f22e\vtkNetworkImageSourceClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\a6e026939f43d920fff8d66b6001f22e\vtkOrderedCompositeDistributorClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\a6e026939f43d920fff8d66b6001f22e\vtkPlotlyJsonExporterClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\a6e026939f43d920fff8d66b6001f22e\vtkPVGeometryFilterClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\a6e026939f43d920fff8d66b6001f22e\vtkRedistributePolyDataClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\a6e026939f43d920fff8d66b6001f22e\vtkResampledAMRImageSourceClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\a6e026939f43d920fff8d66b6001f22e\vtkSelectionDeliveryFilterClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\a6e026939f43d920fff8d66b6001f22e\vtkSortedTableStreamerClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\a6e026939f43d920fff8d66b6001f22e\vtkSquirtCompressorClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\a6e026939f43d920fff8d66b6001f22e\vtkVolumeRepresentationPreprocessorClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\a6e026939f43d920fff8d66b6001f22e\vtkWeightedRedistributePolyDataClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\a6e026939f43d920fff8d66b6001f22e\vtkZlibImageCompressorClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\ParaView\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{FEFA764E-8736-3FD4-9B90-BE7174AE3DEA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{CE016C83-18D7-3CBD-A2E7-E2EB93EA0748}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

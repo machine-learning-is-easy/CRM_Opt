@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\pv\ParaView\VTKExtensions\FiltersMaterialInterface\vtkIntersectFragments.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTKExtensions\FiltersMaterialInterface\vtkMaterialInterfaceCommBuffer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTKExtensions\FiltersMaterialInterface\vtkMaterialInterfaceFilter.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTKExtensions\FiltersMaterialInterface\vtkMaterialInterfaceIdList.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTKExtensions\FiltersMaterialInterface\vtkMaterialInterfacePieceLoading.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTKExtensions\FiltersMaterialInterface\vtkMaterialInterfacePieceTransaction.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTKExtensions\FiltersMaterialInterface\vtkMaterialInterfacePieceTransactionMatrix.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTKExtensions\FiltersMaterialInterface\vtkMaterialInterfaceProcessLoading.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTKExtensions\FiltersMaterialInterface\vtkMaterialInterfaceProcessRing.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTKExtensions\FiltersMaterialInterface\vtkMaterialInterfaceToProcMap.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\pv\ParaView\VTKExtensions\FiltersMaterialInterface\vtkMaterialInterfaceIdListItem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTKExtensions\FiltersMaterialInterface\vtkMaterialInterfaceUtilities.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTKExtensions\FiltersMaterialInterface\vtkIntersectFragments.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTKExtensions\FiltersMaterialInterface\vtkMaterialInterfaceCommBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTKExtensions\FiltersMaterialInterface\vtkMaterialInterfaceFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTKExtensions\FiltersMaterialInterface\vtkMaterialInterfaceIdList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTKExtensions\FiltersMaterialInterface\vtkMaterialInterfacePieceLoading.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTKExtensions\FiltersMaterialInterface\vtkMaterialInterfacePieceTransaction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTKExtensions\FiltersMaterialInterface\vtkMaterialInterfacePieceTransactionMatrix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTKExtensions\FiltersMaterialInterface\vtkMaterialInterfaceProcessLoading.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTKExtensions\FiltersMaterialInterface\vtkMaterialInterfaceProcessRing.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTKExtensions\FiltersMaterialInterface\vtkMaterialInterfaceToProcMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\VTKExtensions\FiltersMaterialInterface\vtkPVVTKExtensionsFiltersMaterialInterfaceModule.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\pv\ParaView\VTKExtensions\FiltersMaterialInterface\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{345BF67A-A46B-3569-AD4B-B0F9BB083ED9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{CE016C83-18D7-3CBD-A2E7-E2EB93EA0748}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

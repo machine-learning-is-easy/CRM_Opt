@@ -1,0 +1,5 @@
+# CMake generation dependency list for this directory.
+D:/pv/ParaView/CMake/paraview_plugin.cxx.in
+D:/pv/ParaView/CMake/paraview_plugin.h.in
+D:/pv/ParaView/Plugins/PanoramicProjectionView/CMakeLists.txt
+D:/pv/ParaView/Plugins/PanoramicProjectionView/Views/vtk.module

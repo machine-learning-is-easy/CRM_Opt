@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkIOCoreCS\vtkUpdateCellsV8toV9ClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkIOCoreCS\vtkAbstractParticleWriterClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkIOCoreCS\vtkAbstractPolyDataReaderClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkIOCoreCS\vtkArrayDataReaderClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkIOCoreCS\vtkArrayDataWriterClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkIOCoreCS\vtkArrayReaderClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkIOCoreCS\vtkArrayWriterClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkIOCoreCS\vtkASCIITextCodecClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkIOCoreCS\vtkBase64InputStreamClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkIOCoreCS\vtkBase64OutputStreamClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkIOCoreCS\vtkBase64UtilitiesClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkIOCoreCS\vtkDataCompressorClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkIOCoreCS\vtkDelimitedTextWriterClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkIOCoreCS\vtkFileResourceStreamClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkIOCoreCS\vtkGlobFileNamesClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkIOCoreCS\vtkInputStreamClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkIOCoreCS\vtkJavaScriptDataWriterClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkIOCoreCS\vtkLZ4DataCompressorClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkIOCoreCS\vtkLZMADataCompressorClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkIOCoreCS\vtkMemoryResourceStreamClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkIOCoreCS\vtkOutputStreamClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkIOCoreCS\vtkResourceParserClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkIOCoreCS\vtkResourceStreamClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkIOCoreCS\vtkSortFileNamesClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkIOCoreCS\vtkTextCodecClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkIOCoreCS\vtkTextCodecFactoryClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkIOCoreCS\vtkURIClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkIOCoreCS\vtkURILoaderClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkIOCoreCS\vtkUTF16TextCodecClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkIOCoreCS\vtkUTF8TextCodecClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkIOCoreCS\vtkWriterClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkIOCoreCS\vtkZLibDataCompressorClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkIOCoreCSInit.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\ad977b85085b53fa1bcece51587f5a53\vtkUpdateCellsV8toV9ClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\ad977b85085b53fa1bcece51587f5a53\vtkAbstractParticleWriterClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\ad977b85085b53fa1bcece51587f5a53\vtkAbstractPolyDataReaderClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\ad977b85085b53fa1bcece51587f5a53\vtkArrayDataReaderClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\ad977b85085b53fa1bcece51587f5a53\vtkArrayDataWriterClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\ad977b85085b53fa1bcece51587f5a53\vtkArrayReaderClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\ad977b85085b53fa1bcece51587f5a53\vtkArrayWriterClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\ad977b85085b53fa1bcece51587f5a53\vtkASCIITextCodecClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\ad977b85085b53fa1bcece51587f5a53\vtkBase64InputStreamClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\ad977b85085b53fa1bcece51587f5a53\vtkBase64OutputStreamClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\ad977b85085b53fa1bcece51587f5a53\vtkBase64UtilitiesClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\ad977b85085b53fa1bcece51587f5a53\vtkDataCompressorClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\ad977b85085b53fa1bcece51587f5a53\vtkDelimitedTextWriterClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\ad977b85085b53fa1bcece51587f5a53\vtkFileResourceStreamClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\ad977b85085b53fa1bcece51587f5a53\vtkGlobFileNamesClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\ad977b85085b53fa1bcece51587f5a53\vtkInputStreamClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\ad977b85085b53fa1bcece51587f5a53\vtkJavaScriptDataWriterClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\ad977b85085b53fa1bcece51587f5a53\vtkLZ4DataCompressorClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\ad977b85085b53fa1bcece51587f5a53\vtkLZMADataCompressorClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\ad977b85085b53fa1bcece51587f5a53\vtkMemoryResourceStreamClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\ad977b85085b53fa1bcece51587f5a53\vtkOutputStreamClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\ad977b85085b53fa1bcece51587f5a53\vtkResourceParserClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\ad977b85085b53fa1bcece51587f5a53\vtkResourceStreamClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\ad977b85085b53fa1bcece51587f5a53\vtkSortFileNamesClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\ad977b85085b53fa1bcece51587f5a53\vtkTextCodecClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\ad977b85085b53fa1bcece51587f5a53\vtkTextCodecFactoryClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\ad977b85085b53fa1bcece51587f5a53\vtkURIClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\ad977b85085b53fa1bcece51587f5a53\vtkURILoaderClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\ad977b85085b53fa1bcece51587f5a53\vtkUTF16TextCodecClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\ad977b85085b53fa1bcece51587f5a53\vtkUTF8TextCodecClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\ad977b85085b53fa1bcece51587f5a53\vtkWriterClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\ad977b85085b53fa1bcece51587f5a53\vtkZLibDataCompressorClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\ParaView\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{FEFA764E-8736-3FD4-9B90-BE7174AE3DEA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{CE016C83-18D7-3CBD-A2E7-E2EB93EA0748}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

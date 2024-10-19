@@ -1,0 +1,381 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\pv\rebuild\ThirdParty\QtTesting\vtkqttesting\qttesting_autogen\mocs_compilation_Debug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pq3DViewEventPlayer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pq3DViewEventTranslator.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqAbstractActivateEventPlayer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqAbstractBooleanEventPlayer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqAbstractButtonEventTranslator.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqAbstractDoubleEventPlayer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqAbstractIntEventPlayer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqAbstractItemViewEventPlayer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqAbstractItemViewEventPlayerBase.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqAbstractItemViewEventTranslator.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqAbstractItemViewEventTranslatorBase.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqAbstractMiscellaneousEventPlayer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqAbstractSliderEventTranslator.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqAbstractStringEventPlayer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqBasicWidgetEventPlayer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqBasicWidgetEventTranslator.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqCheckEventOverlay.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqComboBoxEventTranslator.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqComboBoxEventPlayer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqCommentEventPlayer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqDoubleSpinBoxEventTranslator.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqEventComment.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqEventDispatcher.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqEventObserver.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqEventPlayer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqEventRecorder.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqEventTranslator.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqLineEditEventTranslator.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqListViewEventPlayer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqListViewEventTranslator.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqMenuEventTranslator.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqNativeFileDialogEventPlayer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqNativeFileDialogEventTranslator.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqObjectNaming.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqPlayBackEventsDialog.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqRecordEventsDialog.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqSpinBoxEventTranslator.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqStdoutEventObserver.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqTabBarEventPlayer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqTabBarEventTranslator.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqTableViewEventPlayer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqTableViewEventTranslator.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqTestUtility.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqThreadedEventSource.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqTimer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqTreeViewEventPlayer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqTreeViewEventTranslator.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqWidgetEventPlayer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqWidgetEventTranslator.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\ThirdParty\QtTesting\vtkqttesting\qttesting_autogen\S5YYZ2ZCNV\qrc_QtTesting.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\ThirdParty\QtTesting\vtkqttesting\qttesting_autogen\mocs_compilation_Release.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\ThirdParty\QtTesting\vtkqttesting\qttesting_autogen\mocs_compilation_MinSizeRel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\ThirdParty\QtTesting\vtkqttesting\qttesting_autogen\mocs_compilation_RelWithDebInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\pv\rebuild\ThirdParty\QtTesting\vtkqttesting\qttesting_autogen\include_Debug\ui_pqPlayBackEventsDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\ThirdParty\QtTesting\vtkqttesting\qttesting_autogen\include_Debug\ui_pqRecordEventsDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\QtTestingExport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pq3DViewEventPlayer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pq3DViewEventTranslator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqAbstractActivateEventPlayer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqAbstractBooleanEventPlayer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqAbstractButtonEventTranslator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqAbstractDoubleEventPlayer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqAbstractIntEventPlayer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqAbstractItemViewEventPlayer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqAbstractItemViewEventPlayerBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqAbstractItemViewEventTranslator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqAbstractItemViewEventTranslatorBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqAbstractMiscellaneousEventPlayer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqAbstractSliderEventTranslator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqAbstractStringEventPlayer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqBasicWidgetEventPlayer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqBasicWidgetEventTranslator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqCheckEventOverlay.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqComboBoxEventTranslator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqComboBoxEventPlayer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqCommentEventPlayer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqDoubleSpinBoxEventTranslator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqEventComment.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqEventDispatcher.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqEventObserver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqEventPlayer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqEventRecorder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqEventSource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqEventTranslator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqEventTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqLineEditEventTranslator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqListViewEventPlayer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqListViewEventTranslator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqMenuEventTranslator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqNativeFileDialogEventPlayer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqNativeFileDialogEventTranslator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqObjectNaming.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqPlayBackEventsDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqRecordEventsDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqSpinBoxEventTranslator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqStdoutEventObserver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqTabBarEventPlayer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqTabBarEventTranslator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqTableViewEventPlayer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqTableViewEventTranslator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqTestUtility.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqThreadedEventSource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqTimer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqTreeViewEventPlayer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqTreeViewEventTranslator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqWidgetEventPlayer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqWidgetEventTranslator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\ThirdParty\QtTesting\vtkqttesting\QtTestingConfigure.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\ThirdParty\QtTesting\vtkqttesting\qttesting_autogen\include_Release\ui_pqPlayBackEventsDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\ThirdParty\QtTesting\vtkqttesting\qttesting_autogen\include_Release\ui_pqRecordEventsDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\ThirdParty\QtTesting\vtkqttesting\qttesting_autogen\include_MinSizeRel\ui_pqPlayBackEventsDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\ThirdParty\QtTesting\vtkqttesting\qttesting_autogen\include_MinSizeRel\ui_pqRecordEventsDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\ThirdParty\QtTesting\vtkqttesting\qttesting_autogen\include_RelWithDebInfo\ui_pqPlayBackEventsDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\ThirdParty\QtTesting\vtkqttesting\qttesting_autogen\include_RelWithDebInfo\ui_pqRecordEventsDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\94f811b54ce08adad1ddc207014c27e0\autouic_(CONFIG).stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\bcf89f4b1db76a7a25723937b9f3a152\qrc_QtTesting.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqPlayBackEventsDialog.ui" />
+    <None Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqRecordEventsDialog.ui" />
+    <None Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\Resources\QtTesting.qrc" />
+    <None Include="D:\pv\rebuild\ThirdParty\QtTesting\vtkqttesting\qttesting_autogen\autouic_Debug.stamp" />
+    <None Include="D:\pv\rebuild\ThirdParty\QtTesting\vtkqttesting\qttesting_autogen\autouic_Release.stamp" />
+    <None Include="D:\pv\rebuild\ThirdParty\QtTesting\vtkqttesting\qttesting_autogen\autouic_MinSizeRel.stamp" />
+    <None Include="D:\pv\rebuild\ThirdParty\QtTesting\vtkqttesting\qttesting_autogen\autouic_RelWithDebInfo.stamp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{FEFA764E-8736-3FD4-9B90-BE7174AE3DEA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{345BF67A-A46B-3569-AD4B-B0F9BB083ED9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{CE016C83-18D7-3CBD-A2E7-E2EB93EA0748}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

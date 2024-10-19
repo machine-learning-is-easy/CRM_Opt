@@ -1,0 +1,5 @@
+# CMake generation dependency list for this directory.
+D:/pv/ParaView/CMake/paraview_plugin.cxx.in
+D:/pv/ParaView/CMake/paraview_plugin.h.in
+D:/pv/ParaView/Plugins/ContourLabelPlugin/CMakeLists.txt
+D:/pv/ParaView/Plugins/ContourLabelPlugin/Representations/vtk.module

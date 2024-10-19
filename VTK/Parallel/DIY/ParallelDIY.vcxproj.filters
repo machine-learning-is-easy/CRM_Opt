@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\pv\ParaView\VTK\Parallel\DIY\vtkDIYDataExchanger.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\Parallel\DIY\vtkDIYExplicitAssigner.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\Parallel\DIY\vtkDIYGhostUtilities.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\Parallel\DIY\vtkDIYUtilities.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\pv\ParaView\VTK\Parallel\DIY\vtkDIYGhostUtilities.txx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\Parallel\DIY\vtkDIYUtilities.txx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\Parallel\DIY\vtkDIYDataExchanger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\Parallel\DIY\vtkDIYExplicitAssigner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\Parallel\DIY\vtkDIYGhostUtilities.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\Parallel\DIY\vtkDIYUtilities.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\VTK\Parallel\DIY\vtkParallelDIYModule.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\pv\ParaView\VTK\Parallel\DIY\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{345BF67A-A46B-3569-AD4B-B0F9BB083ED9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{CE016C83-18D7-3CBD-A2E7-E2EB93EA0748}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

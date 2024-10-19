@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\a8cdae9a7528046b830430f885bcadb6\vtkBagPlotViewsAndFiltersBagPlot-hierarchy.txt.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\29a733e12eb833bdcfd7a57bbb001ab1\vtkBagPlotViewsAndFiltersBagPlot-hierarchy.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\ParaView\Plugins\BagPlotViewsAndFilters\BagPlot\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\pv\rebuild\Plugins\BagPlotViewsAndFilters\BagPlot\CMakeFiles\vtkBagPlotViewsAndFiltersBagPlot-hierarchy" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{FEFA764E-8736-3FD4-9B90-BE7174AE3DEA}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

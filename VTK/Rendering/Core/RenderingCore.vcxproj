@@ -1,0 +1,722 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B8B62FE5-4672-3D39-81EC-A695E1134AA2}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>RenderingCore</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\pv\rebuild\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">RenderingCore.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">vtkRenderingCore-pv5.13d</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\pv\rebuild\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">RenderingCore.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">vtkRenderingCore-pv5.13</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\pv\rebuild\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">RenderingCore.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">vtkRenderingCore-pv5.13</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\pv\rebuild\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">RenderingCore.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">vtkRenderingCore-pv5.13</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\pv\ParaView\VTK\Rendering\Core;D:\pv\rebuild\VTK\Rendering\Core;D:\pv\ParaView\VTK\Common\Core;D:\pv\rebuild\VTK\Common\Core;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken\token;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken\token;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\rebuild\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson\include;D:\pv\ParaView\VTK\Common\DataModel;D:\pv\rebuild\VTK\Common\DataModel;D:\pv\ParaView\VTK\Common\Math;D:\pv\rebuild\VTK\Common\Math;D:\pv\ParaView\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\rebuild\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\ParaView\VTK\Common\Transforms;D:\pv\rebuild\VTK\Common\Transforms;D:\pv\ParaView\VTK\Common\ExecutionModel;D:\pv\rebuild\VTK\Common\ExecutionModel;D:\pv\ParaView\VTK\Filters\Core;D:\pv\rebuild\VTK\Filters\Core;D:\pv\ParaView\VTK\Common\Misc;D:\pv\rebuild\VTK\Common\Misc;D:\pv\ParaView\VTK\Common\Color;D:\pv\rebuild\VTK\Common\Color;D:\pv\ParaView\VTK\Common\ComputationalGeometry;D:\pv\rebuild\VTK\Common\ComputationalGeometry;D:\pv\ParaView\VTK\Common\System;D:\pv\rebuild\VTK\Common\System;D:\pv\ParaView\VTK\Filters\General;D:\pv\rebuild\VTK\Filters\General;D:\pv\ParaView\VTK\Filters\Geometry;D:\pv\rebuild\VTK\Filters\Geometry;D:\pv\ParaView\VTK\Filters\Sources;D:\pv\rebuild\VTK\Filters\Sources;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/pv/rebuild/VTK/Utilities/KWIML" /external:I "D:/pv/ParaView/VTK/Utilities/KWIML" /external:I "D:/pv/rebuild/VTK/Utilities/KWSys" /external:I "D:/pv/ParaView/VTK/Utilities/KWSys" /external:I "D:/pv/rebuild/VTK/ThirdParty/token" /external:I "D:/pv/ParaView/VTK/ThirdParty/token" /external:I "D:/pv/rebuild/VTK/ThirdParty/nlohmannjson" /external:I "D:/pv/ParaView/VTK/ThirdParty/nlohmannjson" /external:I "D:/pv/rebuild/VTK/ThirdParty/kissfft" /external:I "D:/pv/ParaView/VTK/ThirdParty/kissfft" /bigobj /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;kiss_fft_scalar=double;KISSFFT_DLL_IMPORT=1;CMAKE_INTDIR="Debug";RenderingCore_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;kiss_fft_scalar=double;KISSFFT_DLL_IMPORT=1;CMAKE_INTDIR=\"Debug\";RenderingCore_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\pv\ParaView\VTK\Rendering\Core;D:\pv\rebuild\VTK\Rendering\Core;D:\pv\ParaView\VTK\Common\Core;D:\pv\rebuild\VTK\Common\Core;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken\token;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken\token;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\rebuild\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson\include;D:\pv\ParaView\VTK\Common\DataModel;D:\pv\rebuild\VTK\Common\DataModel;D:\pv\ParaView\VTK\Common\Math;D:\pv\rebuild\VTK\Common\Math;D:\pv\ParaView\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\rebuild\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\ParaView\VTK\Common\Transforms;D:\pv\rebuild\VTK\Common\Transforms;D:\pv\ParaView\VTK\Common\ExecutionModel;D:\pv\rebuild\VTK\Common\ExecutionModel;D:\pv\ParaView\VTK\Filters\Core;D:\pv\rebuild\VTK\Filters\Core;D:\pv\ParaView\VTK\Common\Misc;D:\pv\rebuild\VTK\Common\Misc;D:\pv\ParaView\VTK\Common\Color;D:\pv\rebuild\VTK\Common\Color;D:\pv\ParaView\VTK\Common\ComputationalGeometry;D:\pv\rebuild\VTK\Common\ComputationalGeometry;D:\pv\ParaView\VTK\Common\System;D:\pv\rebuild\VTK\Common\System;D:\pv\ParaView\VTK\Filters\General;D:\pv\rebuild\VTK\Filters\General;D:\pv\ParaView\VTK\Filters\Geometry;D:\pv\rebuild\VTK\Filters\Geometry;D:\pv\ParaView\VTK\Filters\Sources;D:\pv\rebuild\VTK\Filters\Sources;D:\pv\rebuild\VTK\Utilities\KWIML;D:\pv\ParaView\VTK\Utilities\KWIML;D:\pv\rebuild\VTK\Utilities\KWSys;D:\pv\ParaView\VTK\Utilities\KWSys;D:\pv\rebuild\VTK\ThirdParty\token;D:\pv\ParaView\VTK\ThirdParty\token;D:\pv\rebuild\VTK\ThirdParty\nlohmannjson;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson;D:\pv\rebuild\VTK\ThirdParty\kissfft;D:\pv\ParaView\VTK\ThirdParty\kissfft;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\pv\ParaView\VTK\Rendering\Core;D:\pv\rebuild\VTK\Rendering\Core;D:\pv\ParaView\VTK\Common\Core;D:\pv\rebuild\VTK\Common\Core;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken\token;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken\token;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\rebuild\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson\include;D:\pv\ParaView\VTK\Common\DataModel;D:\pv\rebuild\VTK\Common\DataModel;D:\pv\ParaView\VTK\Common\Math;D:\pv\rebuild\VTK\Common\Math;D:\pv\ParaView\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\rebuild\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\ParaView\VTK\Common\Transforms;D:\pv\rebuild\VTK\Common\Transforms;D:\pv\ParaView\VTK\Common\ExecutionModel;D:\pv\rebuild\VTK\Common\ExecutionModel;D:\pv\ParaView\VTK\Filters\Core;D:\pv\rebuild\VTK\Filters\Core;D:\pv\ParaView\VTK\Common\Misc;D:\pv\rebuild\VTK\Common\Misc;D:\pv\ParaView\VTK\Common\Color;D:\pv\rebuild\VTK\Common\Color;D:\pv\ParaView\VTK\Common\ComputationalGeometry;D:\pv\rebuild\VTK\Common\ComputationalGeometry;D:\pv\ParaView\VTK\Common\System;D:\pv\rebuild\VTK\Common\System;D:\pv\ParaView\VTK\Filters\General;D:\pv\rebuild\VTK\Filters\General;D:\pv\ParaView\VTK\Filters\Geometry;D:\pv\rebuild\VTK\Filters\Geometry;D:\pv\ParaView\VTK\Filters\Sources;D:\pv\rebuild\VTK\Filters\Sources;D:\pv\rebuild\VTK\Utilities\KWIML;D:\pv\ParaView\VTK\Utilities\KWIML;D:\pv\rebuild\VTK\Utilities\KWSys;D:\pv\ParaView\VTK\Utilities\KWSys;D:\pv\rebuild\VTK\ThirdParty\token;D:\pv\ParaView\VTK\ThirdParty\token;D:\pv\rebuild\VTK\ThirdParty\nlohmannjson;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson;D:\pv\rebuild\VTK\ThirdParty\kissfft;D:\pv\ParaView\VTK\ThirdParty\kissfft;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\..\lib\Debug\vtkCommonColor-pv5.13d.lib;..\..\..\lib\Debug\vtkFiltersSources-pv5.13d.lib;..\..\..\lib\Debug\vtkFiltersGeneral-pv5.13d.lib;..\..\..\lib\Debug\vtkCommonComputationalGeometry-pv5.13d.lib;..\..\..\lib\Debug\vtkFiltersGeometry-pv5.13d.lib;..\..\..\lib\Debug\vtkFiltersCore-pv5.13d.lib;..\..\..\lib\Debug\vtkCommonExecutionModel-pv5.13d.lib;..\..\..\lib\Debug\vtkCommonDataModel-pv5.13d.lib;..\..\..\lib\Debug\vtkCommonTransforms-pv5.13d.lib;..\..\..\lib\Debug\vtkCommonSystem-pv5.13d.lib;..\..\..\lib\Debug\vtkCommonMisc-pv5.13d.lib;..\..\..\lib\Debug\vtkCommonMath-pv5.13d.lib;..\..\..\lib\Debug\vtkCommonCore-pv5.13d.lib;..\..\..\lib\Debug\vtktoken-pv5.13d.lib;..\..\..\lib\Debug\vtkkissfft-pv5.13d.lib;..\..\..\lib\Debug\vtksys-pv5.13d.lib;ws2_32.lib;dbghelp.lib;psapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/pv/rebuild/lib/Debug/vtkRenderingCore-pv5.13d.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/pv/rebuild/bin/Debug/vtkRenderingCore-pv5.13d.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\pv\ParaView\VTK\Rendering\Core;D:\pv\rebuild\VTK\Rendering\Core;D:\pv\ParaView\VTK\Common\Core;D:\pv\rebuild\VTK\Common\Core;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken\token;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken\token;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\rebuild\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson\include;D:\pv\ParaView\VTK\Common\DataModel;D:\pv\rebuild\VTK\Common\DataModel;D:\pv\ParaView\VTK\Common\Math;D:\pv\rebuild\VTK\Common\Math;D:\pv\ParaView\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\rebuild\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\ParaView\VTK\Common\Transforms;D:\pv\rebuild\VTK\Common\Transforms;D:\pv\ParaView\VTK\Common\ExecutionModel;D:\pv\rebuild\VTK\Common\ExecutionModel;D:\pv\ParaView\VTK\Filters\Core;D:\pv\rebuild\VTK\Filters\Core;D:\pv\ParaView\VTK\Common\Misc;D:\pv\rebuild\VTK\Common\Misc;D:\pv\ParaView\VTK\Common\Color;D:\pv\rebuild\VTK\Common\Color;D:\pv\ParaView\VTK\Common\ComputationalGeometry;D:\pv\rebuild\VTK\Common\ComputationalGeometry;D:\pv\ParaView\VTK\Common\System;D:\pv\rebuild\VTK\Common\System;D:\pv\ParaView\VTK\Filters\General;D:\pv\rebuild\VTK\Filters\General;D:\pv\ParaView\VTK\Filters\Geometry;D:\pv\rebuild\VTK\Filters\Geometry;D:\pv\ParaView\VTK\Filters\Sources;D:\pv\rebuild\VTK\Filters\Sources;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/pv/rebuild/VTK/Utilities/KWIML" /external:I "D:/pv/ParaView/VTK/Utilities/KWIML" /external:I "D:/pv/rebuild/VTK/Utilities/KWSys" /external:I "D:/pv/ParaView/VTK/Utilities/KWSys" /external:I "D:/pv/rebuild/VTK/ThirdParty/token" /external:I "D:/pv/ParaView/VTK/ThirdParty/token" /external:I "D:/pv/rebuild/VTK/ThirdParty/nlohmannjson" /external:I "D:/pv/ParaView/VTK/ThirdParty/nlohmannjson" /external:I "D:/pv/rebuild/VTK/ThirdParty/kissfft" /external:I "D:/pv/ParaView/VTK/ThirdParty/kissfft" /bigobj /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;kiss_fft_scalar=double;KISSFFT_DLL_IMPORT=1;CMAKE_INTDIR="Release";RenderingCore_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;kiss_fft_scalar=double;KISSFFT_DLL_IMPORT=1;CMAKE_INTDIR=\"Release\";RenderingCore_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\pv\ParaView\VTK\Rendering\Core;D:\pv\rebuild\VTK\Rendering\Core;D:\pv\ParaView\VTK\Common\Core;D:\pv\rebuild\VTK\Common\Core;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken\token;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken\token;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\rebuild\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson\include;D:\pv\ParaView\VTK\Common\DataModel;D:\pv\rebuild\VTK\Common\DataModel;D:\pv\ParaView\VTK\Common\Math;D:\pv\rebuild\VTK\Common\Math;D:\pv\ParaView\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\rebuild\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\ParaView\VTK\Common\Transforms;D:\pv\rebuild\VTK\Common\Transforms;D:\pv\ParaView\VTK\Common\ExecutionModel;D:\pv\rebuild\VTK\Common\ExecutionModel;D:\pv\ParaView\VTK\Filters\Core;D:\pv\rebuild\VTK\Filters\Core;D:\pv\ParaView\VTK\Common\Misc;D:\pv\rebuild\VTK\Common\Misc;D:\pv\ParaView\VTK\Common\Color;D:\pv\rebuild\VTK\Common\Color;D:\pv\ParaView\VTK\Common\ComputationalGeometry;D:\pv\rebuild\VTK\Common\ComputationalGeometry;D:\pv\ParaView\VTK\Common\System;D:\pv\rebuild\VTK\Common\System;D:\pv\ParaView\VTK\Filters\General;D:\pv\rebuild\VTK\Filters\General;D:\pv\ParaView\VTK\Filters\Geometry;D:\pv\rebuild\VTK\Filters\Geometry;D:\pv\ParaView\VTK\Filters\Sources;D:\pv\rebuild\VTK\Filters\Sources;D:\pv\rebuild\VTK\Utilities\KWIML;D:\pv\ParaView\VTK\Utilities\KWIML;D:\pv\rebuild\VTK\Utilities\KWSys;D:\pv\ParaView\VTK\Utilities\KWSys;D:\pv\rebuild\VTK\ThirdParty\token;D:\pv\ParaView\VTK\ThirdParty\token;D:\pv\rebuild\VTK\ThirdParty\nlohmannjson;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson;D:\pv\rebuild\VTK\ThirdParty\kissfft;D:\pv\ParaView\VTK\ThirdParty\kissfft;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\pv\ParaView\VTK\Rendering\Core;D:\pv\rebuild\VTK\Rendering\Core;D:\pv\ParaView\VTK\Common\Core;D:\pv\rebuild\VTK\Common\Core;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken\token;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken\token;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\rebuild\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson\include;D:\pv\ParaView\VTK\Common\DataModel;D:\pv\rebuild\VTK\Common\DataModel;D:\pv\ParaView\VTK\Common\Math;D:\pv\rebuild\VTK\Common\Math;D:\pv\ParaView\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\rebuild\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\ParaView\VTK\Common\Transforms;D:\pv\rebuild\VTK\Common\Transforms;D:\pv\ParaView\VTK\Common\ExecutionModel;D:\pv\rebuild\VTK\Common\ExecutionModel;D:\pv\ParaView\VTK\Filters\Core;D:\pv\rebuild\VTK\Filters\Core;D:\pv\ParaView\VTK\Common\Misc;D:\pv\rebuild\VTK\Common\Misc;D:\pv\ParaView\VTK\Common\Color;D:\pv\rebuild\VTK\Common\Color;D:\pv\ParaView\VTK\Common\ComputationalGeometry;D:\pv\rebuild\VTK\Common\ComputationalGeometry;D:\pv\ParaView\VTK\Common\System;D:\pv\rebuild\VTK\Common\System;D:\pv\ParaView\VTK\Filters\General;D:\pv\rebuild\VTK\Filters\General;D:\pv\ParaView\VTK\Filters\Geometry;D:\pv\rebuild\VTK\Filters\Geometry;D:\pv\ParaView\VTK\Filters\Sources;D:\pv\rebuild\VTK\Filters\Sources;D:\pv\rebuild\VTK\Utilities\KWIML;D:\pv\ParaView\VTK\Utilities\KWIML;D:\pv\rebuild\VTK\Utilities\KWSys;D:\pv\ParaView\VTK\Utilities\KWSys;D:\pv\rebuild\VTK\ThirdParty\token;D:\pv\ParaView\VTK\ThirdParty\token;D:\pv\rebuild\VTK\ThirdParty\nlohmannjson;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson;D:\pv\rebuild\VTK\ThirdParty\kissfft;D:\pv\ParaView\VTK\ThirdParty\kissfft;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\..\lib\Release\vtkCommonColor-pv5.13.lib;..\..\..\lib\Release\vtkFiltersSources-pv5.13.lib;..\..\..\lib\Release\vtkFiltersGeneral-pv5.13.lib;..\..\..\lib\Release\vtkCommonComputationalGeometry-pv5.13.lib;..\..\..\lib\Release\vtkFiltersGeometry-pv5.13.lib;..\..\..\lib\Release\vtkFiltersCore-pv5.13.lib;..\..\..\lib\Release\vtkCommonExecutionModel-pv5.13.lib;..\..\..\lib\Release\vtkCommonDataModel-pv5.13.lib;..\..\..\lib\Release\vtkCommonTransforms-pv5.13.lib;..\..\..\lib\Release\vtkCommonSystem-pv5.13.lib;..\..\..\lib\Release\vtkCommonMisc-pv5.13.lib;..\..\..\lib\Release\vtkCommonMath-pv5.13.lib;..\..\..\lib\Release\vtkCommonCore-pv5.13.lib;..\..\..\lib\Release\vtktoken-pv5.13.lib;..\..\..\lib\Release\vtkkissfft-pv5.13.lib;..\..\..\lib\Release\vtksys-pv5.13.lib;ws2_32.lib;dbghelp.lib;psapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/pv/rebuild/lib/Release/vtkRenderingCore-pv5.13.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/pv/rebuild/bin/Release/vtkRenderingCore-pv5.13.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\pv\ParaView\VTK\Rendering\Core;D:\pv\rebuild\VTK\Rendering\Core;D:\pv\ParaView\VTK\Common\Core;D:\pv\rebuild\VTK\Common\Core;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken\token;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken\token;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\rebuild\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson\include;D:\pv\ParaView\VTK\Common\DataModel;D:\pv\rebuild\VTK\Common\DataModel;D:\pv\ParaView\VTK\Common\Math;D:\pv\rebuild\VTK\Common\Math;D:\pv\ParaView\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\rebuild\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\ParaView\VTK\Common\Transforms;D:\pv\rebuild\VTK\Common\Transforms;D:\pv\ParaView\VTK\Common\ExecutionModel;D:\pv\rebuild\VTK\Common\ExecutionModel;D:\pv\ParaView\VTK\Filters\Core;D:\pv\rebuild\VTK\Filters\Core;D:\pv\ParaView\VTK\Common\Misc;D:\pv\rebuild\VTK\Common\Misc;D:\pv\ParaView\VTK\Common\Color;D:\pv\rebuild\VTK\Common\Color;D:\pv\ParaView\VTK\Common\ComputationalGeometry;D:\pv\rebuild\VTK\Common\ComputationalGeometry;D:\pv\ParaView\VTK\Common\System;D:\pv\rebuild\VTK\Common\System;D:\pv\ParaView\VTK\Filters\General;D:\pv\rebuild\VTK\Filters\General;D:\pv\ParaView\VTK\Filters\Geometry;D:\pv\rebuild\VTK\Filters\Geometry;D:\pv\ParaView\VTK\Filters\Sources;D:\pv\rebuild\VTK\Filters\Sources;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/pv/rebuild/VTK/Utilities/KWIML" /external:I "D:/pv/ParaView/VTK/Utilities/KWIML" /external:I "D:/pv/rebuild/VTK/Utilities/KWSys" /external:I "D:/pv/ParaView/VTK/Utilities/KWSys" /external:I "D:/pv/rebuild/VTK/ThirdParty/token" /external:I "D:/pv/ParaView/VTK/ThirdParty/token" /external:I "D:/pv/rebuild/VTK/ThirdParty/nlohmannjson" /external:I "D:/pv/ParaView/VTK/ThirdParty/nlohmannjson" /external:I "D:/pv/rebuild/VTK/ThirdParty/kissfft" /external:I "D:/pv/ParaView/VTK/ThirdParty/kissfft" /bigobj /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;kiss_fft_scalar=double;KISSFFT_DLL_IMPORT=1;CMAKE_INTDIR="MinSizeRel";RenderingCore_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;kiss_fft_scalar=double;KISSFFT_DLL_IMPORT=1;CMAKE_INTDIR=\"MinSizeRel\";RenderingCore_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\pv\ParaView\VTK\Rendering\Core;D:\pv\rebuild\VTK\Rendering\Core;D:\pv\ParaView\VTK\Common\Core;D:\pv\rebuild\VTK\Common\Core;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken\token;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken\token;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\rebuild\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson\include;D:\pv\ParaView\VTK\Common\DataModel;D:\pv\rebuild\VTK\Common\DataModel;D:\pv\ParaView\VTK\Common\Math;D:\pv\rebuild\VTK\Common\Math;D:\pv\ParaView\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\rebuild\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\ParaView\VTK\Common\Transforms;D:\pv\rebuild\VTK\Common\Transforms;D:\pv\ParaView\VTK\Common\ExecutionModel;D:\pv\rebuild\VTK\Common\ExecutionModel;D:\pv\ParaView\VTK\Filters\Core;D:\pv\rebuild\VTK\Filters\Core;D:\pv\ParaView\VTK\Common\Misc;D:\pv\rebuild\VTK\Common\Misc;D:\pv\ParaView\VTK\Common\Color;D:\pv\rebuild\VTK\Common\Color;D:\pv\ParaView\VTK\Common\ComputationalGeometry;D:\pv\rebuild\VTK\Common\ComputationalGeometry;D:\pv\ParaView\VTK\Common\System;D:\pv\rebuild\VTK\Common\System;D:\pv\ParaView\VTK\Filters\General;D:\pv\rebuild\VTK\Filters\General;D:\pv\ParaView\VTK\Filters\Geometry;D:\pv\rebuild\VTK\Filters\Geometry;D:\pv\ParaView\VTK\Filters\Sources;D:\pv\rebuild\VTK\Filters\Sources;D:\pv\rebuild\VTK\Utilities\KWIML;D:\pv\ParaView\VTK\Utilities\KWIML;D:\pv\rebuild\VTK\Utilities\KWSys;D:\pv\ParaView\VTK\Utilities\KWSys;D:\pv\rebuild\VTK\ThirdParty\token;D:\pv\ParaView\VTK\ThirdParty\token;D:\pv\rebuild\VTK\ThirdParty\nlohmannjson;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson;D:\pv\rebuild\VTK\ThirdParty\kissfft;D:\pv\ParaView\VTK\ThirdParty\kissfft;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\pv\ParaView\VTK\Rendering\Core;D:\pv\rebuild\VTK\Rendering\Core;D:\pv\ParaView\VTK\Common\Core;D:\pv\rebuild\VTK\Common\Core;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken\token;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken\token;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\rebuild\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson\include;D:\pv\ParaView\VTK\Common\DataModel;D:\pv\rebuild\VTK\Common\DataModel;D:\pv\ParaView\VTK\Common\Math;D:\pv\rebuild\VTK\Common\Math;D:\pv\ParaView\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\rebuild\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\ParaView\VTK\Common\Transforms;D:\pv\rebuild\VTK\Common\Transforms;D:\pv\ParaView\VTK\Common\ExecutionModel;D:\pv\rebuild\VTK\Common\ExecutionModel;D:\pv\ParaView\VTK\Filters\Core;D:\pv\rebuild\VTK\Filters\Core;D:\pv\ParaView\VTK\Common\Misc;D:\pv\rebuild\VTK\Common\Misc;D:\pv\ParaView\VTK\Common\Color;D:\pv\rebuild\VTK\Common\Color;D:\pv\ParaView\VTK\Common\ComputationalGeometry;D:\pv\rebuild\VTK\Common\ComputationalGeometry;D:\pv\ParaView\VTK\Common\System;D:\pv\rebuild\VTK\Common\System;D:\pv\ParaView\VTK\Filters\General;D:\pv\rebuild\VTK\Filters\General;D:\pv\ParaView\VTK\Filters\Geometry;D:\pv\rebuild\VTK\Filters\Geometry;D:\pv\ParaView\VTK\Filters\Sources;D:\pv\rebuild\VTK\Filters\Sources;D:\pv\rebuild\VTK\Utilities\KWIML;D:\pv\ParaView\VTK\Utilities\KWIML;D:\pv\rebuild\VTK\Utilities\KWSys;D:\pv\ParaView\VTK\Utilities\KWSys;D:\pv\rebuild\VTK\ThirdParty\token;D:\pv\ParaView\VTK\ThirdParty\token;D:\pv\rebuild\VTK\ThirdParty\nlohmannjson;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson;D:\pv\rebuild\VTK\ThirdParty\kissfft;D:\pv\ParaView\VTK\ThirdParty\kissfft;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\..\lib\MinSizeRel\vtkCommonColor-pv5.13.lib;..\..\..\lib\MinSizeRel\vtkFiltersSources-pv5.13.lib;..\..\..\lib\MinSizeRel\vtkFiltersGeneral-pv5.13.lib;..\..\..\lib\MinSizeRel\vtkCommonComputationalGeometry-pv5.13.lib;..\..\..\lib\MinSizeRel\vtkFiltersGeometry-pv5.13.lib;..\..\..\lib\MinSizeRel\vtkFiltersCore-pv5.13.lib;..\..\..\lib\MinSizeRel\vtkCommonExecutionModel-pv5.13.lib;..\..\..\lib\MinSizeRel\vtkCommonDataModel-pv5.13.lib;..\..\..\lib\MinSizeRel\vtkCommonTransforms-pv5.13.lib;..\..\..\lib\MinSizeRel\vtkCommonSystem-pv5.13.lib;..\..\..\lib\MinSizeRel\vtkCommonMisc-pv5.13.lib;..\..\..\lib\MinSizeRel\vtkCommonMath-pv5.13.lib;..\..\..\lib\MinSizeRel\vtkCommonCore-pv5.13.lib;..\..\..\lib\MinSizeRel\vtktoken-pv5.13.lib;..\..\..\lib\MinSizeRel\vtkkissfft-pv5.13.lib;..\..\..\lib\MinSizeRel\vtksys-pv5.13.lib;ws2_32.lib;dbghelp.lib;psapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/pv/rebuild/lib/MinSizeRel/vtkRenderingCore-pv5.13.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/pv/rebuild/bin/MinSizeRel/vtkRenderingCore-pv5.13.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\pv\ParaView\VTK\Rendering\Core;D:\pv\rebuild\VTK\Rendering\Core;D:\pv\ParaView\VTK\Common\Core;D:\pv\rebuild\VTK\Common\Core;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken\token;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken\token;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\rebuild\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson\include;D:\pv\ParaView\VTK\Common\DataModel;D:\pv\rebuild\VTK\Common\DataModel;D:\pv\ParaView\VTK\Common\Math;D:\pv\rebuild\VTK\Common\Math;D:\pv\ParaView\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\rebuild\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\ParaView\VTK\Common\Transforms;D:\pv\rebuild\VTK\Common\Transforms;D:\pv\ParaView\VTK\Common\ExecutionModel;D:\pv\rebuild\VTK\Common\ExecutionModel;D:\pv\ParaView\VTK\Filters\Core;D:\pv\rebuild\VTK\Filters\Core;D:\pv\ParaView\VTK\Common\Misc;D:\pv\rebuild\VTK\Common\Misc;D:\pv\ParaView\VTK\Common\Color;D:\pv\rebuild\VTK\Common\Color;D:\pv\ParaView\VTK\Common\ComputationalGeometry;D:\pv\rebuild\VTK\Common\ComputationalGeometry;D:\pv\ParaView\VTK\Common\System;D:\pv\rebuild\VTK\Common\System;D:\pv\ParaView\VTK\Filters\General;D:\pv\rebuild\VTK\Filters\General;D:\pv\ParaView\VTK\Filters\Geometry;D:\pv\rebuild\VTK\Filters\Geometry;D:\pv\ParaView\VTK\Filters\Sources;D:\pv\rebuild\VTK\Filters\Sources;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/pv/rebuild/VTK/Utilities/KWIML" /external:I "D:/pv/ParaView/VTK/Utilities/KWIML" /external:I "D:/pv/rebuild/VTK/Utilities/KWSys" /external:I "D:/pv/ParaView/VTK/Utilities/KWSys" /external:I "D:/pv/rebuild/VTK/ThirdParty/token" /external:I "D:/pv/ParaView/VTK/ThirdParty/token" /external:I "D:/pv/rebuild/VTK/ThirdParty/nlohmannjson" /external:I "D:/pv/ParaView/VTK/ThirdParty/nlohmannjson" /external:I "D:/pv/rebuild/VTK/ThirdParty/kissfft" /external:I "D:/pv/ParaView/VTK/ThirdParty/kissfft" /bigobj /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;kiss_fft_scalar=double;KISSFFT_DLL_IMPORT=1;CMAKE_INTDIR="RelWithDebInfo";RenderingCore_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;kiss_fft_scalar=double;KISSFFT_DLL_IMPORT=1;CMAKE_INTDIR=\"RelWithDebInfo\";RenderingCore_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\pv\ParaView\VTK\Rendering\Core;D:\pv\rebuild\VTK\Rendering\Core;D:\pv\ParaView\VTK\Common\Core;D:\pv\rebuild\VTK\Common\Core;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken\token;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken\token;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\rebuild\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson\include;D:\pv\ParaView\VTK\Common\DataModel;D:\pv\rebuild\VTK\Common\DataModel;D:\pv\ParaView\VTK\Common\Math;D:\pv\rebuild\VTK\Common\Math;D:\pv\ParaView\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\rebuild\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\ParaView\VTK\Common\Transforms;D:\pv\rebuild\VTK\Common\Transforms;D:\pv\ParaView\VTK\Common\ExecutionModel;D:\pv\rebuild\VTK\Common\ExecutionModel;D:\pv\ParaView\VTK\Filters\Core;D:\pv\rebuild\VTK\Filters\Core;D:\pv\ParaView\VTK\Common\Misc;D:\pv\rebuild\VTK\Common\Misc;D:\pv\ParaView\VTK\Common\Color;D:\pv\rebuild\VTK\Common\Color;D:\pv\ParaView\VTK\Common\ComputationalGeometry;D:\pv\rebuild\VTK\Common\ComputationalGeometry;D:\pv\ParaView\VTK\Common\System;D:\pv\rebuild\VTK\Common\System;D:\pv\ParaView\VTK\Filters\General;D:\pv\rebuild\VTK\Filters\General;D:\pv\ParaView\VTK\Filters\Geometry;D:\pv\rebuild\VTK\Filters\Geometry;D:\pv\ParaView\VTK\Filters\Sources;D:\pv\rebuild\VTK\Filters\Sources;D:\pv\rebuild\VTK\Utilities\KWIML;D:\pv\ParaView\VTK\Utilities\KWIML;D:\pv\rebuild\VTK\Utilities\KWSys;D:\pv\ParaView\VTK\Utilities\KWSys;D:\pv\rebuild\VTK\ThirdParty\token;D:\pv\ParaView\VTK\ThirdParty\token;D:\pv\rebuild\VTK\ThirdParty\nlohmannjson;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson;D:\pv\rebuild\VTK\ThirdParty\kissfft;D:\pv\ParaView\VTK\ThirdParty\kissfft;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\pv\ParaView\VTK\Rendering\Core;D:\pv\rebuild\VTK\Rendering\Core;D:\pv\ParaView\VTK\Common\Core;D:\pv\rebuild\VTK\Common\Core;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken\token;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken\token;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\rebuild\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson\include;D:\pv\ParaView\VTK\Common\DataModel;D:\pv\rebuild\VTK\Common\DataModel;D:\pv\ParaView\VTK\Common\Math;D:\pv\rebuild\VTK\Common\Math;D:\pv\ParaView\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\rebuild\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\ParaView\VTK\Common\Transforms;D:\pv\rebuild\VTK\Common\Transforms;D:\pv\ParaView\VTK\Common\ExecutionModel;D:\pv\rebuild\VTK\Common\ExecutionModel;D:\pv\ParaView\VTK\Filters\Core;D:\pv\rebuild\VTK\Filters\Core;D:\pv\ParaView\VTK\Common\Misc;D:\pv\rebuild\VTK\Common\Misc;D:\pv\ParaView\VTK\Common\Color;D:\pv\rebuild\VTK\Common\Color;D:\pv\ParaView\VTK\Common\ComputationalGeometry;D:\pv\rebuild\VTK\Common\ComputationalGeometry;D:\pv\ParaView\VTK\Common\System;D:\pv\rebuild\VTK\Common\System;D:\pv\ParaView\VTK\Filters\General;D:\pv\rebuild\VTK\Filters\General;D:\pv\ParaView\VTK\Filters\Geometry;D:\pv\rebuild\VTK\Filters\Geometry;D:\pv\ParaView\VTK\Filters\Sources;D:\pv\rebuild\VTK\Filters\Sources;D:\pv\rebuild\VTK\Utilities\KWIML;D:\pv\ParaView\VTK\Utilities\KWIML;D:\pv\rebuild\VTK\Utilities\KWSys;D:\pv\ParaView\VTK\Utilities\KWSys;D:\pv\rebuild\VTK\ThirdParty\token;D:\pv\ParaView\VTK\ThirdParty\token;D:\pv\rebuild\VTK\ThirdParty\nlohmannjson;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson;D:\pv\rebuild\VTK\ThirdParty\kissfft;D:\pv\ParaView\VTK\ThirdParty\kissfft;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\..\lib\RelWithDebInfo\vtkCommonColor-pv5.13.lib;..\..\..\lib\RelWithDebInfo\vtkFiltersSources-pv5.13.lib;..\..\..\lib\RelWithDebInfo\vtkFiltersGeneral-pv5.13.lib;..\..\..\lib\RelWithDebInfo\vtkCommonComputationalGeometry-pv5.13.lib;..\..\..\lib\RelWithDebInfo\vtkFiltersGeometry-pv5.13.lib;..\..\..\lib\RelWithDebInfo\vtkFiltersCore-pv5.13.lib;..\..\..\lib\RelWithDebInfo\vtkCommonExecutionModel-pv5.13.lib;..\..\..\lib\RelWithDebInfo\vtkCommonDataModel-pv5.13.lib;..\..\..\lib\RelWithDebInfo\vtkCommonTransforms-pv5.13.lib;..\..\..\lib\RelWithDebInfo\vtkCommonSystem-pv5.13.lib;..\..\..\lib\RelWithDebInfo\vtkCommonMisc-pv5.13.lib;..\..\..\lib\RelWithDebInfo\vtkCommonMath-pv5.13.lib;..\..\..\lib\RelWithDebInfo\vtkCommonCore-pv5.13.lib;..\..\..\lib\RelWithDebInfo\vtktoken-pv5.13.lib;..\..\..\lib\RelWithDebInfo\vtkkissfft-pv5.13.lib;..\..\..\lib\RelWithDebInfo\vtksys-pv5.13.lib;ws2_32.lib;dbghelp.lib;psapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/pv/rebuild/lib/RelWithDebInfo/vtkRenderingCore-pv5.13.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/pv/rebuild/bin/RelWithDebInfo/vtkRenderingCore-pv5.13.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\pv\ParaView\VTK\Rendering\Core\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/pv/ParaView/VTK/Rendering/Core/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/pv/ParaView -BD:/pv/rebuild --check-stamp-file D:/pv/rebuild/VTK/Rendering/Core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\exportheader.cmake.in;D:\pv\ParaView\VTK\Rendering\Core\vtkTDxConfigure.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\pv\rebuild\VTK\Rendering\Core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/pv/ParaView/VTK/Rendering/Core/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/pv/ParaView -BD:/pv/rebuild --check-stamp-file D:/pv/rebuild/VTK/Rendering/Core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\exportheader.cmake.in;D:\pv\ParaView\VTK\Rendering\Core\vtkTDxConfigure.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\pv\rebuild\VTK\Rendering\Core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/pv/ParaView/VTK/Rendering/Core/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/pv/ParaView -BD:/pv/rebuild --check-stamp-file D:/pv/rebuild/VTK/Rendering/Core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\exportheader.cmake.in;D:\pv\ParaView\VTK\Rendering\Core\vtkTDxConfigure.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\pv\rebuild\VTK\Rendering\Core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/pv/ParaView/VTK/Rendering/Core/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/pv/ParaView -BD:/pv/rebuild --check-stamp-file D:/pv/rebuild/VTK/Rendering/Core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\exportheader.cmake.in;D:\pv\ParaView\VTK\Rendering\Core\vtkTDxConfigure.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\pv\rebuild\VTK\Rendering\Core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkAbstractHyperTreeGridMapper.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkAbstractMapper.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkAbstractMapper3D.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkAbstractPicker.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkAbstractVolumeMapper.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkActor.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkActor2D.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkActor2DCollection.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkActorCollection.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkAssembly.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkAvatar.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkBackgroundColorMonitor.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkBillboardTextActor3D.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkCamera.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkCameraActor.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkCameraInterpolator.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkCellCenterDepthSort.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkCellGraphicsPrimitiveMap.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkCellGridMapper.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkCellGridRenderRequest.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkColorTransferFunction.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkCompositeCellGridMapper.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkCompositeDataDisplayAttributes.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkCompositeDataDisplayAttributesLegacy.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkCompositePolyDataMapper.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkCompositePolyDataMapperDelegator.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkCoordinate.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkCuller.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkCullerCollection.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkDataSetMapper.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkDiscretizableColorTransferFunction.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkDistanceToCamera.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkFXAAOptions.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkFlagpoleLabel.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkFollower.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkFrameBufferObjectBase.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkFrustumCoverageCuller.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkGPUInfo.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkGPUInfoList.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkGenericVertexAttributeMapping.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkGlyph3DMapper.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkGraphMapper.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkGraphToGlyphs.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkGraphicsFactory.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkHardwarePicker.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkHardwareSelector.cxx">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions);VTK_OPENGL2</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions);VTK_OPENGL2</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(PreprocessorDefinitions);VTK_OPENGL2</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(PreprocessorDefinitions);VTK_OPENGL2</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkHardwareWindow.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkHierarchicalPolyDataMapper.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkImageActor.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkImageMapper.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkImageMapper3D.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkImageProperty.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkImageSlice.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkImageSliceMapper.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkInteractorEventRecorder.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkInteractorObserver.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkLabeledContourMapper.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkLight.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkLightActor.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkLightCollection.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkLightKit.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkLogLookupTable.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkLookupTableWithEnabling.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkMapArrayValues.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkMapper.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkMapper2D.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkMapperCollection.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkObserverMediator.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkPointGaussianMapper.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkPolyDataMapper.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkPolyDataMapper2D.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkProp.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkProp3D.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkProp3DCollection.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkProp3DFollower.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkPropAssembly.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkPropCollection.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkProperty.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkProperty2D.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkRenderPass.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkRenderState.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkRenderTimerLog.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkRenderWindow.cxx">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions);VTK_OPENGL2</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions);VTK_OPENGL2</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(PreprocessorDefinitions);VTK_OPENGL2</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(PreprocessorDefinitions);VTK_OPENGL2</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkRenderWindowCollection.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkRenderWindowInteractor.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkRenderWindowInteractor3D.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkRenderer.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkRendererCollection.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkRendererDelegate.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkRendererSource.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkResizingWindowToImageFilter.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkSelectVisiblePoints.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkShaderProperty.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkSkybox.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkStereoCompositor.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkTextActor.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkTextActor3D.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkTexture.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkTexturedActor2D.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkTransformCoordinateSystems.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkTransformInterpolator.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkTupleInterpolator.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkUniforms.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkViewDependentErrorMetric.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkViewport.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkVisibilitySort.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkVolume.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkVolumeCollection.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkVolumeProperty.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkWindowLevelLookupTable.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkWindowToImageFilter.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkAssemblyNode.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkAssemblyPath.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkAssemblyPaths.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkAreaPicker.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkPicker.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkAbstractPropPicker.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkLODProp3D.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkPropPicker.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkPickingManager.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkWorldPointPicker.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkCellPicker.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkPointPicker.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkRenderedAreaPicker.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkScenePicker.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkInteractorStyle.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkInteractorStyle3D.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkInteractorStyleSwitchBase.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkTDxInteractorStyle.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkTDxInteractorStyleCamera.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkTDxInteractorStyleSettings.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkStringToImage.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkTextMapper.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkTextProperty.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkTextPropertyCollection.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkTextRenderer.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkAbstractInteractionDevice.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkAbstractRenderDevice.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkRenderWidget.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\Core\vtkCIEDE2000.cxx" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkGPUInfoListArray.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkPythagoreanQuadruples.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkRayCastStructures.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkRenderingCoreEnums.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkStateStorage.h" />
+    <ClInclude Include="D:\pv\rebuild\VTK\Rendering\Core\vtkTDxConfigure.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkTDxMotionEventInfo.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkAbstractHyperTreeGridMapper.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkAbstractMapper.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkAbstractMapper3D.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkAbstractPicker.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkAbstractVolumeMapper.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkActor.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkActor2D.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkActor2DCollection.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkActorCollection.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkAssembly.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkAvatar.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkBackgroundColorMonitor.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkBillboardTextActor3D.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkCamera.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkCameraActor.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkCameraInterpolator.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkCellCenterDepthSort.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkCellGraphicsPrimitiveMap.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkCellGridMapper.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkCellGridRenderRequest.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkColorTransferFunction.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkCompositeCellGridMapper.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkCompositeDataDisplayAttributes.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkCompositeDataDisplayAttributesLegacy.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkCompositePolyDataMapper.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkCompositePolyDataMapperDelegator.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkCoordinate.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkCuller.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkCullerCollection.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkDataSetMapper.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkDiscretizableColorTransferFunction.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkDistanceToCamera.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkFXAAOptions.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkFlagpoleLabel.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkFollower.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkFrameBufferObjectBase.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkFrustumCoverageCuller.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkGPUInfo.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkGPUInfoList.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkGenericVertexAttributeMapping.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkGlyph3DMapper.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkGraphMapper.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkGraphToGlyphs.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkGraphicsFactory.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkHardwarePicker.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkHardwareSelector.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkHardwareWindow.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkHierarchicalPolyDataMapper.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkImageActor.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkImageMapper.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkImageMapper3D.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkImageProperty.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkImageSlice.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkImageSliceMapper.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkInteractorEventRecorder.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkInteractorObserver.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkLabeledContourMapper.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkLight.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkLightActor.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkLightCollection.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkLightKit.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkLogLookupTable.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkLookupTableWithEnabling.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkMapArrayValues.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkMapper.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkMapper2D.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkMapperCollection.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkObserverMediator.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkPointGaussianMapper.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkPolyDataMapper.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkPolyDataMapper2D.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkProp.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkProp3D.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkProp3DCollection.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkProp3DFollower.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkPropAssembly.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkPropCollection.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkProperty.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkProperty2D.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkRenderPass.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkRenderState.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkRenderTimerLog.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkRenderWindow.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkRenderWindowCollection.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkRenderWindowInteractor.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkRenderWindowInteractor3D.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkRenderer.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkRendererCollection.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkRendererDelegate.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkRendererSource.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkResizingWindowToImageFilter.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkSelectVisiblePoints.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkShaderProperty.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkSkybox.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkStereoCompositor.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkTextActor.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkTextActor3D.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkTexture.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkTexturedActor2D.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkTransformCoordinateSystems.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkTransformInterpolator.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkTupleInterpolator.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkUniforms.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkViewDependentErrorMetric.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkViewport.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkVisibilitySort.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkVolume.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkVolumeCollection.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkVolumeProperty.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkWindowLevelLookupTable.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkWindowToImageFilter.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkAssemblyNode.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkAssemblyPath.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkAssemblyPaths.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkAreaPicker.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkPicker.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkAbstractPropPicker.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkLODProp3D.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkPropPicker.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkPickingManager.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkWorldPointPicker.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkCellPicker.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkPointPicker.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkRenderedAreaPicker.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkScenePicker.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkInteractorStyle.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkInteractorStyle3D.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkInteractorStyleSwitchBase.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkTDxInteractorStyle.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkTDxInteractorStyleCamera.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkTDxInteractorStyleSettings.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkStringToImage.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkTextMapper.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkTextProperty.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkTextPropertyCollection.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkTextRenderer.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkAbstractInteractionDevice.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkAbstractRenderDevice.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkRenderWidget.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkNoise200x200.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\Core\vtkCIEDE2000.h" />
+    <ClInclude Include="D:\pv\rebuild\VTK\Rendering\Core\vtkRenderingCoreModule.h" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="D:\pv\rebuild\ZERO_CHECK.vcxproj">
+      <Project>{F365DAD0-49D0-3E04-B6A0-AEBAF9BD405C}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\Common\Color\CommonColor.vcxproj">
+      <Project>{AEC55379-478D-3724-A5B0-76BCB4734E28}</Project>
+      <Name>CommonColor</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\Common\ComputationalGeometry\CommonComputationalGeometry.vcxproj">
+      <Project>{97E883A0-FFF9-300A-8760-8A9C7578B473}</Project>
+      <Name>CommonComputationalGeometry</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\Common\Core\CommonCore.vcxproj">
+      <Project>{B619F52E-9839-377A-BAEE-BACB4D9A457F}</Project>
+      <Name>CommonCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\Common\DataModel\CommonDataModel.vcxproj">
+      <Project>{41298AA9-65F9-3C5B-8ECF-E93AC201EB02}</Project>
+      <Name>CommonDataModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\Common\ExecutionModel\CommonExecutionModel.vcxproj">
+      <Project>{80171A5E-C0D7-3ED5-A880-FCF8C3497B99}</Project>
+      <Name>CommonExecutionModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\Common\Math\CommonMath.vcxproj">
+      <Project>{194237E4-60C4-316E-8F01-9F06A2D04C6A}</Project>
+      <Name>CommonMath</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\Common\Misc\CommonMisc.vcxproj">
+      <Project>{2C21986E-CA16-3967-AC1B-5DD4E89FBFB7}</Project>
+      <Name>CommonMisc</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\Common\System\CommonSystem.vcxproj">
+      <Project>{112C49E0-887F-36C1-89ED-5C5D3A03F316}</Project>
+      <Name>CommonSystem</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\Common\Transforms\CommonTransforms.vcxproj">
+      <Project>{D6924074-2195-374C-AF34-798A39B49219}</Project>
+      <Name>CommonTransforms</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\Filters\Core\FiltersCore.vcxproj">
+      <Project>{B7A8F192-AC49-3525-8F11-8E30B789871A}</Project>
+      <Name>FiltersCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\Filters\General\FiltersGeneral.vcxproj">
+      <Project>{772D814A-2239-3BCA-9297-C780F98BEB5C}</Project>
+      <Name>FiltersGeneral</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\Filters\Geometry\FiltersGeometry.vcxproj">
+      <Project>{0E8DE0B9-A3FB-3BC7-BCDA-D96DC99FBAC4}</Project>
+      <Name>FiltersGeometry</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\Filters\Sources\FiltersSources.vcxproj">
+      <Project>{26743BDB-974B-39F2-BFC5-3F15D3CF965D}</Project>
+      <Name>FiltersSources</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\ThirdParty\kissfft\vtkkissfft\kissfft.vcxproj">
+      <Project>{3CCF61F3-F985-33F3-8EC9-58E045C69827}</Project>
+      <Name>kissfft</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\ThirdParty\nlohmannjson\vtknlohmannjson\nlohmannjson.vcxproj">
+      <Project>{7457C71D-4012-3101-AF26-38DABCDE7E01}</Project>
+      <Name>nlohmannjson</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\ThirdParty\token\vtktoken\token\token.vcxproj">
+      <Project>{6AB51710-ABE5-385B-96E1-B68D0E5AAC99}</Project>
+      <Name>token</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\Utilities\KWSys\vtksys\vtksys.vcxproj">
+      <Project>{771F913C-BFBD-34D6-B1D7-80FEFE734E74}</Project>
+      <Name>vtksys</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

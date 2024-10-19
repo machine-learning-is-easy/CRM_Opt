@@ -1,0 +1,311 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{FD776B81-24CA-3B0E-A9C7-103DECDA449D}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>vtkAnalyzeNIfTIIO-hierarchy</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\45aafa0bbf1693e870dc628ed8a55529\vtkAnalyzeNIfTIIO-hierarchy.txt.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating the wrap hierarchy for AnalyzeNIfTIIO::NIfTIIO</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+..\..\..\bin\Debug\vtkWrapHierarchy-pv5.13d.exe -MF D:/pv/rebuild/Plugins/AnalyzeNIfTIReaderWriter/NIfTIIO/CMakeFiles/vtkAnalyzeNIfTIIO-hierarchy.txt.Debug.d @D:/pv/rebuild/Plugins/AnalyzeNIfTIReaderWriter/NIfTIIO/CMakeFiles/vtkAnalyzeNIfTIIO-hierarchy.Debug.args -o D:/pv/rebuild/bin/paraview-5.13/plugins/AnalyzeNIfTIReaderWriter/vtk/hierarchy/AnalyzeNIfTIReaderWriter/vtkAnalyzeNIfTIIO-hierarchy.txt D:/pv/rebuild/Plugins/AnalyzeNIfTIReaderWriter/NIfTIIO/CMakeFiles/vtkAnalyzeNIfTIIO-hierarchy.data @D:/pv/rebuild/Plugins/AnalyzeNIfTIReaderWriter/NIfTIIO/CMakeFiles/vtkAnalyzeNIfTIIO-hierarchy.depends.args
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_transform_depfile "Visual Studio 16 2019" MSBuildAdditionalInputs D:/pv/ParaView D:/pv/ParaView/Plugins/AnalyzeNIfTIReaderWriter/NIfTIIO D:/pv/rebuild D:/pv/rebuild/Plugins/AnalyzeNIfTIReaderWriter/NIfTIIO D:/pv/rebuild/Plugins/AnalyzeNIfTIReaderWriter/NIfTIIO/CMakeFiles/vtkAnalyzeNIfTIIO-hierarchy.txt.Debug.d D:/pv/rebuild/CMakeFiles/d/1045ab3b07ca3bbf16b3f408bebbac74ef9c267d0f5249413bc7ceb23f057c6e.AdditionalInputs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\pv\ParaView\Plugins\AnalyzeNIfTIReaderWriter\NIfTIIO\vtkAnalyzeReader.h;D:\pv\ParaView\Plugins\AnalyzeNIfTIReaderWriter\NIfTIIO\vtkAnalyzeWriter.h;D:\pv\ParaView\Plugins\AnalyzeNIfTIReaderWriter\NIfTIIO\vtkNIfTIReader.h;D:\pv\ParaView\Plugins\AnalyzeNIfTIReaderWriter\NIfTIIO\vtkNIfTIWriter.h;D:\pv\rebuild\Plugins\AnalyzeNIfTIReaderWriter\NIfTIIO\CMakeFiles\vtkAnalyzeNIfTIIO-hierarchy.Debug.args;D:\pv\rebuild\Plugins\AnalyzeNIfTIReaderWriter\NIfTIIO\CMakeFiles\vtkAnalyzeNIfTIIO-hierarchy.data;D:\pv\rebuild\Plugins\AnalyzeNIfTIReaderWriter\NIfTIIO\CMakeFiles\vtkAnalyzeNIfTIIO-hierarchy.depends.args;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\pv\rebuild\bin\paraview-5.13\plugins\AnalyzeNIfTIReaderWriter\vtk\hierarchy\AnalyzeNIfTIReaderWriter\vtkAnalyzeNIfTIIO-hierarchy.txt</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <DepFileAdditionalInputsFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\pv\rebuild\CMakeFiles\d\1045ab3b07ca3bbf16b3f408bebbac74ef9c267d0f5249413bc7ceb23f057c6e.AdditionalInputs</DepFileAdditionalInputsFile>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating the wrap hierarchy for AnalyzeNIfTIIO::NIfTIIO</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+..\..\..\bin\Release\vtkWrapHierarchy-pv5.13.exe -MF D:/pv/rebuild/Plugins/AnalyzeNIfTIReaderWriter/NIfTIIO/CMakeFiles/vtkAnalyzeNIfTIIO-hierarchy.txt.Release.d @D:/pv/rebuild/Plugins/AnalyzeNIfTIReaderWriter/NIfTIIO/CMakeFiles/vtkAnalyzeNIfTIIO-hierarchy.Release.args -o D:/pv/rebuild/bin/paraview-5.13/plugins/AnalyzeNIfTIReaderWriter/vtk/hierarchy/AnalyzeNIfTIReaderWriter/vtkAnalyzeNIfTIIO-hierarchy.txt D:/pv/rebuild/Plugins/AnalyzeNIfTIReaderWriter/NIfTIIO/CMakeFiles/vtkAnalyzeNIfTIIO-hierarchy.data @D:/pv/rebuild/Plugins/AnalyzeNIfTIReaderWriter/NIfTIIO/CMakeFiles/vtkAnalyzeNIfTIIO-hierarchy.depends.args
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_transform_depfile "Visual Studio 16 2019" MSBuildAdditionalInputs D:/pv/ParaView D:/pv/ParaView/Plugins/AnalyzeNIfTIReaderWriter/NIfTIIO D:/pv/rebuild D:/pv/rebuild/Plugins/AnalyzeNIfTIReaderWriter/NIfTIIO D:/pv/rebuild/Plugins/AnalyzeNIfTIReaderWriter/NIfTIIO/CMakeFiles/vtkAnalyzeNIfTIIO-hierarchy.txt.Release.d D:/pv/rebuild/CMakeFiles/d/a84d326b158bce437bd624cf62367bc65ec0a01c8921d79ab0937be05e9f04c9.AdditionalInputs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\pv\ParaView\Plugins\AnalyzeNIfTIReaderWriter\NIfTIIO\vtkAnalyzeReader.h;D:\pv\ParaView\Plugins\AnalyzeNIfTIReaderWriter\NIfTIIO\vtkAnalyzeWriter.h;D:\pv\ParaView\Plugins\AnalyzeNIfTIReaderWriter\NIfTIIO\vtkNIfTIReader.h;D:\pv\ParaView\Plugins\AnalyzeNIfTIReaderWriter\NIfTIIO\vtkNIfTIWriter.h;D:\pv\rebuild\Plugins\AnalyzeNIfTIReaderWriter\NIfTIIO\CMakeFiles\vtkAnalyzeNIfTIIO-hierarchy.Release.args;D:\pv\rebuild\Plugins\AnalyzeNIfTIReaderWriter\NIfTIIO\CMakeFiles\vtkAnalyzeNIfTIIO-hierarchy.data;D:\pv\rebuild\Plugins\AnalyzeNIfTIReaderWriter\NIfTIIO\CMakeFiles\vtkAnalyzeNIfTIIO-hierarchy.depends.args;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\pv\rebuild\bin\paraview-5.13\plugins\AnalyzeNIfTIReaderWriter\vtk\hierarchy\AnalyzeNIfTIReaderWriter\vtkAnalyzeNIfTIIO-hierarchy.txt</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <DepFileAdditionalInputsFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\pv\rebuild\CMakeFiles\d\a84d326b158bce437bd624cf62367bc65ec0a01c8921d79ab0937be05e9f04c9.AdditionalInputs</DepFileAdditionalInputsFile>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating the wrap hierarchy for AnalyzeNIfTIIO::NIfTIIO</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+..\..\..\bin\MinSizeRel\vtkWrapHierarchy-pv5.13.exe -MF D:/pv/rebuild/Plugins/AnalyzeNIfTIReaderWriter/NIfTIIO/CMakeFiles/vtkAnalyzeNIfTIIO-hierarchy.txt.MinSizeRel.d @D:/pv/rebuild/Plugins/AnalyzeNIfTIReaderWriter/NIfTIIO/CMakeFiles/vtkAnalyzeNIfTIIO-hierarchy.MinSizeRel.args -o D:/pv/rebuild/bin/paraview-5.13/plugins/AnalyzeNIfTIReaderWriter/vtk/hierarchy/AnalyzeNIfTIReaderWriter/vtkAnalyzeNIfTIIO-hierarchy.txt D:/pv/rebuild/Plugins/AnalyzeNIfTIReaderWriter/NIfTIIO/CMakeFiles/vtkAnalyzeNIfTIIO-hierarchy.data @D:/pv/rebuild/Plugins/AnalyzeNIfTIReaderWriter/NIfTIIO/CMakeFiles/vtkAnalyzeNIfTIIO-hierarchy.depends.args
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_transform_depfile "Visual Studio 16 2019" MSBuildAdditionalInputs D:/pv/ParaView D:/pv/ParaView/Plugins/AnalyzeNIfTIReaderWriter/NIfTIIO D:/pv/rebuild D:/pv/rebuild/Plugins/AnalyzeNIfTIReaderWriter/NIfTIIO D:/pv/rebuild/Plugins/AnalyzeNIfTIReaderWriter/NIfTIIO/CMakeFiles/vtkAnalyzeNIfTIIO-hierarchy.txt.MinSizeRel.d D:/pv/rebuild/CMakeFiles/d/b1564c5ffeac6c1d52aff3bfdb6a9a954ad11d2c07addd71b4883c7d231130dd.AdditionalInputs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\pv\ParaView\Plugins\AnalyzeNIfTIReaderWriter\NIfTIIO\vtkAnalyzeReader.h;D:\pv\ParaView\Plugins\AnalyzeNIfTIReaderWriter\NIfTIIO\vtkAnalyzeWriter.h;D:\pv\ParaView\Plugins\AnalyzeNIfTIReaderWriter\NIfTIIO\vtkNIfTIReader.h;D:\pv\ParaView\Plugins\AnalyzeNIfTIReaderWriter\NIfTIIO\vtkNIfTIWriter.h;D:\pv\rebuild\Plugins\AnalyzeNIfTIReaderWriter\NIfTIIO\CMakeFiles\vtkAnalyzeNIfTIIO-hierarchy.MinSizeRel.args;D:\pv\rebuild\Plugins\AnalyzeNIfTIReaderWriter\NIfTIIO\CMakeFiles\vtkAnalyzeNIfTIIO-hierarchy.data;D:\pv\rebuild\Plugins\AnalyzeNIfTIReaderWriter\NIfTIIO\CMakeFiles\vtkAnalyzeNIfTIIO-hierarchy.depends.args;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\pv\rebuild\bin\paraview-5.13\plugins\AnalyzeNIfTIReaderWriter\vtk\hierarchy\AnalyzeNIfTIReaderWriter\vtkAnalyzeNIfTIIO-hierarchy.txt</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <DepFileAdditionalInputsFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\pv\rebuild\CMakeFiles\d\b1564c5ffeac6c1d52aff3bfdb6a9a954ad11d2c07addd71b4883c7d231130dd.AdditionalInputs</DepFileAdditionalInputsFile>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating the wrap hierarchy for AnalyzeNIfTIIO::NIfTIIO</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+..\..\..\bin\RelWithDebInfo\vtkWrapHierarchy-pv5.13.exe -MF D:/pv/rebuild/Plugins/AnalyzeNIfTIReaderWriter/NIfTIIO/CMakeFiles/vtkAnalyzeNIfTIIO-hierarchy.txt.RelWithDebInfo.d @D:/pv/rebuild/Plugins/AnalyzeNIfTIReaderWriter/NIfTIIO/CMakeFiles/vtkAnalyzeNIfTIIO-hierarchy.RelWithDebInfo.args -o D:/pv/rebuild/bin/paraview-5.13/plugins/AnalyzeNIfTIReaderWriter/vtk/hierarchy/AnalyzeNIfTIReaderWriter/vtkAnalyzeNIfTIIO-hierarchy.txt D:/pv/rebuild/Plugins/AnalyzeNIfTIReaderWriter/NIfTIIO/CMakeFiles/vtkAnalyzeNIfTIIO-hierarchy.data @D:/pv/rebuild/Plugins/AnalyzeNIfTIReaderWriter/NIfTIIO/CMakeFiles/vtkAnalyzeNIfTIIO-hierarchy.depends.args
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_transform_depfile "Visual Studio 16 2019" MSBuildAdditionalInputs D:/pv/ParaView D:/pv/ParaView/Plugins/AnalyzeNIfTIReaderWriter/NIfTIIO D:/pv/rebuild D:/pv/rebuild/Plugins/AnalyzeNIfTIReaderWriter/NIfTIIO D:/pv/rebuild/Plugins/AnalyzeNIfTIReaderWriter/NIfTIIO/CMakeFiles/vtkAnalyzeNIfTIIO-hierarchy.txt.RelWithDebInfo.d D:/pv/rebuild/CMakeFiles/d/1a530ebef5df552de4a9ade45f3fd46f2a451fd8e5b58092ffc399bdb99e6106.AdditionalInputs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\pv\ParaView\Plugins\AnalyzeNIfTIReaderWriter\NIfTIIO\vtkAnalyzeReader.h;D:\pv\ParaView\Plugins\AnalyzeNIfTIReaderWriter\NIfTIIO\vtkAnalyzeWriter.h;D:\pv\ParaView\Plugins\AnalyzeNIfTIReaderWriter\NIfTIIO\vtkNIfTIReader.h;D:\pv\ParaView\Plugins\AnalyzeNIfTIReaderWriter\NIfTIIO\vtkNIfTIWriter.h;D:\pv\rebuild\Plugins\AnalyzeNIfTIReaderWriter\NIfTIIO\CMakeFiles\vtkAnalyzeNIfTIIO-hierarchy.RelWithDebInfo.args;D:\pv\rebuild\Plugins\AnalyzeNIfTIReaderWriter\NIfTIIO\CMakeFiles\vtkAnalyzeNIfTIIO-hierarchy.data;D:\pv\rebuild\Plugins\AnalyzeNIfTIReaderWriter\NIfTIIO\CMakeFiles\vtkAnalyzeNIfTIIO-hierarchy.depends.args;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\pv\rebuild\bin\paraview-5.13\plugins\AnalyzeNIfTIReaderWriter\vtk\hierarchy\AnalyzeNIfTIReaderWriter\vtkAnalyzeNIfTIIO-hierarchy.txt</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+      <DepFileAdditionalInputsFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\pv\rebuild\CMakeFiles\d\1a530ebef5df552de4a9ade45f3fd46f2a451fd8e5b58092ffc399bdb99e6106.AdditionalInputs</DepFileAdditionalInputsFile>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\3dcc6b9b99ded52899586036d27b4732\vtkAnalyzeNIfTIIO-hierarchy.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\pv\rebuild\bin\paraview-5.13\plugins\AnalyzeNIfTIReaderWriter\vtk\hierarchy\AnalyzeNIfTIReaderWriter\vtkAnalyzeNIfTIIO-hierarchy.txt;D:\pv\rebuild\bin\Debug\vtkWrapHierarchy-pv5.13d.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\pv\rebuild\Plugins\AnalyzeNIfTIReaderWriter\NIfTIIO\CMakeFiles\vtkAnalyzeNIfTIIO-hierarchy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\pv\rebuild\bin\paraview-5.13\plugins\AnalyzeNIfTIReaderWriter\vtk\hierarchy\AnalyzeNIfTIReaderWriter\vtkAnalyzeNIfTIIO-hierarchy.txt;D:\pv\rebuild\bin\Release\vtkWrapHierarchy-pv5.13.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\pv\rebuild\Plugins\AnalyzeNIfTIReaderWriter\NIfTIIO\CMakeFiles\vtkAnalyzeNIfTIIO-hierarchy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\pv\rebuild\bin\paraview-5.13\plugins\AnalyzeNIfTIReaderWriter\vtk\hierarchy\AnalyzeNIfTIReaderWriter\vtkAnalyzeNIfTIIO-hierarchy.txt;D:\pv\rebuild\bin\MinSizeRel\vtkWrapHierarchy-pv5.13.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\pv\rebuild\Plugins\AnalyzeNIfTIReaderWriter\NIfTIIO\CMakeFiles\vtkAnalyzeNIfTIIO-hierarchy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\pv\rebuild\bin\paraview-5.13\plugins\AnalyzeNIfTIReaderWriter\vtk\hierarchy\AnalyzeNIfTIReaderWriter\vtkAnalyzeNIfTIIO-hierarchy.txt;D:\pv\rebuild\bin\RelWithDebInfo\vtkWrapHierarchy-pv5.13.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\pv\rebuild\Plugins\AnalyzeNIfTIReaderWriter\NIfTIIO\CMakeFiles\vtkAnalyzeNIfTIIO-hierarchy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</VerifyInputsAndOutputsExist>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\pv\ParaView\Plugins\AnalyzeNIfTIReaderWriter\NIfTIIO\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/pv/ParaView/Plugins/AnalyzeNIfTIReaderWriter/NIfTIIO/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/pv/ParaView -BD:/pv/rebuild --check-stamp-file D:/pv/rebuild/Plugins/AnalyzeNIfTIReaderWriter/NIfTIIO/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\exportheader.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\pv\rebuild\Plugins\AnalyzeNIfTIReaderWriter\NIfTIIO\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/pv/ParaView/Plugins/AnalyzeNIfTIReaderWriter/NIfTIIO/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/pv/ParaView -BD:/pv/rebuild --check-stamp-file D:/pv/rebuild/Plugins/AnalyzeNIfTIReaderWriter/NIfTIIO/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\exportheader.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\pv\rebuild\Plugins\AnalyzeNIfTIReaderWriter\NIfTIIO\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/pv/ParaView/Plugins/AnalyzeNIfTIReaderWriter/NIfTIIO/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/pv/ParaView -BD:/pv/rebuild --check-stamp-file D:/pv/rebuild/Plugins/AnalyzeNIfTIReaderWriter/NIfTIIO/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\exportheader.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\pv\rebuild\Plugins\AnalyzeNIfTIReaderWriter\NIfTIIO\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/pv/ParaView/Plugins/AnalyzeNIfTIReaderWriter/NIfTIIO/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/pv/ParaView -BD:/pv/rebuild --check-stamp-file D:/pv/rebuild/Plugins/AnalyzeNIfTIReaderWriter/NIfTIIO/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\exportheader.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\pv\rebuild\Plugins\AnalyzeNIfTIReaderWriter\NIfTIIO\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\pv\rebuild\Plugins\AnalyzeNIfTIReaderWriter\NIfTIIO\CMakeFiles\vtkAnalyzeNIfTIIO-hierarchy">
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="D:\pv\rebuild\ZERO_CHECK.vcxproj">
+      <Project>{F365DAD0-49D0-3E04-B6A0-AEBAF9BD405C}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\Wrapping\Tools\WrapHierarchy.vcxproj">
+      <Project>{6B762A16-ED2D-3193-9824-B7A0CCE4E942}</Project>
+      <Name>WrapHierarchy</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\IO\Image\vtkIOImage-hierarchy.vcxproj">
+      <Project>{C6C24F89-BC02-328F-A3D9-0935DC5B3CD8}</Project>
+      <Name>vtkIOImage-hierarchy</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <Import Project="C:\Program Files\CMake\share\cmake-3.31\Templates\MSBuild\CustomBuildDepFile.targets" />
+</Project>

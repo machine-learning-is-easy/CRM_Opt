@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkPVVTKExtensionsInteractionStyleCS\vtkCameraManipulatorClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkPVVTKExtensionsInteractionStyleCS\vtkCameraManipulatorGUIHelperClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkPVVTKExtensionsInteractionStyleCS\vtkPVInteractorStyleClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkPVVTKExtensionsInteractionStyleCS\vtkPVJoystickFlyClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkPVVTKExtensionsInteractionStyleCS\vtkPVJoystickFlyInClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkPVVTKExtensionsInteractionStyleCS\vtkPVJoystickFlyOutClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkPVVTKExtensionsInteractionStyleCS\vtkPVTrackballMoveActorClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkPVVTKExtensionsInteractionStyleCS\vtkPVTrackballMultiRotateClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkPVVTKExtensionsInteractionStyleCS\vtkPVTrackballPanClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkPVVTKExtensionsInteractionStyleCS\vtkPVTrackballRollClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkPVVTKExtensionsInteractionStyleCS\vtkPVTrackballRotateClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkPVVTKExtensionsInteractionStyleCS\vtkPVTrackballEnvironmentRotateClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkPVVTKExtensionsInteractionStyleCS\vtkPVTrackballZoomClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkPVVTKExtensionsInteractionStyleCS\vtkPVTrackballZoomToMouseClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkPVVTKExtensionsInteractionStyleCS\vtkTrackballPanClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkPVVTKExtensionsInteractionStyleCSInit.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\fe4bb9093c21ea3d9e5e8226b3cc3bc4\vtkCameraManipulatorClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\fe4bb9093c21ea3d9e5e8226b3cc3bc4\vtkCameraManipulatorGUIHelperClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\fe4bb9093c21ea3d9e5e8226b3cc3bc4\vtkPVInteractorStyleClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\fe4bb9093c21ea3d9e5e8226b3cc3bc4\vtkPVJoystickFlyClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\fe4bb9093c21ea3d9e5e8226b3cc3bc4\vtkPVJoystickFlyInClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\fe4bb9093c21ea3d9e5e8226b3cc3bc4\vtkPVJoystickFlyOutClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\fe4bb9093c21ea3d9e5e8226b3cc3bc4\vtkPVTrackballMoveActorClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\fe4bb9093c21ea3d9e5e8226b3cc3bc4\vtkPVTrackballMultiRotateClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\fe4bb9093c21ea3d9e5e8226b3cc3bc4\vtkPVTrackballPanClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\fe4bb9093c21ea3d9e5e8226b3cc3bc4\vtkPVTrackballRollClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\fe4bb9093c21ea3d9e5e8226b3cc3bc4\vtkPVTrackballRotateClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\fe4bb9093c21ea3d9e5e8226b3cc3bc4\vtkPVTrackballEnvironmentRotateClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\fe4bb9093c21ea3d9e5e8226b3cc3bc4\vtkPVTrackballZoomClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\fe4bb9093c21ea3d9e5e8226b3cc3bc4\vtkPVTrackballZoomToMouseClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\fe4bb9093c21ea3d9e5e8226b3cc3bc4\vtkTrackballPanClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\ParaView\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{FEFA764E-8736-3FD4-9B90-BE7174AE3DEA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{CE016C83-18D7-3CBD-A2E7-E2EB93EA0748}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\pv\ParaView\Utilities\Versioning\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\pv\ParaView\Utilities\Versioning\vtkParaViewDeprecation.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="D:\pv\rebuild\Utilities\Versioning\vtkPVVersion.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="D:\pv\rebuild\Utilities\Versioning\vtkPVVersionQuick.h">
+      <Filter>Header Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{345BF67A-A46B-3569-AD4B-B0F9BB083ED9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\8f409c800f1da56b4716c9500cce654f\vtkRenderingContextOpenGL2-hierarchy.txt.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\0d0975523f9fe519ef6b9c3402431436\vtkRenderingContextOpenGL2-hierarchy.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\ParaView\VTK\Rendering\ContextOpenGL2\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\pv\rebuild\VTK\Rendering\ContextOpenGL2\CMakeFiles\vtkRenderingContextOpenGL2-hierarchy" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{FEFA764E-8736-3FD4-9B90-BE7174AE3DEA}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

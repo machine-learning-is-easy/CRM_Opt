@@ -1,1 +1,0 @@
-cmd='C:/Program Files/CMake/bin/cmake.exe;-P;D:/pv/pvsb/superbuild/sb-paraview-configure.cmake'

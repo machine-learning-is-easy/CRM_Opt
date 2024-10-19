@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\mesh_info\CellMeasures.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\mesh_info\GhostCellClassify.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\mesh_info\MeshQuality.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\mesh_info\MeshQualityArea.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\mesh_info\MeshQualityAspectGamma.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\mesh_info\MeshQualityAspectRatio.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\mesh_info\MeshQualityCondition.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\mesh_info\MeshQualityDiagonalRatio.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\mesh_info\MeshQualityDimension.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\mesh_info\MeshQualityJacobian.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\mesh_info\MeshQualityMaxAngle.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\mesh_info\MeshQualityMaxDiagonal.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\mesh_info\MeshQualityMinAngle.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\mesh_info\MeshQualityMinDiagonal.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\mesh_info\MeshQualityOddy.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\mesh_info\MeshQualityRelativeSizeSquared.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\mesh_info\MeshQualityScaledJacobian.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\mesh_info\MeshQualityShape.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\mesh_info\MeshQualityShapeAndSize.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\mesh_info\MeshQualityShear.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\mesh_info\MeshQualitySkew.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\mesh_info\MeshQualityStretch.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\mesh_info\MeshQualityTaper.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\mesh_info\MeshQualityVolume.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\mesh_info\MeshQualityWarpage.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\mesh_info\CellMeasures.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\mesh_info\GhostCellClassify.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\mesh_info\MeshQuality.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\mesh_info\MeshQualityArea.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\mesh_info\MeshQualityAspectGamma.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\mesh_info\MeshQualityAspectRatio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\mesh_info\MeshQualityCondition.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\mesh_info\MeshQualityDiagonalRatio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\mesh_info\MeshQualityDimension.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\mesh_info\MeshQualityJacobian.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\mesh_info\MeshQualityMaxAngle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\mesh_info\MeshQualityMaxDiagonal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\mesh_info\MeshQualityMinAngle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\mesh_info\MeshQualityMinDiagonal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\mesh_info\MeshQualityOddy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\mesh_info\MeshQualityRelativeSizeSquared.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\mesh_info\MeshQualityScaledJacobian.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\mesh_info\MeshQualityShape.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\mesh_info\MeshQualityShapeAndSize.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\mesh_info\MeshQualityShear.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\mesh_info\MeshQualitySkew.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\mesh_info\MeshQualityStretch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\mesh_info\MeshQualityTaper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\mesh_info\MeshQualityVolume.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\mesh_info\MeshQualityWarpage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\mesh_info\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{345BF67A-A46B-3569-AD4B-B0F9BB083ED9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{CE016C83-18D7-3CBD-A2E7-E2EB93EA0748}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

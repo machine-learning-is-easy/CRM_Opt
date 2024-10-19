@@ -1,0 +1,5 @@
+# CMake generation dependency list for this directory.
+D:/pv/ParaView/ThirdParty/protobuf/CMakeLists.txt
+D:/pv/ParaView/ThirdParty/protobuf/vtk_protobuf.h.in
+D:/pv/ParaView/ThirdParty/protobuf/vtkprotobuf/cmake/protobuf-function.cmake
+D:/pv/rebuild/ThirdParty/protobuf/lib/cmake/paraview-5.13/protobuf-function.cmake

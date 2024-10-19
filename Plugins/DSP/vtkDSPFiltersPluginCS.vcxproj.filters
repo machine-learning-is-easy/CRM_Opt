@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\pv\rebuild\Plugins\DSP\CMakeFiles\vtkDSPFiltersPluginCS\vtkAccousticUtilitiesClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\Plugins\DSP\CMakeFiles\vtkDSPFiltersPluginCS\vtkBandFilteringClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\Plugins\DSP\CMakeFiles\vtkDSPFiltersPluginCS\vtkDSPTableFFTClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\Plugins\DSP\CMakeFiles\vtkDSPFiltersPluginCS\vtkMeanPowerSpectralDensityClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\Plugins\DSP\CMakeFiles\vtkDSPFiltersPluginCS\vtkMergeReduceTablesClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\Plugins\DSP\CMakeFiles\vtkDSPFiltersPluginCS\vtkMultiDimensionBrowserClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\Plugins\DSP\CMakeFiles\vtkDSPFiltersPluginCS\vtkProjectSpectrumMagnitudeClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\Plugins\DSP\CMakeFiles\vtkDSPFiltersPluginCS\vtkSoundQuantitiesCalculatorClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\Plugins\DSP\CMakeFiles\vtkDSPFiltersPluginCS\vtkSpectrogramFilterClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\Plugins\DSP\CMakeFiles\vtkDSPFiltersPluginCS\vtkTemporalMultiplexingClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\Plugins\DSP\CMakeFiles\vtkDSPFiltersPluginCSInit.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\df416e8c8f07cc8ab34bc184240c3c87\vtkAccousticUtilitiesClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\df416e8c8f07cc8ab34bc184240c3c87\vtkBandFilteringClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\df416e8c8f07cc8ab34bc184240c3c87\vtkDSPTableFFTClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\df416e8c8f07cc8ab34bc184240c3c87\vtkMeanPowerSpectralDensityClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\df416e8c8f07cc8ab34bc184240c3c87\vtkMergeReduceTablesClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\df416e8c8f07cc8ab34bc184240c3c87\vtkMultiDimensionBrowserClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\df416e8c8f07cc8ab34bc184240c3c87\vtkProjectSpectrumMagnitudeClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\df416e8c8f07cc8ab34bc184240c3c87\vtkSoundQuantitiesCalculatorClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\df416e8c8f07cc8ab34bc184240c3c87\vtkSpectrogramFilterClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\df416e8c8f07cc8ab34bc184240c3c87\vtkTemporalMultiplexingClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\ParaView\Plugins\DSP\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{FEFA764E-8736-3FD4-9B90-BE7174AE3DEA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{CE016C83-18D7-3CBD-A2E7-E2EB93EA0748}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

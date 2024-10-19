@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\pv\ParaView\ThirdParty\protobuf\vtkprotobuf\src\google\protobuf\compiler\code_generator.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\ThirdParty\protobuf\vtkprotobuf\src\google\protobuf\compiler\command_line_interface.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\ThirdParty\protobuf\vtkprotobuf\src\google\protobuf\compiler\plugin.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\ThirdParty\protobuf\vtkprotobuf\src\google\protobuf\compiler\plugin.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\ThirdParty\protobuf\vtkprotobuf\src\google\protobuf\compiler\subprocess.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\ThirdParty\protobuf\vtkprotobuf\src\google\protobuf\compiler\zip_writer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\ThirdParty\protobuf\vtkprotobuf\src\google\protobuf\compiler\cpp\cpp_enum.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\ThirdParty\protobuf\vtkprotobuf\src\google\protobuf\compiler\cpp\cpp_enum_field.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\ThirdParty\protobuf\vtkprotobuf\src\google\protobuf\compiler\cpp\cpp_extension.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\ThirdParty\protobuf\vtkprotobuf\src\google\protobuf\compiler\cpp\cpp_field.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\ThirdParty\protobuf\vtkprotobuf\src\google\protobuf\compiler\cpp\cpp_file.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\ThirdParty\protobuf\vtkprotobuf\src\google\protobuf\compiler\cpp\cpp_generator.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\ThirdParty\protobuf\vtkprotobuf\src\google\protobuf\compiler\cpp\cpp_helpers.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\ThirdParty\protobuf\vtkprotobuf\src\google\protobuf\compiler\cpp\cpp_map_field.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\ThirdParty\protobuf\vtkprotobuf\src\google\protobuf\compiler\cpp\cpp_message.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\ThirdParty\protobuf\vtkprotobuf\src\google\protobuf\compiler\cpp\cpp_message_field.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\ThirdParty\protobuf\vtkprotobuf\src\google\protobuf\compiler\cpp\cpp_padding_optimizer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\ThirdParty\protobuf\vtkprotobuf\src\google\protobuf\compiler\cpp\cpp_primitive_field.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\ThirdParty\protobuf\vtkprotobuf\src\google\protobuf\compiler\cpp\cpp_service.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\ThirdParty\protobuf\vtkprotobuf\src\google\protobuf\compiler\cpp\cpp_string_field.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\pv\ParaView\ThirdParty\protobuf\vtkprotobuf\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{CE016C83-18D7-3CBD-A2E7-E2EB93EA0748}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

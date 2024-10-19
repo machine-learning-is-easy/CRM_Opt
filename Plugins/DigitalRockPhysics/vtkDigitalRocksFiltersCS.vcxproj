@@ -1,0 +1,500 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{7960EA3E-1597-3ED7-87DD-2BF217FC4459}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>vtkDigitalRocksFiltersCS</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\pv\rebuild\lib\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">vtkDigitalRocksFiltersCS.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">vtkDigitalRocksFiltersCSd</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\pv\rebuild\lib\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">vtkDigitalRocksFiltersCS.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">vtkDigitalRocksFiltersCS</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\pv\rebuild\lib\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">vtkDigitalRocksFiltersCS.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">vtkDigitalRocksFiltersCS</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\pv\rebuild\lib\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">vtkDigitalRocksFiltersCS.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">vtkDigitalRocksFiltersCS</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\pv\rebuild\Plugins\DigitalRockPhysics;D:\pv\ParaView\Plugins\DigitalRockPhysics\Filters;D:\pv\rebuild\Plugins\DigitalRockPhysics\Filters;D:\pv\ParaView\VTK\Common\ExecutionModel;D:\pv\rebuild\VTK\Common\ExecutionModel;D:\pv\ParaView\VTK\Common\Core;D:\pv\rebuild\VTK\Common\Core;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken\token;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken\token;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\rebuild\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson\include;D:\pv\ParaView\VTK\Common\DataModel;D:\pv\rebuild\VTK\Common\DataModel;D:\pv\ParaView\VTK\Common\Math;D:\pv\rebuild\VTK\Common\Math;D:\pv\ParaView\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\rebuild\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\ParaView\VTK\Common\Transforms;D:\pv\rebuild\VTK\Common\Transforms;D:\pv\ParaView\Remoting\ClientServerStream;D:\pv\rebuild\Remoting\ClientServerStream;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/pv/rebuild/VTK/Utilities/KWIML" /external:I "D:/pv/ParaView/VTK/Utilities/KWIML" /external:I "D:/pv/rebuild/VTK/Utilities/KWSys" /external:I "D:/pv/ParaView/VTK/Utilities/KWSys" /external:I "D:/pv/rebuild/VTK/ThirdParty/token" /external:I "D:/pv/ParaView/VTK/ThirdParty/token" /external:I "D:/pv/rebuild/VTK/ThirdParty/nlohmannjson" /external:I "D:/pv/ParaView/VTK/ThirdParty/nlohmannjson" /external:I "D:/pv/rebuild/VTK/ThirdParty/kissfft" /external:I "D:/pv/ParaView/VTK/ThirdParty/kissfft" /bigobj /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;kiss_fft_scalar=double;KISSFFT_DLL_IMPORT=1;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;kiss_fft_scalar=double;KISSFFT_DLL_IMPORT=1;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\pv\rebuild\Plugins\DigitalRockPhysics;D:\pv\ParaView\Plugins\DigitalRockPhysics\Filters;D:\pv\rebuild\Plugins\DigitalRockPhysics\Filters;D:\pv\ParaView\VTK\Common\ExecutionModel;D:\pv\rebuild\VTK\Common\ExecutionModel;D:\pv\ParaView\VTK\Common\Core;D:\pv\rebuild\VTK\Common\Core;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken\token;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken\token;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\rebuild\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson\include;D:\pv\ParaView\VTK\Common\DataModel;D:\pv\rebuild\VTK\Common\DataModel;D:\pv\ParaView\VTK\Common\Math;D:\pv\rebuild\VTK\Common\Math;D:\pv\ParaView\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\rebuild\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\ParaView\VTK\Common\Transforms;D:\pv\rebuild\VTK\Common\Transforms;D:\pv\ParaView\Remoting\ClientServerStream;D:\pv\rebuild\Remoting\ClientServerStream;D:\pv\rebuild\VTK\Utilities\KWIML;D:\pv\ParaView\VTK\Utilities\KWIML;D:\pv\rebuild\VTK\Utilities\KWSys;D:\pv\ParaView\VTK\Utilities\KWSys;D:\pv\rebuild\VTK\ThirdParty\token;D:\pv\ParaView\VTK\ThirdParty\token;D:\pv\rebuild\VTK\ThirdParty\nlohmannjson;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson;D:\pv\rebuild\VTK\ThirdParty\kissfft;D:\pv\ParaView\VTK\ThirdParty\kissfft;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\pv\rebuild\Plugins\DigitalRockPhysics;D:\pv\ParaView\Plugins\DigitalRockPhysics\Filters;D:\pv\rebuild\Plugins\DigitalRockPhysics\Filters;D:\pv\ParaView\VTK\Common\ExecutionModel;D:\pv\rebuild\VTK\Common\ExecutionModel;D:\pv\ParaView\VTK\Common\Core;D:\pv\rebuild\VTK\Common\Core;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken\token;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken\token;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\rebuild\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson\include;D:\pv\ParaView\VTK\Common\DataModel;D:\pv\rebuild\VTK\Common\DataModel;D:\pv\ParaView\VTK\Common\Math;D:\pv\rebuild\VTK\Common\Math;D:\pv\ParaView\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\rebuild\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\ParaView\VTK\Common\Transforms;D:\pv\rebuild\VTK\Common\Transforms;D:\pv\ParaView\Remoting\ClientServerStream;D:\pv\rebuild\Remoting\ClientServerStream;D:\pv\rebuild\VTK\Utilities\KWIML;D:\pv\ParaView\VTK\Utilities\KWIML;D:\pv\rebuild\VTK\Utilities\KWSys;D:\pv\ParaView\VTK\Utilities\KWSys;D:\pv\rebuild\VTK\ThirdParty\token;D:\pv\ParaView\VTK\ThirdParty\token;D:\pv\rebuild\VTK\ThirdParty\nlohmannjson;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson;D:\pv\rebuild\VTK\ThirdParty\kissfft;D:\pv\ParaView\VTK\ThirdParty\kissfft;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\pv\rebuild\Plugins\DigitalRockPhysics;D:\pv\ParaView\Plugins\DigitalRockPhysics\Filters;D:\pv\rebuild\Plugins\DigitalRockPhysics\Filters;D:\pv\ParaView\VTK\Common\ExecutionModel;D:\pv\rebuild\VTK\Common\ExecutionModel;D:\pv\ParaView\VTK\Common\Core;D:\pv\rebuild\VTK\Common\Core;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken\token;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken\token;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\rebuild\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson\include;D:\pv\ParaView\VTK\Common\DataModel;D:\pv\rebuild\VTK\Common\DataModel;D:\pv\ParaView\VTK\Common\Math;D:\pv\rebuild\VTK\Common\Math;D:\pv\ParaView\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\rebuild\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\ParaView\VTK\Common\Transforms;D:\pv\rebuild\VTK\Common\Transforms;D:\pv\ParaView\Remoting\ClientServerStream;D:\pv\rebuild\Remoting\ClientServerStream;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/pv/rebuild/VTK/Utilities/KWIML" /external:I "D:/pv/ParaView/VTK/Utilities/KWIML" /external:I "D:/pv/rebuild/VTK/Utilities/KWSys" /external:I "D:/pv/ParaView/VTK/Utilities/KWSys" /external:I "D:/pv/rebuild/VTK/ThirdParty/token" /external:I "D:/pv/ParaView/VTK/ThirdParty/token" /external:I "D:/pv/rebuild/VTK/ThirdParty/nlohmannjson" /external:I "D:/pv/ParaView/VTK/ThirdParty/nlohmannjson" /external:I "D:/pv/rebuild/VTK/ThirdParty/kissfft" /external:I "D:/pv/ParaView/VTK/ThirdParty/kissfft" /bigobj /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;kiss_fft_scalar=double;KISSFFT_DLL_IMPORT=1;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;kiss_fft_scalar=double;KISSFFT_DLL_IMPORT=1;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\pv\rebuild\Plugins\DigitalRockPhysics;D:\pv\ParaView\Plugins\DigitalRockPhysics\Filters;D:\pv\rebuild\Plugins\DigitalRockPhysics\Filters;D:\pv\ParaView\VTK\Common\ExecutionModel;D:\pv\rebuild\VTK\Common\ExecutionModel;D:\pv\ParaView\VTK\Common\Core;D:\pv\rebuild\VTK\Common\Core;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken\token;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken\token;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\rebuild\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson\include;D:\pv\ParaView\VTK\Common\DataModel;D:\pv\rebuild\VTK\Common\DataModel;D:\pv\ParaView\VTK\Common\Math;D:\pv\rebuild\VTK\Common\Math;D:\pv\ParaView\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\rebuild\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\ParaView\VTK\Common\Transforms;D:\pv\rebuild\VTK\Common\Transforms;D:\pv\ParaView\Remoting\ClientServerStream;D:\pv\rebuild\Remoting\ClientServerStream;D:\pv\rebuild\VTK\Utilities\KWIML;D:\pv\ParaView\VTK\Utilities\KWIML;D:\pv\rebuild\VTK\Utilities\KWSys;D:\pv\ParaView\VTK\Utilities\KWSys;D:\pv\rebuild\VTK\ThirdParty\token;D:\pv\ParaView\VTK\ThirdParty\token;D:\pv\rebuild\VTK\ThirdParty\nlohmannjson;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson;D:\pv\rebuild\VTK\ThirdParty\kissfft;D:\pv\ParaView\VTK\ThirdParty\kissfft;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\pv\rebuild\Plugins\DigitalRockPhysics;D:\pv\ParaView\Plugins\DigitalRockPhysics\Filters;D:\pv\rebuild\Plugins\DigitalRockPhysics\Filters;D:\pv\ParaView\VTK\Common\ExecutionModel;D:\pv\rebuild\VTK\Common\ExecutionModel;D:\pv\ParaView\VTK\Common\Core;D:\pv\rebuild\VTK\Common\Core;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken\token;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken\token;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\rebuild\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson\include;D:\pv\ParaView\VTK\Common\DataModel;D:\pv\rebuild\VTK\Common\DataModel;D:\pv\ParaView\VTK\Common\Math;D:\pv\rebuild\VTK\Common\Math;D:\pv\ParaView\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\rebuild\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\ParaView\VTK\Common\Transforms;D:\pv\rebuild\VTK\Common\Transforms;D:\pv\ParaView\Remoting\ClientServerStream;D:\pv\rebuild\Remoting\ClientServerStream;D:\pv\rebuild\VTK\Utilities\KWIML;D:\pv\ParaView\VTK\Utilities\KWIML;D:\pv\rebuild\VTK\Utilities\KWSys;D:\pv\ParaView\VTK\Utilities\KWSys;D:\pv\rebuild\VTK\ThirdParty\token;D:\pv\ParaView\VTK\ThirdParty\token;D:\pv\rebuild\VTK\ThirdParty\nlohmannjson;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson;D:\pv\rebuild\VTK\ThirdParty\kissfft;D:\pv\ParaView\VTK\ThirdParty\kissfft;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\pv\rebuild\Plugins\DigitalRockPhysics;D:\pv\ParaView\Plugins\DigitalRockPhysics\Filters;D:\pv\rebuild\Plugins\DigitalRockPhysics\Filters;D:\pv\ParaView\VTK\Common\ExecutionModel;D:\pv\rebuild\VTK\Common\ExecutionModel;D:\pv\ParaView\VTK\Common\Core;D:\pv\rebuild\VTK\Common\Core;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken\token;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken\token;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\rebuild\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson\include;D:\pv\ParaView\VTK\Common\DataModel;D:\pv\rebuild\VTK\Common\DataModel;D:\pv\ParaView\VTK\Common\Math;D:\pv\rebuild\VTK\Common\Math;D:\pv\ParaView\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\rebuild\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\ParaView\VTK\Common\Transforms;D:\pv\rebuild\VTK\Common\Transforms;D:\pv\ParaView\Remoting\ClientServerStream;D:\pv\rebuild\Remoting\ClientServerStream;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/pv/rebuild/VTK/Utilities/KWIML" /external:I "D:/pv/ParaView/VTK/Utilities/KWIML" /external:I "D:/pv/rebuild/VTK/Utilities/KWSys" /external:I "D:/pv/ParaView/VTK/Utilities/KWSys" /external:I "D:/pv/rebuild/VTK/ThirdParty/token" /external:I "D:/pv/ParaView/VTK/ThirdParty/token" /external:I "D:/pv/rebuild/VTK/ThirdParty/nlohmannjson" /external:I "D:/pv/ParaView/VTK/ThirdParty/nlohmannjson" /external:I "D:/pv/rebuild/VTK/ThirdParty/kissfft" /external:I "D:/pv/ParaView/VTK/ThirdParty/kissfft" /bigobj /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;kiss_fft_scalar=double;KISSFFT_DLL_IMPORT=1;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;kiss_fft_scalar=double;KISSFFT_DLL_IMPORT=1;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\pv\rebuild\Plugins\DigitalRockPhysics;D:\pv\ParaView\Plugins\DigitalRockPhysics\Filters;D:\pv\rebuild\Plugins\DigitalRockPhysics\Filters;D:\pv\ParaView\VTK\Common\ExecutionModel;D:\pv\rebuild\VTK\Common\ExecutionModel;D:\pv\ParaView\VTK\Common\Core;D:\pv\rebuild\VTK\Common\Core;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken\token;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken\token;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\rebuild\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson\include;D:\pv\ParaView\VTK\Common\DataModel;D:\pv\rebuild\VTK\Common\DataModel;D:\pv\ParaView\VTK\Common\Math;D:\pv\rebuild\VTK\Common\Math;D:\pv\ParaView\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\rebuild\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\ParaView\VTK\Common\Transforms;D:\pv\rebuild\VTK\Common\Transforms;D:\pv\ParaView\Remoting\ClientServerStream;D:\pv\rebuild\Remoting\ClientServerStream;D:\pv\rebuild\VTK\Utilities\KWIML;D:\pv\ParaView\VTK\Utilities\KWIML;D:\pv\rebuild\VTK\Utilities\KWSys;D:\pv\ParaView\VTK\Utilities\KWSys;D:\pv\rebuild\VTK\ThirdParty\token;D:\pv\ParaView\VTK\ThirdParty\token;D:\pv\rebuild\VTK\ThirdParty\nlohmannjson;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson;D:\pv\rebuild\VTK\ThirdParty\kissfft;D:\pv\ParaView\VTK\ThirdParty\kissfft;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\pv\rebuild\Plugins\DigitalRockPhysics;D:\pv\ParaView\Plugins\DigitalRockPhysics\Filters;D:\pv\rebuild\Plugins\DigitalRockPhysics\Filters;D:\pv\ParaView\VTK\Common\ExecutionModel;D:\pv\rebuild\VTK\Common\ExecutionModel;D:\pv\ParaView\VTK\Common\Core;D:\pv\rebuild\VTK\Common\Core;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken\token;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken\token;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\rebuild\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson\include;D:\pv\ParaView\VTK\Common\DataModel;D:\pv\rebuild\VTK\Common\DataModel;D:\pv\ParaView\VTK\Common\Math;D:\pv\rebuild\VTK\Common\Math;D:\pv\ParaView\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\rebuild\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\ParaView\VTK\Common\Transforms;D:\pv\rebuild\VTK\Common\Transforms;D:\pv\ParaView\Remoting\ClientServerStream;D:\pv\rebuild\Remoting\ClientServerStream;D:\pv\rebuild\VTK\Utilities\KWIML;D:\pv\ParaView\VTK\Utilities\KWIML;D:\pv\rebuild\VTK\Utilities\KWSys;D:\pv\ParaView\VTK\Utilities\KWSys;D:\pv\rebuild\VTK\ThirdParty\token;D:\pv\ParaView\VTK\ThirdParty\token;D:\pv\rebuild\VTK\ThirdParty\nlohmannjson;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson;D:\pv\rebuild\VTK\ThirdParty\kissfft;D:\pv\ParaView\VTK\ThirdParty\kissfft;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\pv\rebuild\Plugins\DigitalRockPhysics;D:\pv\ParaView\Plugins\DigitalRockPhysics\Filters;D:\pv\rebuild\Plugins\DigitalRockPhysics\Filters;D:\pv\ParaView\VTK\Common\ExecutionModel;D:\pv\rebuild\VTK\Common\ExecutionModel;D:\pv\ParaView\VTK\Common\Core;D:\pv\rebuild\VTK\Common\Core;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken\token;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken\token;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\rebuild\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson\include;D:\pv\ParaView\VTK\Common\DataModel;D:\pv\rebuild\VTK\Common\DataModel;D:\pv\ParaView\VTK\Common\Math;D:\pv\rebuild\VTK\Common\Math;D:\pv\ParaView\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\rebuild\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\ParaView\VTK\Common\Transforms;D:\pv\rebuild\VTK\Common\Transforms;D:\pv\ParaView\Remoting\ClientServerStream;D:\pv\rebuild\Remoting\ClientServerStream;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/pv/rebuild/VTK/Utilities/KWIML" /external:I "D:/pv/ParaView/VTK/Utilities/KWIML" /external:I "D:/pv/rebuild/VTK/Utilities/KWSys" /external:I "D:/pv/ParaView/VTK/Utilities/KWSys" /external:I "D:/pv/rebuild/VTK/ThirdParty/token" /external:I "D:/pv/ParaView/VTK/ThirdParty/token" /external:I "D:/pv/rebuild/VTK/ThirdParty/nlohmannjson" /external:I "D:/pv/ParaView/VTK/ThirdParty/nlohmannjson" /external:I "D:/pv/rebuild/VTK/ThirdParty/kissfft" /external:I "D:/pv/ParaView/VTK/ThirdParty/kissfft" /bigobj /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;kiss_fft_scalar=double;KISSFFT_DLL_IMPORT=1;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;kiss_fft_scalar=double;KISSFFT_DLL_IMPORT=1;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\pv\rebuild\Plugins\DigitalRockPhysics;D:\pv\ParaView\Plugins\DigitalRockPhysics\Filters;D:\pv\rebuild\Plugins\DigitalRockPhysics\Filters;D:\pv\ParaView\VTK\Common\ExecutionModel;D:\pv\rebuild\VTK\Common\ExecutionModel;D:\pv\ParaView\VTK\Common\Core;D:\pv\rebuild\VTK\Common\Core;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken\token;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken\token;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\rebuild\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson\include;D:\pv\ParaView\VTK\Common\DataModel;D:\pv\rebuild\VTK\Common\DataModel;D:\pv\ParaView\VTK\Common\Math;D:\pv\rebuild\VTK\Common\Math;D:\pv\ParaView\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\rebuild\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\ParaView\VTK\Common\Transforms;D:\pv\rebuild\VTK\Common\Transforms;D:\pv\ParaView\Remoting\ClientServerStream;D:\pv\rebuild\Remoting\ClientServerStream;D:\pv\rebuild\VTK\Utilities\KWIML;D:\pv\ParaView\VTK\Utilities\KWIML;D:\pv\rebuild\VTK\Utilities\KWSys;D:\pv\ParaView\VTK\Utilities\KWSys;D:\pv\rebuild\VTK\ThirdParty\token;D:\pv\ParaView\VTK\ThirdParty\token;D:\pv\rebuild\VTK\ThirdParty\nlohmannjson;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson;D:\pv\rebuild\VTK\ThirdParty\kissfft;D:\pv\ParaView\VTK\ThirdParty\kissfft;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\pv\rebuild\Plugins\DigitalRockPhysics;D:\pv\ParaView\Plugins\DigitalRockPhysics\Filters;D:\pv\rebuild\Plugins\DigitalRockPhysics\Filters;D:\pv\ParaView\VTK\Common\ExecutionModel;D:\pv\rebuild\VTK\Common\ExecutionModel;D:\pv\ParaView\VTK\Common\Core;D:\pv\rebuild\VTK\Common\Core;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken\token;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken\token;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\rebuild\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson\include;D:\pv\ParaView\VTK\Common\DataModel;D:\pv\rebuild\VTK\Common\DataModel;D:\pv\ParaView\VTK\Common\Math;D:\pv\rebuild\VTK\Common\Math;D:\pv\ParaView\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\rebuild\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\ParaView\VTK\Common\Transforms;D:\pv\rebuild\VTK\Common\Transforms;D:\pv\ParaView\Remoting\ClientServerStream;D:\pv\rebuild\Remoting\ClientServerStream;D:\pv\rebuild\VTK\Utilities\KWIML;D:\pv\ParaView\VTK\Utilities\KWIML;D:\pv\rebuild\VTK\Utilities\KWSys;D:\pv\ParaView\VTK\Utilities\KWSys;D:\pv\rebuild\VTK\ThirdParty\token;D:\pv\ParaView\VTK\ThirdParty\token;D:\pv\rebuild\VTK\ThirdParty\nlohmannjson;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson;D:\pv\rebuild\VTK\ThirdParty\kissfft;D:\pv\ParaView\VTK\ThirdParty\kissfft;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\1fc86c24721943e78e1fe08e5cc3f2e4\vtkPMaterialClusterAnalysisFilterClientServer.cxx.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating client_server wrapper sources for vtkPMaterialClusterAnalysisFilter</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+..\..\bin\Debug\vtkWrapClientServer-pv5.13d.exe -MF D:/pv/rebuild/Plugins/DigitalRockPhysics/CMakeFiles/vtkDigitalRocksFiltersCS/vtkPMaterialClusterAnalysisFilterClientServer.cxx.Debug.d @D:/pv/rebuild/Plugins/DigitalRockPhysics/CMakeFiles/vtkDigitalRocksFilters-client-server.Debug.args -o D:/pv/rebuild/Plugins/DigitalRockPhysics/CMakeFiles/vtkDigitalRocksFiltersCS/vtkPMaterialClusterAnalysisFilterClientServer.cxx D:/pv/ParaView/Plugins/DigitalRockPhysics/Filters/vtkPMaterialClusterAnalysisFilter.h --types D:/pv/rebuild/bin/paraview-5.13/plugins/DigitalRockPhysics/vtk/hierarchy/DigitalRockPhysics/vtkDigitalRocksFilters-hierarchy.txt
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_transform_depfile "Visual Studio 16 2019" MSBuildAdditionalInputs D:/pv/ParaView D:/pv/ParaView/Plugins/DigitalRockPhysics D:/pv/rebuild D:/pv/rebuild/Plugins/DigitalRockPhysics D:/pv/rebuild/Plugins/DigitalRockPhysics/CMakeFiles/vtkDigitalRocksFiltersCS/vtkPMaterialClusterAnalysisFilterClientServer.cxx.Debug.d D:/pv/rebuild/CMakeFiles/d/fa08c29cfd89fc21efbbf63d3d9d3c82e5972460c0ac9877c85c68b3cd3b5002.AdditionalInputs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\pv\rebuild\bin\Debug\vtkWrapClientServer-pv5.13d.exe;D:\pv\ParaView\Plugins\DigitalRockPhysics\Filters\vtkPMaterialClusterAnalysisFilter.h;D:\pv\rebuild\Plugins\DigitalRockPhysics\CMakeFiles\vtkDigitalRocksFilters-client-server.Debug.args;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\pv\rebuild\Plugins\DigitalRockPhysics\CMakeFiles\vtkDigitalRocksFiltersCS\vtkPMaterialClusterAnalysisFilterClientServer.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <DepFileAdditionalInputsFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\pv\rebuild\CMakeFiles\d\fa08c29cfd89fc21efbbf63d3d9d3c82e5972460c0ac9877c85c68b3cd3b5002.AdditionalInputs</DepFileAdditionalInputsFile>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating client_server wrapper sources for vtkPMaterialClusterAnalysisFilter</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+..\..\bin\Release\vtkWrapClientServer-pv5.13.exe -MF D:/pv/rebuild/Plugins/DigitalRockPhysics/CMakeFiles/vtkDigitalRocksFiltersCS/vtkPMaterialClusterAnalysisFilterClientServer.cxx.Release.d @D:/pv/rebuild/Plugins/DigitalRockPhysics/CMakeFiles/vtkDigitalRocksFilters-client-server.Release.args -o D:/pv/rebuild/Plugins/DigitalRockPhysics/CMakeFiles/vtkDigitalRocksFiltersCS/vtkPMaterialClusterAnalysisFilterClientServer.cxx D:/pv/ParaView/Plugins/DigitalRockPhysics/Filters/vtkPMaterialClusterAnalysisFilter.h --types D:/pv/rebuild/bin/paraview-5.13/plugins/DigitalRockPhysics/vtk/hierarchy/DigitalRockPhysics/vtkDigitalRocksFilters-hierarchy.txt
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_transform_depfile "Visual Studio 16 2019" MSBuildAdditionalInputs D:/pv/ParaView D:/pv/ParaView/Plugins/DigitalRockPhysics D:/pv/rebuild D:/pv/rebuild/Plugins/DigitalRockPhysics D:/pv/rebuild/Plugins/DigitalRockPhysics/CMakeFiles/vtkDigitalRocksFiltersCS/vtkPMaterialClusterAnalysisFilterClientServer.cxx.Release.d D:/pv/rebuild/CMakeFiles/d/3eb14436ca9afaef3420b1d11da49fdce81b3de751b6704b4aa179c9b6114895.AdditionalInputs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\pv\rebuild\bin\Release\vtkWrapClientServer-pv5.13.exe;D:\pv\ParaView\Plugins\DigitalRockPhysics\Filters\vtkPMaterialClusterAnalysisFilter.h;D:\pv\rebuild\Plugins\DigitalRockPhysics\CMakeFiles\vtkDigitalRocksFilters-client-server.Release.args;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\pv\rebuild\Plugins\DigitalRockPhysics\CMakeFiles\vtkDigitalRocksFiltersCS\vtkPMaterialClusterAnalysisFilterClientServer.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <DepFileAdditionalInputsFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\pv\rebuild\CMakeFiles\d\3eb14436ca9afaef3420b1d11da49fdce81b3de751b6704b4aa179c9b6114895.AdditionalInputs</DepFileAdditionalInputsFile>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating client_server wrapper sources for vtkPMaterialClusterAnalysisFilter</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+..\..\bin\MinSizeRel\vtkWrapClientServer-pv5.13.exe -MF D:/pv/rebuild/Plugins/DigitalRockPhysics/CMakeFiles/vtkDigitalRocksFiltersCS/vtkPMaterialClusterAnalysisFilterClientServer.cxx.MinSizeRel.d @D:/pv/rebuild/Plugins/DigitalRockPhysics/CMakeFiles/vtkDigitalRocksFilters-client-server.MinSizeRel.args -o D:/pv/rebuild/Plugins/DigitalRockPhysics/CMakeFiles/vtkDigitalRocksFiltersCS/vtkPMaterialClusterAnalysisFilterClientServer.cxx D:/pv/ParaView/Plugins/DigitalRockPhysics/Filters/vtkPMaterialClusterAnalysisFilter.h --types D:/pv/rebuild/bin/paraview-5.13/plugins/DigitalRockPhysics/vtk/hierarchy/DigitalRockPhysics/vtkDigitalRocksFilters-hierarchy.txt
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_transform_depfile "Visual Studio 16 2019" MSBuildAdditionalInputs D:/pv/ParaView D:/pv/ParaView/Plugins/DigitalRockPhysics D:/pv/rebuild D:/pv/rebuild/Plugins/DigitalRockPhysics D:/pv/rebuild/Plugins/DigitalRockPhysics/CMakeFiles/vtkDigitalRocksFiltersCS/vtkPMaterialClusterAnalysisFilterClientServer.cxx.MinSizeRel.d D:/pv/rebuild/CMakeFiles/d/a94fcaa78e45f9fb793e4b545a351b94de119b6884773a1bf48be490627a0c7e.AdditionalInputs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\pv\rebuild\bin\MinSizeRel\vtkWrapClientServer-pv5.13.exe;D:\pv\ParaView\Plugins\DigitalRockPhysics\Filters\vtkPMaterialClusterAnalysisFilter.h;D:\pv\rebuild\Plugins\DigitalRockPhysics\CMakeFiles\vtkDigitalRocksFilters-client-server.MinSizeRel.args;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\pv\rebuild\Plugins\DigitalRockPhysics\CMakeFiles\vtkDigitalRocksFiltersCS\vtkPMaterialClusterAnalysisFilterClientServer.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <DepFileAdditionalInputsFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\pv\rebuild\CMakeFiles\d\a94fcaa78e45f9fb793e4b545a351b94de119b6884773a1bf48be490627a0c7e.AdditionalInputs</DepFileAdditionalInputsFile>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating client_server wrapper sources for vtkPMaterialClusterAnalysisFilter</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+..\..\bin\RelWithDebInfo\vtkWrapClientServer-pv5.13.exe -MF D:/pv/rebuild/Plugins/DigitalRockPhysics/CMakeFiles/vtkDigitalRocksFiltersCS/vtkPMaterialClusterAnalysisFilterClientServer.cxx.RelWithDebInfo.d @D:/pv/rebuild/Plugins/DigitalRockPhysics/CMakeFiles/vtkDigitalRocksFilters-client-server.RelWithDebInfo.args -o D:/pv/rebuild/Plugins/DigitalRockPhysics/CMakeFiles/vtkDigitalRocksFiltersCS/vtkPMaterialClusterAnalysisFilterClientServer.cxx D:/pv/ParaView/Plugins/DigitalRockPhysics/Filters/vtkPMaterialClusterAnalysisFilter.h --types D:/pv/rebuild/bin/paraview-5.13/plugins/DigitalRockPhysics/vtk/hierarchy/DigitalRockPhysics/vtkDigitalRocksFilters-hierarchy.txt
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_transform_depfile "Visual Studio 16 2019" MSBuildAdditionalInputs D:/pv/ParaView D:/pv/ParaView/Plugins/DigitalRockPhysics D:/pv/rebuild D:/pv/rebuild/Plugins/DigitalRockPhysics D:/pv/rebuild/Plugins/DigitalRockPhysics/CMakeFiles/vtkDigitalRocksFiltersCS/vtkPMaterialClusterAnalysisFilterClientServer.cxx.RelWithDebInfo.d D:/pv/rebuild/CMakeFiles/d/0f6aea05083d27205484d562c75abbbeed8dc7a3626074fd546cd3803ad42186.AdditionalInputs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\pv\rebuild\bin\RelWithDebInfo\vtkWrapClientServer-pv5.13.exe;D:\pv\ParaView\Plugins\DigitalRockPhysics\Filters\vtkPMaterialClusterAnalysisFilter.h;D:\pv\rebuild\Plugins\DigitalRockPhysics\CMakeFiles\vtkDigitalRocksFilters-client-server.RelWithDebInfo.args;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\pv\rebuild\Plugins\DigitalRockPhysics\CMakeFiles\vtkDigitalRocksFiltersCS\vtkPMaterialClusterAnalysisFilterClientServer.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+      <DepFileAdditionalInputsFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\pv\rebuild\CMakeFiles\d\0f6aea05083d27205484d562c75abbbeed8dc7a3626074fd546cd3803ad42186.AdditionalInputs</DepFileAdditionalInputsFile>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\1fc86c24721943e78e1fe08e5cc3f2e4\vtkPMaterialClusterExplodeFilterClientServer.cxx.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating client_server wrapper sources for vtkPMaterialClusterExplodeFilter</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+..\..\bin\Debug\vtkWrapClientServer-pv5.13d.exe -MF D:/pv/rebuild/Plugins/DigitalRockPhysics/CMakeFiles/vtkDigitalRocksFiltersCS/vtkPMaterialClusterExplodeFilterClientServer.cxx.Debug.d @D:/pv/rebuild/Plugins/DigitalRockPhysics/CMakeFiles/vtkDigitalRocksFilters-client-server.Debug.args -o D:/pv/rebuild/Plugins/DigitalRockPhysics/CMakeFiles/vtkDigitalRocksFiltersCS/vtkPMaterialClusterExplodeFilterClientServer.cxx D:/pv/ParaView/Plugins/DigitalRockPhysics/Filters/vtkPMaterialClusterExplodeFilter.h --types D:/pv/rebuild/bin/paraview-5.13/plugins/DigitalRockPhysics/vtk/hierarchy/DigitalRockPhysics/vtkDigitalRocksFilters-hierarchy.txt
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_transform_depfile "Visual Studio 16 2019" MSBuildAdditionalInputs D:/pv/ParaView D:/pv/ParaView/Plugins/DigitalRockPhysics D:/pv/rebuild D:/pv/rebuild/Plugins/DigitalRockPhysics D:/pv/rebuild/Plugins/DigitalRockPhysics/CMakeFiles/vtkDigitalRocksFiltersCS/vtkPMaterialClusterExplodeFilterClientServer.cxx.Debug.d D:/pv/rebuild/CMakeFiles/d/e5c1446923bf87163ce63b1e4f968a4a5c5a91f167f7d41b74530782484105f8.AdditionalInputs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\pv\rebuild\bin\Debug\vtkWrapClientServer-pv5.13d.exe;D:\pv\ParaView\Plugins\DigitalRockPhysics\Filters\vtkPMaterialClusterExplodeFilter.h;D:\pv\rebuild\Plugins\DigitalRockPhysics\CMakeFiles\vtkDigitalRocksFilters-client-server.Debug.args;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\pv\rebuild\Plugins\DigitalRockPhysics\CMakeFiles\vtkDigitalRocksFiltersCS\vtkPMaterialClusterExplodeFilterClientServer.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <DepFileAdditionalInputsFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\pv\rebuild\CMakeFiles\d\e5c1446923bf87163ce63b1e4f968a4a5c5a91f167f7d41b74530782484105f8.AdditionalInputs</DepFileAdditionalInputsFile>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating client_server wrapper sources for vtkPMaterialClusterExplodeFilter</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+..\..\bin\Release\vtkWrapClientServer-pv5.13.exe -MF D:/pv/rebuild/Plugins/DigitalRockPhysics/CMakeFiles/vtkDigitalRocksFiltersCS/vtkPMaterialClusterExplodeFilterClientServer.cxx.Release.d @D:/pv/rebuild/Plugins/DigitalRockPhysics/CMakeFiles/vtkDigitalRocksFilters-client-server.Release.args -o D:/pv/rebuild/Plugins/DigitalRockPhysics/CMakeFiles/vtkDigitalRocksFiltersCS/vtkPMaterialClusterExplodeFilterClientServer.cxx D:/pv/ParaView/Plugins/DigitalRockPhysics/Filters/vtkPMaterialClusterExplodeFilter.h --types D:/pv/rebuild/bin/paraview-5.13/plugins/DigitalRockPhysics/vtk/hierarchy/DigitalRockPhysics/vtkDigitalRocksFilters-hierarchy.txt
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_transform_depfile "Visual Studio 16 2019" MSBuildAdditionalInputs D:/pv/ParaView D:/pv/ParaView/Plugins/DigitalRockPhysics D:/pv/rebuild D:/pv/rebuild/Plugins/DigitalRockPhysics D:/pv/rebuild/Plugins/DigitalRockPhysics/CMakeFiles/vtkDigitalRocksFiltersCS/vtkPMaterialClusterExplodeFilterClientServer.cxx.Release.d D:/pv/rebuild/CMakeFiles/d/7fd0fbc0562e8c53ea25bb16ccbf9adbf3a6ba39b2b1cdd1c1d3ea83564ce82f.AdditionalInputs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\pv\rebuild\bin\Release\vtkWrapClientServer-pv5.13.exe;D:\pv\ParaView\Plugins\DigitalRockPhysics\Filters\vtkPMaterialClusterExplodeFilter.h;D:\pv\rebuild\Plugins\DigitalRockPhysics\CMakeFiles\vtkDigitalRocksFilters-client-server.Release.args;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\pv\rebuild\Plugins\DigitalRockPhysics\CMakeFiles\vtkDigitalRocksFiltersCS\vtkPMaterialClusterExplodeFilterClientServer.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <DepFileAdditionalInputsFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\pv\rebuild\CMakeFiles\d\7fd0fbc0562e8c53ea25bb16ccbf9adbf3a6ba39b2b1cdd1c1d3ea83564ce82f.AdditionalInputs</DepFileAdditionalInputsFile>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating client_server wrapper sources for vtkPMaterialClusterExplodeFilter</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+..\..\bin\MinSizeRel\vtkWrapClientServer-pv5.13.exe -MF D:/pv/rebuild/Plugins/DigitalRockPhysics/CMakeFiles/vtkDigitalRocksFiltersCS/vtkPMaterialClusterExplodeFilterClientServer.cxx.MinSizeRel.d @D:/pv/rebuild/Plugins/DigitalRockPhysics/CMakeFiles/vtkDigitalRocksFilters-client-server.MinSizeRel.args -o D:/pv/rebuild/Plugins/DigitalRockPhysics/CMakeFiles/vtkDigitalRocksFiltersCS/vtkPMaterialClusterExplodeFilterClientServer.cxx D:/pv/ParaView/Plugins/DigitalRockPhysics/Filters/vtkPMaterialClusterExplodeFilter.h --types D:/pv/rebuild/bin/paraview-5.13/plugins/DigitalRockPhysics/vtk/hierarchy/DigitalRockPhysics/vtkDigitalRocksFilters-hierarchy.txt
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_transform_depfile "Visual Studio 16 2019" MSBuildAdditionalInputs D:/pv/ParaView D:/pv/ParaView/Plugins/DigitalRockPhysics D:/pv/rebuild D:/pv/rebuild/Plugins/DigitalRockPhysics D:/pv/rebuild/Plugins/DigitalRockPhysics/CMakeFiles/vtkDigitalRocksFiltersCS/vtkPMaterialClusterExplodeFilterClientServer.cxx.MinSizeRel.d D:/pv/rebuild/CMakeFiles/d/7cba3a96134ede8ee416b64b93f99303d5f54c86d048c119221fa12ce504dc30.AdditionalInputs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\pv\rebuild\bin\MinSizeRel\vtkWrapClientServer-pv5.13.exe;D:\pv\ParaView\Plugins\DigitalRockPhysics\Filters\vtkPMaterialClusterExplodeFilter.h;D:\pv\rebuild\Plugins\DigitalRockPhysics\CMakeFiles\vtkDigitalRocksFilters-client-server.MinSizeRel.args;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\pv\rebuild\Plugins\DigitalRockPhysics\CMakeFiles\vtkDigitalRocksFiltersCS\vtkPMaterialClusterExplodeFilterClientServer.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <DepFileAdditionalInputsFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\pv\rebuild\CMakeFiles\d\7cba3a96134ede8ee416b64b93f99303d5f54c86d048c119221fa12ce504dc30.AdditionalInputs</DepFileAdditionalInputsFile>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating client_server wrapper sources for vtkPMaterialClusterExplodeFilter</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+..\..\bin\RelWithDebInfo\vtkWrapClientServer-pv5.13.exe -MF D:/pv/rebuild/Plugins/DigitalRockPhysics/CMakeFiles/vtkDigitalRocksFiltersCS/vtkPMaterialClusterExplodeFilterClientServer.cxx.RelWithDebInfo.d @D:/pv/rebuild/Plugins/DigitalRockPhysics/CMakeFiles/vtkDigitalRocksFilters-client-server.RelWithDebInfo.args -o D:/pv/rebuild/Plugins/DigitalRockPhysics/CMakeFiles/vtkDigitalRocksFiltersCS/vtkPMaterialClusterExplodeFilterClientServer.cxx D:/pv/ParaView/Plugins/DigitalRockPhysics/Filters/vtkPMaterialClusterExplodeFilter.h --types D:/pv/rebuild/bin/paraview-5.13/plugins/DigitalRockPhysics/vtk/hierarchy/DigitalRockPhysics/vtkDigitalRocksFilters-hierarchy.txt
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_transform_depfile "Visual Studio 16 2019" MSBuildAdditionalInputs D:/pv/ParaView D:/pv/ParaView/Plugins/DigitalRockPhysics D:/pv/rebuild D:/pv/rebuild/Plugins/DigitalRockPhysics D:/pv/rebuild/Plugins/DigitalRockPhysics/CMakeFiles/vtkDigitalRocksFiltersCS/vtkPMaterialClusterExplodeFilterClientServer.cxx.RelWithDebInfo.d D:/pv/rebuild/CMakeFiles/d/0f69443f5224a5eaeb67ac45750153efd4d142c9638c6db94b376fa8ee66e0e4.AdditionalInputs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\pv\rebuild\bin\RelWithDebInfo\vtkWrapClientServer-pv5.13.exe;D:\pv\ParaView\Plugins\DigitalRockPhysics\Filters\vtkPMaterialClusterExplodeFilter.h;D:\pv\rebuild\Plugins\DigitalRockPhysics\CMakeFiles\vtkDigitalRocksFilters-client-server.RelWithDebInfo.args;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\pv\rebuild\Plugins\DigitalRockPhysics\CMakeFiles\vtkDigitalRocksFiltersCS\vtkPMaterialClusterExplodeFilterClientServer.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+      <DepFileAdditionalInputsFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\pv\rebuild\CMakeFiles\d\0f69443f5224a5eaeb67ac45750153efd4d142c9638c6db94b376fa8ee66e0e4.AdditionalInputs</DepFileAdditionalInputsFile>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\pv\ParaView\Plugins\DigitalRockPhysics\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/pv/ParaView/Plugins/DigitalRockPhysics/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/pv/ParaView -BD:/pv/rebuild --check-stamp-file D:/pv/rebuild/Plugins/DigitalRockPhysics/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeParseArguments.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5\Qt5Config.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5\Qt5ConfigVersion.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5\Qt5ModuleLocation.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QInsightTrackerPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QSvgIconPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QSvgPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QVirtualKeyboardPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWebGLIntegrationPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QXdgDesktopPortalThemePlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Help\Qt5HelpConfig.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Help\Qt5HelpConfigExtras.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Help\Qt5HelpConfigVersion.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Sql\Qt5SqlConfig.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Sql\Qt5SqlConfigVersion.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Sql\Qt5Sql_QODBCDriverPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Sql\Qt5Sql_QPSQLDriverPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Sql\Qt5Sql_QSQLiteDriverPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;D:\pv\ParaView\CMake\paraview_plugin.cxx.in;D:\pv\ParaView\CMake\paraview_plugin.h.in;D:\pv\ParaView\Plugins\DigitalRockPhysics\Filters\vtk.module;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\pv\rebuild\Plugins\DigitalRockPhysics\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/pv/ParaView/Plugins/DigitalRockPhysics/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/pv/ParaView -BD:/pv/rebuild --check-stamp-file D:/pv/rebuild/Plugins/DigitalRockPhysics/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeParseArguments.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5\Qt5Config.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5\Qt5ConfigVersion.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5\Qt5ModuleLocation.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QInsightTrackerPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QSvgIconPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QSvgPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QVirtualKeyboardPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWebGLIntegrationPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QXdgDesktopPortalThemePlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Help\Qt5HelpConfig.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Help\Qt5HelpConfigExtras.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Help\Qt5HelpConfigVersion.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Sql\Qt5SqlConfig.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Sql\Qt5SqlConfigVersion.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Sql\Qt5Sql_QODBCDriverPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Sql\Qt5Sql_QPSQLDriverPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Sql\Qt5Sql_QSQLiteDriverPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;D:\pv\ParaView\CMake\paraview_plugin.cxx.in;D:\pv\ParaView\CMake\paraview_plugin.h.in;D:\pv\ParaView\Plugins\DigitalRockPhysics\Filters\vtk.module;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\pv\rebuild\Plugins\DigitalRockPhysics\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/pv/ParaView/Plugins/DigitalRockPhysics/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/pv/ParaView -BD:/pv/rebuild --check-stamp-file D:/pv/rebuild/Plugins/DigitalRockPhysics/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeParseArguments.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5\Qt5Config.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5\Qt5ConfigVersion.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5\Qt5ModuleLocation.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QInsightTrackerPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QSvgIconPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QSvgPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QVirtualKeyboardPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWebGLIntegrationPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QXdgDesktopPortalThemePlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Help\Qt5HelpConfig.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Help\Qt5HelpConfigExtras.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Help\Qt5HelpConfigVersion.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Sql\Qt5SqlConfig.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Sql\Qt5SqlConfigVersion.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Sql\Qt5Sql_QODBCDriverPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Sql\Qt5Sql_QPSQLDriverPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Sql\Qt5Sql_QSQLiteDriverPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;D:\pv\ParaView\CMake\paraview_plugin.cxx.in;D:\pv\ParaView\CMake\paraview_plugin.h.in;D:\pv\ParaView\Plugins\DigitalRockPhysics\Filters\vtk.module;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\pv\rebuild\Plugins\DigitalRockPhysics\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/pv/ParaView/Plugins/DigitalRockPhysics/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/pv/ParaView -BD:/pv/rebuild --check-stamp-file D:/pv/rebuild/Plugins/DigitalRockPhysics/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeParseArguments.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5\Qt5Config.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5\Qt5ConfigVersion.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5\Qt5ModuleLocation.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QInsightTrackerPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QSvgIconPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QSvgPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QVirtualKeyboardPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWebGLIntegrationPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QXdgDesktopPortalThemePlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Help\Qt5HelpConfig.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Help\Qt5HelpConfigExtras.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Help\Qt5HelpConfigVersion.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Sql\Qt5SqlConfig.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Sql\Qt5SqlConfigVersion.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Sql\Qt5Sql_QODBCDriverPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Sql\Qt5Sql_QPSQLDriverPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Sql\Qt5Sql_QSQLiteDriverPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;D:\pv\ParaView\CMake\paraview_plugin.cxx.in;D:\pv\ParaView\CMake\paraview_plugin.h.in;D:\pv\ParaView\Plugins\DigitalRockPhysics\Filters\vtk.module;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\pv\rebuild\Plugins\DigitalRockPhysics\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\pv\rebuild\Plugins\DigitalRockPhysics\CMakeFiles\vtkDigitalRocksFiltersCS\vtkPMaterialClusterAnalysisFilterClientServer.cxx" />
+    <ClCompile Include="D:\pv\rebuild\Plugins\DigitalRockPhysics\CMakeFiles\vtkDigitalRocksFiltersCS\vtkPMaterialClusterExplodeFilterClientServer.cxx" />
+    <ClCompile Include="D:\pv\rebuild\Plugins\DigitalRockPhysics\CMakeFiles\vtkDigitalRocksFiltersCSInit.cxx" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="D:\pv\rebuild\ZERO_CHECK.vcxproj">
+      <Project>{F365DAD0-49D0-3E04-B6A0-AEBAF9BD405C}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\Common\Core\CommonCore.vcxproj">
+      <Project>{B619F52E-9839-377A-BAEE-BACB4D9A457F}</Project>
+      <Name>CommonCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\Common\DataModel\CommonDataModel.vcxproj">
+      <Project>{41298AA9-65F9-3C5B-8ECF-E93AC201EB02}</Project>
+      <Name>CommonDataModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\Common\ExecutionModel\CommonExecutionModel.vcxproj">
+      <Project>{80171A5E-C0D7-3ED5-A880-FCF8C3497B99}</Project>
+      <Name>CommonExecutionModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\Common\Math\CommonMath.vcxproj">
+      <Project>{194237E4-60C4-316E-8F01-9F06A2D04C6A}</Project>
+      <Name>CommonMath</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\Common\Transforms\CommonTransforms.vcxproj">
+      <Project>{D6924074-2195-374C-AF34-798A39B49219}</Project>
+      <Name>CommonTransforms</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\Plugins\DigitalRockPhysics\Filters\DigitalRocksFilters.vcxproj">
+      <Project>{FB6497A3-B58F-345A-9239-A1D62CB4429A}</Project>
+      <Name>DigitalRocksFilters</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\Remoting\ClientServerStream\RemotingClientServerStream.vcxproj">
+      <Project>{37AD3169-CA99-3AE5-B80A-74511EEDA2B3}</Project>
+      <Name>RemotingClientServerStream</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\Utilities\WrapClientServer\WrapClientServer.vcxproj">
+      <Project>{1186F1C1-48D1-3478-AFE4-9615BBF083CE}</Project>
+      <Name>WrapClientServer</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\ThirdParty\kissfft\vtkkissfft\kissfft.vcxproj">
+      <Project>{3CCF61F3-F985-33F3-8EC9-58E045C69827}</Project>
+      <Name>kissfft</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\ThirdParty\nlohmannjson\vtknlohmannjson\nlohmannjson.vcxproj">
+      <Project>{7457C71D-4012-3101-AF26-38DABCDE7E01}</Project>
+      <Name>nlohmannjson</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\ThirdParty\token\vtktoken\token\token.vcxproj">
+      <Project>{6AB51710-ABE5-385B-96E1-B68D0E5AAC99}</Project>
+      <Name>token</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\Plugins\DigitalRockPhysics\Filters\vtkDigitalRocksFilters-hierarchy.vcxproj">
+      <Project>{BB9E732C-DB56-3B02-945E-31F4256FFAC4}</Project>
+      <Name>vtkDigitalRocksFilters-hierarchy</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\Utilities\KWSys\vtksys\vtksys.vcxproj">
+      <Project>{771F913C-BFBD-34D6-B1D7-80FEFE734E74}</Project>
+      <Name>vtksys</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <Import Project="C:\Program Files\CMake\share\cmake-3.31\Templates\MSBuild\CustomBuildDepFile.targets" />
+</Project>

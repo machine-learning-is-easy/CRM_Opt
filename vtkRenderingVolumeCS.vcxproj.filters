@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkRenderingVolumeCS\vtkBlockSortHelperClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkRenderingVolumeCS\vtkDirectionEncoderClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkRenderingVolumeCS\vtkEncodedGradientEstimatorClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkRenderingVolumeCS\vtkEncodedGradientShaderClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkRenderingVolumeCS\vtkFiniteDifferenceGradientEstimatorClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkRenderingVolumeCS\vtkFixedPointRayCastImageClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkRenderingVolumeCS\vtkFixedPointVolumeRayCastCompositeGOHelperClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkRenderingVolumeCS\vtkFixedPointVolumeRayCastCompositeGOShadeHelperClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkRenderingVolumeCS\vtkFixedPointVolumeRayCastCompositeHelperClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkRenderingVolumeCS\vtkFixedPointVolumeRayCastCompositeShadeHelperClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkRenderingVolumeCS\vtkFixedPointVolumeRayCastHelperClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkRenderingVolumeCS\vtkFixedPointVolumeRayCastMapperClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkRenderingVolumeCS\vtkFixedPointVolumeRayCastMIPHelperClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkRenderingVolumeCS\vtkGPUVolumeRayCastMapperClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkRenderingVolumeCS\vtkMultiVolumeClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkRenderingVolumeCS\vtkOSPRayVolumeInterfaceClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkRenderingVolumeCS\vtkAnariVolumeInterfaceClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkRenderingVolumeCS\vtkProjectedTetrahedraMapperClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkRenderingVolumeCS\vtkRayCastImageDisplayHelperClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkRenderingVolumeCS\vtkRecursiveSphereDirectionEncoderClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkRenderingVolumeCS\vtkSphericalDirectionEncoderClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkRenderingVolumeCS\vtkUnstructuredGridBunykRayCastFunctionClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkRenderingVolumeCS\vtkUnstructuredGridHomogeneousRayIntegratorClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkRenderingVolumeCS\vtkUnstructuredGridLinearRayIntegratorClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkRenderingVolumeCS\vtkUnstructuredGridPartialPreIntegrationClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkRenderingVolumeCS\vtkUnstructuredGridPreIntegrationClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkRenderingVolumeCS\vtkUnstructuredGridVolumeMapperClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkRenderingVolumeCS\vtkUnstructuredGridVolumeRayCastFunctionClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkRenderingVolumeCS\vtkUnstructuredGridVolumeRayCastIteratorClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkRenderingVolumeCS\vtkUnstructuredGridVolumeRayCastMapperClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkRenderingVolumeCS\vtkUnstructuredGridVolumeRayIntegratorClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkRenderingVolumeCS\vtkUnstructuredGridVolumeZSweepMapperClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkRenderingVolumeCS\vtkVolumeMapperClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkRenderingVolumeCS\vtkVolumeOutlineSourceClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkRenderingVolumeCS\vtkVolumePickerClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkRenderingVolumeCS\vtkVolumeRayCastSpaceLeapingImageFilterClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkRenderingVolumeCSInit.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\1ff32161fcce8ca2a494ae6f335e4f88\vtkBlockSortHelperClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\1ff32161fcce8ca2a494ae6f335e4f88\vtkDirectionEncoderClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\1ff32161fcce8ca2a494ae6f335e4f88\vtkEncodedGradientEstimatorClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\1ff32161fcce8ca2a494ae6f335e4f88\vtkEncodedGradientShaderClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\1ff32161fcce8ca2a494ae6f335e4f88\vtkFiniteDifferenceGradientEstimatorClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\1ff32161fcce8ca2a494ae6f335e4f88\vtkFixedPointRayCastImageClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\1ff32161fcce8ca2a494ae6f335e4f88\vtkFixedPointVolumeRayCastCompositeGOHelperClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\1ff32161fcce8ca2a494ae6f335e4f88\vtkFixedPointVolumeRayCastCompositeGOShadeHelperClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\1ff32161fcce8ca2a494ae6f335e4f88\vtkFixedPointVolumeRayCastCompositeHelperClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\1ff32161fcce8ca2a494ae6f335e4f88\vtkFixedPointVolumeRayCastCompositeShadeHelperClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\1ff32161fcce8ca2a494ae6f335e4f88\vtkFixedPointVolumeRayCastHelperClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\1ff32161fcce8ca2a494ae6f335e4f88\vtkFixedPointVolumeRayCastMapperClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\1ff32161fcce8ca2a494ae6f335e4f88\vtkFixedPointVolumeRayCastMIPHelperClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\1ff32161fcce8ca2a494ae6f335e4f88\vtkGPUVolumeRayCastMapperClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\1ff32161fcce8ca2a494ae6f335e4f88\vtkMultiVolumeClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\1ff32161fcce8ca2a494ae6f335e4f88\vtkOSPRayVolumeInterfaceClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\1ff32161fcce8ca2a494ae6f335e4f88\vtkAnariVolumeInterfaceClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\1ff32161fcce8ca2a494ae6f335e4f88\vtkProjectedTetrahedraMapperClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\1ff32161fcce8ca2a494ae6f335e4f88\vtkRayCastImageDisplayHelperClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\1ff32161fcce8ca2a494ae6f335e4f88\vtkRecursiveSphereDirectionEncoderClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\1ff32161fcce8ca2a494ae6f335e4f88\vtkSphericalDirectionEncoderClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\1ff32161fcce8ca2a494ae6f335e4f88\vtkUnstructuredGridBunykRayCastFunctionClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\1ff32161fcce8ca2a494ae6f335e4f88\vtkUnstructuredGridHomogeneousRayIntegratorClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\1ff32161fcce8ca2a494ae6f335e4f88\vtkUnstructuredGridLinearRayIntegratorClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\1ff32161fcce8ca2a494ae6f335e4f88\vtkUnstructuredGridPartialPreIntegrationClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\1ff32161fcce8ca2a494ae6f335e4f88\vtkUnstructuredGridPreIntegrationClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\1ff32161fcce8ca2a494ae6f335e4f88\vtkUnstructuredGridVolumeMapperClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\1ff32161fcce8ca2a494ae6f335e4f88\vtkUnstructuredGridVolumeRayCastFunctionClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\1ff32161fcce8ca2a494ae6f335e4f88\vtkUnstructuredGridVolumeRayCastIteratorClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\1ff32161fcce8ca2a494ae6f335e4f88\vtkUnstructuredGridVolumeRayCastMapperClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\1ff32161fcce8ca2a494ae6f335e4f88\vtkUnstructuredGridVolumeRayIntegratorClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\1ff32161fcce8ca2a494ae6f335e4f88\vtkUnstructuredGridVolumeZSweepMapperClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\1ff32161fcce8ca2a494ae6f335e4f88\vtkVolumeMapperClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\1ff32161fcce8ca2a494ae6f335e4f88\vtkVolumeOutlineSourceClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\1ff32161fcce8ca2a494ae6f335e4f88\vtkVolumePickerClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\1ff32161fcce8ca2a494ae6f335e4f88\vtkVolumeRayCastSpaceLeapingImageFilterClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\ParaView\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{FEFA764E-8736-3FD4-9B90-BE7174AE3DEA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{CE016C83-18D7-3CBD-A2E7-E2EB93EA0748}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

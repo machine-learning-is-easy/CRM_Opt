@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\pv\rebuild\VTK\Rendering\VolumeOpenGL2\raycasterfs.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\VTK\Rendering\VolumeOpenGL2\raycastervs.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\VTK\Rendering\VolumeOpenGL2\vtkglProjectedTetrahedraFS.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\VTK\Rendering\VolumeOpenGL2\vtkglProjectedTetrahedraVS.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\VTK\Rendering\VolumeOpenGL2\vtkRenderingVolumeOpenGL2ObjectFactory.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\VolumeOpenGL2\vtkMultiBlockUnstructuredGridVolumeMapper.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\VolumeOpenGL2\vtkMultiBlockVolumeMapper.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\VolumeOpenGL2\vtkOpenGLGPUVolumeRayCastMapper.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\VolumeOpenGL2\vtkOpenGLProjectedTetrahedraMapper.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\VolumeOpenGL2\vtkOpenGLRayCastImageDisplayHelper.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\VolumeOpenGL2\vtkSmartVolumeMapper.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\VolumeOpenGL2\vtkVolumeTexture.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\VolumeOpenGL2\vtkOpenGLVolumeGradientOpacityTable.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\VolumeOpenGL2\vtkOpenGLVolumeLookupTable.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\VolumeOpenGL2\vtkOpenGLVolumeMaskGradientOpacityTransferFunction2D.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\VolumeOpenGL2\vtkOpenGLVolumeMaskTransferFunction2D.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\VolumeOpenGL2\vtkOpenGLVolumeOpacityTable.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\VolumeOpenGL2\vtkOpenGLVolumeRGBTable.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\VolumeOpenGL2\vtkOpenGLVolumeTransferFunction2D.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\VolumeOpenGL2\vtkVolumeInputHelper.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\VolumeOpenGL2\vtkOpenGLVolumeLookupTables.txx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\VTK\Rendering\VolumeOpenGL2\raycasterfs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\VTK\Rendering\VolumeOpenGL2\raycastervs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\VTK\Rendering\VolumeOpenGL2\vtkglProjectedTetrahedraFS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\VTK\Rendering\VolumeOpenGL2\vtkglProjectedTetrahedraVS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\VTK\Rendering\VolumeOpenGL2\vtkRenderingVolumeOpenGL2ObjectFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\VolumeOpenGL2\vtkMultiBlockUnstructuredGridVolumeMapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\VolumeOpenGL2\vtkMultiBlockVolumeMapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\VolumeOpenGL2\vtkOpenGLGPUVolumeRayCastMapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\VolumeOpenGL2\vtkOpenGLProjectedTetrahedraMapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\VolumeOpenGL2\vtkOpenGLRayCastImageDisplayHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\VolumeOpenGL2\vtkSmartVolumeMapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\VolumeOpenGL2\vtkVolumeTexture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\VolumeOpenGL2\vtkOpenGLVolumeGradientOpacityTable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\VolumeOpenGL2\vtkOpenGLVolumeLookupTable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\VolumeOpenGL2\vtkOpenGLVolumeMaskGradientOpacityTransferFunction2D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\VolumeOpenGL2\vtkOpenGLVolumeMaskTransferFunction2D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\VolumeOpenGL2\vtkOpenGLVolumeOpacityTable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\VolumeOpenGL2\vtkOpenGLVolumeRGBTable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\VolumeOpenGL2\vtkOpenGLVolumeTransferFunction2D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\VolumeOpenGL2\vtkVolumeInputHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\VolumeOpenGL2\vtkOpenGLVolumeLookupTables.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\VTK\Rendering\VolumeOpenGL2\vtkRenderingVolumeOpenGL2Module.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\1c392983eefd11715c99318ed42231c1\raycasterfs.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\1c392983eefd11715c99318ed42231c1\raycastervs.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\1c392983eefd11715c99318ed42231c1\vtkglProjectedTetrahedraFS.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\1c392983eefd11715c99318ed42231c1\vtkglProjectedTetrahedraVS.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\ParaView\VTK\Rendering\VolumeOpenGL2\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{FEFA764E-8736-3FD4-9B90-BE7174AE3DEA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{345BF67A-A46B-3569-AD4B-B0F9BB083ED9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{CE016C83-18D7-3CBD-A2E7-E2EB93EA0748}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

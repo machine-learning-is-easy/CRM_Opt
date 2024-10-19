@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\pv\ParaView\VTK\Accelerators\Vtkm\Filters\vtkmClipInstantiationsWithField.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\Accelerators\Vtkm\Filters\vtkmClipInstantiationsWithImplicitFunction.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\VTK\Accelerators\Vtkm\Filters\vtkmFilterOverrides.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\Accelerators\Vtkm\Filters\vtkmAverageToCells.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\Accelerators\Vtkm\Filters\vtkmAverageToPoints.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\Accelerators\Vtkm\Filters\vtkmCleanGrid.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\Accelerators\Vtkm\Filters\vtkmClip.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\Accelerators\Vtkm\Filters\vtkmContour.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\Accelerators\Vtkm\Filters\vtkmCoordinateSystemTransform.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\Accelerators\Vtkm\Filters\vtkmExternalFaces.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\Accelerators\Vtkm\Filters\vtkmExtractVOI.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\Accelerators\Vtkm\Filters\vtkmGradient.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\Accelerators\Vtkm\Filters\vtkmHistogram.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\Accelerators\Vtkm\Filters\vtkmImageConnectivity.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\Accelerators\Vtkm\Filters\vtkmLevelOfDetail.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\Accelerators\Vtkm\Filters\vtkmNDHistogram.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\Accelerators\Vtkm\Filters\vtkmPointElevation.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\Accelerators\Vtkm\Filters\vtkmPointTransform.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\Accelerators\Vtkm\Filters\vtkmPolyDataNormals.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\Accelerators\Vtkm\Filters\vtkmProbe.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\Accelerators\Vtkm\Filters\vtkmSlice.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\Accelerators\Vtkm\Filters\vtkmThreshold.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\Accelerators\Vtkm\Filters\vtkmTriangleMeshPointNormals.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\Accelerators\Vtkm\Filters\vtkmWarpScalar.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\Accelerators\Vtkm\Filters\vtkmWarpVector.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\pv\rebuild\VTK\Accelerators\Vtkm\Filters\vtkmConfigFilters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\Accelerators\Vtkm\Filters\vtkmFilterOverrides.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\Accelerators\Vtkm\Filters\vtkmAverageToCells.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\Accelerators\Vtkm\Filters\vtkmAverageToPoints.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\Accelerators\Vtkm\Filters\vtkmCleanGrid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\Accelerators\Vtkm\Filters\vtkmClip.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\Accelerators\Vtkm\Filters\vtkmContour.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\Accelerators\Vtkm\Filters\vtkmCoordinateSystemTransform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\Accelerators\Vtkm\Filters\vtkmExternalFaces.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\Accelerators\Vtkm\Filters\vtkmExtractVOI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\Accelerators\Vtkm\Filters\vtkmGradient.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\Accelerators\Vtkm\Filters\vtkmHistogram.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\Accelerators\Vtkm\Filters\vtkmImageConnectivity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\Accelerators\Vtkm\Filters\vtkmLevelOfDetail.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\Accelerators\Vtkm\Filters\vtkmNDHistogram.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\Accelerators\Vtkm\Filters\vtkmPointElevation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\Accelerators\Vtkm\Filters\vtkmPointTransform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\Accelerators\Vtkm\Filters\vtkmPolyDataNormals.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\Accelerators\Vtkm\Filters\vtkmProbe.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\Accelerators\Vtkm\Filters\vtkmSlice.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\Accelerators\Vtkm\Filters\vtkmThreshold.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\Accelerators\Vtkm\Filters\vtkmTriangleMeshPointNormals.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\Accelerators\Vtkm\Filters\vtkmWarpScalar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\Accelerators\Vtkm\Filters\vtkmWarpVector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\VTK\Accelerators\Vtkm\Filters\vtkAcceleratorsVTKmFiltersModule.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\pv\ParaView\VTK\Accelerators\Vtkm\Filters\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{345BF67A-A46B-3569-AD4B-B0F9BB083ED9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{CE016C83-18D7-3CBD-A2E7-E2EB93EA0748}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

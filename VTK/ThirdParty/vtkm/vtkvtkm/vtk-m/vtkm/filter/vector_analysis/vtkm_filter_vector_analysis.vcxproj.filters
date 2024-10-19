@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\vector_analysis\CrossProduct.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\vector_analysis\DotProduct.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\vector_analysis\Gradient.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\vector_analysis\SurfaceNormals.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\vector_analysis\VectorMagnitude.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\vector_analysis\GradientInstantiation0.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\vector_analysis\GradientInstantiation1.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\vector_analysis\GradientInstantiation2.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\vector_analysis\GradientInstantiation3.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\vector_analysis\GradientInstantiation4.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\vector_analysis\GradientInstantiation5.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\vector_analysis\GradientInstantiation6.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\vector_analysis\GradientInstantiation7.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\vector_analysis\GradientInstantiation8.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\vector_analysis\GradientInstantiation9.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\vector_analysis\GradientInstantiation10.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\vector_analysis\GradientInstantiation11.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\vector_analysis\GradientInstantiation12.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\vector_analysis\GradientInstantiation13.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\vector_analysis\GradientInstantiation14.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\vector_analysis\GradientInstantiation15.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\vector_analysis\GradientInstantiation16.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\vector_analysis\GradientInstantiation17.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\vector_analysis\GradientInstantiation18.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\vector_analysis\GradientInstantiation19.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\vector_analysis\GradientInstantiation20.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\vector_analysis\GradientInstantiation21.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\vector_analysis\GradientInstantiation22.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\vector_analysis\GradientInstantiation23.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\vector_analysis\GradientInstantiation24.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\vector_analysis\GradientInstantiation25.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\vector_analysis\GradientInstantiation26.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\vector_analysis\GradientInstantiation27.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\vector_analysis\GradientInstantiation28.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\vector_analysis\GradientInstantiation29.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\vector_analysis\GradientInstantiation30.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\vector_analysis\GradientInstantiation31.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\vector_analysis\GradientInstantiation32.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\vector_analysis\GradientInstantiation33.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\vector_analysis\GradientInstantiation34.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\vector_analysis\GradientInstantiation35.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\vector_analysis\GradientInstantiation36.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\vector_analysis\GradientInstantiation37.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\vector_analysis\GradientInstantiation38.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\vector_analysis\GradientInstantiation39.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\vector_analysis\GradientInstantiation40.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\vector_analysis\GradientInstantiation41.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\vector_analysis\GradientInstantiation42.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\vector_analysis\GradientInstantiation43.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\vector_analysis\GradientInstantiation44.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\vector_analysis\CrossProduct.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\vector_analysis\DotProduct.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\vector_analysis\Gradient.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\vector_analysis\SurfaceNormals.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\vector_analysis\VectorMagnitude.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\vector_analysis\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{345BF67A-A46B-3569-AD4B-B0F9BB083ED9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{CE016C83-18D7-3CBD-A2E7-E2EB93EA0748}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

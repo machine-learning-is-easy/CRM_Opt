@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\pv\rebuild\Plugins\Prism\Prism_autogen\mocs_compilation_Debug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\Plugins\Prism\PrismPlugin.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Plugins\Prism\pqSESAMEConversionsPanelWidget.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\Plugins\Prism\pqSESAMEConversionsPanelWidgetPWIImplementation.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\Plugins\Prism\Prism_autogen\S5YYZ2ZCNV\qrc_Prism.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\Plugins\Prism\Prism_autogen\mocs_compilation_Release.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\Plugins\Prism\Prism_autogen\mocs_compilation_MinSizeRel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\Plugins\Prism\Prism_autogen\mocs_compilation_RelWithDebInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\pv\ParaView\Plugins\Prism\pqSESAMEConversionsPanelWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Plugins\Prism\pqSESAMEConversionsPanelWidgetPWIImplementation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Plugins\Prism\Prism_autogen\include_Debug\ui_pqSESAMEConversionsPanelWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Plugins\Prism\PrismPlugin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Plugins\Prism\Prism_autogen\include_Release\ui_pqSESAMEConversionsPanelWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Plugins\Prism\Prism_autogen\include_MinSizeRel\ui_pqSESAMEConversionsPanelWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Plugins\Prism\Prism_autogen\include_RelWithDebInfo\ui_pqSESAMEConversionsPanelWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\316e387ded93620932e4a26b3b5efb05\autouic_(CONFIG).stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\e74a265b67bba8c6d5f9778b90f67ef0\qrc_Prism.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\ParaView\Plugins\Prism\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\pv\ParaView\Plugins\Prism\Resources\Prism.qrc" />
+    <None Include="D:\pv\ParaView\Plugins\Prism\pqSESAMEConversionsPanelWidget.ui" />
+    <None Include="D:\pv\rebuild\Plugins\Prism\Prism_autogen\autouic_Debug.stamp" />
+    <None Include="D:\pv\rebuild\Plugins\Prism\Prism_autogen\autouic_Release.stamp" />
+    <None Include="D:\pv\rebuild\Plugins\Prism\Prism_autogen\autouic_MinSizeRel.stamp" />
+    <None Include="D:\pv\rebuild\Plugins\Prism\Prism_autogen\autouic_RelWithDebInfo.stamp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{FEFA764E-8736-3FD4-9B90-BE7174AE3DEA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{345BF67A-A46B-3569-AD4B-B0F9BB083ED9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{CE016C83-18D7-3CBD-A2E7-E2EB93EA0748}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

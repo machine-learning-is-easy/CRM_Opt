@@ -1,63 +1,64 @@
-#[==[.md
-# `CTestCustom.cmake`
+# Inherit VTK's exclusions. We don't have to redefine them in this file anymore.
+set(paraview_use_external_vtk "OFF")
+if (NOT paraview_use_external_vtk)
+  include("${CMAKE_CURRENT_LIST_DIR}/VTK/CTestCustom.cmake")
+endif ()
 
-This is a trampoline CTest custom file which includes any other
-`CTestCustom.cmake` files provided by a superbuild.
-#]==]
+# Regular expression for warning exception during build process
+list(APPEND CTEST_CUSTOM_WARNING_EXCEPTION
+  # Ignore `getenv` "deprecation" with MSVC.
+  "vtknvindex_utilities.h.*: warning C4996: 'getenv'"
 
-# INTERNAL
-# Sets up CTest's variables to ignore messages from a project.
-function (_project_ignore_regexes variable project)
-  set(exceptions)
-  list(APPEND exceptions
-    "${project}/src"
-    "${project}\\\\src")
-  string(TOLOWER "${project}" lower_project)
-  if ((APPLE OR WIN32) AND (NOT lower_project STREQUAL project))
-    if (WIN32)
-      list(APPEND exceptions
-        "${lower_project}\\\\src")
-    endif ()
-    list(APPEND exceptions
-      "${lower_project}/src")
-  endif ()
+  # Ignore protobuf-generated source file warnings.
+  "vtkPVMessage.pb.cc"
 
-  set("${variable}"
-    ${${variable}}
-    ${exceptions}
-    PARENT_SCOPE)
-endfunction ()
+  # ignore warning from string_fortified.h inclusion
+  "string_fortified.h"
 
-#[==[.md
-## Ignoring project outputs
+  # Unreachable code in xutility causes C4702 warnings in MSVC.
+  "xutility.*unreachable code"
 
-Since superbuilds build many third party projects, it can be useful to ignore
-all warnings and errors coming from a project. Note that these only suppress
-from appearing on CDash. To completely silence a project even when building
-interactively, it is better to use `SUPPRESS_<project>_OUTPUT` variables.
+  # exclude warnings from dmfile.cxx
+  "dmfile.*"
 
-Real errors will still fail the build, but output of configure-time failures
-will not show up in CDash.
+  # exclude warnings from unreference NewInstance function
+  ".*NewInstance.*was declared but never referenced"
 
-```
-ignore_project_warnings(<project>)
-ignore_project_errors(<project>)
-```
-#]==]
+  # Intel compiler warning about routines being both inline and noinline
+  "warning #2196.* routine is both"
 
-macro (ignore_project_warnings project)
-  _project_ignore_regexes(CTEST_CUSTOM_WARNING_EXCEPTION "${project}")
-endmacro ()
+  # compiler optimizations may sometimes lead to this warning
+  "assuming signed overflow does not occur when assuming that"
 
-macro (ignore_project_errors project)
-  _project_ignore_regexes(CTEST_CUSTOM_ERROR_EXCEPTION "${project}")
-endmacro ()
+  # Visual Studio STL warnings.
+  "VC.Tools.*include.*: warning"
 
-# szip is very noisy.
-ignore_project_warnings(szip)
+  # Doxygen warning exclusions
+  "<unknown>:1: warning: no matching .* member found for"
+  "vtkPVMessage.pb.h:.*: warning: no.*matching class member found for"
+  "paraview/tpl/cinemasci/viewers/readme.md:10: warning: unable to resolve reference to `doc/readme_view.md' for"
+  "warning: unable to resolve reference to `https:' for \ref command"
+  "md:.*: warning:" # Disable all warnings in .md files
 
-# Include project-specified files.
-set(extra_ctest_custom_files "D:/pv/paraview-superbuild/cmake/CTestCustom.cmake")
-foreach (extra_ctest_custom_file IN LISTS extra_ctest_custom_files)
-  include("${extra_ctest_custom_file}")
-endforeach ()
+  # warnings from moc generated code
+  "_autogen"
+
+  # deprecation notes
+  "note: declared here"
+)
+
+list(APPEND CTEST_CUSTOM_ERROR_EXCEPTION
+  # Xcb error does not seem to cause errors in generated test images
+  "qt.qpa.xcb: internal error"
+  # Qt lupdate writes warning on stderr when finding class as template types
+  "Ignoring definition of undeclared qualified class"
+)
+
+# Regular expression for excluding files from coverage testing
+list(APPEND CTEST_CUSTOM_COVERAGE_EXCLUDE
+  ".*/VTK/.*"
+  "vtk[^\\.]+ClientServer.cxx"
+  "vtk[^\\.]+Python.cxx"
+  "ui_[^\\.]+.h"
+  "moc_[^\\.]+.h"
+  "vtkprotobuf")

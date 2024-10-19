@@ -1,0 +1,636 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\ArrayHandle.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\ArrayHandleBasic.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\ArrayHandleSOA.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\ArrayHandleStride.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\AssignerPartitionedDataSet.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\BitField.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\BoundsCompute.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\BoundsGlobalCompute.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\CellLocatorGeneral.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\CellLocatorPartitioned.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\CellLocatorRectilinearGrid.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\CellLocatorUniformBins.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\CellLocatorUniformGrid.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\CellSet.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\CellSetStructured.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\ColorTablePresets.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\CoordinateSystem.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\DataSet.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\DataSetBuilderCurvilinear.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\DataSetBuilderExplicit.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\DataSetBuilderRectilinear.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\DataSetBuilderUniform.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\DeviceAdapterTag.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\DIYMemoryManagement.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\EnvironmentTracker.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\ErrorBadDevice.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\ErrorBadType.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\FieldRangeCompute.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\FieldRangeGlobalCompute.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\internal\DeviceAdapterMemoryManager.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\internal\DeviceAdapterMemoryManagerShared.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\internal\FieldCollection.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\internal\RuntimeDeviceConfiguration.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\internal\RuntimeDeviceConfigurationOptions.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\internal\RuntimeDeviceOption.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\Initialize.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\Logging.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\RuntimeDeviceTracker.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\PartitionedDataSet.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\Storage.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\Token.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\TryExecute.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\UnknownArrayHandle.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\UnknownCellSet.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\ArrayCopy.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\ArrayGetValues.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\ArrayHandleIndex.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\ArrayHandleUniformPointCoordinates.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\ArrayRangeCompute.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\CellLocatorBoundingIntervalHierarchy.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\CellLocatorTwoLevel.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\CellSetExplicit.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\CellSetExtrude.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\ColorTable.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\ConvertNumComponentsToOffsets.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\Field.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\internal\ArrayCopyUnknown.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\internal\ArrayRangeComputeUtils.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\internal\Buffer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\internal\MapArrayPermutation.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\MergePartitionedDataSet.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\PointLocatorSparseGrid.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\RuntimeDeviceInformation.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\Timer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\ArrayRangeComputeTemplateInstantiation0.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\ArrayRangeComputeTemplateInstantiation1.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\ArrayRangeComputeTemplateInstantiation2.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\ArrayRangeComputeTemplateInstantiation3.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\ArrayRangeComputeTemplateInstantiation4.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\ArrayRangeComputeTemplateInstantiation5.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\ArrayRangeComputeTemplateInstantiation6.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\ArrayRangeComputeTemplateInstantiation7.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\ArrayRangeComputeTemplateInstantiation8.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\ArrayRangeComputeTemplateInstantiation9.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\ArrayRangeComputeTemplateInstantiation10.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\ArrayRangeComputeTemplateInstantiation11.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\ArrayRangeComputeTemplateInstantiation12.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\ArrayRangeComputeTemplateInstantiation13.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\ArrayRangeComputeTemplateInstantiation14.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\ArrayRangeComputeTemplateInstantiation15.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\ArrayRangeComputeTemplateInstantiation16.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\ArrayRangeComputeTemplateInstantiation17.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\cuda\internal\DeviceAdapterRuntimeDetectorCuda.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\kokkos\internal\DeviceAdapterRuntimeDetectorKokkos.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\openmp\internal\DeviceAdapterRuntimeDetectorOpenMP.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\serial\internal\DeviceAdapterAlgorithmSerial.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\serial\internal\DeviceAdapterRuntimeDetectorSerial.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\tbb\internal\DeviceAdapterRuntimeDetectorTBB.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\Algorithm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\ArrayCopy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\ArrayCopyDevice.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\ArrayExtractComponent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\ArrayGetValues.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\ArrayHandle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\ArrayHandleBasic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\ArrayHandleBitField.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\ArrayHandleCartesianProduct.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\ArrayHandleCast.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\ArrayHandleCompositeVector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\ArrayHandleConcatenate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\ArrayHandleConstant.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\ArrayHandleCounting.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\ArrayHandleDecorator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\ArrayHandleDiscard.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\ArrayHandleExtractComponent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\ArrayHandleGroupVec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\ArrayHandleGroupVecVariable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\ArrayHandleImplicit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\ArrayHandleIndex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\ArrayHandleMultiplexer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\ArrayHandleOffsetsToNumComponents.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\ArrayHandlePermutation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\ArrayHandleRecombineVec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\ArrayHandleReverse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\ArrayHandleRandomStandardNormal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\ArrayHandleRandomUniformBits.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\ArrayHandleRandomUniformReal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\ArrayHandleRuntimeVec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\ArrayHandleSOA.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\ArrayHandleStride.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\ArrayHandleSwizzle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\ArrayHandleTransform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\ArrayHandleUniformPointCoordinates.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\ArrayHandleView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\ArrayHandleXGCCoordinates.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\ArrayHandleZip.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\ArrayPortal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\ArrayPortalToIterators.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\ArrayRangeCompute.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\ArrayRangeComputeTemplate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\ArrayRangeComputeTemplateInstantiationsIncludes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\AssignerPartitionedDataSet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\AtomicArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\BitField.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\BoundsCompute.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\BoundsGlobalCompute.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\CastAndCall.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\CellLocatorBoundingIntervalHierarchy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\CellLocatorChooser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\CellLocatorGeneral.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\CellLocatorPartitioned.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\CellLocatorRectilinearGrid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\CellLocatorTwoLevel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\CellLocatorUniformBins.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\CellLocatorUniformGrid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\CellSet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\CellSetExplicit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\CellSetExtrude.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\CellSetList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\CellSetPermutation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\CellSetSingleType.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\CellSetStructured.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\ColorTable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\ColorTableMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\ColorTableSamples.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\ConvertNumComponentsToOffsets.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\CoordinateSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\DataSet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\DataSetBuilderCurvilinear.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\DataSetBuilderExplicit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\DataSetBuilderRectilinear.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\DataSetBuilderUniform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\DeviceAdapter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\DeviceAdapterAlgorithm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\DeviceAdapterList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\DeviceAdapterTag.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\DIYMemoryManagement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\EnvironmentTracker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\Error.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\ErrorBadAllocation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\ErrorBadDevice.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\ErrorBadType.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\ErrorBadValue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\ErrorExecution.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\ErrorFilterExecution.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\ErrorInternal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\ErrorUserAbort.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\ExecutionAndControlObjectBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\ExecutionObjectBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\Field.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\FieldRangeCompute.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\FieldRangeGlobalCompute.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\Initialize.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\Invoker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\Logging.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\MergePartitionedDataSet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\ParticleArrayCopy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\PartitionedDataSet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\PointLocatorSparseGrid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\RuntimeDeviceInformation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\RuntimeDeviceTracker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\Serialization.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\Storage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\StorageList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\Timer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\Token.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\TryExecute.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\SerializableTypeString.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\UncertainArrayHandle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\UncertainCellSet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\UnknownArrayHandle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\UnknownCellSet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\Variant.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\CellSetExplicit.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\ParticleArrayCopy.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\internal\Hints.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{345BF67A-A46B-3569-AD4B-B0F9BB083ED9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{CE016C83-18D7-3CBD-A2E7-E2EB93EA0748}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

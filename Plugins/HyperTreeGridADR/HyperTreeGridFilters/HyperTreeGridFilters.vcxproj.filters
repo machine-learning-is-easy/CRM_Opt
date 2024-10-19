@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\pv\ParaView\Plugins\HyperTreeGridADR\HyperTreeGridFilters\vtkAbstractAccumulator.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Plugins\HyperTreeGridADR\HyperTreeGridFilters\vtkAbstractArrayMeasurement.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Plugins\HyperTreeGridADR\HyperTreeGridFilters\vtkArithmeticMeanArrayMeasurement.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Plugins\HyperTreeGridADR\HyperTreeGridFilters\vtkEntropyArrayMeasurement.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Plugins\HyperTreeGridADR\HyperTreeGridFilters\vtkGeometricMeanArrayMeasurement.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Plugins\HyperTreeGridADR\HyperTreeGridFilters\vtkHarmonicMeanArrayMeasurement.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Plugins\HyperTreeGridADR\HyperTreeGridFilters\vtkMaxAccumulator.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Plugins\HyperTreeGridADR\HyperTreeGridFilters\vtkMaxArrayMeasurement.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Plugins\HyperTreeGridADR\HyperTreeGridFilters\vtkQuantileAccumulator.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Plugins\HyperTreeGridADR\HyperTreeGridFilters\vtkQuantileArrayMeasurement.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Plugins\HyperTreeGridADR\HyperTreeGridFilters\vtkResampleToHyperTreeGrid.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Plugins\HyperTreeGridADR\HyperTreeGridFilters\vtkStandardDeviationArrayMeasurement.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\pv\ParaView\Plugins\HyperTreeGridADR\HyperTreeGridFilters\vtkArithmeticAccumulator.txx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Plugins\HyperTreeGridADR\HyperTreeGridFilters\vtkBinsAccumulator.txx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Plugins\HyperTreeGridADR\HyperTreeGridFilters\vtkFunctor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Plugins\HyperTreeGridADR\HyperTreeGridFilters\vtkAbstractAccumulator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Plugins\HyperTreeGridADR\HyperTreeGridFilters\vtkAbstractArrayMeasurement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Plugins\HyperTreeGridADR\HyperTreeGridFilters\vtkArithmeticMeanArrayMeasurement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Plugins\HyperTreeGridADR\HyperTreeGridFilters\vtkEntropyArrayMeasurement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Plugins\HyperTreeGridADR\HyperTreeGridFilters\vtkGeometricMeanArrayMeasurement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Plugins\HyperTreeGridADR\HyperTreeGridFilters\vtkHarmonicMeanArrayMeasurement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Plugins\HyperTreeGridADR\HyperTreeGridFilters\vtkMaxAccumulator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Plugins\HyperTreeGridADR\HyperTreeGridFilters\vtkMaxArrayMeasurement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Plugins\HyperTreeGridADR\HyperTreeGridFilters\vtkQuantileAccumulator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Plugins\HyperTreeGridADR\HyperTreeGridFilters\vtkQuantileArrayMeasurement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Plugins\HyperTreeGridADR\HyperTreeGridFilters\vtkResampleToHyperTreeGrid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Plugins\HyperTreeGridADR\HyperTreeGridFilters\vtkStandardDeviationArrayMeasurement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Plugins\HyperTreeGridADR\HyperTreeGridFilters\vtkArithmeticAccumulator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Plugins\HyperTreeGridADR\HyperTreeGridFilters\vtkBinsAccumulator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Plugins\HyperTreeGridADR\HyperTreeGridFilters\vtkFiltersHyperTreeGridADRModule.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\pv\ParaView\Plugins\HyperTreeGridADR\HyperTreeGridFilters\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{345BF67A-A46B-3569-AD4B-B0F9BB083ED9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{CE016C83-18D7-3CBD-A2E7-E2EB93EA0748}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

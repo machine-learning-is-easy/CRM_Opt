@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\geometry_refinement\ConvertToPointCloud.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\geometry_refinement\Shrink.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\geometry_refinement\SplitSharpEdges.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\geometry_refinement\Tetrahedralize.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\geometry_refinement\Triangulate.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\geometry_refinement\Tube.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\geometry_refinement\VertexClustering.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\geometry_refinement\ConvertToPointCloud.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\geometry_refinement\Shrink.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\geometry_refinement\SplitSharpEdges.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\geometry_refinement\Tetrahedralize.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\geometry_refinement\Triangulate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\geometry_refinement\Tube.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\geometry_refinement\VertexClustering.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\geometry_refinement\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{345BF67A-A46B-3569-AD4B-B0F9BB083ED9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{CE016C83-18D7-3CBD-A2E7-E2EB93EA0748}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

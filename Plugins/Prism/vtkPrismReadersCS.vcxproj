@@ -1,0 +1,558 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{3538F682-C514-375B-8B52-77DB088F19B4}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>vtkPrismReadersCS</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\pv\rebuild\lib\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">vtkPrismReadersCS.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">vtkPrismReadersCSd</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\pv\rebuild\lib\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">vtkPrismReadersCS.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">vtkPrismReadersCS</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\pv\rebuild\lib\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">vtkPrismReadersCS.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">vtkPrismReadersCS</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\pv\rebuild\lib\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">vtkPrismReadersCS.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">vtkPrismReadersCS</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\pv\rebuild\Plugins\Prism;D:\pv\ParaView\Plugins\Prism\Readers;D:\pv\rebuild\Plugins\Prism\Readers;D:\pv\ParaView\VTKExtensions\IOCore;D:\pv\rebuild\VTKExtensions\IOCore;D:\pv\ParaView\VTK\Common\ExecutionModel;D:\pv\rebuild\VTK\Common\ExecutionModel;D:\pv\ParaView\VTK\Common\Core;D:\pv\rebuild\VTK\Common\Core;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken\token;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken\token;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\rebuild\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson\include;D:\pv\ParaView\VTK\Common\DataModel;D:\pv\rebuild\VTK\Common\DataModel;D:\pv\ParaView\VTK\Common\Math;D:\pv\rebuild\VTK\Common\Math;D:\pv\ParaView\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\rebuild\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\ParaView\VTK\Common\Transforms;D:\pv\rebuild\VTK\Common\Transforms;D:\pv\ParaView\VTK\IO\Core;D:\pv\rebuild\VTK\IO\Core;D:\pv\ParaView\VTK\IO\XML;D:\pv\rebuild\VTK\IO\XML;D:\pv\ParaView\VTK\IO\XMLParser;D:\pv\rebuild\VTK\IO\XMLParser;D:\pv\ParaView\Plugins\Prism\ServerManager;D:\pv\rebuild\Plugins\Prism\ServerManager;D:\pv\ParaView\Remoting\ServerManager;D:\pv\rebuild\Remoting\ServerManager;D:\pv\ParaView\ThirdParty\protobuf\vtkprotobuf\src;D:\pv\ParaView\Remoting\ClientServerStream;D:\pv\rebuild\Remoting\ClientServerStream;D:\pv\ParaView\Remoting\Core;D:\pv\rebuild\Remoting\Core;D:\pv\ParaView\Utilities\Versioning;D:\pv\rebuild\Utilities\Versioning;D:\pv\ParaView\VTKExtensions\Core;D:\pv\rebuild\VTKExtensions\Core;D:\pv\ParaView\VTK\ThirdParty\fmt\vtkfmt;D:\pv\rebuild\VTK\ThirdParty\fmt\vtkfmt;D:\pv\ParaView\VTK\Common\Misc;D:\pv\rebuild\VTK\Common\Misc;D:\pv\ParaView\VTK\Parallel\Core;D:\pv\rebuild\VTK\Parallel\Core;D:\pv\ParaView\VTK\ThirdParty\jsoncpp\vtkjsoncpp;D:\pv\rebuild\VTK\ThirdParty\jsoncpp\vtkjsoncpp;D:\pv\rebuild\VTK\ThirdParty\jsoncpp\vtkjsoncpp\json;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/pv/rebuild/VTK/Utilities/KWIML" /external:I "D:/pv/ParaView/VTK/Utilities/KWIML" /external:I "D:/pv/rebuild/VTK/Utilities/KWSys" /external:I "D:/pv/ParaView/VTK/Utilities/KWSys" /external:I "D:/pv/rebuild/VTK/ThirdParty/token" /external:I "D:/pv/ParaView/VTK/ThirdParty/token" /external:I "D:/pv/rebuild/VTK/ThirdParty/nlohmannjson" /external:I "D:/pv/ParaView/VTK/ThirdParty/nlohmannjson" /external:I "D:/pv/rebuild/VTK/ThirdParty/kissfft" /external:I "D:/pv/ParaView/VTK/ThirdParty/kissfft" /external:I "D:/pv/rebuild/ThirdParty/protobuf" /external:I "D:/pv/ParaView/ThirdParty/protobuf" /external:I "D:/pv/rebuild/VTK/ThirdParty/cli11" /external:I "D:/pv/ParaView/VTK/ThirdParty/cli11" /external:I "D:/pv/rebuild/VTK/ThirdParty/fmt" /external:I "D:/pv/ParaView/VTK/ThirdParty/fmt" /external:I "D:/pv/rebuild/VTK/ThirdParty/jsoncpp" /external:I "D:/pv/ParaView/VTK/ThirdParty/jsoncpp" /bigobj /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;kiss_fft_scalar=double;KISSFFT_DLL_IMPORT=1;PROTOBUF_USE_DLLS;FMT_SHARED;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;kiss_fft_scalar=double;KISSFFT_DLL_IMPORT=1;PROTOBUF_USE_DLLS;FMT_SHARED;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\pv\rebuild\Plugins\Prism;D:\pv\ParaView\Plugins\Prism\Readers;D:\pv\rebuild\Plugins\Prism\Readers;D:\pv\ParaView\VTKExtensions\IOCore;D:\pv\rebuild\VTKExtensions\IOCore;D:\pv\ParaView\VTK\Common\ExecutionModel;D:\pv\rebuild\VTK\Common\ExecutionModel;D:\pv\ParaView\VTK\Common\Core;D:\pv\rebuild\VTK\Common\Core;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken\token;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken\token;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\rebuild\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson\include;D:\pv\ParaView\VTK\Common\DataModel;D:\pv\rebuild\VTK\Common\DataModel;D:\pv\ParaView\VTK\Common\Math;D:\pv\rebuild\VTK\Common\Math;D:\pv\ParaView\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\rebuild\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\ParaView\VTK\Common\Transforms;D:\pv\rebuild\VTK\Common\Transforms;D:\pv\ParaView\VTK\IO\Core;D:\pv\rebuild\VTK\IO\Core;D:\pv\ParaView\VTK\IO\XML;D:\pv\rebuild\VTK\IO\XML;D:\pv\ParaView\VTK\IO\XMLParser;D:\pv\rebuild\VTK\IO\XMLParser;D:\pv\ParaView\Plugins\Prism\ServerManager;D:\pv\rebuild\Plugins\Prism\ServerManager;D:\pv\ParaView\Remoting\ServerManager;D:\pv\rebuild\Remoting\ServerManager;D:\pv\ParaView\ThirdParty\protobuf\vtkprotobuf\src;D:\pv\ParaView\Remoting\ClientServerStream;D:\pv\rebuild\Remoting\ClientServerStream;D:\pv\ParaView\Remoting\Core;D:\pv\rebuild\Remoting\Core;D:\pv\ParaView\Utilities\Versioning;D:\pv\rebuild\Utilities\Versioning;D:\pv\ParaView\VTKExtensions\Core;D:\pv\rebuild\VTKExtensions\Core;D:\pv\ParaView\VTK\ThirdParty\fmt\vtkfmt;D:\pv\rebuild\VTK\ThirdParty\fmt\vtkfmt;D:\pv\ParaView\VTK\Common\Misc;D:\pv\rebuild\VTK\Common\Misc;D:\pv\ParaView\VTK\Parallel\Core;D:\pv\rebuild\VTK\Parallel\Core;D:\pv\ParaView\VTK\ThirdParty\jsoncpp\vtkjsoncpp;D:\pv\rebuild\VTK\ThirdParty\jsoncpp\vtkjsoncpp;D:\pv\rebuild\VTK\ThirdParty\jsoncpp\vtkjsoncpp\json;D:\pv\rebuild\VTK\Utilities\KWIML;D:\pv\ParaView\VTK\Utilities\KWIML;D:\pv\rebuild\VTK\Utilities\KWSys;D:\pv\ParaView\VTK\Utilities\KWSys;D:\pv\rebuild\VTK\ThirdParty\token;D:\pv\ParaView\VTK\ThirdParty\token;D:\pv\rebuild\VTK\ThirdParty\nlohmannjson;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson;D:\pv\rebuild\VTK\ThirdParty\kissfft;D:\pv\ParaView\VTK\ThirdParty\kissfft;D:\pv\rebuild\ThirdParty\protobuf;D:\pv\ParaView\ThirdParty\protobuf;D:\pv\rebuild\VTK\ThirdParty\cli11;D:\pv\ParaView\VTK\ThirdParty\cli11;D:\pv\rebuild\VTK\ThirdParty\fmt;D:\pv\ParaView\VTK\ThirdParty\fmt;D:\pv\rebuild\VTK\ThirdParty\jsoncpp;D:\pv\ParaView\VTK\ThirdParty\jsoncpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\pv\rebuild\Plugins\Prism;D:\pv\ParaView\Plugins\Prism\Readers;D:\pv\rebuild\Plugins\Prism\Readers;D:\pv\ParaView\VTKExtensions\IOCore;D:\pv\rebuild\VTKExtensions\IOCore;D:\pv\ParaView\VTK\Common\ExecutionModel;D:\pv\rebuild\VTK\Common\ExecutionModel;D:\pv\ParaView\VTK\Common\Core;D:\pv\rebuild\VTK\Common\Core;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken\token;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken\token;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\rebuild\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson\include;D:\pv\ParaView\VTK\Common\DataModel;D:\pv\rebuild\VTK\Common\DataModel;D:\pv\ParaView\VTK\Common\Math;D:\pv\rebuild\VTK\Common\Math;D:\pv\ParaView\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\rebuild\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\ParaView\VTK\Common\Transforms;D:\pv\rebuild\VTK\Common\Transforms;D:\pv\ParaView\VTK\IO\Core;D:\pv\rebuild\VTK\IO\Core;D:\pv\ParaView\VTK\IO\XML;D:\pv\rebuild\VTK\IO\XML;D:\pv\ParaView\VTK\IO\XMLParser;D:\pv\rebuild\VTK\IO\XMLParser;D:\pv\ParaView\Plugins\Prism\ServerManager;D:\pv\rebuild\Plugins\Prism\ServerManager;D:\pv\ParaView\Remoting\ServerManager;D:\pv\rebuild\Remoting\ServerManager;D:\pv\ParaView\ThirdParty\protobuf\vtkprotobuf\src;D:\pv\ParaView\Remoting\ClientServerStream;D:\pv\rebuild\Remoting\ClientServerStream;D:\pv\ParaView\Remoting\Core;D:\pv\rebuild\Remoting\Core;D:\pv\ParaView\Utilities\Versioning;D:\pv\rebuild\Utilities\Versioning;D:\pv\ParaView\VTKExtensions\Core;D:\pv\rebuild\VTKExtensions\Core;D:\pv\ParaView\VTK\ThirdParty\fmt\vtkfmt;D:\pv\rebuild\VTK\ThirdParty\fmt\vtkfmt;D:\pv\ParaView\VTK\Common\Misc;D:\pv\rebuild\VTK\Common\Misc;D:\pv\ParaView\VTK\Parallel\Core;D:\pv\rebuild\VTK\Parallel\Core;D:\pv\ParaView\VTK\ThirdParty\jsoncpp\vtkjsoncpp;D:\pv\rebuild\VTK\ThirdParty\jsoncpp\vtkjsoncpp;D:\pv\rebuild\VTK\ThirdParty\jsoncpp\vtkjsoncpp\json;D:\pv\rebuild\VTK\Utilities\KWIML;D:\pv\ParaView\VTK\Utilities\KWIML;D:\pv\rebuild\VTK\Utilities\KWSys;D:\pv\ParaView\VTK\Utilities\KWSys;D:\pv\rebuild\VTK\ThirdParty\token;D:\pv\ParaView\VTK\ThirdParty\token;D:\pv\rebuild\VTK\ThirdParty\nlohmannjson;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson;D:\pv\rebuild\VTK\ThirdParty\kissfft;D:\pv\ParaView\VTK\ThirdParty\kissfft;D:\pv\rebuild\ThirdParty\protobuf;D:\pv\ParaView\ThirdParty\protobuf;D:\pv\rebuild\VTK\ThirdParty\cli11;D:\pv\ParaView\VTK\ThirdParty\cli11;D:\pv\rebuild\VTK\ThirdParty\fmt;D:\pv\ParaView\VTK\ThirdParty\fmt;D:\pv\rebuild\VTK\ThirdParty\jsoncpp;D:\pv\ParaView\VTK\ThirdParty\jsoncpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\pv\rebuild\Plugins\Prism;D:\pv\ParaView\Plugins\Prism\Readers;D:\pv\rebuild\Plugins\Prism\Readers;D:\pv\ParaView\VTKExtensions\IOCore;D:\pv\rebuild\VTKExtensions\IOCore;D:\pv\ParaView\VTK\Common\ExecutionModel;D:\pv\rebuild\VTK\Common\ExecutionModel;D:\pv\ParaView\VTK\Common\Core;D:\pv\rebuild\VTK\Common\Core;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken\token;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken\token;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\rebuild\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson\include;D:\pv\ParaView\VTK\Common\DataModel;D:\pv\rebuild\VTK\Common\DataModel;D:\pv\ParaView\VTK\Common\Math;D:\pv\rebuild\VTK\Common\Math;D:\pv\ParaView\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\rebuild\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\ParaView\VTK\Common\Transforms;D:\pv\rebuild\VTK\Common\Transforms;D:\pv\ParaView\VTK\IO\Core;D:\pv\rebuild\VTK\IO\Core;D:\pv\ParaView\VTK\IO\XML;D:\pv\rebuild\VTK\IO\XML;D:\pv\ParaView\VTK\IO\XMLParser;D:\pv\rebuild\VTK\IO\XMLParser;D:\pv\ParaView\Plugins\Prism\ServerManager;D:\pv\rebuild\Plugins\Prism\ServerManager;D:\pv\ParaView\Remoting\ServerManager;D:\pv\rebuild\Remoting\ServerManager;D:\pv\ParaView\ThirdParty\protobuf\vtkprotobuf\src;D:\pv\ParaView\Remoting\ClientServerStream;D:\pv\rebuild\Remoting\ClientServerStream;D:\pv\ParaView\Remoting\Core;D:\pv\rebuild\Remoting\Core;D:\pv\ParaView\Utilities\Versioning;D:\pv\rebuild\Utilities\Versioning;D:\pv\ParaView\VTKExtensions\Core;D:\pv\rebuild\VTKExtensions\Core;D:\pv\ParaView\VTK\ThirdParty\fmt\vtkfmt;D:\pv\rebuild\VTK\ThirdParty\fmt\vtkfmt;D:\pv\ParaView\VTK\Common\Misc;D:\pv\rebuild\VTK\Common\Misc;D:\pv\ParaView\VTK\Parallel\Core;D:\pv\rebuild\VTK\Parallel\Core;D:\pv\ParaView\VTK\ThirdParty\jsoncpp\vtkjsoncpp;D:\pv\rebuild\VTK\ThirdParty\jsoncpp\vtkjsoncpp;D:\pv\rebuild\VTK\ThirdParty\jsoncpp\vtkjsoncpp\json;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/pv/rebuild/VTK/Utilities/KWIML" /external:I "D:/pv/ParaView/VTK/Utilities/KWIML" /external:I "D:/pv/rebuild/VTK/Utilities/KWSys" /external:I "D:/pv/ParaView/VTK/Utilities/KWSys" /external:I "D:/pv/rebuild/VTK/ThirdParty/token" /external:I "D:/pv/ParaView/VTK/ThirdParty/token" /external:I "D:/pv/rebuild/VTK/ThirdParty/nlohmannjson" /external:I "D:/pv/ParaView/VTK/ThirdParty/nlohmannjson" /external:I "D:/pv/rebuild/VTK/ThirdParty/kissfft" /external:I "D:/pv/ParaView/VTK/ThirdParty/kissfft" /external:I "D:/pv/rebuild/ThirdParty/protobuf" /external:I "D:/pv/ParaView/ThirdParty/protobuf" /external:I "D:/pv/rebuild/VTK/ThirdParty/cli11" /external:I "D:/pv/ParaView/VTK/ThirdParty/cli11" /external:I "D:/pv/rebuild/VTK/ThirdParty/fmt" /external:I "D:/pv/ParaView/VTK/ThirdParty/fmt" /external:I "D:/pv/rebuild/VTK/ThirdParty/jsoncpp" /external:I "D:/pv/ParaView/VTK/ThirdParty/jsoncpp" /bigobj /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;kiss_fft_scalar=double;KISSFFT_DLL_IMPORT=1;PROTOBUF_USE_DLLS;FMT_SHARED;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;kiss_fft_scalar=double;KISSFFT_DLL_IMPORT=1;PROTOBUF_USE_DLLS;FMT_SHARED;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\pv\rebuild\Plugins\Prism;D:\pv\ParaView\Plugins\Prism\Readers;D:\pv\rebuild\Plugins\Prism\Readers;D:\pv\ParaView\VTKExtensions\IOCore;D:\pv\rebuild\VTKExtensions\IOCore;D:\pv\ParaView\VTK\Common\ExecutionModel;D:\pv\rebuild\VTK\Common\ExecutionModel;D:\pv\ParaView\VTK\Common\Core;D:\pv\rebuild\VTK\Common\Core;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken\token;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken\token;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\rebuild\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson\include;D:\pv\ParaView\VTK\Common\DataModel;D:\pv\rebuild\VTK\Common\DataModel;D:\pv\ParaView\VTK\Common\Math;D:\pv\rebuild\VTK\Common\Math;D:\pv\ParaView\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\rebuild\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\ParaView\VTK\Common\Transforms;D:\pv\rebuild\VTK\Common\Transforms;D:\pv\ParaView\VTK\IO\Core;D:\pv\rebuild\VTK\IO\Core;D:\pv\ParaView\VTK\IO\XML;D:\pv\rebuild\VTK\IO\XML;D:\pv\ParaView\VTK\IO\XMLParser;D:\pv\rebuild\VTK\IO\XMLParser;D:\pv\ParaView\Plugins\Prism\ServerManager;D:\pv\rebuild\Plugins\Prism\ServerManager;D:\pv\ParaView\Remoting\ServerManager;D:\pv\rebuild\Remoting\ServerManager;D:\pv\ParaView\ThirdParty\protobuf\vtkprotobuf\src;D:\pv\ParaView\Remoting\ClientServerStream;D:\pv\rebuild\Remoting\ClientServerStream;D:\pv\ParaView\Remoting\Core;D:\pv\rebuild\Remoting\Core;D:\pv\ParaView\Utilities\Versioning;D:\pv\rebuild\Utilities\Versioning;D:\pv\ParaView\VTKExtensions\Core;D:\pv\rebuild\VTKExtensions\Core;D:\pv\ParaView\VTK\ThirdParty\fmt\vtkfmt;D:\pv\rebuild\VTK\ThirdParty\fmt\vtkfmt;D:\pv\ParaView\VTK\Common\Misc;D:\pv\rebuild\VTK\Common\Misc;D:\pv\ParaView\VTK\Parallel\Core;D:\pv\rebuild\VTK\Parallel\Core;D:\pv\ParaView\VTK\ThirdParty\jsoncpp\vtkjsoncpp;D:\pv\rebuild\VTK\ThirdParty\jsoncpp\vtkjsoncpp;D:\pv\rebuild\VTK\ThirdParty\jsoncpp\vtkjsoncpp\json;D:\pv\rebuild\VTK\Utilities\KWIML;D:\pv\ParaView\VTK\Utilities\KWIML;D:\pv\rebuild\VTK\Utilities\KWSys;D:\pv\ParaView\VTK\Utilities\KWSys;D:\pv\rebuild\VTK\ThirdParty\token;D:\pv\ParaView\VTK\ThirdParty\token;D:\pv\rebuild\VTK\ThirdParty\nlohmannjson;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson;D:\pv\rebuild\VTK\ThirdParty\kissfft;D:\pv\ParaView\VTK\ThirdParty\kissfft;D:\pv\rebuild\ThirdParty\protobuf;D:\pv\ParaView\ThirdParty\protobuf;D:\pv\rebuild\VTK\ThirdParty\cli11;D:\pv\ParaView\VTK\ThirdParty\cli11;D:\pv\rebuild\VTK\ThirdParty\fmt;D:\pv\ParaView\VTK\ThirdParty\fmt;D:\pv\rebuild\VTK\ThirdParty\jsoncpp;D:\pv\ParaView\VTK\ThirdParty\jsoncpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\pv\rebuild\Plugins\Prism;D:\pv\ParaView\Plugins\Prism\Readers;D:\pv\rebuild\Plugins\Prism\Readers;D:\pv\ParaView\VTKExtensions\IOCore;D:\pv\rebuild\VTKExtensions\IOCore;D:\pv\ParaView\VTK\Common\ExecutionModel;D:\pv\rebuild\VTK\Common\ExecutionModel;D:\pv\ParaView\VTK\Common\Core;D:\pv\rebuild\VTK\Common\Core;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken\token;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken\token;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\rebuild\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson\include;D:\pv\ParaView\VTK\Common\DataModel;D:\pv\rebuild\VTK\Common\DataModel;D:\pv\ParaView\VTK\Common\Math;D:\pv\rebuild\VTK\Common\Math;D:\pv\ParaView\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\rebuild\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\ParaView\VTK\Common\Transforms;D:\pv\rebuild\VTK\Common\Transforms;D:\pv\ParaView\VTK\IO\Core;D:\pv\rebuild\VTK\IO\Core;D:\pv\ParaView\VTK\IO\XML;D:\pv\rebuild\VTK\IO\XML;D:\pv\ParaView\VTK\IO\XMLParser;D:\pv\rebuild\VTK\IO\XMLParser;D:\pv\ParaView\Plugins\Prism\ServerManager;D:\pv\rebuild\Plugins\Prism\ServerManager;D:\pv\ParaView\Remoting\ServerManager;D:\pv\rebuild\Remoting\ServerManager;D:\pv\ParaView\ThirdParty\protobuf\vtkprotobuf\src;D:\pv\ParaView\Remoting\ClientServerStream;D:\pv\rebuild\Remoting\ClientServerStream;D:\pv\ParaView\Remoting\Core;D:\pv\rebuild\Remoting\Core;D:\pv\ParaView\Utilities\Versioning;D:\pv\rebuild\Utilities\Versioning;D:\pv\ParaView\VTKExtensions\Core;D:\pv\rebuild\VTKExtensions\Core;D:\pv\ParaView\VTK\ThirdParty\fmt\vtkfmt;D:\pv\rebuild\VTK\ThirdParty\fmt\vtkfmt;D:\pv\ParaView\VTK\Common\Misc;D:\pv\rebuild\VTK\Common\Misc;D:\pv\ParaView\VTK\Parallel\Core;D:\pv\rebuild\VTK\Parallel\Core;D:\pv\ParaView\VTK\ThirdParty\jsoncpp\vtkjsoncpp;D:\pv\rebuild\VTK\ThirdParty\jsoncpp\vtkjsoncpp;D:\pv\rebuild\VTK\ThirdParty\jsoncpp\vtkjsoncpp\json;D:\pv\rebuild\VTK\Utilities\KWIML;D:\pv\ParaView\VTK\Utilities\KWIML;D:\pv\rebuild\VTK\Utilities\KWSys;D:\pv\ParaView\VTK\Utilities\KWSys;D:\pv\rebuild\VTK\ThirdParty\token;D:\pv\ParaView\VTK\ThirdParty\token;D:\pv\rebuild\VTK\ThirdParty\nlohmannjson;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson;D:\pv\rebuild\VTK\ThirdParty\kissfft;D:\pv\ParaView\VTK\ThirdParty\kissfft;D:\pv\rebuild\ThirdParty\protobuf;D:\pv\ParaView\ThirdParty\protobuf;D:\pv\rebuild\VTK\ThirdParty\cli11;D:\pv\ParaView\VTK\ThirdParty\cli11;D:\pv\rebuild\VTK\ThirdParty\fmt;D:\pv\ParaView\VTK\ThirdParty\fmt;D:\pv\rebuild\VTK\ThirdParty\jsoncpp;D:\pv\ParaView\VTK\ThirdParty\jsoncpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\pv\rebuild\Plugins\Prism;D:\pv\ParaView\Plugins\Prism\Readers;D:\pv\rebuild\Plugins\Prism\Readers;D:\pv\ParaView\VTKExtensions\IOCore;D:\pv\rebuild\VTKExtensions\IOCore;D:\pv\ParaView\VTK\Common\ExecutionModel;D:\pv\rebuild\VTK\Common\ExecutionModel;D:\pv\ParaView\VTK\Common\Core;D:\pv\rebuild\VTK\Common\Core;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken\token;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken\token;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\rebuild\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson\include;D:\pv\ParaView\VTK\Common\DataModel;D:\pv\rebuild\VTK\Common\DataModel;D:\pv\ParaView\VTK\Common\Math;D:\pv\rebuild\VTK\Common\Math;D:\pv\ParaView\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\rebuild\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\ParaView\VTK\Common\Transforms;D:\pv\rebuild\VTK\Common\Transforms;D:\pv\ParaView\VTK\IO\Core;D:\pv\rebuild\VTK\IO\Core;D:\pv\ParaView\VTK\IO\XML;D:\pv\rebuild\VTK\IO\XML;D:\pv\ParaView\VTK\IO\XMLParser;D:\pv\rebuild\VTK\IO\XMLParser;D:\pv\ParaView\Plugins\Prism\ServerManager;D:\pv\rebuild\Plugins\Prism\ServerManager;D:\pv\ParaView\Remoting\ServerManager;D:\pv\rebuild\Remoting\ServerManager;D:\pv\ParaView\ThirdParty\protobuf\vtkprotobuf\src;D:\pv\ParaView\Remoting\ClientServerStream;D:\pv\rebuild\Remoting\ClientServerStream;D:\pv\ParaView\Remoting\Core;D:\pv\rebuild\Remoting\Core;D:\pv\ParaView\Utilities\Versioning;D:\pv\rebuild\Utilities\Versioning;D:\pv\ParaView\VTKExtensions\Core;D:\pv\rebuild\VTKExtensions\Core;D:\pv\ParaView\VTK\ThirdParty\fmt\vtkfmt;D:\pv\rebuild\VTK\ThirdParty\fmt\vtkfmt;D:\pv\ParaView\VTK\Common\Misc;D:\pv\rebuild\VTK\Common\Misc;D:\pv\ParaView\VTK\Parallel\Core;D:\pv\rebuild\VTK\Parallel\Core;D:\pv\ParaView\VTK\ThirdParty\jsoncpp\vtkjsoncpp;D:\pv\rebuild\VTK\ThirdParty\jsoncpp\vtkjsoncpp;D:\pv\rebuild\VTK\ThirdParty\jsoncpp\vtkjsoncpp\json;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/pv/rebuild/VTK/Utilities/KWIML" /external:I "D:/pv/ParaView/VTK/Utilities/KWIML" /external:I "D:/pv/rebuild/VTK/Utilities/KWSys" /external:I "D:/pv/ParaView/VTK/Utilities/KWSys" /external:I "D:/pv/rebuild/VTK/ThirdParty/token" /external:I "D:/pv/ParaView/VTK/ThirdParty/token" /external:I "D:/pv/rebuild/VTK/ThirdParty/nlohmannjson" /external:I "D:/pv/ParaView/VTK/ThirdParty/nlohmannjson" /external:I "D:/pv/rebuild/VTK/ThirdParty/kissfft" /external:I "D:/pv/ParaView/VTK/ThirdParty/kissfft" /external:I "D:/pv/rebuild/ThirdParty/protobuf" /external:I "D:/pv/ParaView/ThirdParty/protobuf" /external:I "D:/pv/rebuild/VTK/ThirdParty/cli11" /external:I "D:/pv/ParaView/VTK/ThirdParty/cli11" /external:I "D:/pv/rebuild/VTK/ThirdParty/fmt" /external:I "D:/pv/ParaView/VTK/ThirdParty/fmt" /external:I "D:/pv/rebuild/VTK/ThirdParty/jsoncpp" /external:I "D:/pv/ParaView/VTK/ThirdParty/jsoncpp" /bigobj /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;kiss_fft_scalar=double;KISSFFT_DLL_IMPORT=1;PROTOBUF_USE_DLLS;FMT_SHARED;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;kiss_fft_scalar=double;KISSFFT_DLL_IMPORT=1;PROTOBUF_USE_DLLS;FMT_SHARED;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\pv\rebuild\Plugins\Prism;D:\pv\ParaView\Plugins\Prism\Readers;D:\pv\rebuild\Plugins\Prism\Readers;D:\pv\ParaView\VTKExtensions\IOCore;D:\pv\rebuild\VTKExtensions\IOCore;D:\pv\ParaView\VTK\Common\ExecutionModel;D:\pv\rebuild\VTK\Common\ExecutionModel;D:\pv\ParaView\VTK\Common\Core;D:\pv\rebuild\VTK\Common\Core;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken\token;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken\token;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\rebuild\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson\include;D:\pv\ParaView\VTK\Common\DataModel;D:\pv\rebuild\VTK\Common\DataModel;D:\pv\ParaView\VTK\Common\Math;D:\pv\rebuild\VTK\Common\Math;D:\pv\ParaView\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\rebuild\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\ParaView\VTK\Common\Transforms;D:\pv\rebuild\VTK\Common\Transforms;D:\pv\ParaView\VTK\IO\Core;D:\pv\rebuild\VTK\IO\Core;D:\pv\ParaView\VTK\IO\XML;D:\pv\rebuild\VTK\IO\XML;D:\pv\ParaView\VTK\IO\XMLParser;D:\pv\rebuild\VTK\IO\XMLParser;D:\pv\ParaView\Plugins\Prism\ServerManager;D:\pv\rebuild\Plugins\Prism\ServerManager;D:\pv\ParaView\Remoting\ServerManager;D:\pv\rebuild\Remoting\ServerManager;D:\pv\ParaView\ThirdParty\protobuf\vtkprotobuf\src;D:\pv\ParaView\Remoting\ClientServerStream;D:\pv\rebuild\Remoting\ClientServerStream;D:\pv\ParaView\Remoting\Core;D:\pv\rebuild\Remoting\Core;D:\pv\ParaView\Utilities\Versioning;D:\pv\rebuild\Utilities\Versioning;D:\pv\ParaView\VTKExtensions\Core;D:\pv\rebuild\VTKExtensions\Core;D:\pv\ParaView\VTK\ThirdParty\fmt\vtkfmt;D:\pv\rebuild\VTK\ThirdParty\fmt\vtkfmt;D:\pv\ParaView\VTK\Common\Misc;D:\pv\rebuild\VTK\Common\Misc;D:\pv\ParaView\VTK\Parallel\Core;D:\pv\rebuild\VTK\Parallel\Core;D:\pv\ParaView\VTK\ThirdParty\jsoncpp\vtkjsoncpp;D:\pv\rebuild\VTK\ThirdParty\jsoncpp\vtkjsoncpp;D:\pv\rebuild\VTK\ThirdParty\jsoncpp\vtkjsoncpp\json;D:\pv\rebuild\VTK\Utilities\KWIML;D:\pv\ParaView\VTK\Utilities\KWIML;D:\pv\rebuild\VTK\Utilities\KWSys;D:\pv\ParaView\VTK\Utilities\KWSys;D:\pv\rebuild\VTK\ThirdParty\token;D:\pv\ParaView\VTK\ThirdParty\token;D:\pv\rebuild\VTK\ThirdParty\nlohmannjson;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson;D:\pv\rebuild\VTK\ThirdParty\kissfft;D:\pv\ParaView\VTK\ThirdParty\kissfft;D:\pv\rebuild\ThirdParty\protobuf;D:\pv\ParaView\ThirdParty\protobuf;D:\pv\rebuild\VTK\ThirdParty\cli11;D:\pv\ParaView\VTK\ThirdParty\cli11;D:\pv\rebuild\VTK\ThirdParty\fmt;D:\pv\ParaView\VTK\ThirdParty\fmt;D:\pv\rebuild\VTK\ThirdParty\jsoncpp;D:\pv\ParaView\VTK\ThirdParty\jsoncpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\pv\rebuild\Plugins\Prism;D:\pv\ParaView\Plugins\Prism\Readers;D:\pv\rebuild\Plugins\Prism\Readers;D:\pv\ParaView\VTKExtensions\IOCore;D:\pv\rebuild\VTKExtensions\IOCore;D:\pv\ParaView\VTK\Common\ExecutionModel;D:\pv\rebuild\VTK\Common\ExecutionModel;D:\pv\ParaView\VTK\Common\Core;D:\pv\rebuild\VTK\Common\Core;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken\token;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken\token;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\rebuild\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson\include;D:\pv\ParaView\VTK\Common\DataModel;D:\pv\rebuild\VTK\Common\DataModel;D:\pv\ParaView\VTK\Common\Math;D:\pv\rebuild\VTK\Common\Math;D:\pv\ParaView\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\rebuild\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\ParaView\VTK\Common\Transforms;D:\pv\rebuild\VTK\Common\Transforms;D:\pv\ParaView\VTK\IO\Core;D:\pv\rebuild\VTK\IO\Core;D:\pv\ParaView\VTK\IO\XML;D:\pv\rebuild\VTK\IO\XML;D:\pv\ParaView\VTK\IO\XMLParser;D:\pv\rebuild\VTK\IO\XMLParser;D:\pv\ParaView\Plugins\Prism\ServerManager;D:\pv\rebuild\Plugins\Prism\ServerManager;D:\pv\ParaView\Remoting\ServerManager;D:\pv\rebuild\Remoting\ServerManager;D:\pv\ParaView\ThirdParty\protobuf\vtkprotobuf\src;D:\pv\ParaView\Remoting\ClientServerStream;D:\pv\rebuild\Remoting\ClientServerStream;D:\pv\ParaView\Remoting\Core;D:\pv\rebuild\Remoting\Core;D:\pv\ParaView\Utilities\Versioning;D:\pv\rebuild\Utilities\Versioning;D:\pv\ParaView\VTKExtensions\Core;D:\pv\rebuild\VTKExtensions\Core;D:\pv\ParaView\VTK\ThirdParty\fmt\vtkfmt;D:\pv\rebuild\VTK\ThirdParty\fmt\vtkfmt;D:\pv\ParaView\VTK\Common\Misc;D:\pv\rebuild\VTK\Common\Misc;D:\pv\ParaView\VTK\Parallel\Core;D:\pv\rebuild\VTK\Parallel\Core;D:\pv\ParaView\VTK\ThirdParty\jsoncpp\vtkjsoncpp;D:\pv\rebuild\VTK\ThirdParty\jsoncpp\vtkjsoncpp;D:\pv\rebuild\VTK\ThirdParty\jsoncpp\vtkjsoncpp\json;D:\pv\rebuild\VTK\Utilities\KWIML;D:\pv\ParaView\VTK\Utilities\KWIML;D:\pv\rebuild\VTK\Utilities\KWSys;D:\pv\ParaView\VTK\Utilities\KWSys;D:\pv\rebuild\VTK\ThirdParty\token;D:\pv\ParaView\VTK\ThirdParty\token;D:\pv\rebuild\VTK\ThirdParty\nlohmannjson;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson;D:\pv\rebuild\VTK\ThirdParty\kissfft;D:\pv\ParaView\VTK\ThirdParty\kissfft;D:\pv\rebuild\ThirdParty\protobuf;D:\pv\ParaView\ThirdParty\protobuf;D:\pv\rebuild\VTK\ThirdParty\cli11;D:\pv\ParaView\VTK\ThirdParty\cli11;D:\pv\rebuild\VTK\ThirdParty\fmt;D:\pv\ParaView\VTK\ThirdParty\fmt;D:\pv\rebuild\VTK\ThirdParty\jsoncpp;D:\pv\ParaView\VTK\ThirdParty\jsoncpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\pv\rebuild\Plugins\Prism;D:\pv\ParaView\Plugins\Prism\Readers;D:\pv\rebuild\Plugins\Prism\Readers;D:\pv\ParaView\VTKExtensions\IOCore;D:\pv\rebuild\VTKExtensions\IOCore;D:\pv\ParaView\VTK\Common\ExecutionModel;D:\pv\rebuild\VTK\Common\ExecutionModel;D:\pv\ParaView\VTK\Common\Core;D:\pv\rebuild\VTK\Common\Core;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken\token;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken\token;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\rebuild\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson\include;D:\pv\ParaView\VTK\Common\DataModel;D:\pv\rebuild\VTK\Common\DataModel;D:\pv\ParaView\VTK\Common\Math;D:\pv\rebuild\VTK\Common\Math;D:\pv\ParaView\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\rebuild\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\ParaView\VTK\Common\Transforms;D:\pv\rebuild\VTK\Common\Transforms;D:\pv\ParaView\VTK\IO\Core;D:\pv\rebuild\VTK\IO\Core;D:\pv\ParaView\VTK\IO\XML;D:\pv\rebuild\VTK\IO\XML;D:\pv\ParaView\VTK\IO\XMLParser;D:\pv\rebuild\VTK\IO\XMLParser;D:\pv\ParaView\Plugins\Prism\ServerManager;D:\pv\rebuild\Plugins\Prism\ServerManager;D:\pv\ParaView\Remoting\ServerManager;D:\pv\rebuild\Remoting\ServerManager;D:\pv\ParaView\ThirdParty\protobuf\vtkprotobuf\src;D:\pv\ParaView\Remoting\ClientServerStream;D:\pv\rebuild\Remoting\ClientServerStream;D:\pv\ParaView\Remoting\Core;D:\pv\rebuild\Remoting\Core;D:\pv\ParaView\Utilities\Versioning;D:\pv\rebuild\Utilities\Versioning;D:\pv\ParaView\VTKExtensions\Core;D:\pv\rebuild\VTKExtensions\Core;D:\pv\ParaView\VTK\ThirdParty\fmt\vtkfmt;D:\pv\rebuild\VTK\ThirdParty\fmt\vtkfmt;D:\pv\ParaView\VTK\Common\Misc;D:\pv\rebuild\VTK\Common\Misc;D:\pv\ParaView\VTK\Parallel\Core;D:\pv\rebuild\VTK\Parallel\Core;D:\pv\ParaView\VTK\ThirdParty\jsoncpp\vtkjsoncpp;D:\pv\rebuild\VTK\ThirdParty\jsoncpp\vtkjsoncpp;D:\pv\rebuild\VTK\ThirdParty\jsoncpp\vtkjsoncpp\json;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/pv/rebuild/VTK/Utilities/KWIML" /external:I "D:/pv/ParaView/VTK/Utilities/KWIML" /external:I "D:/pv/rebuild/VTK/Utilities/KWSys" /external:I "D:/pv/ParaView/VTK/Utilities/KWSys" /external:I "D:/pv/rebuild/VTK/ThirdParty/token" /external:I "D:/pv/ParaView/VTK/ThirdParty/token" /external:I "D:/pv/rebuild/VTK/ThirdParty/nlohmannjson" /external:I "D:/pv/ParaView/VTK/ThirdParty/nlohmannjson" /external:I "D:/pv/rebuild/VTK/ThirdParty/kissfft" /external:I "D:/pv/ParaView/VTK/ThirdParty/kissfft" /external:I "D:/pv/rebuild/ThirdParty/protobuf" /external:I "D:/pv/ParaView/ThirdParty/protobuf" /external:I "D:/pv/rebuild/VTK/ThirdParty/cli11" /external:I "D:/pv/ParaView/VTK/ThirdParty/cli11" /external:I "D:/pv/rebuild/VTK/ThirdParty/fmt" /external:I "D:/pv/ParaView/VTK/ThirdParty/fmt" /external:I "D:/pv/rebuild/VTK/ThirdParty/jsoncpp" /external:I "D:/pv/ParaView/VTK/ThirdParty/jsoncpp" /bigobj /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;kiss_fft_scalar=double;KISSFFT_DLL_IMPORT=1;PROTOBUF_USE_DLLS;FMT_SHARED;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;kiss_fft_scalar=double;KISSFFT_DLL_IMPORT=1;PROTOBUF_USE_DLLS;FMT_SHARED;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\pv\rebuild\Plugins\Prism;D:\pv\ParaView\Plugins\Prism\Readers;D:\pv\rebuild\Plugins\Prism\Readers;D:\pv\ParaView\VTKExtensions\IOCore;D:\pv\rebuild\VTKExtensions\IOCore;D:\pv\ParaView\VTK\Common\ExecutionModel;D:\pv\rebuild\VTK\Common\ExecutionModel;D:\pv\ParaView\VTK\Common\Core;D:\pv\rebuild\VTK\Common\Core;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken\token;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken\token;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\rebuild\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson\include;D:\pv\ParaView\VTK\Common\DataModel;D:\pv\rebuild\VTK\Common\DataModel;D:\pv\ParaView\VTK\Common\Math;D:\pv\rebuild\VTK\Common\Math;D:\pv\ParaView\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\rebuild\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\ParaView\VTK\Common\Transforms;D:\pv\rebuild\VTK\Common\Transforms;D:\pv\ParaView\VTK\IO\Core;D:\pv\rebuild\VTK\IO\Core;D:\pv\ParaView\VTK\IO\XML;D:\pv\rebuild\VTK\IO\XML;D:\pv\ParaView\VTK\IO\XMLParser;D:\pv\rebuild\VTK\IO\XMLParser;D:\pv\ParaView\Plugins\Prism\ServerManager;D:\pv\rebuild\Plugins\Prism\ServerManager;D:\pv\ParaView\Remoting\ServerManager;D:\pv\rebuild\Remoting\ServerManager;D:\pv\ParaView\ThirdParty\protobuf\vtkprotobuf\src;D:\pv\ParaView\Remoting\ClientServerStream;D:\pv\rebuild\Remoting\ClientServerStream;D:\pv\ParaView\Remoting\Core;D:\pv\rebuild\Remoting\Core;D:\pv\ParaView\Utilities\Versioning;D:\pv\rebuild\Utilities\Versioning;D:\pv\ParaView\VTKExtensions\Core;D:\pv\rebuild\VTKExtensions\Core;D:\pv\ParaView\VTK\ThirdParty\fmt\vtkfmt;D:\pv\rebuild\VTK\ThirdParty\fmt\vtkfmt;D:\pv\ParaView\VTK\Common\Misc;D:\pv\rebuild\VTK\Common\Misc;D:\pv\ParaView\VTK\Parallel\Core;D:\pv\rebuild\VTK\Parallel\Core;D:\pv\ParaView\VTK\ThirdParty\jsoncpp\vtkjsoncpp;D:\pv\rebuild\VTK\ThirdParty\jsoncpp\vtkjsoncpp;D:\pv\rebuild\VTK\ThirdParty\jsoncpp\vtkjsoncpp\json;D:\pv\rebuild\VTK\Utilities\KWIML;D:\pv\ParaView\VTK\Utilities\KWIML;D:\pv\rebuild\VTK\Utilities\KWSys;D:\pv\ParaView\VTK\Utilities\KWSys;D:\pv\rebuild\VTK\ThirdParty\token;D:\pv\ParaView\VTK\ThirdParty\token;D:\pv\rebuild\VTK\ThirdParty\nlohmannjson;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson;D:\pv\rebuild\VTK\ThirdParty\kissfft;D:\pv\ParaView\VTK\ThirdParty\kissfft;D:\pv\rebuild\ThirdParty\protobuf;D:\pv\ParaView\ThirdParty\protobuf;D:\pv\rebuild\VTK\ThirdParty\cli11;D:\pv\ParaView\VTK\ThirdParty\cli11;D:\pv\rebuild\VTK\ThirdParty\fmt;D:\pv\ParaView\VTK\ThirdParty\fmt;D:\pv\rebuild\VTK\ThirdParty\jsoncpp;D:\pv\ParaView\VTK\ThirdParty\jsoncpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\pv\rebuild\Plugins\Prism;D:\pv\ParaView\Plugins\Prism\Readers;D:\pv\rebuild\Plugins\Prism\Readers;D:\pv\ParaView\VTKExtensions\IOCore;D:\pv\rebuild\VTKExtensions\IOCore;D:\pv\ParaView\VTK\Common\ExecutionModel;D:\pv\rebuild\VTK\Common\ExecutionModel;D:\pv\ParaView\VTK\Common\Core;D:\pv\rebuild\VTK\Common\Core;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken\token;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken\token;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\rebuild\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson\include;D:\pv\ParaView\VTK\Common\DataModel;D:\pv\rebuild\VTK\Common\DataModel;D:\pv\ParaView\VTK\Common\Math;D:\pv\rebuild\VTK\Common\Math;D:\pv\ParaView\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\rebuild\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\ParaView\VTK\Common\Transforms;D:\pv\rebuild\VTK\Common\Transforms;D:\pv\ParaView\VTK\IO\Core;D:\pv\rebuild\VTK\IO\Core;D:\pv\ParaView\VTK\IO\XML;D:\pv\rebuild\VTK\IO\XML;D:\pv\ParaView\VTK\IO\XMLParser;D:\pv\rebuild\VTK\IO\XMLParser;D:\pv\ParaView\Plugins\Prism\ServerManager;D:\pv\rebuild\Plugins\Prism\ServerManager;D:\pv\ParaView\Remoting\ServerManager;D:\pv\rebuild\Remoting\ServerManager;D:\pv\ParaView\ThirdParty\protobuf\vtkprotobuf\src;D:\pv\ParaView\Remoting\ClientServerStream;D:\pv\rebuild\Remoting\ClientServerStream;D:\pv\ParaView\Remoting\Core;D:\pv\rebuild\Remoting\Core;D:\pv\ParaView\Utilities\Versioning;D:\pv\rebuild\Utilities\Versioning;D:\pv\ParaView\VTKExtensions\Core;D:\pv\rebuild\VTKExtensions\Core;D:\pv\ParaView\VTK\ThirdParty\fmt\vtkfmt;D:\pv\rebuild\VTK\ThirdParty\fmt\vtkfmt;D:\pv\ParaView\VTK\Common\Misc;D:\pv\rebuild\VTK\Common\Misc;D:\pv\ParaView\VTK\Parallel\Core;D:\pv\rebuild\VTK\Parallel\Core;D:\pv\ParaView\VTK\ThirdParty\jsoncpp\vtkjsoncpp;D:\pv\rebuild\VTK\ThirdParty\jsoncpp\vtkjsoncpp;D:\pv\rebuild\VTK\ThirdParty\jsoncpp\vtkjsoncpp\json;D:\pv\rebuild\VTK\Utilities\KWIML;D:\pv\ParaView\VTK\Utilities\KWIML;D:\pv\rebuild\VTK\Utilities\KWSys;D:\pv\ParaView\VTK\Utilities\KWSys;D:\pv\rebuild\VTK\ThirdParty\token;D:\pv\ParaView\VTK\ThirdParty\token;D:\pv\rebuild\VTK\ThirdParty\nlohmannjson;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson;D:\pv\rebuild\VTK\ThirdParty\kissfft;D:\pv\ParaView\VTK\ThirdParty\kissfft;D:\pv\rebuild\ThirdParty\protobuf;D:\pv\ParaView\ThirdParty\protobuf;D:\pv\rebuild\VTK\ThirdParty\cli11;D:\pv\ParaView\VTK\ThirdParty\cli11;D:\pv\rebuild\VTK\ThirdParty\fmt;D:\pv\ParaView\VTK\ThirdParty\fmt;D:\pv\rebuild\VTK\ThirdParty\jsoncpp;D:\pv\ParaView\VTK\ThirdParty\jsoncpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\589a4afbd62098c874237ee496d9c6f0\vtkPrismSESAMEFileSeriesReaderClientServer.cxx.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating client_server wrapper sources for vtkPrismSESAMEFileSeriesReader</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+..\..\bin\Debug\vtkWrapClientServer-pv5.13d.exe -MF D:/pv/rebuild/Plugins/Prism/CMakeFiles/vtkPrismReadersCS/vtkPrismSESAMEFileSeriesReaderClientServer.cxx.Debug.d @D:/pv/rebuild/Plugins/Prism/CMakeFiles/vtkPrismReaders-client-server.Debug.args -o D:/pv/rebuild/Plugins/Prism/CMakeFiles/vtkPrismReadersCS/vtkPrismSESAMEFileSeriesReaderClientServer.cxx D:/pv/ParaView/Plugins/Prism/Readers/vtkPrismSESAMEFileSeriesReader.h --types D:/pv/rebuild/bin/paraview-5.13/plugins/Prism/vtk/hierarchy/Prism/vtkPrismReaders-hierarchy.txt
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_transform_depfile "Visual Studio 16 2019" MSBuildAdditionalInputs D:/pv/ParaView D:/pv/ParaView/Plugins/Prism D:/pv/rebuild D:/pv/rebuild/Plugins/Prism D:/pv/rebuild/Plugins/Prism/CMakeFiles/vtkPrismReadersCS/vtkPrismSESAMEFileSeriesReaderClientServer.cxx.Debug.d D:/pv/rebuild/CMakeFiles/d/4fe929899e1e9db58cd2224b3b59dec6b7f77beac5479b01a11d2bdc2d25c07a.AdditionalInputs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\pv\rebuild\bin\Debug\vtkWrapClientServer-pv5.13d.exe;D:\pv\ParaView\Plugins\Prism\Readers\vtkPrismSESAMEFileSeriesReader.h;D:\pv\rebuild\Plugins\Prism\CMakeFiles\vtkPrismReaders-client-server.Debug.args;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\pv\rebuild\Plugins\Prism\CMakeFiles\vtkPrismReadersCS\vtkPrismSESAMEFileSeriesReaderClientServer.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <DepFileAdditionalInputsFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\pv\rebuild\CMakeFiles\d\4fe929899e1e9db58cd2224b3b59dec6b7f77beac5479b01a11d2bdc2d25c07a.AdditionalInputs</DepFileAdditionalInputsFile>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating client_server wrapper sources for vtkPrismSESAMEFileSeriesReader</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+..\..\bin\Release\vtkWrapClientServer-pv5.13.exe -MF D:/pv/rebuild/Plugins/Prism/CMakeFiles/vtkPrismReadersCS/vtkPrismSESAMEFileSeriesReaderClientServer.cxx.Release.d @D:/pv/rebuild/Plugins/Prism/CMakeFiles/vtkPrismReaders-client-server.Release.args -o D:/pv/rebuild/Plugins/Prism/CMakeFiles/vtkPrismReadersCS/vtkPrismSESAMEFileSeriesReaderClientServer.cxx D:/pv/ParaView/Plugins/Prism/Readers/vtkPrismSESAMEFileSeriesReader.h --types D:/pv/rebuild/bin/paraview-5.13/plugins/Prism/vtk/hierarchy/Prism/vtkPrismReaders-hierarchy.txt
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_transform_depfile "Visual Studio 16 2019" MSBuildAdditionalInputs D:/pv/ParaView D:/pv/ParaView/Plugins/Prism D:/pv/rebuild D:/pv/rebuild/Plugins/Prism D:/pv/rebuild/Plugins/Prism/CMakeFiles/vtkPrismReadersCS/vtkPrismSESAMEFileSeriesReaderClientServer.cxx.Release.d D:/pv/rebuild/CMakeFiles/d/b188dc254c316ce875e01a3d9c44cb8953deb4053606b9503bbb535eb55eeb6b.AdditionalInputs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\pv\rebuild\bin\Release\vtkWrapClientServer-pv5.13.exe;D:\pv\ParaView\Plugins\Prism\Readers\vtkPrismSESAMEFileSeriesReader.h;D:\pv\rebuild\Plugins\Prism\CMakeFiles\vtkPrismReaders-client-server.Release.args;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\pv\rebuild\Plugins\Prism\CMakeFiles\vtkPrismReadersCS\vtkPrismSESAMEFileSeriesReaderClientServer.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <DepFileAdditionalInputsFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\pv\rebuild\CMakeFiles\d\b188dc254c316ce875e01a3d9c44cb8953deb4053606b9503bbb535eb55eeb6b.AdditionalInputs</DepFileAdditionalInputsFile>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating client_server wrapper sources for vtkPrismSESAMEFileSeriesReader</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+..\..\bin\MinSizeRel\vtkWrapClientServer-pv5.13.exe -MF D:/pv/rebuild/Plugins/Prism/CMakeFiles/vtkPrismReadersCS/vtkPrismSESAMEFileSeriesReaderClientServer.cxx.MinSizeRel.d @D:/pv/rebuild/Plugins/Prism/CMakeFiles/vtkPrismReaders-client-server.MinSizeRel.args -o D:/pv/rebuild/Plugins/Prism/CMakeFiles/vtkPrismReadersCS/vtkPrismSESAMEFileSeriesReaderClientServer.cxx D:/pv/ParaView/Plugins/Prism/Readers/vtkPrismSESAMEFileSeriesReader.h --types D:/pv/rebuild/bin/paraview-5.13/plugins/Prism/vtk/hierarchy/Prism/vtkPrismReaders-hierarchy.txt
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_transform_depfile "Visual Studio 16 2019" MSBuildAdditionalInputs D:/pv/ParaView D:/pv/ParaView/Plugins/Prism D:/pv/rebuild D:/pv/rebuild/Plugins/Prism D:/pv/rebuild/Plugins/Prism/CMakeFiles/vtkPrismReadersCS/vtkPrismSESAMEFileSeriesReaderClientServer.cxx.MinSizeRel.d D:/pv/rebuild/CMakeFiles/d/a47a4750161b49f8e3a4381fb9b3ee2ad69622e77d85601a7c4b2569bc398c71.AdditionalInputs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\pv\rebuild\bin\MinSizeRel\vtkWrapClientServer-pv5.13.exe;D:\pv\ParaView\Plugins\Prism\Readers\vtkPrismSESAMEFileSeriesReader.h;D:\pv\rebuild\Plugins\Prism\CMakeFiles\vtkPrismReaders-client-server.MinSizeRel.args;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\pv\rebuild\Plugins\Prism\CMakeFiles\vtkPrismReadersCS\vtkPrismSESAMEFileSeriesReaderClientServer.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <DepFileAdditionalInputsFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\pv\rebuild\CMakeFiles\d\a47a4750161b49f8e3a4381fb9b3ee2ad69622e77d85601a7c4b2569bc398c71.AdditionalInputs</DepFileAdditionalInputsFile>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating client_server wrapper sources for vtkPrismSESAMEFileSeriesReader</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+..\..\bin\RelWithDebInfo\vtkWrapClientServer-pv5.13.exe -MF D:/pv/rebuild/Plugins/Prism/CMakeFiles/vtkPrismReadersCS/vtkPrismSESAMEFileSeriesReaderClientServer.cxx.RelWithDebInfo.d @D:/pv/rebuild/Plugins/Prism/CMakeFiles/vtkPrismReaders-client-server.RelWithDebInfo.args -o D:/pv/rebuild/Plugins/Prism/CMakeFiles/vtkPrismReadersCS/vtkPrismSESAMEFileSeriesReaderClientServer.cxx D:/pv/ParaView/Plugins/Prism/Readers/vtkPrismSESAMEFileSeriesReader.h --types D:/pv/rebuild/bin/paraview-5.13/plugins/Prism/vtk/hierarchy/Prism/vtkPrismReaders-hierarchy.txt
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_transform_depfile "Visual Studio 16 2019" MSBuildAdditionalInputs D:/pv/ParaView D:/pv/ParaView/Plugins/Prism D:/pv/rebuild D:/pv/rebuild/Plugins/Prism D:/pv/rebuild/Plugins/Prism/CMakeFiles/vtkPrismReadersCS/vtkPrismSESAMEFileSeriesReaderClientServer.cxx.RelWithDebInfo.d D:/pv/rebuild/CMakeFiles/d/d4f4a5886daa1f98a1498b2f3afd43d5ed6b9f3c1c146cce6e9fd04891a83dcc.AdditionalInputs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\pv\rebuild\bin\RelWithDebInfo\vtkWrapClientServer-pv5.13.exe;D:\pv\ParaView\Plugins\Prism\Readers\vtkPrismSESAMEFileSeriesReader.h;D:\pv\rebuild\Plugins\Prism\CMakeFiles\vtkPrismReaders-client-server.RelWithDebInfo.args;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\pv\rebuild\Plugins\Prism\CMakeFiles\vtkPrismReadersCS\vtkPrismSESAMEFileSeriesReaderClientServer.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+      <DepFileAdditionalInputsFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\pv\rebuild\CMakeFiles\d\d4f4a5886daa1f98a1498b2f3afd43d5ed6b9f3c1c146cce6e9fd04891a83dcc.AdditionalInputs</DepFileAdditionalInputsFile>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\589a4afbd62098c874237ee496d9c6f0\vtkPrismSESAMEReaderClientServer.cxx.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating client_server wrapper sources for vtkPrismSESAMEReader</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+..\..\bin\Debug\vtkWrapClientServer-pv5.13d.exe -MF D:/pv/rebuild/Plugins/Prism/CMakeFiles/vtkPrismReadersCS/vtkPrismSESAMEReaderClientServer.cxx.Debug.d @D:/pv/rebuild/Plugins/Prism/CMakeFiles/vtkPrismReaders-client-server.Debug.args -o D:/pv/rebuild/Plugins/Prism/CMakeFiles/vtkPrismReadersCS/vtkPrismSESAMEReaderClientServer.cxx D:/pv/ParaView/Plugins/Prism/Readers/vtkPrismSESAMEReader.h --types D:/pv/rebuild/bin/paraview-5.13/plugins/Prism/vtk/hierarchy/Prism/vtkPrismReaders-hierarchy.txt
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_transform_depfile "Visual Studio 16 2019" MSBuildAdditionalInputs D:/pv/ParaView D:/pv/ParaView/Plugins/Prism D:/pv/rebuild D:/pv/rebuild/Plugins/Prism D:/pv/rebuild/Plugins/Prism/CMakeFiles/vtkPrismReadersCS/vtkPrismSESAMEReaderClientServer.cxx.Debug.d D:/pv/rebuild/CMakeFiles/d/e12b49d71e5de6ea72ca5c8547658d573bf057ef02fca78445719bc13e18616d.AdditionalInputs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\pv\rebuild\bin\Debug\vtkWrapClientServer-pv5.13d.exe;D:\pv\ParaView\Plugins\Prism\Readers\vtkPrismSESAMEReader.h;D:\pv\rebuild\Plugins\Prism\CMakeFiles\vtkPrismReaders-client-server.Debug.args;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\pv\rebuild\Plugins\Prism\CMakeFiles\vtkPrismReadersCS\vtkPrismSESAMEReaderClientServer.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <DepFileAdditionalInputsFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\pv\rebuild\CMakeFiles\d\e12b49d71e5de6ea72ca5c8547658d573bf057ef02fca78445719bc13e18616d.AdditionalInputs</DepFileAdditionalInputsFile>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating client_server wrapper sources for vtkPrismSESAMEReader</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+..\..\bin\Release\vtkWrapClientServer-pv5.13.exe -MF D:/pv/rebuild/Plugins/Prism/CMakeFiles/vtkPrismReadersCS/vtkPrismSESAMEReaderClientServer.cxx.Release.d @D:/pv/rebuild/Plugins/Prism/CMakeFiles/vtkPrismReaders-client-server.Release.args -o D:/pv/rebuild/Plugins/Prism/CMakeFiles/vtkPrismReadersCS/vtkPrismSESAMEReaderClientServer.cxx D:/pv/ParaView/Plugins/Prism/Readers/vtkPrismSESAMEReader.h --types D:/pv/rebuild/bin/paraview-5.13/plugins/Prism/vtk/hierarchy/Prism/vtkPrismReaders-hierarchy.txt
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_transform_depfile "Visual Studio 16 2019" MSBuildAdditionalInputs D:/pv/ParaView D:/pv/ParaView/Plugins/Prism D:/pv/rebuild D:/pv/rebuild/Plugins/Prism D:/pv/rebuild/Plugins/Prism/CMakeFiles/vtkPrismReadersCS/vtkPrismSESAMEReaderClientServer.cxx.Release.d D:/pv/rebuild/CMakeFiles/d/f8191a38bbfa616cca71535128b2153150ab76ce4cfaa16c08a757f795a6690a.AdditionalInputs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\pv\rebuild\bin\Release\vtkWrapClientServer-pv5.13.exe;D:\pv\ParaView\Plugins\Prism\Readers\vtkPrismSESAMEReader.h;D:\pv\rebuild\Plugins\Prism\CMakeFiles\vtkPrismReaders-client-server.Release.args;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\pv\rebuild\Plugins\Prism\CMakeFiles\vtkPrismReadersCS\vtkPrismSESAMEReaderClientServer.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <DepFileAdditionalInputsFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\pv\rebuild\CMakeFiles\d\f8191a38bbfa616cca71535128b2153150ab76ce4cfaa16c08a757f795a6690a.AdditionalInputs</DepFileAdditionalInputsFile>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating client_server wrapper sources for vtkPrismSESAMEReader</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+..\..\bin\MinSizeRel\vtkWrapClientServer-pv5.13.exe -MF D:/pv/rebuild/Plugins/Prism/CMakeFiles/vtkPrismReadersCS/vtkPrismSESAMEReaderClientServer.cxx.MinSizeRel.d @D:/pv/rebuild/Plugins/Prism/CMakeFiles/vtkPrismReaders-client-server.MinSizeRel.args -o D:/pv/rebuild/Plugins/Prism/CMakeFiles/vtkPrismReadersCS/vtkPrismSESAMEReaderClientServer.cxx D:/pv/ParaView/Plugins/Prism/Readers/vtkPrismSESAMEReader.h --types D:/pv/rebuild/bin/paraview-5.13/plugins/Prism/vtk/hierarchy/Prism/vtkPrismReaders-hierarchy.txt
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_transform_depfile "Visual Studio 16 2019" MSBuildAdditionalInputs D:/pv/ParaView D:/pv/ParaView/Plugins/Prism D:/pv/rebuild D:/pv/rebuild/Plugins/Prism D:/pv/rebuild/Plugins/Prism/CMakeFiles/vtkPrismReadersCS/vtkPrismSESAMEReaderClientServer.cxx.MinSizeRel.d D:/pv/rebuild/CMakeFiles/d/81c0e70cc30ae913553baa13023726cf292a0b4248395478d9fa667cb23ef7bc.AdditionalInputs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\pv\rebuild\bin\MinSizeRel\vtkWrapClientServer-pv5.13.exe;D:\pv\ParaView\Plugins\Prism\Readers\vtkPrismSESAMEReader.h;D:\pv\rebuild\Plugins\Prism\CMakeFiles\vtkPrismReaders-client-server.MinSizeRel.args;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\pv\rebuild\Plugins\Prism\CMakeFiles\vtkPrismReadersCS\vtkPrismSESAMEReaderClientServer.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <DepFileAdditionalInputsFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\pv\rebuild\CMakeFiles\d\81c0e70cc30ae913553baa13023726cf292a0b4248395478d9fa667cb23ef7bc.AdditionalInputs</DepFileAdditionalInputsFile>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating client_server wrapper sources for vtkPrismSESAMEReader</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+..\..\bin\RelWithDebInfo\vtkWrapClientServer-pv5.13.exe -MF D:/pv/rebuild/Plugins/Prism/CMakeFiles/vtkPrismReadersCS/vtkPrismSESAMEReaderClientServer.cxx.RelWithDebInfo.d @D:/pv/rebuild/Plugins/Prism/CMakeFiles/vtkPrismReaders-client-server.RelWithDebInfo.args -o D:/pv/rebuild/Plugins/Prism/CMakeFiles/vtkPrismReadersCS/vtkPrismSESAMEReaderClientServer.cxx D:/pv/ParaView/Plugins/Prism/Readers/vtkPrismSESAMEReader.h --types D:/pv/rebuild/bin/paraview-5.13/plugins/Prism/vtk/hierarchy/Prism/vtkPrismReaders-hierarchy.txt
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_transform_depfile "Visual Studio 16 2019" MSBuildAdditionalInputs D:/pv/ParaView D:/pv/ParaView/Plugins/Prism D:/pv/rebuild D:/pv/rebuild/Plugins/Prism D:/pv/rebuild/Plugins/Prism/CMakeFiles/vtkPrismReadersCS/vtkPrismSESAMEReaderClientServer.cxx.RelWithDebInfo.d D:/pv/rebuild/CMakeFiles/d/33adb043bd2fac644d5c0d2f8ad81267280a675263dd827c9131168ad1c7a07b.AdditionalInputs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\pv\rebuild\bin\RelWithDebInfo\vtkWrapClientServer-pv5.13.exe;D:\pv\ParaView\Plugins\Prism\Readers\vtkPrismSESAMEReader.h;D:\pv\rebuild\Plugins\Prism\CMakeFiles\vtkPrismReaders-client-server.RelWithDebInfo.args;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\pv\rebuild\Plugins\Prism\CMakeFiles\vtkPrismReadersCS\vtkPrismSESAMEReaderClientServer.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+      <DepFileAdditionalInputsFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\pv\rebuild\CMakeFiles\d\33adb043bd2fac644d5c0d2f8ad81267280a675263dd827c9131168ad1c7a07b.AdditionalInputs</DepFileAdditionalInputsFile>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\pv\ParaView\Plugins\Prism\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/pv/ParaView/Plugins/Prism/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/pv/ParaView -BD:/pv/rebuild --check-stamp-file D:/pv/rebuild/Plugins/Prism/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeParseArguments.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5\Qt5Config.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5\Qt5ConfigVersion.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5\Qt5ModuleLocation.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QInsightTrackerPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QSvgIconPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QSvgPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QVirtualKeyboardPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWebGLIntegrationPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QXdgDesktopPortalThemePlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;D:\pv\ParaView\CMake\paraview_plugin.cxx.in;D:\pv\ParaView\CMake\paraview_plugin.h.in;D:\pv\ParaView\CMake\pqPropertyWidgetInterface.cxx.in;D:\pv\ParaView\CMake\pqPropertyWidgetInterface.h.in;D:\pv\ParaView\Plugins\Prism\Filters\vtk.module;D:\pv\ParaView\Plugins\Prism\Readers\vtk.module;D:\pv\ParaView\Plugins\Prism\Resources\Prism.qrc;D:\pv\ParaView\Plugins\Prism\ServerManager\vtk.module;D:\pv\ParaView\Plugins\Prism\Views\vtk.module;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\pv\rebuild\Plugins\Prism\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/pv/ParaView/Plugins/Prism/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/pv/ParaView -BD:/pv/rebuild --check-stamp-file D:/pv/rebuild/Plugins/Prism/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeParseArguments.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5\Qt5Config.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5\Qt5ConfigVersion.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5\Qt5ModuleLocation.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QInsightTrackerPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QSvgIconPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QSvgPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QVirtualKeyboardPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWebGLIntegrationPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QXdgDesktopPortalThemePlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;D:\pv\ParaView\CMake\paraview_plugin.cxx.in;D:\pv\ParaView\CMake\paraview_plugin.h.in;D:\pv\ParaView\CMake\pqPropertyWidgetInterface.cxx.in;D:\pv\ParaView\CMake\pqPropertyWidgetInterface.h.in;D:\pv\ParaView\Plugins\Prism\Filters\vtk.module;D:\pv\ParaView\Plugins\Prism\Readers\vtk.module;D:\pv\ParaView\Plugins\Prism\Resources\Prism.qrc;D:\pv\ParaView\Plugins\Prism\ServerManager\vtk.module;D:\pv\ParaView\Plugins\Prism\Views\vtk.module;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\pv\rebuild\Plugins\Prism\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/pv/ParaView/Plugins/Prism/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/pv/ParaView -BD:/pv/rebuild --check-stamp-file D:/pv/rebuild/Plugins/Prism/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeParseArguments.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5\Qt5Config.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5\Qt5ConfigVersion.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5\Qt5ModuleLocation.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QInsightTrackerPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QSvgIconPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QSvgPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QVirtualKeyboardPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWebGLIntegrationPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QXdgDesktopPortalThemePlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;D:\pv\ParaView\CMake\paraview_plugin.cxx.in;D:\pv\ParaView\CMake\paraview_plugin.h.in;D:\pv\ParaView\CMake\pqPropertyWidgetInterface.cxx.in;D:\pv\ParaView\CMake\pqPropertyWidgetInterface.h.in;D:\pv\ParaView\Plugins\Prism\Filters\vtk.module;D:\pv\ParaView\Plugins\Prism\Readers\vtk.module;D:\pv\ParaView\Plugins\Prism\Resources\Prism.qrc;D:\pv\ParaView\Plugins\Prism\ServerManager\vtk.module;D:\pv\ParaView\Plugins\Prism\Views\vtk.module;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\pv\rebuild\Plugins\Prism\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/pv/ParaView/Plugins/Prism/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/pv/ParaView -BD:/pv/rebuild --check-stamp-file D:/pv/rebuild/Plugins/Prism/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeParseArguments.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5\Qt5Config.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5\Qt5ConfigVersion.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5\Qt5ModuleLocation.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QInsightTrackerPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QSvgIconPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QSvgPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QVirtualKeyboardPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWebGLIntegrationPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QXdgDesktopPortalThemePlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;D:\pv\ParaView\CMake\paraview_plugin.cxx.in;D:\pv\ParaView\CMake\paraview_plugin.h.in;D:\pv\ParaView\CMake\pqPropertyWidgetInterface.cxx.in;D:\pv\ParaView\CMake\pqPropertyWidgetInterface.h.in;D:\pv\ParaView\Plugins\Prism\Filters\vtk.module;D:\pv\ParaView\Plugins\Prism\Readers\vtk.module;D:\pv\ParaView\Plugins\Prism\Resources\Prism.qrc;D:\pv\ParaView\Plugins\Prism\ServerManager\vtk.module;D:\pv\ParaView\Plugins\Prism\Views\vtk.module;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\pv\rebuild\Plugins\Prism\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\pv\rebuild\Plugins\Prism\CMakeFiles\vtkPrismReadersCS\vtkPrismSESAMEFileSeriesReaderClientServer.cxx" />
+    <ClCompile Include="D:\pv\rebuild\Plugins\Prism\CMakeFiles\vtkPrismReadersCS\vtkPrismSESAMEReaderClientServer.cxx" />
+    <ClCompile Include="D:\pv\rebuild\Plugins\Prism\CMakeFiles\vtkPrismReadersCSInit.cxx" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="D:\pv\rebuild\ZERO_CHECK.vcxproj">
+      <Project>{F365DAD0-49D0-3E04-B6A0-AEBAF9BD405C}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\Common\Core\CommonCore.vcxproj">
+      <Project>{B619F52E-9839-377A-BAEE-BACB4D9A457F}</Project>
+      <Name>CommonCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\Common\DataModel\CommonDataModel.vcxproj">
+      <Project>{41298AA9-65F9-3C5B-8ECF-E93AC201EB02}</Project>
+      <Name>CommonDataModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\Common\ExecutionModel\CommonExecutionModel.vcxproj">
+      <Project>{80171A5E-C0D7-3ED5-A880-FCF8C3497B99}</Project>
+      <Name>CommonExecutionModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\Common\Math\CommonMath.vcxproj">
+      <Project>{194237E4-60C4-316E-8F01-9F06A2D04C6A}</Project>
+      <Name>CommonMath</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\Common\Misc\CommonMisc.vcxproj">
+      <Project>{2C21986E-CA16-3967-AC1B-5DD4E89FBFB7}</Project>
+      <Name>CommonMisc</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\Common\Transforms\CommonTransforms.vcxproj">
+      <Project>{D6924074-2195-374C-AF34-798A39B49219}</Project>
+      <Name>CommonTransforms</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\IO\Core\IOCore.vcxproj">
+      <Project>{D8F23F9F-91B4-3FF4-816E-4D09DE6A2A2B}</Project>
+      <Name>IOCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\IO\XML\IOXML.vcxproj">
+      <Project>{9927FCFF-3A01-3B17-B631-255D55C609A6}</Project>
+      <Name>IOXML</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\IO\XMLParser\IOXMLParser.vcxproj">
+      <Project>{3BAC3771-128F-3615-8A98-E65636642CF9}</Project>
+      <Name>IOXMLParser</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\Parallel\Core\ParallelCore.vcxproj">
+      <Project>{18462D0D-F3A9-3543-A626-42965C7B83A4}</Project>
+      <Name>ParallelCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\Remoting\ClientServerStream\RemotingClientServerStream.vcxproj">
+      <Project>{37AD3169-CA99-3AE5-B80A-74511EEDA2B3}</Project>
+      <Name>RemotingClientServerStream</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\Remoting\Core\RemotingCore.vcxproj">
+      <Project>{36258644-3FAF-3443-8F96-66E8B4411189}</Project>
+      <Name>RemotingCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\Remoting\ServerManager\RemotingServerManager.vcxproj">
+      <Project>{C6B4F23A-101E-3BB0-9BEC-C7AF49AF9C7F}</Project>
+      <Name>RemotingServerManager</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTKExtensions\Core\VTKExtensionsCore.vcxproj">
+      <Project>{6CB127A2-004F-3CC4-AF69-E9766B4EB796}</Project>
+      <Name>VTKExtensionsCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTKExtensions\IOCore\VTKExtensionsIOCore.vcxproj">
+      <Project>{5ABA66F0-C0C2-304F-BF27-3E33CBA844A0}</Project>
+      <Name>VTKExtensionsIOCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\Utilities\Versioning\Versioning.vcxproj">
+      <Project>{30D64FB8-9F2C-34FB-A926-A8A18C7CBD9C}</Project>
+      <Name>Versioning</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\Utilities\WrapClientServer\WrapClientServer.vcxproj">
+      <Project>{1186F1C1-48D1-3478-AFE4-9615BBF083CE}</Project>
+      <Name>WrapClientServer</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\ThirdParty\fmt\vtkfmt\fmt.vcxproj">
+      <Project>{7D9BD33F-6773-38B6-8B83-65AAA610F5E0}</Project>
+      <Name>fmt</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\ThirdParty\jsoncpp\vtkjsoncpp\jsoncpp.vcxproj">
+      <Project>{A7DB306F-74EE-35CF-BBA1-0E11163A18FD}</Project>
+      <Name>jsoncpp</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\ThirdParty\kissfft\vtkkissfft\kissfft.vcxproj">
+      <Project>{3CCF61F3-F985-33F3-8EC9-58E045C69827}</Project>
+      <Name>kissfft</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\ThirdParty\nlohmannjson\vtknlohmannjson\nlohmannjson.vcxproj">
+      <Project>{7457C71D-4012-3101-AF26-38DABCDE7E01}</Project>
+      <Name>nlohmannjson</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\ThirdParty\protobuf\vtkprotobuf\src\protobuf.vcxproj">
+      <Project>{DDC53A88-87B6-3E8E-9A5C-DA782CA2D8DB}</Project>
+      <Name>protobuf</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\ThirdParty\token\vtktoken\token\token.vcxproj">
+      <Project>{6AB51710-ABE5-385B-96E1-B68D0E5AAC99}</Project>
+      <Name>token</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\Plugins\Prism\Readers\vtkPrismReaders.vcxproj">
+      <Project>{02DCF103-4314-3F5C-8C55-AC05C17C18E1}</Project>
+      <Name>vtkPrismReaders</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\Plugins\Prism\Readers\vtkPrismReaders-hierarchy.vcxproj">
+      <Project>{4416FF7E-54D2-3D34-9B86-2EBC57DB7DA3}</Project>
+      <Name>vtkPrismReaders-hierarchy</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\Plugins\Prism\ServerManager\vtkPrismServerManager.vcxproj">
+      <Project>{74E22B01-0D41-322B-8FC1-EBEEB1F06E59}</Project>
+      <Name>vtkPrismServerManager</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\Utilities\KWSys\vtksys\vtksys.vcxproj">
+      <Project>{771F913C-BFBD-34D6-B1D7-80FEFE734E74}</Project>
+      <Name>vtksys</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <Import Project="C:\Program Files\CMake\share\cmake-3.31\Templates\MSBuild\CustomBuildDepFile.targets" />
+</Project>

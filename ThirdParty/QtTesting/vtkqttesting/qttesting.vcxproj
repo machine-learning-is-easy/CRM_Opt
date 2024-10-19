@@ -1,0 +1,720 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{DB9547FE-93F0-3979-9075-CE9583BB7CB4}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>qttesting</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\pv\rebuild\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">qttesting.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">vtkqttesting-pv5.13d</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\pv\rebuild\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">qttesting.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">vtkqttesting-pv5.13</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\pv\rebuild\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">qttesting.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">vtkqttesting-pv5.13</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\pv\rebuild\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">qttesting.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">vtkqttesting-pv5.13</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\pv\rebuild\ThirdParty\QtTesting\vtkqttesting\qttesting_autogen\include_Debug;D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting;D:\pv\rebuild\ThirdParty\QtTesting\vtkqttesting;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/Qt/5.15.2/msvc2019_64/include" /external:I "D:/Qt/5.15.2/msvc2019_64/include/QtCore" /external:I "D:/Qt/5.15.2/msvc2019_64/./mkspecs/win32-msvc" /external:I "D:/Qt/5.15.2/msvc2019_64/include/QtWidgets" /external:I "D:/Qt/5.15.2/msvc2019_64/include/QtGui" /external:I "D:/Qt/5.15.2/msvc2019_64/include/QtANGLE" /bigobj /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;QT_NO_KEYWORDS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;QT_CORE_LIB;QT_WIDGETS_LIB;QT_GUI_LIB;CMAKE_INTDIR="Debug";QtTesting_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;QT_NO_KEYWORDS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;QT_CORE_LIB;QT_WIDGETS_LIB;QT_GUI_LIB;CMAKE_INTDIR=\"Debug\";QtTesting_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\pv\rebuild\ThirdParty\QtTesting\vtkqttesting\qttesting_autogen\include_Debug;D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting;D:\pv\rebuild\ThirdParty\QtTesting\vtkqttesting;D:\Qt\5.15.2\msvc2019_64\include;D:\Qt\5.15.2\msvc2019_64\include\QtCore;D:\Qt\5.15.2\msvc2019_64\.\mkspecs\win32-msvc;D:\Qt\5.15.2\msvc2019_64\include\QtWidgets;D:\Qt\5.15.2\msvc2019_64\include\QtGui;D:\Qt\5.15.2\msvc2019_64\include\QtANGLE;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\pv\rebuild\ThirdParty\QtTesting\vtkqttesting\qttesting_autogen\include_Debug;D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting;D:\pv\rebuild\ThirdParty\QtTesting\vtkqttesting;D:\Qt\5.15.2\msvc2019_64\include;D:\Qt\5.15.2\msvc2019_64\include\QtCore;D:\Qt\5.15.2\msvc2019_64\.\mkspecs\win32-msvc;D:\Qt\5.15.2\msvc2019_64\include\QtWidgets;D:\Qt\5.15.2\msvc2019_64\include\QtGui;D:\Qt\5.15.2\msvc2019_64\include\QtANGLE;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message>Automatic MOC and UIC for target qttesting</Message>
+      <Command>setlocal
+cd D:\pv\rebuild\ThirdParty\QtTesting\vtkqttesting
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen D:/pv/rebuild/ThirdParty/QtTesting/vtkqttesting/CMakeFiles/qttesting_autogen.dir/AutogenInfo.json Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/pv/rebuild/ThirdParty/QtTesting/vtkqttesting/qttesting_autogen/autouic_Debug.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>D:\Qt\5.15.2\msvc2019_64\lib\Qt5Widgetsd.lib;D:\Qt\5.15.2\msvc2019_64\lib\Qt5Guid.lib;D:\Qt\5.15.2\msvc2019_64\lib\Qt5Cored.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/pv/rebuild/lib/Debug/vtkqttesting-pv5.13d.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/pv/rebuild/bin/Debug/vtkqttesting-pv5.13d.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\pv\rebuild\ThirdParty\QtTesting\vtkqttesting\qttesting_autogen\include_Release;D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting;D:\pv\rebuild\ThirdParty\QtTesting\vtkqttesting;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/Qt/5.15.2/msvc2019_64/include" /external:I "D:/Qt/5.15.2/msvc2019_64/include/QtCore" /external:I "D:/Qt/5.15.2/msvc2019_64/./mkspecs/win32-msvc" /external:I "D:/Qt/5.15.2/msvc2019_64/include/QtWidgets" /external:I "D:/Qt/5.15.2/msvc2019_64/include/QtGui" /external:I "D:/Qt/5.15.2/msvc2019_64/include/QtANGLE" /bigobj /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;QT_NO_KEYWORDS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;QT_CORE_LIB;QT_NO_DEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;CMAKE_INTDIR="Release";QtTesting_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;QT_NO_KEYWORDS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;QT_CORE_LIB;QT_NO_DEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;CMAKE_INTDIR=\"Release\";QtTesting_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\pv\rebuild\ThirdParty\QtTesting\vtkqttesting\qttesting_autogen\include_Release;D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting;D:\pv\rebuild\ThirdParty\QtTesting\vtkqttesting;D:\Qt\5.15.2\msvc2019_64\include;D:\Qt\5.15.2\msvc2019_64\include\QtCore;D:\Qt\5.15.2\msvc2019_64\.\mkspecs\win32-msvc;D:\Qt\5.15.2\msvc2019_64\include\QtWidgets;D:\Qt\5.15.2\msvc2019_64\include\QtGui;D:\Qt\5.15.2\msvc2019_64\include\QtANGLE;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\pv\rebuild\ThirdParty\QtTesting\vtkqttesting\qttesting_autogen\include_Release;D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting;D:\pv\rebuild\ThirdParty\QtTesting\vtkqttesting;D:\Qt\5.15.2\msvc2019_64\include;D:\Qt\5.15.2\msvc2019_64\include\QtCore;D:\Qt\5.15.2\msvc2019_64\.\mkspecs\win32-msvc;D:\Qt\5.15.2\msvc2019_64\include\QtWidgets;D:\Qt\5.15.2\msvc2019_64\include\QtGui;D:\Qt\5.15.2\msvc2019_64\include\QtANGLE;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message>Automatic MOC and UIC for target qttesting</Message>
+      <Command>setlocal
+cd D:\pv\rebuild\ThirdParty\QtTesting\vtkqttesting
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen D:/pv/rebuild/ThirdParty/QtTesting/vtkqttesting/CMakeFiles/qttesting_autogen.dir/AutogenInfo.json Release
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/pv/rebuild/ThirdParty/QtTesting/vtkqttesting/qttesting_autogen/autouic_Release.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>D:\Qt\5.15.2\msvc2019_64\lib\Qt5Widgets.lib;D:\Qt\5.15.2\msvc2019_64\lib\Qt5Gui.lib;D:\Qt\5.15.2\msvc2019_64\lib\Qt5Core.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/pv/rebuild/lib/Release/vtkqttesting-pv5.13.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/pv/rebuild/bin/Release/vtkqttesting-pv5.13.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\pv\rebuild\ThirdParty\QtTesting\vtkqttesting\qttesting_autogen\include_MinSizeRel;D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting;D:\pv\rebuild\ThirdParty\QtTesting\vtkqttesting;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/Qt/5.15.2/msvc2019_64/include" /external:I "D:/Qt/5.15.2/msvc2019_64/include/QtCore" /external:I "D:/Qt/5.15.2/msvc2019_64/./mkspecs/win32-msvc" /external:I "D:/Qt/5.15.2/msvc2019_64/include/QtWidgets" /external:I "D:/Qt/5.15.2/msvc2019_64/include/QtGui" /external:I "D:/Qt/5.15.2/msvc2019_64/include/QtANGLE" /bigobj /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;QT_NO_KEYWORDS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;QT_CORE_LIB;QT_NO_DEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;CMAKE_INTDIR="MinSizeRel";QtTesting_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;QT_NO_KEYWORDS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;QT_CORE_LIB;QT_NO_DEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;CMAKE_INTDIR=\"MinSizeRel\";QtTesting_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\pv\rebuild\ThirdParty\QtTesting\vtkqttesting\qttesting_autogen\include_MinSizeRel;D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting;D:\pv\rebuild\ThirdParty\QtTesting\vtkqttesting;D:\Qt\5.15.2\msvc2019_64\include;D:\Qt\5.15.2\msvc2019_64\include\QtCore;D:\Qt\5.15.2\msvc2019_64\.\mkspecs\win32-msvc;D:\Qt\5.15.2\msvc2019_64\include\QtWidgets;D:\Qt\5.15.2\msvc2019_64\include\QtGui;D:\Qt\5.15.2\msvc2019_64\include\QtANGLE;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\pv\rebuild\ThirdParty\QtTesting\vtkqttesting\qttesting_autogen\include_MinSizeRel;D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting;D:\pv\rebuild\ThirdParty\QtTesting\vtkqttesting;D:\Qt\5.15.2\msvc2019_64\include;D:\Qt\5.15.2\msvc2019_64\include\QtCore;D:\Qt\5.15.2\msvc2019_64\.\mkspecs\win32-msvc;D:\Qt\5.15.2\msvc2019_64\include\QtWidgets;D:\Qt\5.15.2\msvc2019_64\include\QtGui;D:\Qt\5.15.2\msvc2019_64\include\QtANGLE;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message>Automatic MOC and UIC for target qttesting</Message>
+      <Command>setlocal
+cd D:\pv\rebuild\ThirdParty\QtTesting\vtkqttesting
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen D:/pv/rebuild/ThirdParty/QtTesting/vtkqttesting/CMakeFiles/qttesting_autogen.dir/AutogenInfo.json MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/pv/rebuild/ThirdParty/QtTesting/vtkqttesting/qttesting_autogen/autouic_MinSizeRel.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>D:\Qt\5.15.2\msvc2019_64\lib\Qt5Widgets.lib;D:\Qt\5.15.2\msvc2019_64\lib\Qt5Gui.lib;D:\Qt\5.15.2\msvc2019_64\lib\Qt5Core.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/pv/rebuild/lib/MinSizeRel/vtkqttesting-pv5.13.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/pv/rebuild/bin/MinSizeRel/vtkqttesting-pv5.13.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\pv\rebuild\ThirdParty\QtTesting\vtkqttesting\qttesting_autogen\include_RelWithDebInfo;D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting;D:\pv\rebuild\ThirdParty\QtTesting\vtkqttesting;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/Qt/5.15.2/msvc2019_64/include" /external:I "D:/Qt/5.15.2/msvc2019_64/include/QtCore" /external:I "D:/Qt/5.15.2/msvc2019_64/./mkspecs/win32-msvc" /external:I "D:/Qt/5.15.2/msvc2019_64/include/QtWidgets" /external:I "D:/Qt/5.15.2/msvc2019_64/include/QtGui" /external:I "D:/Qt/5.15.2/msvc2019_64/include/QtANGLE" /bigobj /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;QT_NO_KEYWORDS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;QT_CORE_LIB;QT_NO_DEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;CMAKE_INTDIR="RelWithDebInfo";QtTesting_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;QT_NO_KEYWORDS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;QT_CORE_LIB;QT_NO_DEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;CMAKE_INTDIR=\"RelWithDebInfo\";QtTesting_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\pv\rebuild\ThirdParty\QtTesting\vtkqttesting\qttesting_autogen\include_RelWithDebInfo;D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting;D:\pv\rebuild\ThirdParty\QtTesting\vtkqttesting;D:\Qt\5.15.2\msvc2019_64\include;D:\Qt\5.15.2\msvc2019_64\include\QtCore;D:\Qt\5.15.2\msvc2019_64\.\mkspecs\win32-msvc;D:\Qt\5.15.2\msvc2019_64\include\QtWidgets;D:\Qt\5.15.2\msvc2019_64\include\QtGui;D:\Qt\5.15.2\msvc2019_64\include\QtANGLE;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\pv\rebuild\ThirdParty\QtTesting\vtkqttesting\qttesting_autogen\include_RelWithDebInfo;D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting;D:\pv\rebuild\ThirdParty\QtTesting\vtkqttesting;D:\Qt\5.15.2\msvc2019_64\include;D:\Qt\5.15.2\msvc2019_64\include\QtCore;D:\Qt\5.15.2\msvc2019_64\.\mkspecs\win32-msvc;D:\Qt\5.15.2\msvc2019_64\include\QtWidgets;D:\Qt\5.15.2\msvc2019_64\include\QtGui;D:\Qt\5.15.2\msvc2019_64\include\QtANGLE;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message>Automatic MOC and UIC for target qttesting</Message>
+      <Command>setlocal
+cd D:\pv\rebuild\ThirdParty\QtTesting\vtkqttesting
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen D:/pv/rebuild/ThirdParty/QtTesting/vtkqttesting/CMakeFiles/qttesting_autogen.dir/AutogenInfo.json RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/pv/rebuild/ThirdParty/QtTesting/vtkqttesting/qttesting_autogen/autouic_RelWithDebInfo.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>D:\Qt\5.15.2\msvc2019_64\lib\Qt5Widgets.lib;D:\Qt\5.15.2\msvc2019_64\lib\Qt5Gui.lib;D:\Qt\5.15.2\msvc2019_64\lib\Qt5Core.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/pv/rebuild/lib/RelWithDebInfo/vtkqttesting-pv5.13.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/pv/rebuild/bin/RelWithDebInfo/vtkqttesting-pv5.13.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\94f811b54ce08adad1ddc207014c27e0\autouic_(CONFIG).stamp.rule">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd D:\pv\rebuild\ThirdParty\QtTesting\vtkqttesting
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqPlayBackEventsDialog.ui;D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqRecordEventsDialog.ui;D:\Qt\5.15.2\msvc2019_64\bin\uic.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\pv\rebuild\ThirdParty\QtTesting\vtkqttesting\qttesting_autogen\autouic_Debug.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd D:\pv\rebuild\ThirdParty\QtTesting\vtkqttesting
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqPlayBackEventsDialog.ui;D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqRecordEventsDialog.ui;D:\Qt\5.15.2\msvc2019_64\bin\uic.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\pv\rebuild\ThirdParty\QtTesting\vtkqttesting\qttesting_autogen\autouic_Release.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd D:\pv\rebuild\ThirdParty\QtTesting\vtkqttesting
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqPlayBackEventsDialog.ui;D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqRecordEventsDialog.ui;D:\Qt\5.15.2\msvc2019_64\bin\uic.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\pv\rebuild\ThirdParty\QtTesting\vtkqttesting\qttesting_autogen\autouic_MinSizeRel.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd D:\pv\rebuild\ThirdParty\QtTesting\vtkqttesting
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqPlayBackEventsDialog.ui;D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqRecordEventsDialog.ui;D:\Qt\5.15.2\msvc2019_64\bin\uic.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\pv\rebuild\ThirdParty\QtTesting\vtkqttesting\qttesting_autogen\autouic_RelWithDebInfo.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\bcf89f4b1db76a7a25723937b9f3a152\qrc_QtTesting.cpp.rule">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Automatic RCC for Resources/QtTesting.qrc</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd D:\pv\rebuild\ThirdParty\QtTesting\vtkqttesting
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autorcc D:/pv/rebuild/ThirdParty/QtTesting/vtkqttesting/CMakeFiles/qttesting_autogen.dir/AutoRcc_QtTesting_S5YYZ2ZCNV_Info.json Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\Resources\QtTesting.qrc;D:\pv\rebuild\ThirdParty\QtTesting\vtkqttesting\CMakeFiles\qttesting_autogen.dir\AutoRcc_QtTesting_S5YYZ2ZCNV_Info.json;D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\Resources\Icons\frameForward.png;D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\Resources\Icons\record.png;D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\Resources\Icons\playback-stop.png;D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\Resources\Icons\repeat.png;D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\Resources\Icons\timePlay.png;D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\Resources\Icons\check.png;D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\Resources\Icons\plus.png;D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\Resources\Icons\clear.svg;D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\Resources\Icons\pause.png;D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\Resources\Icons\minus.png;D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\Resources\Icons\info.png;D:\Qt\5.15.2\msvc2019_64\bin\rcc.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\pv\rebuild\ThirdParty\QtTesting\vtkqttesting\qttesting_autogen\S5YYZ2ZCNV\qrc_QtTesting.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Automatic RCC for Resources/QtTesting.qrc</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd D:\pv\rebuild\ThirdParty\QtTesting\vtkqttesting
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autorcc D:/pv/rebuild/ThirdParty/QtTesting/vtkqttesting/CMakeFiles/qttesting_autogen.dir/AutoRcc_QtTesting_S5YYZ2ZCNV_Info.json Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\Resources\QtTesting.qrc;D:\pv\rebuild\ThirdParty\QtTesting\vtkqttesting\CMakeFiles\qttesting_autogen.dir\AutoRcc_QtTesting_S5YYZ2ZCNV_Info.json;D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\Resources\Icons\frameForward.png;D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\Resources\Icons\record.png;D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\Resources\Icons\playback-stop.png;D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\Resources\Icons\repeat.png;D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\Resources\Icons\timePlay.png;D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\Resources\Icons\check.png;D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\Resources\Icons\plus.png;D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\Resources\Icons\clear.svg;D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\Resources\Icons\pause.png;D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\Resources\Icons\minus.png;D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\Resources\Icons\info.png;D:\Qt\5.15.2\msvc2019_64\bin\rcc.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\pv\rebuild\ThirdParty\QtTesting\vtkqttesting\qttesting_autogen\S5YYZ2ZCNV\qrc_QtTesting.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Automatic RCC for Resources/QtTesting.qrc</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd D:\pv\rebuild\ThirdParty\QtTesting\vtkqttesting
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autorcc D:/pv/rebuild/ThirdParty/QtTesting/vtkqttesting/CMakeFiles/qttesting_autogen.dir/AutoRcc_QtTesting_S5YYZ2ZCNV_Info.json MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\Resources\QtTesting.qrc;D:\pv\rebuild\ThirdParty\QtTesting\vtkqttesting\CMakeFiles\qttesting_autogen.dir\AutoRcc_QtTesting_S5YYZ2ZCNV_Info.json;D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\Resources\Icons\frameForward.png;D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\Resources\Icons\record.png;D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\Resources\Icons\playback-stop.png;D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\Resources\Icons\repeat.png;D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\Resources\Icons\timePlay.png;D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\Resources\Icons\check.png;D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\Resources\Icons\plus.png;D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\Resources\Icons\clear.svg;D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\Resources\Icons\pause.png;D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\Resources\Icons\minus.png;D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\Resources\Icons\info.png;D:\Qt\5.15.2\msvc2019_64\bin\rcc.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\pv\rebuild\ThirdParty\QtTesting\vtkqttesting\qttesting_autogen\S5YYZ2ZCNV\qrc_QtTesting.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Automatic RCC for Resources/QtTesting.qrc</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd D:\pv\rebuild\ThirdParty\QtTesting\vtkqttesting
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autorcc D:/pv/rebuild/ThirdParty/QtTesting/vtkqttesting/CMakeFiles/qttesting_autogen.dir/AutoRcc_QtTesting_S5YYZ2ZCNV_Info.json RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\Resources\QtTesting.qrc;D:\pv\rebuild\ThirdParty\QtTesting\vtkqttesting\CMakeFiles\qttesting_autogen.dir\AutoRcc_QtTesting_S5YYZ2ZCNV_Info.json;D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\Resources\Icons\frameForward.png;D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\Resources\Icons\record.png;D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\Resources\Icons\playback-stop.png;D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\Resources\Icons\repeat.png;D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\Resources\Icons\timePlay.png;D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\Resources\Icons\check.png;D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\Resources\Icons\plus.png;D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\Resources\Icons\clear.svg;D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\Resources\Icons\pause.png;D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\Resources\Icons\minus.png;D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\Resources\Icons\info.png;D:\Qt\5.15.2\msvc2019_64\bin\rcc.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\pv\rebuild\ThirdParty\QtTesting\vtkqttesting\qttesting_autogen\S5YYZ2ZCNV\qrc_QtTesting.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/pv/ParaView/ThirdParty/QtTesting/vtkqttesting/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/pv/ParaView -BD:/pv/rebuild --check-stamp-file D:/pv/rebuild/ThirdParty/QtTesting/vtkqttesting/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CTestUseLaunchers.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\WriteBasicConfigVersionFile.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5\Qt5Config.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5\Qt5ConfigVersion.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5\Qt5ModuleLocation.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QInsightTrackerPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QSvgIconPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QSvgPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QVirtualKeyboardPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWebGLIntegrationPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QXdgDesktopPortalThemePlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\QtTestingConfig-install.cmake.in;D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\QtTestingConfig.cmake.in;D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\QtTestingConfigure.h.in;D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\Resources\QtTesting.qrc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\pv\rebuild\ThirdParty\QtTesting\vtkqttesting\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/pv/ParaView/ThirdParty/QtTesting/vtkqttesting/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/pv/ParaView -BD:/pv/rebuild --check-stamp-file D:/pv/rebuild/ThirdParty/QtTesting/vtkqttesting/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CTestUseLaunchers.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\WriteBasicConfigVersionFile.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5\Qt5Config.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5\Qt5ConfigVersion.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5\Qt5ModuleLocation.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QInsightTrackerPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QSvgIconPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QSvgPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QVirtualKeyboardPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWebGLIntegrationPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QXdgDesktopPortalThemePlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\QtTestingConfig-install.cmake.in;D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\QtTestingConfig.cmake.in;D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\QtTestingConfigure.h.in;D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\Resources\QtTesting.qrc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\pv\rebuild\ThirdParty\QtTesting\vtkqttesting\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/pv/ParaView/ThirdParty/QtTesting/vtkqttesting/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/pv/ParaView -BD:/pv/rebuild --check-stamp-file D:/pv/rebuild/ThirdParty/QtTesting/vtkqttesting/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CTestUseLaunchers.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\WriteBasicConfigVersionFile.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5\Qt5Config.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5\Qt5ConfigVersion.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5\Qt5ModuleLocation.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QInsightTrackerPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QSvgIconPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QSvgPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QVirtualKeyboardPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWebGLIntegrationPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QXdgDesktopPortalThemePlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\QtTestingConfig-install.cmake.in;D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\QtTestingConfig.cmake.in;D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\QtTestingConfigure.h.in;D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\Resources\QtTesting.qrc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\pv\rebuild\ThirdParty\QtTesting\vtkqttesting\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/pv/ParaView/ThirdParty/QtTesting/vtkqttesting/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/pv/ParaView -BD:/pv/rebuild --check-stamp-file D:/pv/rebuild/ThirdParty/QtTesting/vtkqttesting/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CTestUseLaunchers.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\WriteBasicConfigVersionFile.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5\Qt5Config.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5\Qt5ConfigVersion.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5\Qt5ModuleLocation.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QInsightTrackerPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QSvgIconPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QSvgPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QVirtualKeyboardPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWebGLIntegrationPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QXdgDesktopPortalThemePlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\QtTestingConfig-install.cmake.in;D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\QtTestingConfig.cmake.in;D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\QtTestingConfigure.h.in;D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\Resources\QtTesting.qrc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\pv\rebuild\ThirdParty\QtTesting\vtkqttesting\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\pv\rebuild\ThirdParty\QtTesting\vtkqttesting\qttesting_autogen\mocs_compilation_Debug.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pq3DViewEventPlayer.cxx" />
+    <ClCompile Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pq3DViewEventTranslator.cxx" />
+    <ClCompile Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqAbstractActivateEventPlayer.cxx" />
+    <ClCompile Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqAbstractBooleanEventPlayer.cxx" />
+    <ClCompile Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqAbstractButtonEventTranslator.cxx" />
+    <ClCompile Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqAbstractDoubleEventPlayer.cxx" />
+    <ClCompile Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqAbstractIntEventPlayer.cxx" />
+    <ClCompile Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqAbstractItemViewEventPlayer.cxx" />
+    <ClCompile Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqAbstractItemViewEventPlayerBase.cxx" />
+    <ClCompile Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqAbstractItemViewEventTranslator.cxx" />
+    <ClCompile Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqAbstractItemViewEventTranslatorBase.cxx" />
+    <ClCompile Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqAbstractMiscellaneousEventPlayer.cxx" />
+    <ClCompile Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqAbstractSliderEventTranslator.cxx" />
+    <ClCompile Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqAbstractStringEventPlayer.cxx" />
+    <ClCompile Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqBasicWidgetEventPlayer.cxx" />
+    <ClCompile Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqBasicWidgetEventTranslator.cxx" />
+    <ClCompile Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqCheckEventOverlay.cxx" />
+    <ClCompile Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqComboBoxEventTranslator.cxx" />
+    <ClCompile Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqComboBoxEventPlayer.cxx" />
+    <ClCompile Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqCommentEventPlayer.cxx" />
+    <ClCompile Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqDoubleSpinBoxEventTranslator.cxx" />
+    <ClCompile Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqEventComment.cxx" />
+    <ClCompile Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqEventDispatcher.cxx" />
+    <ClCompile Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqEventObserver.cxx" />
+    <ClCompile Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqEventPlayer.cxx" />
+    <ClCompile Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqEventRecorder.cxx" />
+    <ClCompile Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqEventTranslator.cxx" />
+    <ClCompile Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqLineEditEventTranslator.cxx" />
+    <ClCompile Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqListViewEventPlayer.cxx" />
+    <ClCompile Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqListViewEventTranslator.cxx" />
+    <ClCompile Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqMenuEventTranslator.cxx" />
+    <ClCompile Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqNativeFileDialogEventPlayer.cxx" />
+    <ClCompile Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqNativeFileDialogEventTranslator.cxx" />
+    <ClCompile Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqObjectNaming.cxx" />
+    <ClCompile Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqPlayBackEventsDialog.cxx" />
+    <ClCompile Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqRecordEventsDialog.cxx" />
+    <ClCompile Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqSpinBoxEventTranslator.cxx" />
+    <ClCompile Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqStdoutEventObserver.cxx" />
+    <ClCompile Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqTabBarEventPlayer.cxx" />
+    <ClCompile Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqTabBarEventTranslator.cxx" />
+    <ClCompile Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqTableViewEventPlayer.cxx" />
+    <ClCompile Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqTableViewEventTranslator.cxx" />
+    <ClCompile Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqTestUtility.cxx" />
+    <ClCompile Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqThreadedEventSource.cxx" />
+    <ClCompile Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqTimer.cxx" />
+    <ClCompile Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqTreeViewEventPlayer.cxx" />
+    <ClCompile Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqTreeViewEventTranslator.cxx" />
+    <ClCompile Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqWidgetEventPlayer.cxx" />
+    <ClCompile Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqWidgetEventTranslator.cxx" />
+    <None Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqPlayBackEventsDialog.ui">
+    </None>
+    <None Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqRecordEventsDialog.ui">
+    </None>
+    <None Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\Resources\QtTesting.qrc">
+    </None>
+    <ClInclude Include="D:\pv\rebuild\ThirdParty\QtTesting\vtkqttesting\qttesting_autogen\include_Debug\ui_pqPlayBackEventsDialog.h" />
+    <ClInclude Include="D:\pv\rebuild\ThirdParty\QtTesting\vtkqttesting\qttesting_autogen\include_Debug\ui_pqRecordEventsDialog.h" />
+    <None Include="D:\pv\rebuild\ThirdParty\QtTesting\vtkqttesting\qttesting_autogen\autouic_Debug.stamp">
+    </None>
+    <ClCompile Include="D:\pv\rebuild\ThirdParty\QtTesting\vtkqttesting\qttesting_autogen\S5YYZ2ZCNV\qrc_QtTesting.cpp" />
+    <ClInclude Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\QtTestingExport.h" />
+    <ClInclude Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pq3DViewEventPlayer.h" />
+    <ClInclude Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pq3DViewEventTranslator.h" />
+    <ClInclude Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqAbstractActivateEventPlayer.h" />
+    <ClInclude Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqAbstractBooleanEventPlayer.h" />
+    <ClInclude Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqAbstractButtonEventTranslator.h" />
+    <ClInclude Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqAbstractDoubleEventPlayer.h" />
+    <ClInclude Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqAbstractIntEventPlayer.h" />
+    <ClInclude Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqAbstractItemViewEventPlayer.h" />
+    <ClInclude Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqAbstractItemViewEventPlayerBase.h" />
+    <ClInclude Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqAbstractItemViewEventTranslator.h" />
+    <ClInclude Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqAbstractItemViewEventTranslatorBase.h" />
+    <ClInclude Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqAbstractMiscellaneousEventPlayer.h" />
+    <ClInclude Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqAbstractSliderEventTranslator.h" />
+    <ClInclude Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqAbstractStringEventPlayer.h" />
+    <ClInclude Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqBasicWidgetEventPlayer.h" />
+    <ClInclude Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqBasicWidgetEventTranslator.h" />
+    <ClInclude Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqCheckEventOverlay.h" />
+    <ClInclude Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqComboBoxEventTranslator.h" />
+    <ClInclude Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqComboBoxEventPlayer.h" />
+    <ClInclude Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqCommentEventPlayer.h" />
+    <ClInclude Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqDoubleSpinBoxEventTranslator.h" />
+    <ClInclude Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqEventComment.h" />
+    <ClInclude Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqEventDispatcher.h" />
+    <ClInclude Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqEventObserver.h" />
+    <ClInclude Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqEventPlayer.h" />
+    <ClInclude Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqEventRecorder.h" />
+    <ClInclude Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqEventSource.h" />
+    <ClInclude Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqEventTranslator.h" />
+    <ClInclude Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqEventTypes.h" />
+    <ClInclude Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqLineEditEventTranslator.h" />
+    <ClInclude Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqListViewEventPlayer.h" />
+    <ClInclude Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqListViewEventTranslator.h" />
+    <ClInclude Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqMenuEventTranslator.h" />
+    <ClInclude Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqNativeFileDialogEventPlayer.h" />
+    <ClInclude Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqNativeFileDialogEventTranslator.h" />
+    <ClInclude Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqObjectNaming.h" />
+    <ClInclude Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqPlayBackEventsDialog.h" />
+    <ClInclude Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqRecordEventsDialog.h" />
+    <ClInclude Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqSpinBoxEventTranslator.h" />
+    <ClInclude Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqStdoutEventObserver.h" />
+    <ClInclude Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqTabBarEventPlayer.h" />
+    <ClInclude Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqTabBarEventTranslator.h" />
+    <ClInclude Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqTableViewEventPlayer.h" />
+    <ClInclude Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqTableViewEventTranslator.h" />
+    <ClInclude Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqTestUtility.h" />
+    <ClInclude Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqThreadedEventSource.h" />
+    <ClInclude Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqTimer.h" />
+    <ClInclude Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqTreeViewEventPlayer.h" />
+    <ClInclude Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqTreeViewEventTranslator.h" />
+    <ClInclude Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqWidgetEventPlayer.h" />
+    <ClInclude Include="D:\pv\ParaView\ThirdParty\QtTesting\vtkqttesting\pqWidgetEventTranslator.h" />
+    <ClInclude Include="D:\pv\rebuild\ThirdParty\QtTesting\vtkqttesting\QtTestingConfigure.h" />
+    <ClCompile Include="D:\pv\rebuild\ThirdParty\QtTesting\vtkqttesting\qttesting_autogen\mocs_compilation_Release.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClInclude Include="D:\pv\rebuild\ThirdParty\QtTesting\vtkqttesting\qttesting_autogen\include_Release\ui_pqPlayBackEventsDialog.h" />
+    <ClInclude Include="D:\pv\rebuild\ThirdParty\QtTesting\vtkqttesting\qttesting_autogen\include_Release\ui_pqRecordEventsDialog.h" />
+    <None Include="D:\pv\rebuild\ThirdParty\QtTesting\vtkqttesting\qttesting_autogen\autouic_Release.stamp">
+    </None>
+    <ClCompile Include="D:\pv\rebuild\ThirdParty\QtTesting\vtkqttesting\qttesting_autogen\mocs_compilation_MinSizeRel.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClInclude Include="D:\pv\rebuild\ThirdParty\QtTesting\vtkqttesting\qttesting_autogen\include_MinSizeRel\ui_pqPlayBackEventsDialog.h" />
+    <ClInclude Include="D:\pv\rebuild\ThirdParty\QtTesting\vtkqttesting\qttesting_autogen\include_MinSizeRel\ui_pqRecordEventsDialog.h" />
+    <None Include="D:\pv\rebuild\ThirdParty\QtTesting\vtkqttesting\qttesting_autogen\autouic_MinSizeRel.stamp">
+    </None>
+    <ClCompile Include="D:\pv\rebuild\ThirdParty\QtTesting\vtkqttesting\qttesting_autogen\mocs_compilation_RelWithDebInfo.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClInclude Include="D:\pv\rebuild\ThirdParty\QtTesting\vtkqttesting\qttesting_autogen\include_RelWithDebInfo\ui_pqPlayBackEventsDialog.h" />
+    <ClInclude Include="D:\pv\rebuild\ThirdParty\QtTesting\vtkqttesting\qttesting_autogen\include_RelWithDebInfo\ui_pqRecordEventsDialog.h" />
+    <None Include="D:\pv\rebuild\ThirdParty\QtTesting\vtkqttesting\qttesting_autogen\autouic_RelWithDebInfo.stamp">
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="D:\pv\rebuild\ZERO_CHECK.vcxproj">
+      <Project>{F365DAD0-49D0-3E04-B6A0-AEBAF9BD405C}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

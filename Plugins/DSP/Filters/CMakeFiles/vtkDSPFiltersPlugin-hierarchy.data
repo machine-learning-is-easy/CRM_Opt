@@ -1,0 +1,10 @@
+D:/pv/ParaView/Plugins/DSP/Filters/vtkAccousticUtilities.h;vtkDSPFiltersPlugin
+D:/pv/ParaView/Plugins/DSP/Filters/vtkBandFiltering.h;vtkDSPFiltersPlugin
+D:/pv/ParaView/Plugins/DSP/Filters/vtkDSPTableFFT.h;vtkDSPFiltersPlugin
+D:/pv/ParaView/Plugins/DSP/Filters/vtkMeanPowerSpectralDensity.h;vtkDSPFiltersPlugin
+D:/pv/ParaView/Plugins/DSP/Filters/vtkMergeReduceTables.h;vtkDSPFiltersPlugin
+D:/pv/ParaView/Plugins/DSP/Filters/vtkMultiDimensionBrowser.h;vtkDSPFiltersPlugin
+D:/pv/ParaView/Plugins/DSP/Filters/vtkProjectSpectrumMagnitude.h;vtkDSPFiltersPlugin
+D:/pv/ParaView/Plugins/DSP/Filters/vtkSoundQuantitiesCalculator.h;vtkDSPFiltersPlugin
+D:/pv/ParaView/Plugins/DSP/Filters/vtkSpectrogramFilter.h;vtkDSPFiltersPlugin
+D:/pv/ParaView/Plugins/DSP/Filters/vtkTemporalMultiplexing.h;vtkDSPFiltersPlugin

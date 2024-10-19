@@ -1,0 +1,465 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{549A634B-F14F-31D9-B487-E41D50A4DB49}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>IOIOSS</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\pv\rebuild\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">IOIOSS.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">vtkIOIOSS-pv5.13d</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\pv\rebuild\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">IOIOSS.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">vtkIOIOSS-pv5.13</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\pv\rebuild\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">IOIOSS.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">vtkIOIOSS-pv5.13</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\pv\rebuild\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">IOIOSS.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">vtkIOIOSS-pv5.13</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\pv\ParaView\VTK\IO\IOSS;D:\pv\rebuild\VTK\IO\IOSS;D:\pv\ParaView\VTK\Common\Core;D:\pv\rebuild\VTK\Common\Core;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken\token;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken\token;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\rebuild\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson\include;D:\pv\ParaView\VTK\Common\DataModel;D:\pv\rebuild\VTK\Common\DataModel;D:\pv\ParaView\VTK\Common\Math;D:\pv\rebuild\VTK\Common\Math;D:\pv\ParaView\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\rebuild\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\ParaView\VTK\Common\Transforms;D:\pv\rebuild\VTK\Common\Transforms;D:\pv\ParaView\VTK\Common\ExecutionModel;D:\pv\rebuild\VTK\Common\ExecutionModel;D:\pv\ParaView\VTK\Filters\CellGrid;D:\pv\rebuild\VTK\Filters\CellGrid;D:\pv\ParaView\VTK\IO\Core;D:\pv\rebuild\VTK\IO\Core;D:\pv\ParaView\VTK\Parallel\Core;D:\pv\rebuild\VTK\Parallel\Core;D:\pv\ParaView\VTK\Filters\Core;D:\pv\rebuild\VTK\Filters\Core;D:\pv\ParaView\VTK\Common\Misc;D:\pv\rebuild\VTK\Common\Misc;D:\pv\ParaView\VTK\Filters\Extraction;D:\pv\rebuild\VTK\Filters\Extraction;D:\pv\ParaView\VTK\Filters\General;D:\pv\rebuild\VTK\Filters\General;D:\pv\ParaView\VTK\ThirdParty\fmt\vtkfmt;D:\pv\rebuild\VTK\ThirdParty\fmt\vtkfmt;D:\pv\ParaView\VTK\ThirdParty\ioss\vtkioss;D:\pv\rebuild\VTK\ThirdParty\ioss\vtkioss;D:\pv\ParaView\VTK\ThirdParty\ioss\vtkioss\elements;D:\pv\ParaView\VTK\ThirdParty\ioss\vtkioss\exodus;D:\pv\ParaView\VTK\ThirdParty\ioss\vtkioss\exonull;D:\pv\ParaView\VTK\ThirdParty\ioss\vtkioss\gen_struc;D:\pv\ParaView\VTK\ThirdParty\ioss\vtkioss\generated;D:\pv\ParaView\VTK\ThirdParty\ioss\vtkioss\heartbeat;D:\pv\ParaView\VTK\ThirdParty\ioss\vtkioss\init;D:\pv\ParaView\VTK\ThirdParty\ioss\vtkioss\null;D:\pv\ParaView\VTK\ThirdParty\ioss\vtkioss\transform;D:\pv\ParaView\VTK\ThirdParty\cgns\vtkcgns\src;D:\pv\rebuild\VTK\ThirdParty\cgns\vtkcgns\src;D:\pv\ParaView\VTK\ThirdParty\hdf5\vtkhdf5;D:\pv\rebuild\VTK\ThirdParty\hdf5\vtkhdf5;D:\pv\rebuild\VTK\ThirdParty\hdf5\vtkhdf5\src;D:\pv\ParaView\VTK\ThirdParty\hdf5\vtkhdf5\src;D:\pv\rebuild\VTK\ThirdParty\hdf5\vtkhdf5\hl\src;D:\pv\ParaView\VTK\ThirdParty\hdf5\vtkhdf5\hl\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/pv/rebuild/VTK/Utilities/KWIML" /external:I "D:/pv/ParaView/VTK/Utilities/KWIML" /external:I "D:/pv/rebuild/VTK/Utilities/KWSys" /external:I "D:/pv/ParaView/VTK/Utilities/KWSys" /external:I "D:/pv/rebuild/VTK/ThirdParty/token" /external:I "D:/pv/ParaView/VTK/ThirdParty/token" /external:I "D:/pv/rebuild/VTK/ThirdParty/nlohmannjson" /external:I "D:/pv/ParaView/VTK/ThirdParty/nlohmannjson" /external:I "D:/pv/rebuild/VTK/ThirdParty/kissfft" /external:I "D:/pv/ParaView/VTK/ThirdParty/kissfft" /external:I "D:/pv/rebuild/VTK/ThirdParty/fmt" /external:I "D:/pv/ParaView/VTK/ThirdParty/fmt" /external:I "D:/pv/rebuild/VTK/ThirdParty/ioss" /external:I "D:/pv/ParaView/VTK/ThirdParty/ioss" /external:I "D:/pv/rebuild/VTK/ThirdParty/cgns" /external:I "D:/pv/ParaView/VTK/ThirdParty/cgns" /external:I "D:/pv/rebuild/VTK/ThirdParty/hdf5" /external:I "D:/pv/ParaView/VTK/ThirdParty/hdf5" /bigobj /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;VTK_MODULE_ENABLE_VTK_ParallelMPI=0;VTK_MODULE_ENABLE_VTK_mpi=0;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;kiss_fft_scalar=double;KISSFFT_DLL_IMPORT=1;FMT_SHARED;H5_BUILT_AS_DYNAMIC_LIB;CMAKE_INTDIR="Debug";IOIOSS_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;VTK_MODULE_ENABLE_VTK_ParallelMPI=0;VTK_MODULE_ENABLE_VTK_mpi=0;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;kiss_fft_scalar=double;KISSFFT_DLL_IMPORT=1;FMT_SHARED;H5_BUILT_AS_DYNAMIC_LIB;CMAKE_INTDIR=\"Debug\";IOIOSS_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\pv\ParaView\VTK\IO\IOSS;D:\pv\rebuild\VTK\IO\IOSS;D:\pv\ParaView\VTK\Common\Core;D:\pv\rebuild\VTK\Common\Core;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken\token;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken\token;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\rebuild\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson\include;D:\pv\ParaView\VTK\Common\DataModel;D:\pv\rebuild\VTK\Common\DataModel;D:\pv\ParaView\VTK\Common\Math;D:\pv\rebuild\VTK\Common\Math;D:\pv\ParaView\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\rebuild\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\ParaView\VTK\Common\Transforms;D:\pv\rebuild\VTK\Common\Transforms;D:\pv\ParaView\VTK\Common\ExecutionModel;D:\pv\rebuild\VTK\Common\ExecutionModel;D:\pv\ParaView\VTK\Filters\CellGrid;D:\pv\rebuild\VTK\Filters\CellGrid;D:\pv\ParaView\VTK\IO\Core;D:\pv\rebuild\VTK\IO\Core;D:\pv\ParaView\VTK\Parallel\Core;D:\pv\rebuild\VTK\Parallel\Core;D:\pv\ParaView\VTK\Filters\Core;D:\pv\rebuild\VTK\Filters\Core;D:\pv\ParaView\VTK\Common\Misc;D:\pv\rebuild\VTK\Common\Misc;D:\pv\ParaView\VTK\Filters\Extraction;D:\pv\rebuild\VTK\Filters\Extraction;D:\pv\ParaView\VTK\Filters\General;D:\pv\rebuild\VTK\Filters\General;D:\pv\ParaView\VTK\ThirdParty\fmt\vtkfmt;D:\pv\rebuild\VTK\ThirdParty\fmt\vtkfmt;D:\pv\ParaView\VTK\ThirdParty\ioss\vtkioss;D:\pv\rebuild\VTK\ThirdParty\ioss\vtkioss;D:\pv\ParaView\VTK\ThirdParty\ioss\vtkioss\elements;D:\pv\ParaView\VTK\ThirdParty\ioss\vtkioss\exodus;D:\pv\ParaView\VTK\ThirdParty\ioss\vtkioss\exonull;D:\pv\ParaView\VTK\ThirdParty\ioss\vtkioss\gen_struc;D:\pv\ParaView\VTK\ThirdParty\ioss\vtkioss\generated;D:\pv\ParaView\VTK\ThirdParty\ioss\vtkioss\heartbeat;D:\pv\ParaView\VTK\ThirdParty\ioss\vtkioss\init;D:\pv\ParaView\VTK\ThirdParty\ioss\vtkioss\null;D:\pv\ParaView\VTK\ThirdParty\ioss\vtkioss\transform;D:\pv\ParaView\VTK\ThirdParty\cgns\vtkcgns\src;D:\pv\rebuild\VTK\ThirdParty\cgns\vtkcgns\src;D:\pv\ParaView\VTK\ThirdParty\hdf5\vtkhdf5;D:\pv\rebuild\VTK\ThirdParty\hdf5\vtkhdf5;D:\pv\rebuild\VTK\ThirdParty\hdf5\vtkhdf5\src;D:\pv\ParaView\VTK\ThirdParty\hdf5\vtkhdf5\src;D:\pv\rebuild\VTK\ThirdParty\hdf5\vtkhdf5\hl\src;D:\pv\ParaView\VTK\ThirdParty\hdf5\vtkhdf5\hl\src;D:\pv\rebuild\VTK\Utilities\KWIML;D:\pv\ParaView\VTK\Utilities\KWIML;D:\pv\rebuild\VTK\Utilities\KWSys;D:\pv\ParaView\VTK\Utilities\KWSys;D:\pv\rebuild\VTK\ThirdParty\token;D:\pv\ParaView\VTK\ThirdParty\token;D:\pv\rebuild\VTK\ThirdParty\nlohmannjson;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson;D:\pv\rebuild\VTK\ThirdParty\kissfft;D:\pv\ParaView\VTK\ThirdParty\kissfft;D:\pv\rebuild\VTK\ThirdParty\fmt;D:\pv\ParaView\VTK\ThirdParty\fmt;D:\pv\rebuild\VTK\ThirdParty\ioss;D:\pv\ParaView\VTK\ThirdParty\ioss;D:\pv\rebuild\VTK\ThirdParty\cgns;D:\pv\ParaView\VTK\ThirdParty\cgns;D:\pv\rebuild\VTK\ThirdParty\hdf5;D:\pv\ParaView\VTK\ThirdParty\hdf5;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\pv\ParaView\VTK\IO\IOSS;D:\pv\rebuild\VTK\IO\IOSS;D:\pv\ParaView\VTK\Common\Core;D:\pv\rebuild\VTK\Common\Core;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken\token;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken\token;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\rebuild\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson\include;D:\pv\ParaView\VTK\Common\DataModel;D:\pv\rebuild\VTK\Common\DataModel;D:\pv\ParaView\VTK\Common\Math;D:\pv\rebuild\VTK\Common\Math;D:\pv\ParaView\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\rebuild\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\ParaView\VTK\Common\Transforms;D:\pv\rebuild\VTK\Common\Transforms;D:\pv\ParaView\VTK\Common\ExecutionModel;D:\pv\rebuild\VTK\Common\ExecutionModel;D:\pv\ParaView\VTK\Filters\CellGrid;D:\pv\rebuild\VTK\Filters\CellGrid;D:\pv\ParaView\VTK\IO\Core;D:\pv\rebuild\VTK\IO\Core;D:\pv\ParaView\VTK\Parallel\Core;D:\pv\rebuild\VTK\Parallel\Core;D:\pv\ParaView\VTK\Filters\Core;D:\pv\rebuild\VTK\Filters\Core;D:\pv\ParaView\VTK\Common\Misc;D:\pv\rebuild\VTK\Common\Misc;D:\pv\ParaView\VTK\Filters\Extraction;D:\pv\rebuild\VTK\Filters\Extraction;D:\pv\ParaView\VTK\Filters\General;D:\pv\rebuild\VTK\Filters\General;D:\pv\ParaView\VTK\ThirdParty\fmt\vtkfmt;D:\pv\rebuild\VTK\ThirdParty\fmt\vtkfmt;D:\pv\ParaView\VTK\ThirdParty\ioss\vtkioss;D:\pv\rebuild\VTK\ThirdParty\ioss\vtkioss;D:\pv\ParaView\VTK\ThirdParty\ioss\vtkioss\elements;D:\pv\ParaView\VTK\ThirdParty\ioss\vtkioss\exodus;D:\pv\ParaView\VTK\ThirdParty\ioss\vtkioss\exonull;D:\pv\ParaView\VTK\ThirdParty\ioss\vtkioss\gen_struc;D:\pv\ParaView\VTK\ThirdParty\ioss\vtkioss\generated;D:\pv\ParaView\VTK\ThirdParty\ioss\vtkioss\heartbeat;D:\pv\ParaView\VTK\ThirdParty\ioss\vtkioss\init;D:\pv\ParaView\VTK\ThirdParty\ioss\vtkioss\null;D:\pv\ParaView\VTK\ThirdParty\ioss\vtkioss\transform;D:\pv\ParaView\VTK\ThirdParty\cgns\vtkcgns\src;D:\pv\rebuild\VTK\ThirdParty\cgns\vtkcgns\src;D:\pv\ParaView\VTK\ThirdParty\hdf5\vtkhdf5;D:\pv\rebuild\VTK\ThirdParty\hdf5\vtkhdf5;D:\pv\rebuild\VTK\ThirdParty\hdf5\vtkhdf5\src;D:\pv\ParaView\VTK\ThirdParty\hdf5\vtkhdf5\src;D:\pv\rebuild\VTK\ThirdParty\hdf5\vtkhdf5\hl\src;D:\pv\ParaView\VTK\ThirdParty\hdf5\vtkhdf5\hl\src;D:\pv\rebuild\VTK\Utilities\KWIML;D:\pv\ParaView\VTK\Utilities\KWIML;D:\pv\rebuild\VTK\Utilities\KWSys;D:\pv\ParaView\VTK\Utilities\KWSys;D:\pv\rebuild\VTK\ThirdParty\token;D:\pv\ParaView\VTK\ThirdParty\token;D:\pv\rebuild\VTK\ThirdParty\nlohmannjson;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson;D:\pv\rebuild\VTK\ThirdParty\kissfft;D:\pv\ParaView\VTK\ThirdParty\kissfft;D:\pv\rebuild\VTK\ThirdParty\fmt;D:\pv\ParaView\VTK\ThirdParty\fmt;D:\pv\rebuild\VTK\ThirdParty\ioss;D:\pv\ParaView\VTK\ThirdParty\ioss;D:\pv\rebuild\VTK\ThirdParty\cgns;D:\pv\ParaView\VTK\ThirdParty\cgns;D:\pv\rebuild\VTK\ThirdParty\hdf5;D:\pv\ParaView\VTK\ThirdParty\hdf5;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\..\lib\Debug\vtkFiltersExtraction-pv5.13d.lib;..\..\..\lib\Debug\vtkioss-pv5.13d.lib;..\..\..\lib\Debug\vtkParallelCore-pv5.13d.lib;..\..\..\lib\Debug\vtkFiltersCellGrid-pv5.13d.lib;..\..\..\lib\Debug\vtkFiltersGeneral-pv5.13d.lib;..\..\..\lib\Debug\vtkFiltersCore-pv5.13d.lib;..\..\..\lib\Debug\vtkIOCore-pv5.13d.lib;..\..\..\lib\Debug\vtkCommonExecutionModel-pv5.13d.lib;..\..\..\lib\Debug\vtkCommonDataModel-pv5.13d.lib;..\..\..\lib\Debug\vtkCommonTransforms-pv5.13d.lib;..\..\..\lib\Debug\vtkCommonMisc-pv5.13d.lib;..\..\..\lib\Debug\vtkCommonMath-pv5.13d.lib;..\..\..\lib\Debug\vtkCommonCore-pv5.13d.lib;..\..\..\lib\Debug\vtktoken-pv5.13d.lib;..\..\..\lib\Debug\vtkkissfft-pv5.13d.lib;..\..\..\lib\Debug\vtksys-pv5.13d.lib;ws2_32.lib;dbghelp.lib;psapi.lib;..\..\..\lib\Debug\vtkfmt-pv5.13d.lib;..\..\..\lib\Debug\vtkcgns-pv5.13d.lib;..\..\..\lib\Debug\vtkhdf5_hl-pv5.13d.lib;..\..\..\lib\Debug\vtkhdf5-pv5.13d.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/pv/rebuild/lib/Debug/vtkIOIOSS-pv5.13d.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/pv/rebuild/bin/Debug/vtkIOIOSS-pv5.13d.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\pv\ParaView\VTK\IO\IOSS;D:\pv\rebuild\VTK\IO\IOSS;D:\pv\ParaView\VTK\Common\Core;D:\pv\rebuild\VTK\Common\Core;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken\token;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken\token;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\rebuild\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson\include;D:\pv\ParaView\VTK\Common\DataModel;D:\pv\rebuild\VTK\Common\DataModel;D:\pv\ParaView\VTK\Common\Math;D:\pv\rebuild\VTK\Common\Math;D:\pv\ParaView\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\rebuild\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\ParaView\VTK\Common\Transforms;D:\pv\rebuild\VTK\Common\Transforms;D:\pv\ParaView\VTK\Common\ExecutionModel;D:\pv\rebuild\VTK\Common\ExecutionModel;D:\pv\ParaView\VTK\Filters\CellGrid;D:\pv\rebuild\VTK\Filters\CellGrid;D:\pv\ParaView\VTK\IO\Core;D:\pv\rebuild\VTK\IO\Core;D:\pv\ParaView\VTK\Parallel\Core;D:\pv\rebuild\VTK\Parallel\Core;D:\pv\ParaView\VTK\Filters\Core;D:\pv\rebuild\VTK\Filters\Core;D:\pv\ParaView\VTK\Common\Misc;D:\pv\rebuild\VTK\Common\Misc;D:\pv\ParaView\VTK\Filters\Extraction;D:\pv\rebuild\VTK\Filters\Extraction;D:\pv\ParaView\VTK\Filters\General;D:\pv\rebuild\VTK\Filters\General;D:\pv\ParaView\VTK\ThirdParty\fmt\vtkfmt;D:\pv\rebuild\VTK\ThirdParty\fmt\vtkfmt;D:\pv\ParaView\VTK\ThirdParty\ioss\vtkioss;D:\pv\rebuild\VTK\ThirdParty\ioss\vtkioss;D:\pv\ParaView\VTK\ThirdParty\ioss\vtkioss\elements;D:\pv\ParaView\VTK\ThirdParty\ioss\vtkioss\exodus;D:\pv\ParaView\VTK\ThirdParty\ioss\vtkioss\exonull;D:\pv\ParaView\VTK\ThirdParty\ioss\vtkioss\gen_struc;D:\pv\ParaView\VTK\ThirdParty\ioss\vtkioss\generated;D:\pv\ParaView\VTK\ThirdParty\ioss\vtkioss\heartbeat;D:\pv\ParaView\VTK\ThirdParty\ioss\vtkioss\init;D:\pv\ParaView\VTK\ThirdParty\ioss\vtkioss\null;D:\pv\ParaView\VTK\ThirdParty\ioss\vtkioss\transform;D:\pv\ParaView\VTK\ThirdParty\cgns\vtkcgns\src;D:\pv\rebuild\VTK\ThirdParty\cgns\vtkcgns\src;D:\pv\ParaView\VTK\ThirdParty\hdf5\vtkhdf5;D:\pv\rebuild\VTK\ThirdParty\hdf5\vtkhdf5;D:\pv\rebuild\VTK\ThirdParty\hdf5\vtkhdf5\src;D:\pv\ParaView\VTK\ThirdParty\hdf5\vtkhdf5\src;D:\pv\rebuild\VTK\ThirdParty\hdf5\vtkhdf5\hl\src;D:\pv\ParaView\VTK\ThirdParty\hdf5\vtkhdf5\hl\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/pv/rebuild/VTK/Utilities/KWIML" /external:I "D:/pv/ParaView/VTK/Utilities/KWIML" /external:I "D:/pv/rebuild/VTK/Utilities/KWSys" /external:I "D:/pv/ParaView/VTK/Utilities/KWSys" /external:I "D:/pv/rebuild/VTK/ThirdParty/token" /external:I "D:/pv/ParaView/VTK/ThirdParty/token" /external:I "D:/pv/rebuild/VTK/ThirdParty/nlohmannjson" /external:I "D:/pv/ParaView/VTK/ThirdParty/nlohmannjson" /external:I "D:/pv/rebuild/VTK/ThirdParty/kissfft" /external:I "D:/pv/ParaView/VTK/ThirdParty/kissfft" /external:I "D:/pv/rebuild/VTK/ThirdParty/fmt" /external:I "D:/pv/ParaView/VTK/ThirdParty/fmt" /external:I "D:/pv/rebuild/VTK/ThirdParty/ioss" /external:I "D:/pv/ParaView/VTK/ThirdParty/ioss" /external:I "D:/pv/rebuild/VTK/ThirdParty/cgns" /external:I "D:/pv/ParaView/VTK/ThirdParty/cgns" /external:I "D:/pv/rebuild/VTK/ThirdParty/hdf5" /external:I "D:/pv/ParaView/VTK/ThirdParty/hdf5" /bigobj /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;VTK_MODULE_ENABLE_VTK_ParallelMPI=0;VTK_MODULE_ENABLE_VTK_mpi=0;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;kiss_fft_scalar=double;KISSFFT_DLL_IMPORT=1;FMT_SHARED;H5_BUILT_AS_DYNAMIC_LIB;CMAKE_INTDIR="Release";IOIOSS_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;VTK_MODULE_ENABLE_VTK_ParallelMPI=0;VTK_MODULE_ENABLE_VTK_mpi=0;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;kiss_fft_scalar=double;KISSFFT_DLL_IMPORT=1;FMT_SHARED;H5_BUILT_AS_DYNAMIC_LIB;CMAKE_INTDIR=\"Release\";IOIOSS_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\pv\ParaView\VTK\IO\IOSS;D:\pv\rebuild\VTK\IO\IOSS;D:\pv\ParaView\VTK\Common\Core;D:\pv\rebuild\VTK\Common\Core;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken\token;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken\token;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\rebuild\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson\include;D:\pv\ParaView\VTK\Common\DataModel;D:\pv\rebuild\VTK\Common\DataModel;D:\pv\ParaView\VTK\Common\Math;D:\pv\rebuild\VTK\Common\Math;D:\pv\ParaView\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\rebuild\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\ParaView\VTK\Common\Transforms;D:\pv\rebuild\VTK\Common\Transforms;D:\pv\ParaView\VTK\Common\ExecutionModel;D:\pv\rebuild\VTK\Common\ExecutionModel;D:\pv\ParaView\VTK\Filters\CellGrid;D:\pv\rebuild\VTK\Filters\CellGrid;D:\pv\ParaView\VTK\IO\Core;D:\pv\rebuild\VTK\IO\Core;D:\pv\ParaView\VTK\Parallel\Core;D:\pv\rebuild\VTK\Parallel\Core;D:\pv\ParaView\VTK\Filters\Core;D:\pv\rebuild\VTK\Filters\Core;D:\pv\ParaView\VTK\Common\Misc;D:\pv\rebuild\VTK\Common\Misc;D:\pv\ParaView\VTK\Filters\Extraction;D:\pv\rebuild\VTK\Filters\Extraction;D:\pv\ParaView\VTK\Filters\General;D:\pv\rebuild\VTK\Filters\General;D:\pv\ParaView\VTK\ThirdParty\fmt\vtkfmt;D:\pv\rebuild\VTK\ThirdParty\fmt\vtkfmt;D:\pv\ParaView\VTK\ThirdParty\ioss\vtkioss;D:\pv\rebuild\VTK\ThirdParty\ioss\vtkioss;D:\pv\ParaView\VTK\ThirdParty\ioss\vtkioss\elements;D:\pv\ParaView\VTK\ThirdParty\ioss\vtkioss\exodus;D:\pv\ParaView\VTK\ThirdParty\ioss\vtkioss\exonull;D:\pv\ParaView\VTK\ThirdParty\ioss\vtkioss\gen_struc;D:\pv\ParaView\VTK\ThirdParty\ioss\vtkioss\generated;D:\pv\ParaView\VTK\ThirdParty\ioss\vtkioss\heartbeat;D:\pv\ParaView\VTK\ThirdParty\ioss\vtkioss\init;D:\pv\ParaView\VTK\ThirdParty\ioss\vtkioss\null;D:\pv\ParaView\VTK\ThirdParty\ioss\vtkioss\transform;D:\pv\ParaView\VTK\ThirdParty\cgns\vtkcgns\src;D:\pv\rebuild\VTK\ThirdParty\cgns\vtkcgns\src;D:\pv\ParaView\VTK\ThirdParty\hdf5\vtkhdf5;D:\pv\rebuild\VTK\ThirdParty\hdf5\vtkhdf5;D:\pv\rebuild\VTK\ThirdParty\hdf5\vtkhdf5\src;D:\pv\ParaView\VTK\ThirdParty\hdf5\vtkhdf5\src;D:\pv\rebuild\VTK\ThirdParty\hdf5\vtkhdf5\hl\src;D:\pv\ParaView\VTK\ThirdParty\hdf5\vtkhdf5\hl\src;D:\pv\rebuild\VTK\Utilities\KWIML;D:\pv\ParaView\VTK\Utilities\KWIML;D:\pv\rebuild\VTK\Utilities\KWSys;D:\pv\ParaView\VTK\Utilities\KWSys;D:\pv\rebuild\VTK\ThirdParty\token;D:\pv\ParaView\VTK\ThirdParty\token;D:\pv\rebuild\VTK\ThirdParty\nlohmannjson;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson;D:\pv\rebuild\VTK\ThirdParty\kissfft;D:\pv\ParaView\VTK\ThirdParty\kissfft;D:\pv\rebuild\VTK\ThirdParty\fmt;D:\pv\ParaView\VTK\ThirdParty\fmt;D:\pv\rebuild\VTK\ThirdParty\ioss;D:\pv\ParaView\VTK\ThirdParty\ioss;D:\pv\rebuild\VTK\ThirdParty\cgns;D:\pv\ParaView\VTK\ThirdParty\cgns;D:\pv\rebuild\VTK\ThirdParty\hdf5;D:\pv\ParaView\VTK\ThirdParty\hdf5;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\pv\ParaView\VTK\IO\IOSS;D:\pv\rebuild\VTK\IO\IOSS;D:\pv\ParaView\VTK\Common\Core;D:\pv\rebuild\VTK\Common\Core;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken\token;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken\token;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\rebuild\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson\include;D:\pv\ParaView\VTK\Common\DataModel;D:\pv\rebuild\VTK\Common\DataModel;D:\pv\ParaView\VTK\Common\Math;D:\pv\rebuild\VTK\Common\Math;D:\pv\ParaView\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\rebuild\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\ParaView\VTK\Common\Transforms;D:\pv\rebuild\VTK\Common\Transforms;D:\pv\ParaView\VTK\Common\ExecutionModel;D:\pv\rebuild\VTK\Common\ExecutionModel;D:\pv\ParaView\VTK\Filters\CellGrid;D:\pv\rebuild\VTK\Filters\CellGrid;D:\pv\ParaView\VTK\IO\Core;D:\pv\rebuild\VTK\IO\Core;D:\pv\ParaView\VTK\Parallel\Core;D:\pv\rebuild\VTK\Parallel\Core;D:\pv\ParaView\VTK\Filters\Core;D:\pv\rebuild\VTK\Filters\Core;D:\pv\ParaView\VTK\Common\Misc;D:\pv\rebuild\VTK\Common\Misc;D:\pv\ParaView\VTK\Filters\Extraction;D:\pv\rebuild\VTK\Filters\Extraction;D:\pv\ParaView\VTK\Filters\General;D:\pv\rebuild\VTK\Filters\General;D:\pv\ParaView\VTK\ThirdParty\fmt\vtkfmt;D:\pv\rebuild\VTK\ThirdParty\fmt\vtkfmt;D:\pv\ParaView\VTK\ThirdParty\ioss\vtkioss;D:\pv\rebuild\VTK\ThirdParty\ioss\vtkioss;D:\pv\ParaView\VTK\ThirdParty\ioss\vtkioss\elements;D:\pv\ParaView\VTK\ThirdParty\ioss\vtkioss\exodus;D:\pv\ParaView\VTK\ThirdParty\ioss\vtkioss\exonull;D:\pv\ParaView\VTK\ThirdParty\ioss\vtkioss\gen_struc;D:\pv\ParaView\VTK\ThirdParty\ioss\vtkioss\generated;D:\pv\ParaView\VTK\ThirdParty\ioss\vtkioss\heartbeat;D:\pv\ParaView\VTK\ThirdParty\ioss\vtkioss\init;D:\pv\ParaView\VTK\ThirdParty\ioss\vtkioss\null;D:\pv\ParaView\VTK\ThirdParty\ioss\vtkioss\transform;D:\pv\ParaView\VTK\ThirdParty\cgns\vtkcgns\src;D:\pv\rebuild\VTK\ThirdParty\cgns\vtkcgns\src;D:\pv\ParaView\VTK\ThirdParty\hdf5\vtkhdf5;D:\pv\rebuild\VTK\ThirdParty\hdf5\vtkhdf5;D:\pv\rebuild\VTK\ThirdParty\hdf5\vtkhdf5\src;D:\pv\ParaView\VTK\ThirdParty\hdf5\vtkhdf5\src;D:\pv\rebuild\VTK\ThirdParty\hdf5\vtkhdf5\hl\src;D:\pv\ParaView\VTK\ThirdParty\hdf5\vtkhdf5\hl\src;D:\pv\rebuild\VTK\Utilities\KWIML;D:\pv\ParaView\VTK\Utilities\KWIML;D:\pv\rebuild\VTK\Utilities\KWSys;D:\pv\ParaView\VTK\Utilities\KWSys;D:\pv\rebuild\VTK\ThirdParty\token;D:\pv\ParaView\VTK\ThirdParty\token;D:\pv\rebuild\VTK\ThirdParty\nlohmannjson;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson;D:\pv\rebuild\VTK\ThirdParty\kissfft;D:\pv\ParaView\VTK\ThirdParty\kissfft;D:\pv\rebuild\VTK\ThirdParty\fmt;D:\pv\ParaView\VTK\ThirdParty\fmt;D:\pv\rebuild\VTK\ThirdParty\ioss;D:\pv\ParaView\VTK\ThirdParty\ioss;D:\pv\rebuild\VTK\ThirdParty\cgns;D:\pv\ParaView\VTK\ThirdParty\cgns;D:\pv\rebuild\VTK\ThirdParty\hdf5;D:\pv\ParaView\VTK\ThirdParty\hdf5;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\..\lib\Release\vtkFiltersExtraction-pv5.13.lib;..\..\..\lib\Release\vtkioss-pv5.13.lib;..\..\..\lib\Release\vtkParallelCore-pv5.13.lib;..\..\..\lib\Release\vtkFiltersCellGrid-pv5.13.lib;..\..\..\lib\Release\vtkFiltersGeneral-pv5.13.lib;..\..\..\lib\Release\vtkFiltersCore-pv5.13.lib;..\..\..\lib\Release\vtkIOCore-pv5.13.lib;..\..\..\lib\Release\vtkCommonExecutionModel-pv5.13.lib;..\..\..\lib\Release\vtkCommonDataModel-pv5.13.lib;..\..\..\lib\Release\vtkCommonTransforms-pv5.13.lib;..\..\..\lib\Release\vtkCommonMisc-pv5.13.lib;..\..\..\lib\Release\vtkCommonMath-pv5.13.lib;..\..\..\lib\Release\vtkCommonCore-pv5.13.lib;..\..\..\lib\Release\vtktoken-pv5.13.lib;..\..\..\lib\Release\vtkkissfft-pv5.13.lib;..\..\..\lib\Release\vtksys-pv5.13.lib;ws2_32.lib;dbghelp.lib;psapi.lib;..\..\..\lib\Release\vtkfmt-pv5.13.lib;..\..\..\lib\Release\vtkcgns-pv5.13.lib;..\..\..\lib\Release\vtkhdf5_hl-pv5.13.lib;..\..\..\lib\Release\vtkhdf5-pv5.13.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/pv/rebuild/lib/Release/vtkIOIOSS-pv5.13.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/pv/rebuild/bin/Release/vtkIOIOSS-pv5.13.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\pv\ParaView\VTK\IO\IOSS;D:\pv\rebuild\VTK\IO\IOSS;D:\pv\ParaView\VTK\Common\Core;D:\pv\rebuild\VTK\Common\Core;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken\token;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken\token;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\rebuild\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson\include;D:\pv\ParaView\VTK\Common\DataModel;D:\pv\rebuild\VTK\Common\DataModel;D:\pv\ParaView\VTK\Common\Math;D:\pv\rebuild\VTK\Common\Math;D:\pv\ParaView\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\rebuild\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\ParaView\VTK\Common\Transforms;D:\pv\rebuild\VTK\Common\Transforms;D:\pv\ParaView\VTK\Common\ExecutionModel;D:\pv\rebuild\VTK\Common\ExecutionModel;D:\pv\ParaView\VTK\Filters\CellGrid;D:\pv\rebuild\VTK\Filters\CellGrid;D:\pv\ParaView\VTK\IO\Core;D:\pv\rebuild\VTK\IO\Core;D:\pv\ParaView\VTK\Parallel\Core;D:\pv\rebuild\VTK\Parallel\Core;D:\pv\ParaView\VTK\Filters\Core;D:\pv\rebuild\VTK\Filters\Core;D:\pv\ParaView\VTK\Common\Misc;D:\pv\rebuild\VTK\Common\Misc;D:\pv\ParaView\VTK\Filters\Extraction;D:\pv\rebuild\VTK\Filters\Extraction;D:\pv\ParaView\VTK\Filters\General;D:\pv\rebuild\VTK\Filters\General;D:\pv\ParaView\VTK\ThirdParty\fmt\vtkfmt;D:\pv\rebuild\VTK\ThirdParty\fmt\vtkfmt;D:\pv\ParaView\VTK\ThirdParty\ioss\vtkioss;D:\pv\rebuild\VTK\ThirdParty\ioss\vtkioss;D:\pv\ParaView\VTK\ThirdParty\ioss\vtkioss\elements;D:\pv\ParaView\VTK\ThirdParty\ioss\vtkioss\exodus;D:\pv\ParaView\VTK\ThirdParty\ioss\vtkioss\exonull;D:\pv\ParaView\VTK\ThirdParty\ioss\vtkioss\gen_struc;D:\pv\ParaView\VTK\ThirdParty\ioss\vtkioss\generated;D:\pv\ParaView\VTK\ThirdParty\ioss\vtkioss\heartbeat;D:\pv\ParaView\VTK\ThirdParty\ioss\vtkioss\init;D:\pv\ParaView\VTK\ThirdParty\ioss\vtkioss\null;D:\pv\ParaView\VTK\ThirdParty\ioss\vtkioss\transform;D:\pv\ParaView\VTK\ThirdParty\cgns\vtkcgns\src;D:\pv\rebuild\VTK\ThirdParty\cgns\vtkcgns\src;D:\pv\ParaView\VTK\ThirdParty\hdf5\vtkhdf5;D:\pv\rebuild\VTK\ThirdParty\hdf5\vtkhdf5;D:\pv\rebuild\VTK\ThirdParty\hdf5\vtkhdf5\src;D:\pv\ParaView\VTK\ThirdParty\hdf5\vtkhdf5\src;D:\pv\rebuild\VTK\ThirdParty\hdf5\vtkhdf5\hl\src;D:\pv\ParaView\VTK\ThirdParty\hdf5\vtkhdf5\hl\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/pv/rebuild/VTK/Utilities/KWIML" /external:I "D:/pv/ParaView/VTK/Utilities/KWIML" /external:I "D:/pv/rebuild/VTK/Utilities/KWSys" /external:I "D:/pv/ParaView/VTK/Utilities/KWSys" /external:I "D:/pv/rebuild/VTK/ThirdParty/token" /external:I "D:/pv/ParaView/VTK/ThirdParty/token" /external:I "D:/pv/rebuild/VTK/ThirdParty/nlohmannjson" /external:I "D:/pv/ParaView/VTK/ThirdParty/nlohmannjson" /external:I "D:/pv/rebuild/VTK/ThirdParty/kissfft" /external:I "D:/pv/ParaView/VTK/ThirdParty/kissfft" /external:I "D:/pv/rebuild/VTK/ThirdParty/fmt" /external:I "D:/pv/ParaView/VTK/ThirdParty/fmt" /external:I "D:/pv/rebuild/VTK/ThirdParty/ioss" /external:I "D:/pv/ParaView/VTK/ThirdParty/ioss" /external:I "D:/pv/rebuild/VTK/ThirdParty/cgns" /external:I "D:/pv/ParaView/VTK/ThirdParty/cgns" /external:I "D:/pv/rebuild/VTK/ThirdParty/hdf5" /external:I "D:/pv/ParaView/VTK/ThirdParty/hdf5" /bigobj /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;VTK_MODULE_ENABLE_VTK_ParallelMPI=0;VTK_MODULE_ENABLE_VTK_mpi=0;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;kiss_fft_scalar=double;KISSFFT_DLL_IMPORT=1;FMT_SHARED;H5_BUILT_AS_DYNAMIC_LIB;CMAKE_INTDIR="MinSizeRel";IOIOSS_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;VTK_MODULE_ENABLE_VTK_ParallelMPI=0;VTK_MODULE_ENABLE_VTK_mpi=0;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;kiss_fft_scalar=double;KISSFFT_DLL_IMPORT=1;FMT_SHARED;H5_BUILT_AS_DYNAMIC_LIB;CMAKE_INTDIR=\"MinSizeRel\";IOIOSS_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\pv\ParaView\VTK\IO\IOSS;D:\pv\rebuild\VTK\IO\IOSS;D:\pv\ParaView\VTK\Common\Core;D:\pv\rebuild\VTK\Common\Core;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken\token;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken\token;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\rebuild\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson\include;D:\pv\ParaView\VTK\Common\DataModel;D:\pv\rebuild\VTK\Common\DataModel;D:\pv\ParaView\VTK\Common\Math;D:\pv\rebuild\VTK\Common\Math;D:\pv\ParaView\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\rebuild\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\ParaView\VTK\Common\Transforms;D:\pv\rebuild\VTK\Common\Transforms;D:\pv\ParaView\VTK\Common\ExecutionModel;D:\pv\rebuild\VTK\Common\ExecutionModel;D:\pv\ParaView\VTK\Filters\CellGrid;D:\pv\rebuild\VTK\Filters\CellGrid;D:\pv\ParaView\VTK\IO\Core;D:\pv\rebuild\VTK\IO\Core;D:\pv\ParaView\VTK\Parallel\Core;D:\pv\rebuild\VTK\Parallel\Core;D:\pv\ParaView\VTK\Filters\Core;D:\pv\rebuild\VTK\Filters\Core;D:\pv\ParaView\VTK\Common\Misc;D:\pv\rebuild\VTK\Common\Misc;D:\pv\ParaView\VTK\Filters\Extraction;D:\pv\rebuild\VTK\Filters\Extraction;D:\pv\ParaView\VTK\Filters\General;D:\pv\rebuild\VTK\Filters\General;D:\pv\ParaView\VTK\ThirdParty\fmt\vtkfmt;D:\pv\rebuild\VTK\ThirdParty\fmt\vtkfmt;D:\pv\ParaView\VTK\ThirdParty\ioss\vtkioss;D:\pv\rebuild\VTK\ThirdParty\ioss\vtkioss;D:\pv\ParaView\VTK\ThirdParty\ioss\vtkioss\elements;D:\pv\ParaView\VTK\ThirdParty\ioss\vtkioss\exodus;D:\pv\ParaView\VTK\ThirdParty\ioss\vtkioss\exonull;D:\pv\ParaView\VTK\ThirdParty\ioss\vtkioss\gen_struc;D:\pv\ParaView\VTK\ThirdParty\ioss\vtkioss\generated;D:\pv\ParaView\VTK\ThirdParty\ioss\vtkioss\heartbeat;D:\pv\ParaView\VTK\ThirdParty\ioss\vtkioss\init;D:\pv\ParaView\VTK\ThirdParty\ioss\vtkioss\null;D:\pv\ParaView\VTK\ThirdParty\ioss\vtkioss\transform;D:\pv\ParaView\VTK\ThirdParty\cgns\vtkcgns\src;D:\pv\rebuild\VTK\ThirdParty\cgns\vtkcgns\src;D:\pv\ParaView\VTK\ThirdParty\hdf5\vtkhdf5;D:\pv\rebuild\VTK\ThirdParty\hdf5\vtkhdf5;D:\pv\rebuild\VTK\ThirdParty\hdf5\vtkhdf5\src;D:\pv\ParaView\VTK\ThirdParty\hdf5\vtkhdf5\src;D:\pv\rebuild\VTK\ThirdParty\hdf5\vtkhdf5\hl\src;D:\pv\ParaView\VTK\ThirdParty\hdf5\vtkhdf5\hl\src;D:\pv\rebuild\VTK\Utilities\KWIML;D:\pv\ParaView\VTK\Utilities\KWIML;D:\pv\rebuild\VTK\Utilities\KWSys;D:\pv\ParaView\VTK\Utilities\KWSys;D:\pv\rebuild\VTK\ThirdParty\token;D:\pv\ParaView\VTK\ThirdParty\token;D:\pv\rebuild\VTK\ThirdParty\nlohmannjson;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson;D:\pv\rebuild\VTK\ThirdParty\kissfft;D:\pv\ParaView\VTK\ThirdParty\kissfft;D:\pv\rebuild\VTK\ThirdParty\fmt;D:\pv\ParaView\VTK\ThirdParty\fmt;D:\pv\rebuild\VTK\ThirdParty\ioss;D:\pv\ParaView\VTK\ThirdParty\ioss;D:\pv\rebuild\VTK\ThirdParty\cgns;D:\pv\ParaView\VTK\ThirdParty\cgns;D:\pv\rebuild\VTK\ThirdParty\hdf5;D:\pv\ParaView\VTK\ThirdParty\hdf5;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\pv\ParaView\VTK\IO\IOSS;D:\pv\rebuild\VTK\IO\IOSS;D:\pv\ParaView\VTK\Common\Core;D:\pv\rebuild\VTK\Common\Core;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken\token;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken\token;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\rebuild\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson\include;D:\pv\ParaView\VTK\Common\DataModel;D:\pv\rebuild\VTK\Common\DataModel;D:\pv\ParaView\VTK\Common\Math;D:\pv\rebuild\VTK\Common\Math;D:\pv\ParaView\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\rebuild\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\ParaView\VTK\Common\Transforms;D:\pv\rebuild\VTK\Common\Transforms;D:\pv\ParaView\VTK\Common\ExecutionModel;D:\pv\rebuild\VTK\Common\ExecutionModel;D:\pv\ParaView\VTK\Filters\CellGrid;D:\pv\rebuild\VTK\Filters\CellGrid;D:\pv\ParaView\VTK\IO\Core;D:\pv\rebuild\VTK\IO\Core;D:\pv\ParaView\VTK\Parallel\Core;D:\pv\rebuild\VTK\Parallel\Core;D:\pv\ParaView\VTK\Filters\Core;D:\pv\rebuild\VTK\Filters\Core;D:\pv\ParaView\VTK\Common\Misc;D:\pv\rebuild\VTK\Common\Misc;D:\pv\ParaView\VTK\Filters\Extraction;D:\pv\rebuild\VTK\Filters\Extraction;D:\pv\ParaView\VTK\Filters\General;D:\pv\rebuild\VTK\Filters\General;D:\pv\ParaView\VTK\ThirdParty\fmt\vtkfmt;D:\pv\rebuild\VTK\ThirdParty\fmt\vtkfmt;D:\pv\ParaView\VTK\ThirdParty\ioss\vtkioss;D:\pv\rebuild\VTK\ThirdParty\ioss\vtkioss;D:\pv\ParaView\VTK\ThirdParty\ioss\vtkioss\elements;D:\pv\ParaView\VTK\ThirdParty\ioss\vtkioss\exodus;D:\pv\ParaView\VTK\ThirdParty\ioss\vtkioss\exonull;D:\pv\ParaView\VTK\ThirdParty\ioss\vtkioss\gen_struc;D:\pv\ParaView\VTK\ThirdParty\ioss\vtkioss\generated;D:\pv\ParaView\VTK\ThirdParty\ioss\vtkioss\heartbeat;D:\pv\ParaView\VTK\ThirdParty\ioss\vtkioss\init;D:\pv\ParaView\VTK\ThirdParty\ioss\vtkioss\null;D:\pv\ParaView\VTK\ThirdParty\ioss\vtkioss\transform;D:\pv\ParaView\VTK\ThirdParty\cgns\vtkcgns\src;D:\pv\rebuild\VTK\ThirdParty\cgns\vtkcgns\src;D:\pv\ParaView\VTK\ThirdParty\hdf5\vtkhdf5;D:\pv\rebuild\VTK\ThirdParty\hdf5\vtkhdf5;D:\pv\rebuild\VTK\ThirdParty\hdf5\vtkhdf5\src;D:\pv\ParaView\VTK\ThirdParty\hdf5\vtkhdf5\src;D:\pv\rebuild\VTK\ThirdParty\hdf5\vtkhdf5\hl\src;D:\pv\ParaView\VTK\ThirdParty\hdf5\vtkhdf5\hl\src;D:\pv\rebuild\VTK\Utilities\KWIML;D:\pv\ParaView\VTK\Utilities\KWIML;D:\pv\rebuild\VTK\Utilities\KWSys;D:\pv\ParaView\VTK\Utilities\KWSys;D:\pv\rebuild\VTK\ThirdParty\token;D:\pv\ParaView\VTK\ThirdParty\token;D:\pv\rebuild\VTK\ThirdParty\nlohmannjson;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson;D:\pv\rebuild\VTK\ThirdParty\kissfft;D:\pv\ParaView\VTK\ThirdParty\kissfft;D:\pv\rebuild\VTK\ThirdParty\fmt;D:\pv\ParaView\VTK\ThirdParty\fmt;D:\pv\rebuild\VTK\ThirdParty\ioss;D:\pv\ParaView\VTK\ThirdParty\ioss;D:\pv\rebuild\VTK\ThirdParty\cgns;D:\pv\ParaView\VTK\ThirdParty\cgns;D:\pv\rebuild\VTK\ThirdParty\hdf5;D:\pv\ParaView\VTK\ThirdParty\hdf5;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\..\lib\MinSizeRel\vtkFiltersExtraction-pv5.13.lib;..\..\..\lib\MinSizeRel\vtkioss-pv5.13.lib;..\..\..\lib\MinSizeRel\vtkParallelCore-pv5.13.lib;..\..\..\lib\MinSizeRel\vtkFiltersCellGrid-pv5.13.lib;..\..\..\lib\MinSizeRel\vtkFiltersGeneral-pv5.13.lib;..\..\..\lib\MinSizeRel\vtkFiltersCore-pv5.13.lib;..\..\..\lib\MinSizeRel\vtkIOCore-pv5.13.lib;..\..\..\lib\MinSizeRel\vtkCommonExecutionModel-pv5.13.lib;..\..\..\lib\MinSizeRel\vtkCommonDataModel-pv5.13.lib;..\..\..\lib\MinSizeRel\vtkCommonTransforms-pv5.13.lib;..\..\..\lib\MinSizeRel\vtkCommonMisc-pv5.13.lib;..\..\..\lib\MinSizeRel\vtkCommonMath-pv5.13.lib;..\..\..\lib\MinSizeRel\vtkCommonCore-pv5.13.lib;..\..\..\lib\MinSizeRel\vtktoken-pv5.13.lib;..\..\..\lib\MinSizeRel\vtkkissfft-pv5.13.lib;..\..\..\lib\MinSizeRel\vtksys-pv5.13.lib;ws2_32.lib;dbghelp.lib;psapi.lib;..\..\..\lib\MinSizeRel\vtkfmt-pv5.13.lib;..\..\..\lib\MinSizeRel\vtkcgns-pv5.13.lib;..\..\..\lib\MinSizeRel\vtkhdf5_hl-pv5.13.lib;..\..\..\lib\MinSizeRel\vtkhdf5-pv5.13.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/pv/rebuild/lib/MinSizeRel/vtkIOIOSS-pv5.13.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/pv/rebuild/bin/MinSizeRel/vtkIOIOSS-pv5.13.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\pv\ParaView\VTK\IO\IOSS;D:\pv\rebuild\VTK\IO\IOSS;D:\pv\ParaView\VTK\Common\Core;D:\pv\rebuild\VTK\Common\Core;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken\token;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken\token;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\rebuild\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson\include;D:\pv\ParaView\VTK\Common\DataModel;D:\pv\rebuild\VTK\Common\DataModel;D:\pv\ParaView\VTK\Common\Math;D:\pv\rebuild\VTK\Common\Math;D:\pv\ParaView\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\rebuild\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\ParaView\VTK\Common\Transforms;D:\pv\rebuild\VTK\Common\Transforms;D:\pv\ParaView\VTK\Common\ExecutionModel;D:\pv\rebuild\VTK\Common\ExecutionModel;D:\pv\ParaView\VTK\Filters\CellGrid;D:\pv\rebuild\VTK\Filters\CellGrid;D:\pv\ParaView\VTK\IO\Core;D:\pv\rebuild\VTK\IO\Core;D:\pv\ParaView\VTK\Parallel\Core;D:\pv\rebuild\VTK\Parallel\Core;D:\pv\ParaView\VTK\Filters\Core;D:\pv\rebuild\VTK\Filters\Core;D:\pv\ParaView\VTK\Common\Misc;D:\pv\rebuild\VTK\Common\Misc;D:\pv\ParaView\VTK\Filters\Extraction;D:\pv\rebuild\VTK\Filters\Extraction;D:\pv\ParaView\VTK\Filters\General;D:\pv\rebuild\VTK\Filters\General;D:\pv\ParaView\VTK\ThirdParty\fmt\vtkfmt;D:\pv\rebuild\VTK\ThirdParty\fmt\vtkfmt;D:\pv\ParaView\VTK\ThirdParty\ioss\vtkioss;D:\pv\rebuild\VTK\ThirdParty\ioss\vtkioss;D:\pv\ParaView\VTK\ThirdParty\ioss\vtkioss\elements;D:\pv\ParaView\VTK\ThirdParty\ioss\vtkioss\exodus;D:\pv\ParaView\VTK\ThirdParty\ioss\vtkioss\exonull;D:\pv\ParaView\VTK\ThirdParty\ioss\vtkioss\gen_struc;D:\pv\ParaView\VTK\ThirdParty\ioss\vtkioss\generated;D:\pv\ParaView\VTK\ThirdParty\ioss\vtkioss\heartbeat;D:\pv\ParaView\VTK\ThirdParty\ioss\vtkioss\init;D:\pv\ParaView\VTK\ThirdParty\ioss\vtkioss\null;D:\pv\ParaView\VTK\ThirdParty\ioss\vtkioss\transform;D:\pv\ParaView\VTK\ThirdParty\cgns\vtkcgns\src;D:\pv\rebuild\VTK\ThirdParty\cgns\vtkcgns\src;D:\pv\ParaView\VTK\ThirdParty\hdf5\vtkhdf5;D:\pv\rebuild\VTK\ThirdParty\hdf5\vtkhdf5;D:\pv\rebuild\VTK\ThirdParty\hdf5\vtkhdf5\src;D:\pv\ParaView\VTK\ThirdParty\hdf5\vtkhdf5\src;D:\pv\rebuild\VTK\ThirdParty\hdf5\vtkhdf5\hl\src;D:\pv\ParaView\VTK\ThirdParty\hdf5\vtkhdf5\hl\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/pv/rebuild/VTK/Utilities/KWIML" /external:I "D:/pv/ParaView/VTK/Utilities/KWIML" /external:I "D:/pv/rebuild/VTK/Utilities/KWSys" /external:I "D:/pv/ParaView/VTK/Utilities/KWSys" /external:I "D:/pv/rebuild/VTK/ThirdParty/token" /external:I "D:/pv/ParaView/VTK/ThirdParty/token" /external:I "D:/pv/rebuild/VTK/ThirdParty/nlohmannjson" /external:I "D:/pv/ParaView/VTK/ThirdParty/nlohmannjson" /external:I "D:/pv/rebuild/VTK/ThirdParty/kissfft" /external:I "D:/pv/ParaView/VTK/ThirdParty/kissfft" /external:I "D:/pv/rebuild/VTK/ThirdParty/fmt" /external:I "D:/pv/ParaView/VTK/ThirdParty/fmt" /external:I "D:/pv/rebuild/VTK/ThirdParty/ioss" /external:I "D:/pv/ParaView/VTK/ThirdParty/ioss" /external:I "D:/pv/rebuild/VTK/ThirdParty/cgns" /external:I "D:/pv/ParaView/VTK/ThirdParty/cgns" /external:I "D:/pv/rebuild/VTK/ThirdParty/hdf5" /external:I "D:/pv/ParaView/VTK/ThirdParty/hdf5" /bigobj /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;VTK_MODULE_ENABLE_VTK_ParallelMPI=0;VTK_MODULE_ENABLE_VTK_mpi=0;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;kiss_fft_scalar=double;KISSFFT_DLL_IMPORT=1;FMT_SHARED;H5_BUILT_AS_DYNAMIC_LIB;CMAKE_INTDIR="RelWithDebInfo";IOIOSS_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;VTK_MODULE_ENABLE_VTK_ParallelMPI=0;VTK_MODULE_ENABLE_VTK_mpi=0;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;kiss_fft_scalar=double;KISSFFT_DLL_IMPORT=1;FMT_SHARED;H5_BUILT_AS_DYNAMIC_LIB;CMAKE_INTDIR=\"RelWithDebInfo\";IOIOSS_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\pv\ParaView\VTK\IO\IOSS;D:\pv\rebuild\VTK\IO\IOSS;D:\pv\ParaView\VTK\Common\Core;D:\pv\rebuild\VTK\Common\Core;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken\token;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken\token;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\rebuild\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson\include;D:\pv\ParaView\VTK\Common\DataModel;D:\pv\rebuild\VTK\Common\DataModel;D:\pv\ParaView\VTK\Common\Math;D:\pv\rebuild\VTK\Common\Math;D:\pv\ParaView\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\rebuild\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\ParaView\VTK\Common\Transforms;D:\pv\rebuild\VTK\Common\Transforms;D:\pv\ParaView\VTK\Common\ExecutionModel;D:\pv\rebuild\VTK\Common\ExecutionModel;D:\pv\ParaView\VTK\Filters\CellGrid;D:\pv\rebuild\VTK\Filters\CellGrid;D:\pv\ParaView\VTK\IO\Core;D:\pv\rebuild\VTK\IO\Core;D:\pv\ParaView\VTK\Parallel\Core;D:\pv\rebuild\VTK\Parallel\Core;D:\pv\ParaView\VTK\Filters\Core;D:\pv\rebuild\VTK\Filters\Core;D:\pv\ParaView\VTK\Common\Misc;D:\pv\rebuild\VTK\Common\Misc;D:\pv\ParaView\VTK\Filters\Extraction;D:\pv\rebuild\VTK\Filters\Extraction;D:\pv\ParaView\VTK\Filters\General;D:\pv\rebuild\VTK\Filters\General;D:\pv\ParaView\VTK\ThirdParty\fmt\vtkfmt;D:\pv\rebuild\VTK\ThirdParty\fmt\vtkfmt;D:\pv\ParaView\VTK\ThirdParty\ioss\vtkioss;D:\pv\rebuild\VTK\ThirdParty\ioss\vtkioss;D:\pv\ParaView\VTK\ThirdParty\ioss\vtkioss\elements;D:\pv\ParaView\VTK\ThirdParty\ioss\vtkioss\exodus;D:\pv\ParaView\VTK\ThirdParty\ioss\vtkioss\exonull;D:\pv\ParaView\VTK\ThirdParty\ioss\vtkioss\gen_struc;D:\pv\ParaView\VTK\ThirdParty\ioss\vtkioss\generated;D:\pv\ParaView\VTK\ThirdParty\ioss\vtkioss\heartbeat;D:\pv\ParaView\VTK\ThirdParty\ioss\vtkioss\init;D:\pv\ParaView\VTK\ThirdParty\ioss\vtkioss\null;D:\pv\ParaView\VTK\ThirdParty\ioss\vtkioss\transform;D:\pv\ParaView\VTK\ThirdParty\cgns\vtkcgns\src;D:\pv\rebuild\VTK\ThirdParty\cgns\vtkcgns\src;D:\pv\ParaView\VTK\ThirdParty\hdf5\vtkhdf5;D:\pv\rebuild\VTK\ThirdParty\hdf5\vtkhdf5;D:\pv\rebuild\VTK\ThirdParty\hdf5\vtkhdf5\src;D:\pv\ParaView\VTK\ThirdParty\hdf5\vtkhdf5\src;D:\pv\rebuild\VTK\ThirdParty\hdf5\vtkhdf5\hl\src;D:\pv\ParaView\VTK\ThirdParty\hdf5\vtkhdf5\hl\src;D:\pv\rebuild\VTK\Utilities\KWIML;D:\pv\ParaView\VTK\Utilities\KWIML;D:\pv\rebuild\VTK\Utilities\KWSys;D:\pv\ParaView\VTK\Utilities\KWSys;D:\pv\rebuild\VTK\ThirdParty\token;D:\pv\ParaView\VTK\ThirdParty\token;D:\pv\rebuild\VTK\ThirdParty\nlohmannjson;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson;D:\pv\rebuild\VTK\ThirdParty\kissfft;D:\pv\ParaView\VTK\ThirdParty\kissfft;D:\pv\rebuild\VTK\ThirdParty\fmt;D:\pv\ParaView\VTK\ThirdParty\fmt;D:\pv\rebuild\VTK\ThirdParty\ioss;D:\pv\ParaView\VTK\ThirdParty\ioss;D:\pv\rebuild\VTK\ThirdParty\cgns;D:\pv\ParaView\VTK\ThirdParty\cgns;D:\pv\rebuild\VTK\ThirdParty\hdf5;D:\pv\ParaView\VTK\ThirdParty\hdf5;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\pv\ParaView\VTK\IO\IOSS;D:\pv\rebuild\VTK\IO\IOSS;D:\pv\ParaView\VTK\Common\Core;D:\pv\rebuild\VTK\Common\Core;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken\token;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken\token;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\rebuild\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson\include;D:\pv\ParaView\VTK\Common\DataModel;D:\pv\rebuild\VTK\Common\DataModel;D:\pv\ParaView\VTK\Common\Math;D:\pv\rebuild\VTK\Common\Math;D:\pv\ParaView\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\rebuild\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\ParaView\VTK\Common\Transforms;D:\pv\rebuild\VTK\Common\Transforms;D:\pv\ParaView\VTK\Common\ExecutionModel;D:\pv\rebuild\VTK\Common\ExecutionModel;D:\pv\ParaView\VTK\Filters\CellGrid;D:\pv\rebuild\VTK\Filters\CellGrid;D:\pv\ParaView\VTK\IO\Core;D:\pv\rebuild\VTK\IO\Core;D:\pv\ParaView\VTK\Parallel\Core;D:\pv\rebuild\VTK\Parallel\Core;D:\pv\ParaView\VTK\Filters\Core;D:\pv\rebuild\VTK\Filters\Core;D:\pv\ParaView\VTK\Common\Misc;D:\pv\rebuild\VTK\Common\Misc;D:\pv\ParaView\VTK\Filters\Extraction;D:\pv\rebuild\VTK\Filters\Extraction;D:\pv\ParaView\VTK\Filters\General;D:\pv\rebuild\VTK\Filters\General;D:\pv\ParaView\VTK\ThirdParty\fmt\vtkfmt;D:\pv\rebuild\VTK\ThirdParty\fmt\vtkfmt;D:\pv\ParaView\VTK\ThirdParty\ioss\vtkioss;D:\pv\rebuild\VTK\ThirdParty\ioss\vtkioss;D:\pv\ParaView\VTK\ThirdParty\ioss\vtkioss\elements;D:\pv\ParaView\VTK\ThirdParty\ioss\vtkioss\exodus;D:\pv\ParaView\VTK\ThirdParty\ioss\vtkioss\exonull;D:\pv\ParaView\VTK\ThirdParty\ioss\vtkioss\gen_struc;D:\pv\ParaView\VTK\ThirdParty\ioss\vtkioss\generated;D:\pv\ParaView\VTK\ThirdParty\ioss\vtkioss\heartbeat;D:\pv\ParaView\VTK\ThirdParty\ioss\vtkioss\init;D:\pv\ParaView\VTK\ThirdParty\ioss\vtkioss\null;D:\pv\ParaView\VTK\ThirdParty\ioss\vtkioss\transform;D:\pv\ParaView\VTK\ThirdParty\cgns\vtkcgns\src;D:\pv\rebuild\VTK\ThirdParty\cgns\vtkcgns\src;D:\pv\ParaView\VTK\ThirdParty\hdf5\vtkhdf5;D:\pv\rebuild\VTK\ThirdParty\hdf5\vtkhdf5;D:\pv\rebuild\VTK\ThirdParty\hdf5\vtkhdf5\src;D:\pv\ParaView\VTK\ThirdParty\hdf5\vtkhdf5\src;D:\pv\rebuild\VTK\ThirdParty\hdf5\vtkhdf5\hl\src;D:\pv\ParaView\VTK\ThirdParty\hdf5\vtkhdf5\hl\src;D:\pv\rebuild\VTK\Utilities\KWIML;D:\pv\ParaView\VTK\Utilities\KWIML;D:\pv\rebuild\VTK\Utilities\KWSys;D:\pv\ParaView\VTK\Utilities\KWSys;D:\pv\rebuild\VTK\ThirdParty\token;D:\pv\ParaView\VTK\ThirdParty\token;D:\pv\rebuild\VTK\ThirdParty\nlohmannjson;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson;D:\pv\rebuild\VTK\ThirdParty\kissfft;D:\pv\ParaView\VTK\ThirdParty\kissfft;D:\pv\rebuild\VTK\ThirdParty\fmt;D:\pv\ParaView\VTK\ThirdParty\fmt;D:\pv\rebuild\VTK\ThirdParty\ioss;D:\pv\ParaView\VTK\ThirdParty\ioss;D:\pv\rebuild\VTK\ThirdParty\cgns;D:\pv\ParaView\VTK\ThirdParty\cgns;D:\pv\rebuild\VTK\ThirdParty\hdf5;D:\pv\ParaView\VTK\ThirdParty\hdf5;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\..\lib\RelWithDebInfo\vtkFiltersExtraction-pv5.13.lib;..\..\..\lib\RelWithDebInfo\vtkioss-pv5.13.lib;..\..\..\lib\RelWithDebInfo\vtkParallelCore-pv5.13.lib;..\..\..\lib\RelWithDebInfo\vtkFiltersCellGrid-pv5.13.lib;..\..\..\lib\RelWithDebInfo\vtkFiltersGeneral-pv5.13.lib;..\..\..\lib\RelWithDebInfo\vtkFiltersCore-pv5.13.lib;..\..\..\lib\RelWithDebInfo\vtkIOCore-pv5.13.lib;..\..\..\lib\RelWithDebInfo\vtkCommonExecutionModel-pv5.13.lib;..\..\..\lib\RelWithDebInfo\vtkCommonDataModel-pv5.13.lib;..\..\..\lib\RelWithDebInfo\vtkCommonTransforms-pv5.13.lib;..\..\..\lib\RelWithDebInfo\vtkCommonMisc-pv5.13.lib;..\..\..\lib\RelWithDebInfo\vtkCommonMath-pv5.13.lib;..\..\..\lib\RelWithDebInfo\vtkCommonCore-pv5.13.lib;..\..\..\lib\RelWithDebInfo\vtktoken-pv5.13.lib;..\..\..\lib\RelWithDebInfo\vtkkissfft-pv5.13.lib;..\..\..\lib\RelWithDebInfo\vtksys-pv5.13.lib;ws2_32.lib;dbghelp.lib;psapi.lib;..\..\..\lib\RelWithDebInfo\vtkfmt-pv5.13.lib;..\..\..\lib\RelWithDebInfo\vtkcgns-pv5.13.lib;..\..\..\lib\RelWithDebInfo\vtkhdf5_hl-pv5.13.lib;..\..\..\lib\RelWithDebInfo\vtkhdf5-pv5.13.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/pv/rebuild/lib/RelWithDebInfo/vtkIOIOSS-pv5.13.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/pv/rebuild/bin/RelWithDebInfo/vtkIOIOSS-pv5.13.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\pv\ParaView\VTK\IO\IOSS\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/pv/ParaView/VTK/IO/IOSS/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/pv/ParaView -BD:/pv/rebuild --check-stamp-file D:/pv/rebuild/VTK/IO/IOSS/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\exportheader.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\pv\rebuild\VTK\IO\IOSS\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/pv/ParaView/VTK/IO/IOSS/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/pv/ParaView -BD:/pv/rebuild --check-stamp-file D:/pv/rebuild/VTK/IO/IOSS/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\exportheader.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\pv\rebuild\VTK\IO\IOSS\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/pv/ParaView/VTK/IO/IOSS/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/pv/ParaView -BD:/pv/rebuild --check-stamp-file D:/pv/rebuild/VTK/IO/IOSS/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\exportheader.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\pv\rebuild\VTK\IO\IOSS\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/pv/ParaView/VTK/IO/IOSS/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/pv/ParaView -BD:/pv/rebuild --check-stamp-file D:/pv/rebuild/VTK/IO/IOSS/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\exportheader.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\pv\rebuild\VTK\IO\IOSS\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\pv\ParaView\VTK\IO\IOSS\vtkIOSSReader.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\IO\IOSS\vtkIOSSCellGridReader.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\IO\IOSS\vtkIOSSWriter.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\IO\IOSS\vtkIOSSCellGridReaderInternal.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\IO\IOSS\vtkIOSSCellGridUtilities.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\IO\IOSS\vtkIOSSFilesScanner.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\IO\IOSS\vtkIOSSUtilities.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\IO\IOSS\vtkIOSSModel.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\IO\IOSS\vtkIOSSReaderInternal.cxx" />
+    <ClInclude Include="D:\pv\ParaView\VTK\IO\IOSS\vtkIOSSReaderCommunication.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\IO\IOSS\vtkIOSSCellGridReaderInternal.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\IO\IOSS\vtkIOSSCellGridUtilities.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\IO\IOSS\vtkIOSSFilesScanner.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\IO\IOSS\vtkIOSSUtilities.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\IO\IOSS\vtkIOSSModel.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\IO\IOSS\vtkIOSSReaderInternal.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\IO\IOSS\vtkIOSSReader.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\IO\IOSS\vtkIOSSCellGridReader.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\IO\IOSS\vtkIOSSWriter.h" />
+    <ClInclude Include="D:\pv\rebuild\VTK\IO\IOSS\vtkIOIOSSModule.h" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="D:\pv\rebuild\ZERO_CHECK.vcxproj">
+      <Project>{F365DAD0-49D0-3E04-B6A0-AEBAF9BD405C}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\Common\Core\CommonCore.vcxproj">
+      <Project>{B619F52E-9839-377A-BAEE-BACB4D9A457F}</Project>
+      <Name>CommonCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\Common\DataModel\CommonDataModel.vcxproj">
+      <Project>{41298AA9-65F9-3C5B-8ECF-E93AC201EB02}</Project>
+      <Name>CommonDataModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\Common\ExecutionModel\CommonExecutionModel.vcxproj">
+      <Project>{80171A5E-C0D7-3ED5-A880-FCF8C3497B99}</Project>
+      <Name>CommonExecutionModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\Common\Math\CommonMath.vcxproj">
+      <Project>{194237E4-60C4-316E-8F01-9F06A2D04C6A}</Project>
+      <Name>CommonMath</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\Common\Misc\CommonMisc.vcxproj">
+      <Project>{2C21986E-CA16-3967-AC1B-5DD4E89FBFB7}</Project>
+      <Name>CommonMisc</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\Common\Transforms\CommonTransforms.vcxproj">
+      <Project>{D6924074-2195-374C-AF34-798A39B49219}</Project>
+      <Name>CommonTransforms</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\Filters\CellGrid\FiltersCellGrid.vcxproj">
+      <Project>{20FA2CC0-0727-31A7-A76C-EF711974F24F}</Project>
+      <Name>FiltersCellGrid</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\Filters\Core\FiltersCore.vcxproj">
+      <Project>{B7A8F192-AC49-3525-8F11-8E30B789871A}</Project>
+      <Name>FiltersCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\Filters\Extraction\FiltersExtraction.vcxproj">
+      <Project>{818DDD86-D958-3487-B8E2-947A15A3DD3B}</Project>
+      <Name>FiltersExtraction</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\Filters\General\FiltersGeneral.vcxproj">
+      <Project>{772D814A-2239-3BCA-9297-C780F98BEB5C}</Project>
+      <Name>FiltersGeneral</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\IO\Core\IOCore.vcxproj">
+      <Project>{D8F23F9F-91B4-3FF4-816E-4D09DE6A2A2B}</Project>
+      <Name>IOCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\Parallel\Core\ParallelCore.vcxproj">
+      <Project>{18462D0D-F3A9-3543-A626-42965C7B83A4}</Project>
+      <Name>ParallelCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\ThirdParty\cgns\vtkcgns\src\cgns.vcxproj">
+      <Project>{2ACAA611-1852-3C8D-81E8-98AFC4FFA23D}</Project>
+      <Name>cgns</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\ThirdParty\fmt\vtkfmt\fmt.vcxproj">
+      <Project>{7D9BD33F-6773-38B6-8B83-65AAA610F5E0}</Project>
+      <Name>fmt</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\ThirdParty\hdf5\vtkhdf5\hdf5.vcxproj">
+      <Project>{BDA459BD-EBE7-3518-B283-86E2F936492D}</Project>
+      <Name>hdf5</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\ThirdParty\ioss\vtkioss\ioss.vcxproj">
+      <Project>{1EBE7CE0-4AAB-3295-AFEF-698E3F61DD4B}</Project>
+      <Name>ioss</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\ThirdParty\kissfft\vtkkissfft\kissfft.vcxproj">
+      <Project>{3CCF61F3-F985-33F3-8EC9-58E045C69827}</Project>
+      <Name>kissfft</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\ThirdParty\nlohmannjson\vtknlohmannjson\nlohmannjson.vcxproj">
+      <Project>{7457C71D-4012-3101-AF26-38DABCDE7E01}</Project>
+      <Name>nlohmannjson</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\ThirdParty\token\vtktoken\token\token.vcxproj">
+      <Project>{6AB51710-ABE5-385B-96E1-B68D0E5AAC99}</Project>
+      <Name>token</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\ThirdParty\hdf5\vtkhdf5\hl\src\vtkhdf5_hl_src.vcxproj">
+      <Project>{D1CA7F5D-DA8E-3BF0-8A0B-73AC757B6639}</Project>
+      <Name>vtkhdf5_hl_src</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\ThirdParty\hdf5\vtkhdf5\src\vtkhdf5_src.vcxproj">
+      <Project>{707F8B6C-A0FA-3AD0-B787-57C353A27ED9}</Project>
+      <Name>vtkhdf5_src</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\Utilities\KWSys\vtksys\vtksys.vcxproj">
+      <Project>{771F913C-BFBD-34D6-B1D7-80FEFE734E74}</Project>
+      <Name>vtksys</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

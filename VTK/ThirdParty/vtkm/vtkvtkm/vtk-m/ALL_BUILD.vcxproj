@@ -1,0 +1,283 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{EB1B99D2-05DA-3A6E-A688-22E762009B73}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/pv/ParaView/VTK/ThirdParty/vtkm/vtkvtkm/vtk-m/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/pv/ParaView -BD:/pv/rebuild --check-stamp-file D:/pv/rebuild/VTK/ThirdParty/vtkm/vtkvtkm/vtk-m/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\WriteBasicConfigVersionFile.cmake;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\CMake\VTKmBuildType.cmake;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\CMake\VTKmCMakeBackports.cmake;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\CMake\VTKmCPUVectorization.cmake;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\CMake\VTKmCompilerFlags.cmake;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\CMake\VTKmConfig.cmake.in;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\CMake\VTKmDetermineVersion.cmake;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\CMake\VTKmDeviceAdapters.cmake;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\CMake\VTKmInstallCMakePackage.cmake;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\CMake\VTKmModules.cmake;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\CMake\VTKmWrappers.cmake;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\CMake\testing\VTKmTestWrappers.cmake;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\Utilities\Git\Git.cmake;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\benchmarking\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\config\vtkm.pc.in;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\config\vtkm_config.mk.in;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\docs\users-guide\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\cuda\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\kokkos\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\openmp\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\serial\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\tbb\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\testlib\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\exec\cuda\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\exec\kokkos\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\exec\openmp\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\exec\serial\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\exec\tbb\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\exec\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\clean_grid\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\connected_components\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\contour\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\density_estimate\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\entity_extraction\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\field_conversion\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\field_transform\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\flow\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\geometry_refinement\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\image_processing\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\mesh_info\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\multi_block\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\resampling\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\scalar_topology\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\uncertainty\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\vector_analysis\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\zfp\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\interop\anari\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\interop\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\io\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\random\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\rendering\testlib\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\rendering\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\source\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\thirdparty\diy\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\thirdparty\lcl\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\thirdparty\lodepng\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\thirdparty\loguru\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\thirdparty\optionparser\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\worklet\vtkm.module;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\pv\rebuild\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/pv/ParaView/VTK/ThirdParty/vtkm/vtkvtkm/vtk-m/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/pv/ParaView -BD:/pv/rebuild --check-stamp-file D:/pv/rebuild/VTK/ThirdParty/vtkm/vtkvtkm/vtk-m/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\WriteBasicConfigVersionFile.cmake;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\CMake\VTKmBuildType.cmake;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\CMake\VTKmCMakeBackports.cmake;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\CMake\VTKmCPUVectorization.cmake;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\CMake\VTKmCompilerFlags.cmake;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\CMake\VTKmConfig.cmake.in;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\CMake\VTKmDetermineVersion.cmake;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\CMake\VTKmDeviceAdapters.cmake;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\CMake\VTKmInstallCMakePackage.cmake;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\CMake\VTKmModules.cmake;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\CMake\VTKmWrappers.cmake;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\CMake\testing\VTKmTestWrappers.cmake;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\Utilities\Git\Git.cmake;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\benchmarking\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\config\vtkm.pc.in;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\config\vtkm_config.mk.in;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\docs\users-guide\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\cuda\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\kokkos\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\openmp\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\serial\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\tbb\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\testlib\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\exec\cuda\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\exec\kokkos\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\exec\openmp\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\exec\serial\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\exec\tbb\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\exec\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\clean_grid\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\connected_components\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\contour\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\density_estimate\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\entity_extraction\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\field_conversion\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\field_transform\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\flow\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\geometry_refinement\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\image_processing\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\mesh_info\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\multi_block\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\resampling\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\scalar_topology\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\uncertainty\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\vector_analysis\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\zfp\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\interop\anari\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\interop\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\io\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\random\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\rendering\testlib\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\rendering\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\source\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\thirdparty\diy\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\thirdparty\lcl\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\thirdparty\lodepng\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\thirdparty\loguru\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\thirdparty\optionparser\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\worklet\vtkm.module;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\pv\rebuild\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/pv/ParaView/VTK/ThirdParty/vtkm/vtkvtkm/vtk-m/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/pv/ParaView -BD:/pv/rebuild --check-stamp-file D:/pv/rebuild/VTK/ThirdParty/vtkm/vtkvtkm/vtk-m/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\WriteBasicConfigVersionFile.cmake;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\CMake\VTKmBuildType.cmake;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\CMake\VTKmCMakeBackports.cmake;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\CMake\VTKmCPUVectorization.cmake;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\CMake\VTKmCompilerFlags.cmake;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\CMake\VTKmConfig.cmake.in;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\CMake\VTKmDetermineVersion.cmake;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\CMake\VTKmDeviceAdapters.cmake;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\CMake\VTKmInstallCMakePackage.cmake;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\CMake\VTKmModules.cmake;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\CMake\VTKmWrappers.cmake;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\CMake\testing\VTKmTestWrappers.cmake;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\Utilities\Git\Git.cmake;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\benchmarking\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\config\vtkm.pc.in;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\config\vtkm_config.mk.in;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\docs\users-guide\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\cuda\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\kokkos\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\openmp\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\serial\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\tbb\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\testlib\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\exec\cuda\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\exec\kokkos\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\exec\openmp\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\exec\serial\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\exec\tbb\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\exec\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\clean_grid\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\connected_components\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\contour\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\density_estimate\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\entity_extraction\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\field_conversion\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\field_transform\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\flow\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\geometry_refinement\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\image_processing\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\mesh_info\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\multi_block\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\resampling\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\scalar_topology\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\uncertainty\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\vector_analysis\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\zfp\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\interop\anari\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\interop\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\io\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\random\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\rendering\testlib\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\rendering\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\source\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\thirdparty\diy\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\thirdparty\lcl\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\thirdparty\lodepng\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\thirdparty\loguru\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\thirdparty\optionparser\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\worklet\vtkm.module;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\pv\rebuild\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/pv/ParaView/VTK/ThirdParty/vtkm/vtkvtkm/vtk-m/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/pv/ParaView -BD:/pv/rebuild --check-stamp-file D:/pv/rebuild/VTK/ThirdParty/vtkm/vtkvtkm/vtk-m/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\WriteBasicConfigVersionFile.cmake;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\CMake\VTKmBuildType.cmake;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\CMake\VTKmCMakeBackports.cmake;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\CMake\VTKmCPUVectorization.cmake;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\CMake\VTKmCompilerFlags.cmake;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\CMake\VTKmConfig.cmake.in;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\CMake\VTKmDetermineVersion.cmake;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\CMake\VTKmDeviceAdapters.cmake;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\CMake\VTKmInstallCMakePackage.cmake;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\CMake\VTKmModules.cmake;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\CMake\VTKmWrappers.cmake;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\CMake\testing\VTKmTestWrappers.cmake;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\Utilities\Git\Git.cmake;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\benchmarking\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\config\vtkm.pc.in;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\config\vtkm_config.mk.in;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\docs\users-guide\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\cuda\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\kokkos\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\openmp\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\serial\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\tbb\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\testlib\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\exec\cuda\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\exec\kokkos\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\exec\openmp\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\exec\serial\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\exec\tbb\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\exec\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\clean_grid\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\connected_components\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\contour\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\density_estimate\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\entity_extraction\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\field_conversion\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\field_transform\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\flow\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\geometry_refinement\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\image_processing\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\mesh_info\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\multi_block\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\resampling\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\scalar_topology\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\uncertainty\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\vector_analysis\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\zfp\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\interop\anari\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\interop\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\io\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\random\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\rendering\testlib\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\rendering\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\source\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\thirdparty\diy\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\thirdparty\lcl\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\thirdparty\lodepng\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\thirdparty\loguru\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\thirdparty\optionparser\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\vtkm.module;D:\pv\ParaView\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\worklet\vtkm.module;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\pv\rebuild\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="D:\pv\rebuild\ZERO_CHECK.vcxproj">
+      <Project>{F365DAD0-49D0-3E04-B6A0-AEBAF9BD405C}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\vtkm_cont.vcxproj">
+      <Project>{627A9E2C-44A9-3AAE-9117-1ACD552C9164}</Project>
+      <Name>vtkm_cont</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\cont\testlib\vtkm_cont_testing.vcxproj">
+      <Project>{583D2EB1-8F98-32D2-A9F5-46D9E1354193}</Project>
+      <Name>vtkm_cont_testing</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\clean_grid\vtkm_filter_clean_grid.vcxproj">
+      <Project>{20745E1A-4C19-3F53-8D05-57D3B828AEE3}</Project>
+      <Name>vtkm_filter_clean_grid</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\connected_components\vtkm_filter_connected_components.vcxproj">
+      <Project>{16F7A0F5-C41A-3D0A-AD47-7DE832FB9D1A}</Project>
+      <Name>vtkm_filter_connected_components</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\contour\vtkm_filter_contour.vcxproj">
+      <Project>{FEB5FF94-D1D9-32EA-ACFC-FA04CED5F715}</Project>
+      <Name>vtkm_filter_contour</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\vtkm_filter_core.vcxproj">
+      <Project>{27C34FEB-BF47-3421-A3A4-F5B034E80E6E}</Project>
+      <Name>vtkm_filter_core</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\density_estimate\vtkm_filter_density_estimate.vcxproj">
+      <Project>{A1D2C5A7-C885-307B-BA86-00E2F87D5428}</Project>
+      <Name>vtkm_filter_density_estimate</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\entity_extraction\vtkm_filter_entity_extraction.vcxproj">
+      <Project>{C4A94E4B-C85B-3F9F-8614-CF22B1F6E133}</Project>
+      <Name>vtkm_filter_entity_extraction</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\field_conversion\vtkm_filter_field_conversion.vcxproj">
+      <Project>{08C0439E-1ED3-33B3-8D5D-B2F86CA0CC22}</Project>
+      <Name>vtkm_filter_field_conversion</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\field_transform\vtkm_filter_field_transform.vcxproj">
+      <Project>{460BF7E5-272E-3F0A-8BFC-529C2EF1583C}</Project>
+      <Name>vtkm_filter_field_transform</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\flow\vtkm_filter_flow.vcxproj">
+      <Project>{BFCCED4E-ABAA-3E33-8EFD-A4CDAF7A1824}</Project>
+      <Name>vtkm_filter_flow</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\geometry_refinement\vtkm_filter_geometry_refinement.vcxproj">
+      <Project>{D906C6E3-63F9-3561-BFF9-454C1A4EA072}</Project>
+      <Name>vtkm_filter_geometry_refinement</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\image_processing\vtkm_filter_image_processing.vcxproj">
+      <Project>{2DE767AA-F8EB-34B0-BC02-07F259B74488}</Project>
+      <Name>vtkm_filter_image_processing</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\mesh_info\vtkm_filter_mesh_info.vcxproj">
+      <Project>{7E4B4090-C9F8-3644-962D-0C986DBF3596}</Project>
+      <Name>vtkm_filter_mesh_info</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\multi_block\vtkm_filter_multi_block.vcxproj">
+      <Project>{7C3CAFCA-7E9E-30C8-A768-C456BB36D655}</Project>
+      <Name>vtkm_filter_multi_block</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\resampling\vtkm_filter_resampling.vcxproj">
+      <Project>{DE84663B-0333-3675-BC4B-5FADC6C7648E}</Project>
+      <Name>vtkm_filter_resampling</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\scalar_topology\vtkm_filter_scalar_topology.vcxproj">
+      <Project>{3CA89FB2-3D26-372C-9504-B74B05C0024D}</Project>
+      <Name>vtkm_filter_scalar_topology</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\uncertainty\vtkm_filter_uncertainty.vcxproj">
+      <Project>{DED6B356-6A7A-3712-819A-24D27DC6BADA}</Project>
+      <Name>vtkm_filter_uncertainty</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\vector_analysis\vtkm_filter_vector_analysis.vcxproj">
+      <Project>{CB2D73D6-4240-34EF-BDDF-C2956DB266CC}</Project>
+      <Name>vtkm_filter_vector_analysis</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\filter\zfp\vtkm_filter_zfp.vcxproj">
+      <Project>{F178C8B0-845E-3B4C-89C4-54460CEAA86E}</Project>
+      <Name>vtkm_filter_zfp</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\io\vtkm_io.vcxproj">
+      <Project>{2F5E3968-247C-3BEA-AC85-139C0744AAC9}</Project>
+      <Name>vtkm_io</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\thirdparty\lodepng\vtkm_lodepng.vcxproj">
+      <Project>{89BE22EF-D5D4-3AEE-A677-E60C7773E1AF}</Project>
+      <Name>vtkm_lodepng</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\source\vtkm_source.vcxproj">
+      <Project>{5EC61388-4F00-3162-A108-26DD6F0D7D4B}</Project>
+      <Name>vtkm_source</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\worklet\vtkm_worklet.vcxproj">
+      <Project>{BDF71E82-54C8-3375-A563-170A19526A0C}</Project>
+      <Name>vtkm_worklet</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\ThirdParty\vtkm\vtkvtkm\vtk-m\vtkm\thirdparty\diy\vtkmdiy\vtkmdiympi_nompi.vcxproj">
+      <Project>{5278D602-1248-3A64-B1B4-1658283EF714}</Project>
+      <Name>vtkmdiympi_nompi</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkPVVTKExtensionsFiltersMaterialInterfaceCS\vtkMaterialInterfaceIdListItemClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkPVVTKExtensionsFiltersMaterialInterfaceCS\vtkMaterialInterfaceUtilitiesClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkPVVTKExtensionsFiltersMaterialInterfaceCS\vtkIntersectFragmentsClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkPVVTKExtensionsFiltersMaterialInterfaceCS\vtkMaterialInterfaceCommBufferClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkPVVTKExtensionsFiltersMaterialInterfaceCS\vtkMaterialInterfaceFilterClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkPVVTKExtensionsFiltersMaterialInterfaceCS\vtkMaterialInterfaceIdListClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkPVVTKExtensionsFiltersMaterialInterfaceCS\vtkMaterialInterfacePieceLoadingClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkPVVTKExtensionsFiltersMaterialInterfaceCS\vtkMaterialInterfacePieceTransactionClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkPVVTKExtensionsFiltersMaterialInterfaceCS\vtkMaterialInterfacePieceTransactionMatrixClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkPVVTKExtensionsFiltersMaterialInterfaceCS\vtkMaterialInterfaceProcessLoadingClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkPVVTKExtensionsFiltersMaterialInterfaceCS\vtkMaterialInterfaceProcessRingClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkPVVTKExtensionsFiltersMaterialInterfaceCS\vtkMaterialInterfaceToProcMapClientServer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\CMakeFiles\vtkPVVTKExtensionsFiltersMaterialInterfaceCSInit.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\8b3f3f1ad60ab489aa8edbd724f5dec2\vtkMaterialInterfaceIdListItemClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\8b3f3f1ad60ab489aa8edbd724f5dec2\vtkMaterialInterfaceUtilitiesClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\8b3f3f1ad60ab489aa8edbd724f5dec2\vtkIntersectFragmentsClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\8b3f3f1ad60ab489aa8edbd724f5dec2\vtkMaterialInterfaceCommBufferClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\8b3f3f1ad60ab489aa8edbd724f5dec2\vtkMaterialInterfaceFilterClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\8b3f3f1ad60ab489aa8edbd724f5dec2\vtkMaterialInterfaceIdListClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\8b3f3f1ad60ab489aa8edbd724f5dec2\vtkMaterialInterfacePieceLoadingClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\8b3f3f1ad60ab489aa8edbd724f5dec2\vtkMaterialInterfacePieceTransactionClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\8b3f3f1ad60ab489aa8edbd724f5dec2\vtkMaterialInterfacePieceTransactionMatrixClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\8b3f3f1ad60ab489aa8edbd724f5dec2\vtkMaterialInterfaceProcessLoadingClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\8b3f3f1ad60ab489aa8edbd724f5dec2\vtkMaterialInterfaceProcessRingClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\8b3f3f1ad60ab489aa8edbd724f5dec2\vtkMaterialInterfaceToProcMapClientServer.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\ParaView\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{FEFA764E-8736-3FD4-9B90-BE7174AE3DEA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{CE016C83-18D7-3CBD-A2E7-E2EB93EA0748}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

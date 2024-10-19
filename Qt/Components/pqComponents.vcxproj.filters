@@ -1,0 +1,1908 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\mocs_compilation_Debug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqAboutDialog.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqAbstractItemSelectionModel.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqActionGroupInterface.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqActiveObjects.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqAnimatablePropertiesComboBox.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqAnimatableProxyComboBox.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqAnimationManager.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqAnimationProgressDialog.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqAnimationTimeWidget.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqAnimationTrackEditor.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqArrayListDomain.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqArrayListWidget.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqArraySelectionWidget.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqArraySelectorPropertyWidget.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqArrayStatusPropertyWidget.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqBlockProxyWidget.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqCalculatorWidget.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqCameraDialog.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqCameraKeyFrameWidget.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqChangeInputDialog.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqCollaborationPanel.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqColorChooserButtonWithPalettes.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqColorOverlay.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqComboBoxDomain.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqCommandPropertyWidget.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqComparativeCueWidget.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqComparativeVisPanel.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqComponentsInit.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqComponentsTestUtility.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqCompositePropertyWidgetDecorator.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqContextMenuInterface.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqCustomFilterDefinitionModel.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqCustomFilterDefinitionWizard.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqCustomFilterManager.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqCustomFilterManagerModel.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqCustomViewpointButtonDialog.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqDataAssemblyTreeModel.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqDataInformationModel.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqDataInformationWidget.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqDialog.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqDisplayColorWidget.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqDisplayColor2Widget.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqDisplayOpacityWidget.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqDisplayPanel.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqDisplayPanelInterface.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqDisplayPanelPropertyWidget.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqDisplayRepresentationWidget.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqDockWindowInterface.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqDoubleVectorPropertyWidget.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqExpressionChooserButton.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqExpressionsDialog.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqExpressionsManager.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqExpressionsTableModel.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqExpressionsWidget.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqFavoritesDialog.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqFavoritesTreeWidget.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqFileChooserWidget.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqFindDataCurrentSelectionFrame.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqFindDataSelectionDisplayFrame.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqSpreadSheetColumnsVisibility.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqHighlightItemDelegate.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqIconBrowser.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqImageTip.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqIndexSelectionWidget.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqInputSelectorWidget.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqIntMaskPropertyWidget.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqIntRangeWidget.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqIntVectorPropertyWidget.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqItemViewSearchWidget.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqItemViewSearchWidgetEventPlayer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqKeyFrameEditor.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqKeyFrameTimeValidator.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqKeyFrameTypeWidget.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqLabel.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqLightsEditor.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqLightsInspector.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqLinksEditor.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqLinksManager.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqLiveInsituManager.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqLiveInsituVisualizationManager.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqLiveSourceItem.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqLiveSourceManager.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqLockViewSizeCustomDialog.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqLogViewerDialog.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqMemoryInspectorPanel.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqMultiBlockInspectorWidget.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqMultiBlockPropertiesEditorWidget.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqMultiBlockPropertiesStateWidget.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqMultiViewWidget.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqOneLinerTextEdit.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqOrbitCreatorDialog.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqOutputPortComboBox.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqPipelineAnnotationFilterModel.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqPipelineBrowserWidget.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqPipelineModel.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqPipelineModelSelectionAdaptor.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqPipelineTimeKeyFrameEditor.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqPluginDialog.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqPluginTreeWidgetEventPlayer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqPluginTreeWidgetEventTranslator.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqPopOutWidget.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqPresetDialog.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqPresetGroupsManager.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqPresetToPixmap.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqPropertiesPanel.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqPropertyGroupWidget.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqPropertyWidget.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqPropertyWidgetDecorator.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqPropertyWidgetInterface.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqProxiesWidget.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqProxyAction.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqProxyEditorPropertyWidget.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqProxyInformationWidget.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqProxyPropertyWidget.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqProxySelectionWidget.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqProxyWidget.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqProxyWidgetDialog.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqRecentFilesMenu.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqRemoteCommandDialog.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqRemoteCommandTemplateDialog.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqRescaleScalarRangeToCustomDialog.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqRescaleScalarRangeToDataOverTimeDialog.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqSingleLogViewerWidget.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqSMSignalAdaptors.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqScalarSetModel.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqScalarValueListPropertyWidget.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqSearchBox.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqSelectReaderDialog.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqSelectionAdaptor.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqSelectionInputWidget.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqSelectionLinkDialog.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqSelectionManager.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqServerConfigurationImporter.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqServerConnectDialog.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqServerLauncher.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqSetBreakpointDialog.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqSettingsDialog.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqShaderReplacementsComboBox.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqShaderReplacementsSelectorPropertyWidget.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqShortcutDecorator.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqSignalAdaptorKeyFrameType.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqSignalAdaptorSelectionTreeWidget.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqSignalAdaptorTreeWidget.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqReaderSelectionPropertyWidget.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqStringVectorPropertyWidget.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqTabbedMultiViewWidget.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqTextureComboBox.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqTextureSelectorPropertyWidget.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqTimerLogDisplay.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqToolBarInterface.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqToolTipTrapper.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqTransferFunctionWidget.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqTransferFunction2DWidget.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqTriggerOnIdleHelper.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqUndoStackBuilder.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqVCRController.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqViewFrame.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqViewFrameActionsInterface.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqViewManager.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqWidgetRangeDomain.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqXYChartViewBoundsPropertyWidget.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\vtkPVColorTransferControlPointsItem.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\Qt\Components\pqHelpWindow.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\S5YYZ2ZCNV\qrc_pqComponents.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\mocs_compilation_Release.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\mocs_compilation_MinSizeRel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\mocs_compilation_RelWithDebInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_Debug\Resources\UI\ui_pqAbortAnimation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_Debug\Resources\UI\ui_pqAboutDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_Debug\Resources\UI\ui_pqAnimationTimeWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_Debug\Resources\UI\ui_pqFavoritesDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_Debug\Resources\UI\ui_pqCalculatorWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_Debug\Resources\UI\ui_pqCameraDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_Debug\Resources\UI\ui_pqCameraKeyFrameWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_Debug\Resources\UI\ui_pqChangeInputDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_Debug\Resources\UI\ui_pqCollaborationPanel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_Debug\Resources\UI\ui_pqComparativeParameterRangeDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_Debug\Resources\UI\ui_pqComparativeVisPanel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_Debug\Resources\UI\ui_pqConnectIdDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_Debug\Resources\UI\ui_pqContourControls.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_Debug\Resources\UI\ui_pqCustomFilterDefinitionWizard.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_Debug\Resources\UI\ui_pqCustomFilterManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_Debug\Resources\UI\ui_pqCustomViewpointButtonDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_Debug\Resources\UI\ui_pqExpressionsDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_Debug\Resources\UI\ui_pqDisplayRepresentationWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_Debug\Resources\UI\ui_pqFindDataCurrentSelectionFrame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_Debug\Resources\UI\ui_pqFindDataSelectionDisplayFrame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_Debug\Resources\UI\ui_pqHelpWindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_Debug\Resources\UI\ui_pqIconBrowser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_Debug\Resources\UI\ui_pqItemViewSearchWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_Debug\Resources\UI\ui_pqKeyFrameEditor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_Debug\Resources\UI\ui_pqKeyFrameTypeWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_Debug\Resources\UI\ui_pqLightsEditor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_Debug\Resources\UI\ui_pqLightsInspector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_Debug\Resources\UI\ui_pqLinksEditor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_Debug\Resources\UI\ui_pqLinksManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_Debug\Resources\UI\ui_pqLockViewSizeCustomDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_Debug\Resources\UI\ui_pqLogViewerDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_Debug\Resources\UI\ui_pqMemoryInspectorPanelForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_Debug\Resources\UI\ui_pqMultiBlockInspectorWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_Debug\Resources\UI\ui_pqOrbitCreatorDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_Debug\Resources\UI\ui_pqPipelineTimeKeyFrameEditor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_Debug\Resources\UI\ui_pqPluginDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_Debug\Resources\UI\ui_pqPopoutPlaceholder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_Debug\Resources\UI\ui_pqPresetDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_Debug\Resources\UI\ui_pqPropertiesPanel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_Debug\Resources\UI\ui_pqProxyInformationWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_Debug\Resources\UI\ui_pqProxySelectionWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_Debug\Resources\UI\ui_pqProxyWidgetDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_Debug\Resources\UI\ui_pqPythonAnimationCue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_Debug\Resources\UI\ui_pqRemoteCommandDialogForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_Debug\Resources\UI\ui_pqRemoteCommandTemplateDialogForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_Debug\Resources\UI\ui_pqRescaleScalarRangeToCustomDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_Debug\Resources\UI\ui_pqRescaleScalarRangeToDataOverTimeDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_Debug\Resources\UI\ui_pqScalarValueListPropertyWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_Debug\Resources\UI\ui_pqSearchBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_Debug\Resources\UI\ui_pqSelectReaderDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_Debug\Resources\UI\ui_pqSelectionInputWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_Debug\Resources\UI\ui_pqSelectionLinkDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_Debug\Resources\UI\ui_pqServerConnectDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_Debug\Resources\UI\ui_pqServerLauncherDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_Debug\Resources\UI\ui_pqSetBreakpointDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_Debug\Resources\UI\ui_pqSettingsDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_Debug\Resources\UI\ui_pqTimerLogDisplay.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_Debug\Resources\UI\ui_pqViewFrame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqPluginTreeWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqAboutDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqAbstractItemSelectionModel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqActionGroupInterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqActiveObjects.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqAnimatablePropertiesComboBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqAnimatableProxyComboBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqAnimationManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqAnimationProgressDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqAnimationTimeWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqAnimationTrackEditor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqArrayListDomain.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqArrayListWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqArraySelectionWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqArraySelectorPropertyWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqArrayStatusPropertyWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqBlockProxyWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqCalculatorWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqCameraDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqCameraKeyFrameWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqChangeInputDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqCollaborationPanel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqColorChooserButtonWithPalettes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqColorOverlay.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqComboBoxDomain.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqCommandPropertyWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqComparativeCueWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqComparativeVisPanel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqComponentsInit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqComponentsTestUtility.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqCompositePropertyWidgetDecorator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqContextMenuInterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqCustomFilterDefinitionModel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqCustomFilterDefinitionWizard.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqCustomFilterManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqCustomFilterManagerModel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqCustomViewpointButtonDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqDataAssemblyTreeModel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqDataInformationModel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqDataInformationWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqDisplayColorWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqDisplayColor2Widget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqDisplayOpacityWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqDisplayPanel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqDisplayPanelInterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqDisplayPanelPropertyWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqDisplayRepresentationWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqDockWindowInterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqDoubleVectorPropertyWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqExpressionChooserButton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqExpressionsDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqExpressionsManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqExpressionsTableModel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqExpressionsWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqFavoritesDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqFavoritesTreeWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqFileChooserWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqFindDataCurrentSelectionFrame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqFindDataSelectionDisplayFrame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqSpreadSheetColumnsVisibility.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqHighlightItemDelegate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqIconBrowser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqImageTip.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqIndexSelectionWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqInputSelectorWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqIntMaskPropertyWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqIntRangeWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqIntVectorPropertyWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqItemViewSearchWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqItemViewSearchWidgetEventPlayer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqKeyFrameEditor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqKeyFrameTimeValidator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqKeyFrameTypeWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqLabel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqLightsEditor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqLightsInspector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqLinksEditor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqLinksManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqLiveInsituManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqLiveInsituVisualizationManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqLiveSourceItem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqLiveSourceManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqLockViewSizeCustomDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqLogViewerDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqMemoryInspectorPanel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqMultiBlockInspectorWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqMultiBlockPropertiesEditorWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqMultiBlockPropertiesStateWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqMultiViewWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqOneLinerTextEdit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqOrbitCreatorDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqOutputPortComboBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqPipelineAnnotationFilterModel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqPipelineBrowserWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqPipelineModel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqPipelineModelSelectionAdaptor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqPipelineTimeKeyFrameEditor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqPluginDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqPluginTreeWidgetEventPlayer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqPluginTreeWidgetEventTranslator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqPopOutWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqPresetDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqPresetGroupsManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqPresetToPixmap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqPropertiesPanel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqPropertyGroupWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqPropertyWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqPropertyWidgetDecorator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqPropertyWidgetInterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqProxiesWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqProxyAction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqProxyEditorPropertyWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqProxyInformationWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqProxyPropertyWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqProxySelectionWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqProxyWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqProxyWidgetDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqRecentFilesMenu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqRemoteCommandDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqRemoteCommandTemplateDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqRescaleScalarRangeToCustomDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqRescaleScalarRangeToDataOverTimeDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqSingleLogViewerWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqSMSignalAdaptors.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqScalarSetModel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqScalarValueListPropertyWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqSearchBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqSelectReaderDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqSelectionAdaptor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqSelectionInputWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqSelectionLinkDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqSelectionManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqServerConfigurationImporter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqServerConnectDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqServerLauncher.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqSetBreakpointDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqSettingsDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqShaderReplacementsComboBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqShaderReplacementsSelectorPropertyWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqShortcutDecorator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqSignalAdaptorKeyFrameType.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqSignalAdaptorSelectionTreeWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqSignalAdaptorTreeWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqReaderSelectionPropertyWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqStringVectorPropertyWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqTabbedMultiViewWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqTextureComboBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqTextureSelectorPropertyWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqTimerLogDisplay.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqToolBarInterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqToolTipTrapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqTransferFunctionWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqTransferFunction2DWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqTriggerOnIdleHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqUndoStackBuilder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqVCRController.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqViewFrame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqViewFrameActionsInterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqViewManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqWidgetRangeDomain.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqXYChartViewBoundsPropertyWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\vtkPVColorTransferControlPointsItem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\Qt\Components\pqHelpWindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponentsModule.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_Release\Resources\UI\ui_pqAbortAnimation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_Release\Resources\UI\ui_pqAboutDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_Release\Resources\UI\ui_pqAnimationTimeWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_Release\Resources\UI\ui_pqFavoritesDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_Release\Resources\UI\ui_pqCalculatorWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_Release\Resources\UI\ui_pqCameraDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_Release\Resources\UI\ui_pqCameraKeyFrameWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_Release\Resources\UI\ui_pqChangeInputDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_Release\Resources\UI\ui_pqCollaborationPanel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_Release\Resources\UI\ui_pqComparativeParameterRangeDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_Release\Resources\UI\ui_pqComparativeVisPanel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_Release\Resources\UI\ui_pqConnectIdDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_Release\Resources\UI\ui_pqContourControls.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_Release\Resources\UI\ui_pqCustomFilterDefinitionWizard.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_Release\Resources\UI\ui_pqCustomFilterManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_Release\Resources\UI\ui_pqCustomViewpointButtonDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_Release\Resources\UI\ui_pqExpressionsDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_Release\Resources\UI\ui_pqDisplayRepresentationWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_Release\Resources\UI\ui_pqFindDataCurrentSelectionFrame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_Release\Resources\UI\ui_pqFindDataSelectionDisplayFrame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_Release\Resources\UI\ui_pqHelpWindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_Release\Resources\UI\ui_pqIconBrowser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_Release\Resources\UI\ui_pqItemViewSearchWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_Release\Resources\UI\ui_pqKeyFrameEditor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_Release\Resources\UI\ui_pqKeyFrameTypeWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_Release\Resources\UI\ui_pqLightsEditor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_Release\Resources\UI\ui_pqLightsInspector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_Release\Resources\UI\ui_pqLinksEditor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_Release\Resources\UI\ui_pqLinksManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_Release\Resources\UI\ui_pqLockViewSizeCustomDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_Release\Resources\UI\ui_pqLogViewerDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_Release\Resources\UI\ui_pqMemoryInspectorPanelForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_Release\Resources\UI\ui_pqMultiBlockInspectorWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_Release\Resources\UI\ui_pqOrbitCreatorDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_Release\Resources\UI\ui_pqPipelineTimeKeyFrameEditor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_Release\Resources\UI\ui_pqPluginDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_Release\Resources\UI\ui_pqPopoutPlaceholder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_Release\Resources\UI\ui_pqPresetDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_Release\Resources\UI\ui_pqPropertiesPanel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_Release\Resources\UI\ui_pqProxyInformationWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_Release\Resources\UI\ui_pqProxySelectionWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_Release\Resources\UI\ui_pqProxyWidgetDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_Release\Resources\UI\ui_pqPythonAnimationCue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_Release\Resources\UI\ui_pqRemoteCommandDialogForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_Release\Resources\UI\ui_pqRemoteCommandTemplateDialogForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_Release\Resources\UI\ui_pqRescaleScalarRangeToCustomDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_Release\Resources\UI\ui_pqRescaleScalarRangeToDataOverTimeDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_Release\Resources\UI\ui_pqScalarValueListPropertyWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_Release\Resources\UI\ui_pqSearchBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_Release\Resources\UI\ui_pqSelectReaderDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_Release\Resources\UI\ui_pqSelectionInputWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_Release\Resources\UI\ui_pqSelectionLinkDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_Release\Resources\UI\ui_pqServerConnectDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_Release\Resources\UI\ui_pqServerLauncherDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_Release\Resources\UI\ui_pqSetBreakpointDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_Release\Resources\UI\ui_pqSettingsDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_Release\Resources\UI\ui_pqTimerLogDisplay.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_Release\Resources\UI\ui_pqViewFrame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_MinSizeRel\Resources\UI\ui_pqAbortAnimation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_MinSizeRel\Resources\UI\ui_pqAboutDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_MinSizeRel\Resources\UI\ui_pqAnimationTimeWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_MinSizeRel\Resources\UI\ui_pqFavoritesDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_MinSizeRel\Resources\UI\ui_pqCalculatorWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_MinSizeRel\Resources\UI\ui_pqCameraDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_MinSizeRel\Resources\UI\ui_pqCameraKeyFrameWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_MinSizeRel\Resources\UI\ui_pqChangeInputDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_MinSizeRel\Resources\UI\ui_pqCollaborationPanel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_MinSizeRel\Resources\UI\ui_pqComparativeParameterRangeDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_MinSizeRel\Resources\UI\ui_pqComparativeVisPanel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_MinSizeRel\Resources\UI\ui_pqConnectIdDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_MinSizeRel\Resources\UI\ui_pqContourControls.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_MinSizeRel\Resources\UI\ui_pqCustomFilterDefinitionWizard.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_MinSizeRel\Resources\UI\ui_pqCustomFilterManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_MinSizeRel\Resources\UI\ui_pqCustomViewpointButtonDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_MinSizeRel\Resources\UI\ui_pqExpressionsDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_MinSizeRel\Resources\UI\ui_pqDisplayRepresentationWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_MinSizeRel\Resources\UI\ui_pqFindDataCurrentSelectionFrame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_MinSizeRel\Resources\UI\ui_pqFindDataSelectionDisplayFrame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_MinSizeRel\Resources\UI\ui_pqHelpWindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_MinSizeRel\Resources\UI\ui_pqIconBrowser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_MinSizeRel\Resources\UI\ui_pqItemViewSearchWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_MinSizeRel\Resources\UI\ui_pqKeyFrameEditor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_MinSizeRel\Resources\UI\ui_pqKeyFrameTypeWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_MinSizeRel\Resources\UI\ui_pqLightsEditor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_MinSizeRel\Resources\UI\ui_pqLightsInspector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_MinSizeRel\Resources\UI\ui_pqLinksEditor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_MinSizeRel\Resources\UI\ui_pqLinksManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_MinSizeRel\Resources\UI\ui_pqLockViewSizeCustomDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_MinSizeRel\Resources\UI\ui_pqLogViewerDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_MinSizeRel\Resources\UI\ui_pqMemoryInspectorPanelForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_MinSizeRel\Resources\UI\ui_pqMultiBlockInspectorWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_MinSizeRel\Resources\UI\ui_pqOrbitCreatorDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_MinSizeRel\Resources\UI\ui_pqPipelineTimeKeyFrameEditor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_MinSizeRel\Resources\UI\ui_pqPluginDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_MinSizeRel\Resources\UI\ui_pqPopoutPlaceholder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_MinSizeRel\Resources\UI\ui_pqPresetDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_MinSizeRel\Resources\UI\ui_pqPropertiesPanel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_MinSizeRel\Resources\UI\ui_pqProxyInformationWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_MinSizeRel\Resources\UI\ui_pqProxySelectionWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_MinSizeRel\Resources\UI\ui_pqProxyWidgetDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_MinSizeRel\Resources\UI\ui_pqPythonAnimationCue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_MinSizeRel\Resources\UI\ui_pqRemoteCommandDialogForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_MinSizeRel\Resources\UI\ui_pqRemoteCommandTemplateDialogForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_MinSizeRel\Resources\UI\ui_pqRescaleScalarRangeToCustomDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_MinSizeRel\Resources\UI\ui_pqRescaleScalarRangeToDataOverTimeDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_MinSizeRel\Resources\UI\ui_pqScalarValueListPropertyWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_MinSizeRel\Resources\UI\ui_pqSearchBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_MinSizeRel\Resources\UI\ui_pqSelectReaderDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_MinSizeRel\Resources\UI\ui_pqSelectionInputWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_MinSizeRel\Resources\UI\ui_pqSelectionLinkDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_MinSizeRel\Resources\UI\ui_pqServerConnectDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_MinSizeRel\Resources\UI\ui_pqServerLauncherDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_MinSizeRel\Resources\UI\ui_pqSetBreakpointDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_MinSizeRel\Resources\UI\ui_pqSettingsDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_MinSizeRel\Resources\UI\ui_pqTimerLogDisplay.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_MinSizeRel\Resources\UI\ui_pqViewFrame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_RelWithDebInfo\Resources\UI\ui_pqAbortAnimation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_RelWithDebInfo\Resources\UI\ui_pqAboutDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_RelWithDebInfo\Resources\UI\ui_pqAnimationTimeWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_RelWithDebInfo\Resources\UI\ui_pqFavoritesDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_RelWithDebInfo\Resources\UI\ui_pqCalculatorWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_RelWithDebInfo\Resources\UI\ui_pqCameraDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_RelWithDebInfo\Resources\UI\ui_pqCameraKeyFrameWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_RelWithDebInfo\Resources\UI\ui_pqChangeInputDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_RelWithDebInfo\Resources\UI\ui_pqCollaborationPanel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_RelWithDebInfo\Resources\UI\ui_pqComparativeParameterRangeDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_RelWithDebInfo\Resources\UI\ui_pqComparativeVisPanel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_RelWithDebInfo\Resources\UI\ui_pqConnectIdDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_RelWithDebInfo\Resources\UI\ui_pqContourControls.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_RelWithDebInfo\Resources\UI\ui_pqCustomFilterDefinitionWizard.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_RelWithDebInfo\Resources\UI\ui_pqCustomFilterManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_RelWithDebInfo\Resources\UI\ui_pqCustomViewpointButtonDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_RelWithDebInfo\Resources\UI\ui_pqExpressionsDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_RelWithDebInfo\Resources\UI\ui_pqDisplayRepresentationWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_RelWithDebInfo\Resources\UI\ui_pqFindDataCurrentSelectionFrame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_RelWithDebInfo\Resources\UI\ui_pqFindDataSelectionDisplayFrame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_RelWithDebInfo\Resources\UI\ui_pqHelpWindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_RelWithDebInfo\Resources\UI\ui_pqIconBrowser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_RelWithDebInfo\Resources\UI\ui_pqItemViewSearchWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_RelWithDebInfo\Resources\UI\ui_pqKeyFrameEditor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_RelWithDebInfo\Resources\UI\ui_pqKeyFrameTypeWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_RelWithDebInfo\Resources\UI\ui_pqLightsEditor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_RelWithDebInfo\Resources\UI\ui_pqLightsInspector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_RelWithDebInfo\Resources\UI\ui_pqLinksEditor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_RelWithDebInfo\Resources\UI\ui_pqLinksManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_RelWithDebInfo\Resources\UI\ui_pqLockViewSizeCustomDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_RelWithDebInfo\Resources\UI\ui_pqLogViewerDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_RelWithDebInfo\Resources\UI\ui_pqMemoryInspectorPanelForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_RelWithDebInfo\Resources\UI\ui_pqMultiBlockInspectorWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_RelWithDebInfo\Resources\UI\ui_pqOrbitCreatorDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_RelWithDebInfo\Resources\UI\ui_pqPipelineTimeKeyFrameEditor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_RelWithDebInfo\Resources\UI\ui_pqPluginDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_RelWithDebInfo\Resources\UI\ui_pqPopoutPlaceholder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_RelWithDebInfo\Resources\UI\ui_pqPresetDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_RelWithDebInfo\Resources\UI\ui_pqPropertiesPanel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_RelWithDebInfo\Resources\UI\ui_pqProxyInformationWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_RelWithDebInfo\Resources\UI\ui_pqProxySelectionWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_RelWithDebInfo\Resources\UI\ui_pqProxyWidgetDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_RelWithDebInfo\Resources\UI\ui_pqPythonAnimationCue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_RelWithDebInfo\Resources\UI\ui_pqRemoteCommandDialogForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_RelWithDebInfo\Resources\UI\ui_pqRemoteCommandTemplateDialogForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_RelWithDebInfo\Resources\UI\ui_pqRescaleScalarRangeToCustomDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_RelWithDebInfo\Resources\UI\ui_pqRescaleScalarRangeToDataOverTimeDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_RelWithDebInfo\Resources\UI\ui_pqScalarValueListPropertyWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_RelWithDebInfo\Resources\UI\ui_pqSearchBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_RelWithDebInfo\Resources\UI\ui_pqSelectReaderDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_RelWithDebInfo\Resources\UI\ui_pqSelectionInputWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_RelWithDebInfo\Resources\UI\ui_pqSelectionLinkDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_RelWithDebInfo\Resources\UI\ui_pqServerConnectDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_RelWithDebInfo\Resources\UI\ui_pqServerLauncherDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_RelWithDebInfo\Resources\UI\ui_pqSetBreakpointDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_RelWithDebInfo\Resources\UI\ui_pqSettingsDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_RelWithDebInfo\Resources\UI\ui_pqTimerLogDisplay.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\include_RelWithDebInfo\Resources\UI\ui_pqViewFrame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\72660c236337ad4ae5665ca26ee207f1\autouic_(CONFIG).stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\0e98cca034922d4c3f4c9284d3969a16\qrc_pqComponents.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\ParaView\Qt\Components\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\pv\ParaView\Qt\Components\Resources\UI\pqAbortAnimation.ui">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="D:\pv\ParaView\Qt\Components\Resources\UI\pqAboutDialog.ui">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="D:\pv\ParaView\Qt\Components\Resources\UI\pqAnimationTimeWidget.ui">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="D:\pv\ParaView\Qt\Components\Resources\UI\pqFavoritesDialog.ui">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="D:\pv\ParaView\Qt\Components\Resources\UI\pqCalculatorWidget.ui">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="D:\pv\ParaView\Qt\Components\Resources\UI\pqCameraDialog.ui">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="D:\pv\ParaView\Qt\Components\Resources\UI\pqCameraKeyFrameWidget.ui">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="D:\pv\ParaView\Qt\Components\Resources\UI\pqChangeInputDialog.ui">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="D:\pv\ParaView\Qt\Components\Resources\UI\pqCollaborationPanel.ui">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="D:\pv\ParaView\Qt\Components\Resources\UI\pqComparativeParameterRangeDialog.ui">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="D:\pv\ParaView\Qt\Components\Resources\UI\pqComparativeVisPanel.ui">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="D:\pv\ParaView\Qt\Components\Resources\UI\pqConnectIdDialog.ui">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="D:\pv\ParaView\Qt\Components\Resources\UI\pqContourControls.ui">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="D:\pv\ParaView\Qt\Components\Resources\UI\pqCustomFilterDefinitionWizard.ui">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="D:\pv\ParaView\Qt\Components\Resources\UI\pqCustomFilterManager.ui">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="D:\pv\ParaView\Qt\Components\Resources\UI\pqCustomViewpointButtonDialog.ui">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="D:\pv\ParaView\Qt\Components\Resources\UI\pqExpressionsDialog.ui">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="D:\pv\ParaView\Qt\Components\Resources\UI\pqDisplayRepresentationWidget.ui">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="D:\pv\ParaView\Qt\Components\Resources\UI\pqFindDataCurrentSelectionFrame.ui">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="D:\pv\ParaView\Qt\Components\Resources\UI\pqFindDataSelectionDisplayFrame.ui">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="D:\pv\ParaView\Qt\Components\Resources\UI\pqHelpWindow.ui">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="D:\pv\ParaView\Qt\Components\Resources\UI\pqIconBrowser.ui">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="D:\pv\ParaView\Qt\Components\Resources\UI\pqItemViewSearchWidget.ui">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="D:\pv\ParaView\Qt\Components\Resources\UI\pqKeyFrameEditor.ui">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="D:\pv\ParaView\Qt\Components\Resources\UI\pqKeyFrameTypeWidget.ui">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="D:\pv\ParaView\Qt\Components\Resources\UI\pqLightsEditor.ui">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="D:\pv\ParaView\Qt\Components\Resources\UI\pqLightsInspector.ui">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="D:\pv\ParaView\Qt\Components\Resources\UI\pqLinksEditor.ui">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="D:\pv\ParaView\Qt\Components\Resources\UI\pqLinksManager.ui">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="D:\pv\ParaView\Qt\Components\Resources\UI\pqLockViewSizeCustomDialog.ui">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="D:\pv\ParaView\Qt\Components\Resources\UI\pqLogViewerDialog.ui">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="D:\pv\ParaView\Qt\Components\Resources\UI\pqMemoryInspectorPanelForm.ui">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="D:\pv\ParaView\Qt\Components\Resources\UI\pqMultiBlockInspectorWidget.ui">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="D:\pv\ParaView\Qt\Components\Resources\UI\pqOrbitCreatorDialog.ui">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="D:\pv\ParaView\Qt\Components\Resources\UI\pqPipelineTimeKeyFrameEditor.ui">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="D:\pv\ParaView\Qt\Components\Resources\UI\pqPluginDialog.ui">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="D:\pv\ParaView\Qt\Components\Resources\UI\pqPopoutPlaceholder.ui">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="D:\pv\ParaView\Qt\Components\Resources\UI\pqPresetDialog.ui">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="D:\pv\ParaView\Qt\Components\Resources\UI\pqPropertiesPanel.ui">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="D:\pv\ParaView\Qt\Components\Resources\UI\pqProxyInformationWidget.ui">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="D:\pv\ParaView\Qt\Components\Resources\UI\pqProxySelectionWidget.ui">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="D:\pv\ParaView\Qt\Components\Resources\UI\pqProxyWidgetDialog.ui">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="D:\pv\ParaView\Qt\Components\Resources\UI\pqPythonAnimationCue.ui">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="D:\pv\ParaView\Qt\Components\Resources\UI\pqRemoteCommandDialogForm.ui">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="D:\pv\ParaView\Qt\Components\Resources\UI\pqRemoteCommandTemplateDialogForm.ui">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="D:\pv\ParaView\Qt\Components\Resources\UI\pqRescaleScalarRangeToCustomDialog.ui">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="D:\pv\ParaView\Qt\Components\Resources\UI\pqRescaleScalarRangeToDataOverTimeDialog.ui">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="D:\pv\ParaView\Qt\Components\Resources\UI\pqScalarValueListPropertyWidget.ui">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="D:\pv\ParaView\Qt\Components\Resources\UI\pqSearchBox.ui">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="D:\pv\ParaView\Qt\Components\Resources\UI\pqSelectReaderDialog.ui">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="D:\pv\ParaView\Qt\Components\Resources\UI\pqSelectionInputWidget.ui">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="D:\pv\ParaView\Qt\Components\Resources\UI\pqSelectionLinkDialog.ui">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="D:\pv\ParaView\Qt\Components\Resources\UI\pqServerConnectDialog.ui">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="D:\pv\ParaView\Qt\Components\Resources\UI\pqServerLauncherDialog.ui">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="D:\pv\ParaView\Qt\Components\Resources\UI\pqSetBreakpointDialog.ui">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="D:\pv\ParaView\Qt\Components\Resources\UI\pqSettingsDialog.ui">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="D:\pv\ParaView\Qt\Components\Resources\UI\pqTimerLogDisplay.ui">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="D:\pv\ParaView\Qt\Components\Resources\UI\pqViewFrame.ui">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="D:\pv\ParaView\Qt\Components\Resources\pqComponents.qrc">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\autouic_Debug.stamp" />
+    <None Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\autouic_Release.stamp" />
+    <None Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\autouic_MinSizeRel.stamp" />
+    <None Include="D:\pv\rebuild\Qt\Components\pqComponents_autogen\autouic_RelWithDebInfo.stamp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{FEFA764E-8736-3FD4-9B90-BE7174AE3DEA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{345BF67A-A46B-3569-AD4B-B0F9BB083ED9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{0389E845-54B0-3DA4-A15C-8162F416BB92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{CE016C83-18D7-3CBD-A2E7-E2EB93EA0748}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

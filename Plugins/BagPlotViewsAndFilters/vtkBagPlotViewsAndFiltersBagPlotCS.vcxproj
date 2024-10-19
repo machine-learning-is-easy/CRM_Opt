@@ -1,0 +1,902 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{324239FC-8220-3892-9CE7-D5166C7341B6}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>vtkBagPlotViewsAndFiltersBagPlotCS</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\pv\rebuild\lib\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">vtkBagPlotViewsAndFiltersBagPlotCS.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">vtkBagPlotViewsAndFiltersBagPlotCSd</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\pv\rebuild\lib\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">vtkBagPlotViewsAndFiltersBagPlotCS.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">vtkBagPlotViewsAndFiltersBagPlotCS</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\pv\rebuild\lib\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">vtkBagPlotViewsAndFiltersBagPlotCS.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">vtkBagPlotViewsAndFiltersBagPlotCS</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\pv\rebuild\lib\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">vtkBagPlotViewsAndFiltersBagPlotCS.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">vtkBagPlotViewsAndFiltersBagPlotCS</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\pv\rebuild\Plugins\BagPlotViewsAndFilters;D:\pv\ParaView\Plugins\BagPlotViewsAndFilters\BagPlot;D:\pv\rebuild\Plugins\BagPlotViewsAndFilters\BagPlot;D:\pv\ParaView\Remoting\Views;D:\pv\rebuild\Remoting\Views;D:\pv\ParaView\Remoting\ServerManager;D:\pv\rebuild\Remoting\ServerManager;D:\pv\ParaView\ThirdParty\protobuf\vtkprotobuf\src;D:\pv\ParaView\Remoting\ClientServerStream;D:\pv\rebuild\Remoting\ClientServerStream;D:\pv\ParaView\VTK\Common\Core;D:\pv\rebuild\VTK\Common\Core;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken\token;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken\token;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\rebuild\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson\include;D:\pv\ParaView\Remoting\Core;D:\pv\rebuild\Remoting\Core;D:\pv\ParaView\Utilities\Versioning;D:\pv\rebuild\Utilities\Versioning;D:\pv\ParaView\VTKExtensions\Core;D:\pv\rebuild\VTKExtensions\Core;D:\pv\ParaView\VTK\Common\DataModel;D:\pv\rebuild\VTK\Common\DataModel;D:\pv\ParaView\VTK\Common\Math;D:\pv\rebuild\VTK\Common\Math;D:\pv\ParaView\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\rebuild\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\ParaView\VTK\Common\Transforms;D:\pv\rebuild\VTK\Common\Transforms;D:\pv\ParaView\VTK\Common\ExecutionModel;D:\pv\rebuild\VTK\Common\ExecutionModel;D:\pv\ParaView\VTK\IO\XML;D:\pv\rebuild\VTK\IO\XML;D:\pv\ParaView\VTK\IO\XMLParser;D:\pv\rebuild\VTK\IO\XMLParser;D:\pv\ParaView\VTK\ThirdParty\fmt\vtkfmt;D:\pv\rebuild\VTK\ThirdParty\fmt\vtkfmt;D:\pv\ParaView\VTK\Common\Misc;D:\pv\rebuild\VTK\Common\Misc;D:\pv\ParaView\VTK\Parallel\Core;D:\pv\rebuild\VTK\Parallel\Core;D:\pv\ParaView\VTK\ThirdParty\jsoncpp\vtkjsoncpp;D:\pv\rebuild\VTK\ThirdParty\jsoncpp\vtkjsoncpp;D:\pv\rebuild\VTK\ThirdParty\jsoncpp\vtkjsoncpp\json;D:\pv\ParaView\VTK\Charts\Core;D:\pv\rebuild\VTK\Charts\Core;D:\pv\ParaView\VTK\Filters\General;D:\pv\rebuild\VTK\Filters\General;D:\pv\ParaView\VTK\Filters\Core;D:\pv\rebuild\VTK\Filters\Core;D:\pv\ParaView\VTK\Rendering\Context2D;D:\pv\rebuild\VTK\Rendering\Context2D;D:\pv\ParaView\VTK\Rendering\Core;D:\pv\rebuild\VTK\Rendering\Core;D:\pv\ParaView\VTK\Rendering\Annotation;D:\pv\rebuild\VTK\Rendering\Annotation;D:\pv\ParaView\VTK\Rendering\CellGrid;D:\pv\rebuild\VTK\Rendering\CellGrid;D:\pv\ParaView\VTK\Filters\CellGrid;D:\pv\rebuild\VTK\Filters\CellGrid;D:\pv\ParaView\VTK\Rendering\OpenGL2;D:\pv\rebuild\VTK\Rendering\OpenGL2;D:\pv\ParaView\VTK\IO\Image;D:\pv\rebuild\VTK\IO\Image;D:\pv\ParaView\VTK\Imaging\Core;D:\pv\rebuild\VTK\Imaging\Core;D:\pv\ParaView\VTK\Rendering\HyperTreeGrid;D:\pv\rebuild\VTK\Rendering\HyperTreeGrid;D:\pv\ParaView\VTK\Rendering\UI;D:\pv\rebuild\VTK\Rendering\UI;D:\pv\ParaView\VTK\ThirdParty\glew\vtkglew;D:\pv\rebuild\VTK\ThirdParty\glew\vtkglew;D:\pv\ParaView\VTK\Rendering\Parallel;D:\pv\rebuild\VTK\Rendering\Parallel;D:\pv\ParaView\VTK\Views\Context2D;D:\pv\rebuild\VTK\Views\Context2D;D:\pv\ParaView\VTK\Views\Core;D:\pv\rebuild\VTK\Views\Core;D:\pv\ParaView\VTK\Interaction\Widgets;D:\pv\rebuild\VTK\Interaction\Widgets;D:\pv\ParaView\VTK\Filters\Sources;D:\pv\rebuild\VTK\Filters\Sources;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/pv/rebuild/ThirdParty/protobuf" /external:I "D:/pv/ParaView/ThirdParty/protobuf" /external:I "D:/pv/rebuild/VTK/Utilities/KWIML" /external:I "D:/pv/ParaView/VTK/Utilities/KWIML" /external:I "D:/pv/rebuild/VTK/Utilities/KWSys" /external:I "D:/pv/ParaView/VTK/Utilities/KWSys" /external:I "D:/pv/rebuild/VTK/ThirdParty/token" /external:I "D:/pv/ParaView/VTK/ThirdParty/token" /external:I "D:/pv/rebuild/VTK/ThirdParty/nlohmannjson" /external:I "D:/pv/ParaView/VTK/ThirdParty/nlohmannjson" /external:I "D:/pv/rebuild/VTK/ThirdParty/kissfft" /external:I "D:/pv/ParaView/VTK/ThirdParty/kissfft" /external:I "D:/pv/rebuild/VTK/ThirdParty/cli11" /external:I "D:/pv/ParaView/VTK/ThirdParty/cli11" /external:I "D:/pv/rebuild/VTK/ThirdParty/fmt" /external:I "D:/pv/ParaView/VTK/ThirdParty/fmt" /external:I "D:/pv/rebuild/VTK/ThirdParty/jsoncpp" /external:I "D:/pv/ParaView/VTK/ThirdParty/jsoncpp" /external:I "D:/pv/rebuild/VTK/ThirdParty/glew" /external:I "D:/pv/ParaView/VTK/ThirdParty/glew" /bigobj /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;PROTOBUF_USE_DLLS;kiss_fft_scalar=double;KISSFFT_DLL_IMPORT=1;FMT_SHARED;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;PROTOBUF_USE_DLLS;kiss_fft_scalar=double;KISSFFT_DLL_IMPORT=1;FMT_SHARED;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\pv\rebuild\Plugins\BagPlotViewsAndFilters;D:\pv\ParaView\Plugins\BagPlotViewsAndFilters\BagPlot;D:\pv\rebuild\Plugins\BagPlotViewsAndFilters\BagPlot;D:\pv\ParaView\Remoting\Views;D:\pv\rebuild\Remoting\Views;D:\pv\ParaView\Remoting\ServerManager;D:\pv\rebuild\Remoting\ServerManager;D:\pv\ParaView\ThirdParty\protobuf\vtkprotobuf\src;D:\pv\ParaView\Remoting\ClientServerStream;D:\pv\rebuild\Remoting\ClientServerStream;D:\pv\ParaView\VTK\Common\Core;D:\pv\rebuild\VTK\Common\Core;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken\token;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken\token;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\rebuild\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson\include;D:\pv\ParaView\Remoting\Core;D:\pv\rebuild\Remoting\Core;D:\pv\ParaView\Utilities\Versioning;D:\pv\rebuild\Utilities\Versioning;D:\pv\ParaView\VTKExtensions\Core;D:\pv\rebuild\VTKExtensions\Core;D:\pv\ParaView\VTK\Common\DataModel;D:\pv\rebuild\VTK\Common\DataModel;D:\pv\ParaView\VTK\Common\Math;D:\pv\rebuild\VTK\Common\Math;D:\pv\ParaView\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\rebuild\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\ParaView\VTK\Common\Transforms;D:\pv\rebuild\VTK\Common\Transforms;D:\pv\ParaView\VTK\Common\ExecutionModel;D:\pv\rebuild\VTK\Common\ExecutionModel;D:\pv\ParaView\VTK\IO\XML;D:\pv\rebuild\VTK\IO\XML;D:\pv\ParaView\VTK\IO\XMLParser;D:\pv\rebuild\VTK\IO\XMLParser;D:\pv\ParaView\VTK\ThirdParty\fmt\vtkfmt;D:\pv\rebuild\VTK\ThirdParty\fmt\vtkfmt;D:\pv\ParaView\VTK\Common\Misc;D:\pv\rebuild\VTK\Common\Misc;D:\pv\ParaView\VTK\Parallel\Core;D:\pv\rebuild\VTK\Parallel\Core;D:\pv\ParaView\VTK\ThirdParty\jsoncpp\vtkjsoncpp;D:\pv\rebuild\VTK\ThirdParty\jsoncpp\vtkjsoncpp;D:\pv\rebuild\VTK\ThirdParty\jsoncpp\vtkjsoncpp\json;D:\pv\ParaView\VTK\Charts\Core;D:\pv\rebuild\VTK\Charts\Core;D:\pv\ParaView\VTK\Filters\General;D:\pv\rebuild\VTK\Filters\General;D:\pv\ParaView\VTK\Filters\Core;D:\pv\rebuild\VTK\Filters\Core;D:\pv\ParaView\VTK\Rendering\Context2D;D:\pv\rebuild\VTK\Rendering\Context2D;D:\pv\ParaView\VTK\Rendering\Core;D:\pv\rebuild\VTK\Rendering\Core;D:\pv\ParaView\VTK\Rendering\Annotation;D:\pv\rebuild\VTK\Rendering\Annotation;D:\pv\ParaView\VTK\Rendering\CellGrid;D:\pv\rebuild\VTK\Rendering\CellGrid;D:\pv\ParaView\VTK\Filters\CellGrid;D:\pv\rebuild\VTK\Filters\CellGrid;D:\pv\ParaView\VTK\Rendering\OpenGL2;D:\pv\rebuild\VTK\Rendering\OpenGL2;D:\pv\ParaView\VTK\IO\Image;D:\pv\rebuild\VTK\IO\Image;D:\pv\ParaView\VTK\Imaging\Core;D:\pv\rebuild\VTK\Imaging\Core;D:\pv\ParaView\VTK\Rendering\HyperTreeGrid;D:\pv\rebuild\VTK\Rendering\HyperTreeGrid;D:\pv\ParaView\VTK\Rendering\UI;D:\pv\rebuild\VTK\Rendering\UI;D:\pv\ParaView\VTK\ThirdParty\glew\vtkglew;D:\pv\rebuild\VTK\ThirdParty\glew\vtkglew;D:\pv\ParaView\VTK\Rendering\Parallel;D:\pv\rebuild\VTK\Rendering\Parallel;D:\pv\ParaView\VTK\Views\Context2D;D:\pv\rebuild\VTK\Views\Context2D;D:\pv\ParaView\VTK\Views\Core;D:\pv\rebuild\VTK\Views\Core;D:\pv\ParaView\VTK\Interaction\Widgets;D:\pv\rebuild\VTK\Interaction\Widgets;D:\pv\ParaView\VTK\Filters\Sources;D:\pv\rebuild\VTK\Filters\Sources;D:\pv\rebuild\ThirdParty\protobuf;D:\pv\ParaView\ThirdParty\protobuf;D:\pv\rebuild\VTK\Utilities\KWIML;D:\pv\ParaView\VTK\Utilities\KWIML;D:\pv\rebuild\VTK\Utilities\KWSys;D:\pv\ParaView\VTK\Utilities\KWSys;D:\pv\rebuild\VTK\ThirdParty\token;D:\pv\ParaView\VTK\ThirdParty\token;D:\pv\rebuild\VTK\ThirdParty\nlohmannjson;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson;D:\pv\rebuild\VTK\ThirdParty\kissfft;D:\pv\ParaView\VTK\ThirdParty\kissfft;D:\pv\rebuild\VTK\ThirdParty\cli11;D:\pv\ParaView\VTK\ThirdParty\cli11;D:\pv\rebuild\VTK\ThirdParty\fmt;D:\pv\ParaView\VTK\ThirdParty\fmt;D:\pv\rebuild\VTK\ThirdParty\jsoncpp;D:\pv\ParaView\VTK\ThirdParty\jsoncpp;D:\pv\rebuild\VTK\ThirdParty\glew;D:\pv\ParaView\VTK\ThirdParty\glew;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\pv\rebuild\Plugins\BagPlotViewsAndFilters;D:\pv\ParaView\Plugins\BagPlotViewsAndFilters\BagPlot;D:\pv\rebuild\Plugins\BagPlotViewsAndFilters\BagPlot;D:\pv\ParaView\Remoting\Views;D:\pv\rebuild\Remoting\Views;D:\pv\ParaView\Remoting\ServerManager;D:\pv\rebuild\Remoting\ServerManager;D:\pv\ParaView\ThirdParty\protobuf\vtkprotobuf\src;D:\pv\ParaView\Remoting\ClientServerStream;D:\pv\rebuild\Remoting\ClientServerStream;D:\pv\ParaView\VTK\Common\Core;D:\pv\rebuild\VTK\Common\Core;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken\token;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken\token;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\rebuild\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson\include;D:\pv\ParaView\Remoting\Core;D:\pv\rebuild\Remoting\Core;D:\pv\ParaView\Utilities\Versioning;D:\pv\rebuild\Utilities\Versioning;D:\pv\ParaView\VTKExtensions\Core;D:\pv\rebuild\VTKExtensions\Core;D:\pv\ParaView\VTK\Common\DataModel;D:\pv\rebuild\VTK\Common\DataModel;D:\pv\ParaView\VTK\Common\Math;D:\pv\rebuild\VTK\Common\Math;D:\pv\ParaView\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\rebuild\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\ParaView\VTK\Common\Transforms;D:\pv\rebuild\VTK\Common\Transforms;D:\pv\ParaView\VTK\Common\ExecutionModel;D:\pv\rebuild\VTK\Common\ExecutionModel;D:\pv\ParaView\VTK\IO\XML;D:\pv\rebuild\VTK\IO\XML;D:\pv\ParaView\VTK\IO\XMLParser;D:\pv\rebuild\VTK\IO\XMLParser;D:\pv\ParaView\VTK\ThirdParty\fmt\vtkfmt;D:\pv\rebuild\VTK\ThirdParty\fmt\vtkfmt;D:\pv\ParaView\VTK\Common\Misc;D:\pv\rebuild\VTK\Common\Misc;D:\pv\ParaView\VTK\Parallel\Core;D:\pv\rebuild\VTK\Parallel\Core;D:\pv\ParaView\VTK\ThirdParty\jsoncpp\vtkjsoncpp;D:\pv\rebuild\VTK\ThirdParty\jsoncpp\vtkjsoncpp;D:\pv\rebuild\VTK\ThirdParty\jsoncpp\vtkjsoncpp\json;D:\pv\ParaView\VTK\Charts\Core;D:\pv\rebuild\VTK\Charts\Core;D:\pv\ParaView\VTK\Filters\General;D:\pv\rebuild\VTK\Filters\General;D:\pv\ParaView\VTK\Filters\Core;D:\pv\rebuild\VTK\Filters\Core;D:\pv\ParaView\VTK\Rendering\Context2D;D:\pv\rebuild\VTK\Rendering\Context2D;D:\pv\ParaView\VTK\Rendering\Core;D:\pv\rebuild\VTK\Rendering\Core;D:\pv\ParaView\VTK\Rendering\Annotation;D:\pv\rebuild\VTK\Rendering\Annotation;D:\pv\ParaView\VTK\Rendering\CellGrid;D:\pv\rebuild\VTK\Rendering\CellGrid;D:\pv\ParaView\VTK\Filters\CellGrid;D:\pv\rebuild\VTK\Filters\CellGrid;D:\pv\ParaView\VTK\Rendering\OpenGL2;D:\pv\rebuild\VTK\Rendering\OpenGL2;D:\pv\ParaView\VTK\IO\Image;D:\pv\rebuild\VTK\IO\Image;D:\pv\ParaView\VTK\Imaging\Core;D:\pv\rebuild\VTK\Imaging\Core;D:\pv\ParaView\VTK\Rendering\HyperTreeGrid;D:\pv\rebuild\VTK\Rendering\HyperTreeGrid;D:\pv\ParaView\VTK\Rendering\UI;D:\pv\rebuild\VTK\Rendering\UI;D:\pv\ParaView\VTK\ThirdParty\glew\vtkglew;D:\pv\rebuild\VTK\ThirdParty\glew\vtkglew;D:\pv\ParaView\VTK\Rendering\Parallel;D:\pv\rebuild\VTK\Rendering\Parallel;D:\pv\ParaView\VTK\Views\Context2D;D:\pv\rebuild\VTK\Views\Context2D;D:\pv\ParaView\VTK\Views\Core;D:\pv\rebuild\VTK\Views\Core;D:\pv\ParaView\VTK\Interaction\Widgets;D:\pv\rebuild\VTK\Interaction\Widgets;D:\pv\ParaView\VTK\Filters\Sources;D:\pv\rebuild\VTK\Filters\Sources;D:\pv\rebuild\ThirdParty\protobuf;D:\pv\ParaView\ThirdParty\protobuf;D:\pv\rebuild\VTK\Utilities\KWIML;D:\pv\ParaView\VTK\Utilities\KWIML;D:\pv\rebuild\VTK\Utilities\KWSys;D:\pv\ParaView\VTK\Utilities\KWSys;D:\pv\rebuild\VTK\ThirdParty\token;D:\pv\ParaView\VTK\ThirdParty\token;D:\pv\rebuild\VTK\ThirdParty\nlohmannjson;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson;D:\pv\rebuild\VTK\ThirdParty\kissfft;D:\pv\ParaView\VTK\ThirdParty\kissfft;D:\pv\rebuild\VTK\ThirdParty\cli11;D:\pv\ParaView\VTK\ThirdParty\cli11;D:\pv\rebuild\VTK\ThirdParty\fmt;D:\pv\ParaView\VTK\ThirdParty\fmt;D:\pv\rebuild\VTK\ThirdParty\jsoncpp;D:\pv\ParaView\VTK\ThirdParty\jsoncpp;D:\pv\rebuild\VTK\ThirdParty\glew;D:\pv\ParaView\VTK\ThirdParty\glew;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\pv\rebuild\Plugins\BagPlotViewsAndFilters;D:\pv\ParaView\Plugins\BagPlotViewsAndFilters\BagPlot;D:\pv\rebuild\Plugins\BagPlotViewsAndFilters\BagPlot;D:\pv\ParaView\Remoting\Views;D:\pv\rebuild\Remoting\Views;D:\pv\ParaView\Remoting\ServerManager;D:\pv\rebuild\Remoting\ServerManager;D:\pv\ParaView\ThirdParty\protobuf\vtkprotobuf\src;D:\pv\ParaView\Remoting\ClientServerStream;D:\pv\rebuild\Remoting\ClientServerStream;D:\pv\ParaView\VTK\Common\Core;D:\pv\rebuild\VTK\Common\Core;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken\token;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken\token;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\rebuild\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson\include;D:\pv\ParaView\Remoting\Core;D:\pv\rebuild\Remoting\Core;D:\pv\ParaView\Utilities\Versioning;D:\pv\rebuild\Utilities\Versioning;D:\pv\ParaView\VTKExtensions\Core;D:\pv\rebuild\VTKExtensions\Core;D:\pv\ParaView\VTK\Common\DataModel;D:\pv\rebuild\VTK\Common\DataModel;D:\pv\ParaView\VTK\Common\Math;D:\pv\rebuild\VTK\Common\Math;D:\pv\ParaView\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\rebuild\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\ParaView\VTK\Common\Transforms;D:\pv\rebuild\VTK\Common\Transforms;D:\pv\ParaView\VTK\Common\ExecutionModel;D:\pv\rebuild\VTK\Common\ExecutionModel;D:\pv\ParaView\VTK\IO\XML;D:\pv\rebuild\VTK\IO\XML;D:\pv\ParaView\VTK\IO\XMLParser;D:\pv\rebuild\VTK\IO\XMLParser;D:\pv\ParaView\VTK\ThirdParty\fmt\vtkfmt;D:\pv\rebuild\VTK\ThirdParty\fmt\vtkfmt;D:\pv\ParaView\VTK\Common\Misc;D:\pv\rebuild\VTK\Common\Misc;D:\pv\ParaView\VTK\Parallel\Core;D:\pv\rebuild\VTK\Parallel\Core;D:\pv\ParaView\VTK\ThirdParty\jsoncpp\vtkjsoncpp;D:\pv\rebuild\VTK\ThirdParty\jsoncpp\vtkjsoncpp;D:\pv\rebuild\VTK\ThirdParty\jsoncpp\vtkjsoncpp\json;D:\pv\ParaView\VTK\Charts\Core;D:\pv\rebuild\VTK\Charts\Core;D:\pv\ParaView\VTK\Filters\General;D:\pv\rebuild\VTK\Filters\General;D:\pv\ParaView\VTK\Filters\Core;D:\pv\rebuild\VTK\Filters\Core;D:\pv\ParaView\VTK\Rendering\Context2D;D:\pv\rebuild\VTK\Rendering\Context2D;D:\pv\ParaView\VTK\Rendering\Core;D:\pv\rebuild\VTK\Rendering\Core;D:\pv\ParaView\VTK\Rendering\Annotation;D:\pv\rebuild\VTK\Rendering\Annotation;D:\pv\ParaView\VTK\Rendering\CellGrid;D:\pv\rebuild\VTK\Rendering\CellGrid;D:\pv\ParaView\VTK\Filters\CellGrid;D:\pv\rebuild\VTK\Filters\CellGrid;D:\pv\ParaView\VTK\Rendering\OpenGL2;D:\pv\rebuild\VTK\Rendering\OpenGL2;D:\pv\ParaView\VTK\IO\Image;D:\pv\rebuild\VTK\IO\Image;D:\pv\ParaView\VTK\Imaging\Core;D:\pv\rebuild\VTK\Imaging\Core;D:\pv\ParaView\VTK\Rendering\HyperTreeGrid;D:\pv\rebuild\VTK\Rendering\HyperTreeGrid;D:\pv\ParaView\VTK\Rendering\UI;D:\pv\rebuild\VTK\Rendering\UI;D:\pv\ParaView\VTK\ThirdParty\glew\vtkglew;D:\pv\rebuild\VTK\ThirdParty\glew\vtkglew;D:\pv\ParaView\VTK\Rendering\Parallel;D:\pv\rebuild\VTK\Rendering\Parallel;D:\pv\ParaView\VTK\Views\Context2D;D:\pv\rebuild\VTK\Views\Context2D;D:\pv\ParaView\VTK\Views\Core;D:\pv\rebuild\VTK\Views\Core;D:\pv\ParaView\VTK\Interaction\Widgets;D:\pv\rebuild\VTK\Interaction\Widgets;D:\pv\ParaView\VTK\Filters\Sources;D:\pv\rebuild\VTK\Filters\Sources;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/pv/rebuild/ThirdParty/protobuf" /external:I "D:/pv/ParaView/ThirdParty/protobuf" /external:I "D:/pv/rebuild/VTK/Utilities/KWIML" /external:I "D:/pv/ParaView/VTK/Utilities/KWIML" /external:I "D:/pv/rebuild/VTK/Utilities/KWSys" /external:I "D:/pv/ParaView/VTK/Utilities/KWSys" /external:I "D:/pv/rebuild/VTK/ThirdParty/token" /external:I "D:/pv/ParaView/VTK/ThirdParty/token" /external:I "D:/pv/rebuild/VTK/ThirdParty/nlohmannjson" /external:I "D:/pv/ParaView/VTK/ThirdParty/nlohmannjson" /external:I "D:/pv/rebuild/VTK/ThirdParty/kissfft" /external:I "D:/pv/ParaView/VTK/ThirdParty/kissfft" /external:I "D:/pv/rebuild/VTK/ThirdParty/cli11" /external:I "D:/pv/ParaView/VTK/ThirdParty/cli11" /external:I "D:/pv/rebuild/VTK/ThirdParty/fmt" /external:I "D:/pv/ParaView/VTK/ThirdParty/fmt" /external:I "D:/pv/rebuild/VTK/ThirdParty/jsoncpp" /external:I "D:/pv/ParaView/VTK/ThirdParty/jsoncpp" /external:I "D:/pv/rebuild/VTK/ThirdParty/glew" /external:I "D:/pv/ParaView/VTK/ThirdParty/glew" /bigobj /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;PROTOBUF_USE_DLLS;kiss_fft_scalar=double;KISSFFT_DLL_IMPORT=1;FMT_SHARED;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;PROTOBUF_USE_DLLS;kiss_fft_scalar=double;KISSFFT_DLL_IMPORT=1;FMT_SHARED;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\pv\rebuild\Plugins\BagPlotViewsAndFilters;D:\pv\ParaView\Plugins\BagPlotViewsAndFilters\BagPlot;D:\pv\rebuild\Plugins\BagPlotViewsAndFilters\BagPlot;D:\pv\ParaView\Remoting\Views;D:\pv\rebuild\Remoting\Views;D:\pv\ParaView\Remoting\ServerManager;D:\pv\rebuild\Remoting\ServerManager;D:\pv\ParaView\ThirdParty\protobuf\vtkprotobuf\src;D:\pv\ParaView\Remoting\ClientServerStream;D:\pv\rebuild\Remoting\ClientServerStream;D:\pv\ParaView\VTK\Common\Core;D:\pv\rebuild\VTK\Common\Core;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken\token;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken\token;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\rebuild\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson\include;D:\pv\ParaView\Remoting\Core;D:\pv\rebuild\Remoting\Core;D:\pv\ParaView\Utilities\Versioning;D:\pv\rebuild\Utilities\Versioning;D:\pv\ParaView\VTKExtensions\Core;D:\pv\rebuild\VTKExtensions\Core;D:\pv\ParaView\VTK\Common\DataModel;D:\pv\rebuild\VTK\Common\DataModel;D:\pv\ParaView\VTK\Common\Math;D:\pv\rebuild\VTK\Common\Math;D:\pv\ParaView\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\rebuild\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\ParaView\VTK\Common\Transforms;D:\pv\rebuild\VTK\Common\Transforms;D:\pv\ParaView\VTK\Common\ExecutionModel;D:\pv\rebuild\VTK\Common\ExecutionModel;D:\pv\ParaView\VTK\IO\XML;D:\pv\rebuild\VTK\IO\XML;D:\pv\ParaView\VTK\IO\XMLParser;D:\pv\rebuild\VTK\IO\XMLParser;D:\pv\ParaView\VTK\ThirdParty\fmt\vtkfmt;D:\pv\rebuild\VTK\ThirdParty\fmt\vtkfmt;D:\pv\ParaView\VTK\Common\Misc;D:\pv\rebuild\VTK\Common\Misc;D:\pv\ParaView\VTK\Parallel\Core;D:\pv\rebuild\VTK\Parallel\Core;D:\pv\ParaView\VTK\ThirdParty\jsoncpp\vtkjsoncpp;D:\pv\rebuild\VTK\ThirdParty\jsoncpp\vtkjsoncpp;D:\pv\rebuild\VTK\ThirdParty\jsoncpp\vtkjsoncpp\json;D:\pv\ParaView\VTK\Charts\Core;D:\pv\rebuild\VTK\Charts\Core;D:\pv\ParaView\VTK\Filters\General;D:\pv\rebuild\VTK\Filters\General;D:\pv\ParaView\VTK\Filters\Core;D:\pv\rebuild\VTK\Filters\Core;D:\pv\ParaView\VTK\Rendering\Context2D;D:\pv\rebuild\VTK\Rendering\Context2D;D:\pv\ParaView\VTK\Rendering\Core;D:\pv\rebuild\VTK\Rendering\Core;D:\pv\ParaView\VTK\Rendering\Annotation;D:\pv\rebuild\VTK\Rendering\Annotation;D:\pv\ParaView\VTK\Rendering\CellGrid;D:\pv\rebuild\VTK\Rendering\CellGrid;D:\pv\ParaView\VTK\Filters\CellGrid;D:\pv\rebuild\VTK\Filters\CellGrid;D:\pv\ParaView\VTK\Rendering\OpenGL2;D:\pv\rebuild\VTK\Rendering\OpenGL2;D:\pv\ParaView\VTK\IO\Image;D:\pv\rebuild\VTK\IO\Image;D:\pv\ParaView\VTK\Imaging\Core;D:\pv\rebuild\VTK\Imaging\Core;D:\pv\ParaView\VTK\Rendering\HyperTreeGrid;D:\pv\rebuild\VTK\Rendering\HyperTreeGrid;D:\pv\ParaView\VTK\Rendering\UI;D:\pv\rebuild\VTK\Rendering\UI;D:\pv\ParaView\VTK\ThirdParty\glew\vtkglew;D:\pv\rebuild\VTK\ThirdParty\glew\vtkglew;D:\pv\ParaView\VTK\Rendering\Parallel;D:\pv\rebuild\VTK\Rendering\Parallel;D:\pv\ParaView\VTK\Views\Context2D;D:\pv\rebuild\VTK\Views\Context2D;D:\pv\ParaView\VTK\Views\Core;D:\pv\rebuild\VTK\Views\Core;D:\pv\ParaView\VTK\Interaction\Widgets;D:\pv\rebuild\VTK\Interaction\Widgets;D:\pv\ParaView\VTK\Filters\Sources;D:\pv\rebuild\VTK\Filters\Sources;D:\pv\rebuild\ThirdParty\protobuf;D:\pv\ParaView\ThirdParty\protobuf;D:\pv\rebuild\VTK\Utilities\KWIML;D:\pv\ParaView\VTK\Utilities\KWIML;D:\pv\rebuild\VTK\Utilities\KWSys;D:\pv\ParaView\VTK\Utilities\KWSys;D:\pv\rebuild\VTK\ThirdParty\token;D:\pv\ParaView\VTK\ThirdParty\token;D:\pv\rebuild\VTK\ThirdParty\nlohmannjson;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson;D:\pv\rebuild\VTK\ThirdParty\kissfft;D:\pv\ParaView\VTK\ThirdParty\kissfft;D:\pv\rebuild\VTK\ThirdParty\cli11;D:\pv\ParaView\VTK\ThirdParty\cli11;D:\pv\rebuild\VTK\ThirdParty\fmt;D:\pv\ParaView\VTK\ThirdParty\fmt;D:\pv\rebuild\VTK\ThirdParty\jsoncpp;D:\pv\ParaView\VTK\ThirdParty\jsoncpp;D:\pv\rebuild\VTK\ThirdParty\glew;D:\pv\ParaView\VTK\ThirdParty\glew;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\pv\rebuild\Plugins\BagPlotViewsAndFilters;D:\pv\ParaView\Plugins\BagPlotViewsAndFilters\BagPlot;D:\pv\rebuild\Plugins\BagPlotViewsAndFilters\BagPlot;D:\pv\ParaView\Remoting\Views;D:\pv\rebuild\Remoting\Views;D:\pv\ParaView\Remoting\ServerManager;D:\pv\rebuild\Remoting\ServerManager;D:\pv\ParaView\ThirdParty\protobuf\vtkprotobuf\src;D:\pv\ParaView\Remoting\ClientServerStream;D:\pv\rebuild\Remoting\ClientServerStream;D:\pv\ParaView\VTK\Common\Core;D:\pv\rebuild\VTK\Common\Core;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken\token;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken\token;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\rebuild\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson\include;D:\pv\ParaView\Remoting\Core;D:\pv\rebuild\Remoting\Core;D:\pv\ParaView\Utilities\Versioning;D:\pv\rebuild\Utilities\Versioning;D:\pv\ParaView\VTKExtensions\Core;D:\pv\rebuild\VTKExtensions\Core;D:\pv\ParaView\VTK\Common\DataModel;D:\pv\rebuild\VTK\Common\DataModel;D:\pv\ParaView\VTK\Common\Math;D:\pv\rebuild\VTK\Common\Math;D:\pv\ParaView\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\rebuild\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\ParaView\VTK\Common\Transforms;D:\pv\rebuild\VTK\Common\Transforms;D:\pv\ParaView\VTK\Common\ExecutionModel;D:\pv\rebuild\VTK\Common\ExecutionModel;D:\pv\ParaView\VTK\IO\XML;D:\pv\rebuild\VTK\IO\XML;D:\pv\ParaView\VTK\IO\XMLParser;D:\pv\rebuild\VTK\IO\XMLParser;D:\pv\ParaView\VTK\ThirdParty\fmt\vtkfmt;D:\pv\rebuild\VTK\ThirdParty\fmt\vtkfmt;D:\pv\ParaView\VTK\Common\Misc;D:\pv\rebuild\VTK\Common\Misc;D:\pv\ParaView\VTK\Parallel\Core;D:\pv\rebuild\VTK\Parallel\Core;D:\pv\ParaView\VTK\ThirdParty\jsoncpp\vtkjsoncpp;D:\pv\rebuild\VTK\ThirdParty\jsoncpp\vtkjsoncpp;D:\pv\rebuild\VTK\ThirdParty\jsoncpp\vtkjsoncpp\json;D:\pv\ParaView\VTK\Charts\Core;D:\pv\rebuild\VTK\Charts\Core;D:\pv\ParaView\VTK\Filters\General;D:\pv\rebuild\VTK\Filters\General;D:\pv\ParaView\VTK\Filters\Core;D:\pv\rebuild\VTK\Filters\Core;D:\pv\ParaView\VTK\Rendering\Context2D;D:\pv\rebuild\VTK\Rendering\Context2D;D:\pv\ParaView\VTK\Rendering\Core;D:\pv\rebuild\VTK\Rendering\Core;D:\pv\ParaView\VTK\Rendering\Annotation;D:\pv\rebuild\VTK\Rendering\Annotation;D:\pv\ParaView\VTK\Rendering\CellGrid;D:\pv\rebuild\VTK\Rendering\CellGrid;D:\pv\ParaView\VTK\Filters\CellGrid;D:\pv\rebuild\VTK\Filters\CellGrid;D:\pv\ParaView\VTK\Rendering\OpenGL2;D:\pv\rebuild\VTK\Rendering\OpenGL2;D:\pv\ParaView\VTK\IO\Image;D:\pv\rebuild\VTK\IO\Image;D:\pv\ParaView\VTK\Imaging\Core;D:\pv\rebuild\VTK\Imaging\Core;D:\pv\ParaView\VTK\Rendering\HyperTreeGrid;D:\pv\rebuild\VTK\Rendering\HyperTreeGrid;D:\pv\ParaView\VTK\Rendering\UI;D:\pv\rebuild\VTK\Rendering\UI;D:\pv\ParaView\VTK\ThirdParty\glew\vtkglew;D:\pv\rebuild\VTK\ThirdParty\glew\vtkglew;D:\pv\ParaView\VTK\Rendering\Parallel;D:\pv\rebuild\VTK\Rendering\Parallel;D:\pv\ParaView\VTK\Views\Context2D;D:\pv\rebuild\VTK\Views\Context2D;D:\pv\ParaView\VTK\Views\Core;D:\pv\rebuild\VTK\Views\Core;D:\pv\ParaView\VTK\Interaction\Widgets;D:\pv\rebuild\VTK\Interaction\Widgets;D:\pv\ParaView\VTK\Filters\Sources;D:\pv\rebuild\VTK\Filters\Sources;D:\pv\rebuild\ThirdParty\protobuf;D:\pv\ParaView\ThirdParty\protobuf;D:\pv\rebuild\VTK\Utilities\KWIML;D:\pv\ParaView\VTK\Utilities\KWIML;D:\pv\rebuild\VTK\Utilities\KWSys;D:\pv\ParaView\VTK\Utilities\KWSys;D:\pv\rebuild\VTK\ThirdParty\token;D:\pv\ParaView\VTK\ThirdParty\token;D:\pv\rebuild\VTK\ThirdParty\nlohmannjson;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson;D:\pv\rebuild\VTK\ThirdParty\kissfft;D:\pv\ParaView\VTK\ThirdParty\kissfft;D:\pv\rebuild\VTK\ThirdParty\cli11;D:\pv\ParaView\VTK\ThirdParty\cli11;D:\pv\rebuild\VTK\ThirdParty\fmt;D:\pv\ParaView\VTK\ThirdParty\fmt;D:\pv\rebuild\VTK\ThirdParty\jsoncpp;D:\pv\ParaView\VTK\ThirdParty\jsoncpp;D:\pv\rebuild\VTK\ThirdParty\glew;D:\pv\ParaView\VTK\ThirdParty\glew;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\pv\rebuild\Plugins\BagPlotViewsAndFilters;D:\pv\ParaView\Plugins\BagPlotViewsAndFilters\BagPlot;D:\pv\rebuild\Plugins\BagPlotViewsAndFilters\BagPlot;D:\pv\ParaView\Remoting\Views;D:\pv\rebuild\Remoting\Views;D:\pv\ParaView\Remoting\ServerManager;D:\pv\rebuild\Remoting\ServerManager;D:\pv\ParaView\ThirdParty\protobuf\vtkprotobuf\src;D:\pv\ParaView\Remoting\ClientServerStream;D:\pv\rebuild\Remoting\ClientServerStream;D:\pv\ParaView\VTK\Common\Core;D:\pv\rebuild\VTK\Common\Core;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken\token;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken\token;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\rebuild\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson\include;D:\pv\ParaView\Remoting\Core;D:\pv\rebuild\Remoting\Core;D:\pv\ParaView\Utilities\Versioning;D:\pv\rebuild\Utilities\Versioning;D:\pv\ParaView\VTKExtensions\Core;D:\pv\rebuild\VTKExtensions\Core;D:\pv\ParaView\VTK\Common\DataModel;D:\pv\rebuild\VTK\Common\DataModel;D:\pv\ParaView\VTK\Common\Math;D:\pv\rebuild\VTK\Common\Math;D:\pv\ParaView\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\rebuild\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\ParaView\VTK\Common\Transforms;D:\pv\rebuild\VTK\Common\Transforms;D:\pv\ParaView\VTK\Common\ExecutionModel;D:\pv\rebuild\VTK\Common\ExecutionModel;D:\pv\ParaView\VTK\IO\XML;D:\pv\rebuild\VTK\IO\XML;D:\pv\ParaView\VTK\IO\XMLParser;D:\pv\rebuild\VTK\IO\XMLParser;D:\pv\ParaView\VTK\ThirdParty\fmt\vtkfmt;D:\pv\rebuild\VTK\ThirdParty\fmt\vtkfmt;D:\pv\ParaView\VTK\Common\Misc;D:\pv\rebuild\VTK\Common\Misc;D:\pv\ParaView\VTK\Parallel\Core;D:\pv\rebuild\VTK\Parallel\Core;D:\pv\ParaView\VTK\ThirdParty\jsoncpp\vtkjsoncpp;D:\pv\rebuild\VTK\ThirdParty\jsoncpp\vtkjsoncpp;D:\pv\rebuild\VTK\ThirdParty\jsoncpp\vtkjsoncpp\json;D:\pv\ParaView\VTK\Charts\Core;D:\pv\rebuild\VTK\Charts\Core;D:\pv\ParaView\VTK\Filters\General;D:\pv\rebuild\VTK\Filters\General;D:\pv\ParaView\VTK\Filters\Core;D:\pv\rebuild\VTK\Filters\Core;D:\pv\ParaView\VTK\Rendering\Context2D;D:\pv\rebuild\VTK\Rendering\Context2D;D:\pv\ParaView\VTK\Rendering\Core;D:\pv\rebuild\VTK\Rendering\Core;D:\pv\ParaView\VTK\Rendering\Annotation;D:\pv\rebuild\VTK\Rendering\Annotation;D:\pv\ParaView\VTK\Rendering\CellGrid;D:\pv\rebuild\VTK\Rendering\CellGrid;D:\pv\ParaView\VTK\Filters\CellGrid;D:\pv\rebuild\VTK\Filters\CellGrid;D:\pv\ParaView\VTK\Rendering\OpenGL2;D:\pv\rebuild\VTK\Rendering\OpenGL2;D:\pv\ParaView\VTK\IO\Image;D:\pv\rebuild\VTK\IO\Image;D:\pv\ParaView\VTK\Imaging\Core;D:\pv\rebuild\VTK\Imaging\Core;D:\pv\ParaView\VTK\Rendering\HyperTreeGrid;D:\pv\rebuild\VTK\Rendering\HyperTreeGrid;D:\pv\ParaView\VTK\Rendering\UI;D:\pv\rebuild\VTK\Rendering\UI;D:\pv\ParaView\VTK\ThirdParty\glew\vtkglew;D:\pv\rebuild\VTK\ThirdParty\glew\vtkglew;D:\pv\ParaView\VTK\Rendering\Parallel;D:\pv\rebuild\VTK\Rendering\Parallel;D:\pv\ParaView\VTK\Views\Context2D;D:\pv\rebuild\VTK\Views\Context2D;D:\pv\ParaView\VTK\Views\Core;D:\pv\rebuild\VTK\Views\Core;D:\pv\ParaView\VTK\Interaction\Widgets;D:\pv\rebuild\VTK\Interaction\Widgets;D:\pv\ParaView\VTK\Filters\Sources;D:\pv\rebuild\VTK\Filters\Sources;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/pv/rebuild/ThirdParty/protobuf" /external:I "D:/pv/ParaView/ThirdParty/protobuf" /external:I "D:/pv/rebuild/VTK/Utilities/KWIML" /external:I "D:/pv/ParaView/VTK/Utilities/KWIML" /external:I "D:/pv/rebuild/VTK/Utilities/KWSys" /external:I "D:/pv/ParaView/VTK/Utilities/KWSys" /external:I "D:/pv/rebuild/VTK/ThirdParty/token" /external:I "D:/pv/ParaView/VTK/ThirdParty/token" /external:I "D:/pv/rebuild/VTK/ThirdParty/nlohmannjson" /external:I "D:/pv/ParaView/VTK/ThirdParty/nlohmannjson" /external:I "D:/pv/rebuild/VTK/ThirdParty/kissfft" /external:I "D:/pv/ParaView/VTK/ThirdParty/kissfft" /external:I "D:/pv/rebuild/VTK/ThirdParty/cli11" /external:I "D:/pv/ParaView/VTK/ThirdParty/cli11" /external:I "D:/pv/rebuild/VTK/ThirdParty/fmt" /external:I "D:/pv/ParaView/VTK/ThirdParty/fmt" /external:I "D:/pv/rebuild/VTK/ThirdParty/jsoncpp" /external:I "D:/pv/ParaView/VTK/ThirdParty/jsoncpp" /external:I "D:/pv/rebuild/VTK/ThirdParty/glew" /external:I "D:/pv/ParaView/VTK/ThirdParty/glew" /bigobj /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;PROTOBUF_USE_DLLS;kiss_fft_scalar=double;KISSFFT_DLL_IMPORT=1;FMT_SHARED;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;PROTOBUF_USE_DLLS;kiss_fft_scalar=double;KISSFFT_DLL_IMPORT=1;FMT_SHARED;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\pv\rebuild\Plugins\BagPlotViewsAndFilters;D:\pv\ParaView\Plugins\BagPlotViewsAndFilters\BagPlot;D:\pv\rebuild\Plugins\BagPlotViewsAndFilters\BagPlot;D:\pv\ParaView\Remoting\Views;D:\pv\rebuild\Remoting\Views;D:\pv\ParaView\Remoting\ServerManager;D:\pv\rebuild\Remoting\ServerManager;D:\pv\ParaView\ThirdParty\protobuf\vtkprotobuf\src;D:\pv\ParaView\Remoting\ClientServerStream;D:\pv\rebuild\Remoting\ClientServerStream;D:\pv\ParaView\VTK\Common\Core;D:\pv\rebuild\VTK\Common\Core;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken\token;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken\token;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\rebuild\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson\include;D:\pv\ParaView\Remoting\Core;D:\pv\rebuild\Remoting\Core;D:\pv\ParaView\Utilities\Versioning;D:\pv\rebuild\Utilities\Versioning;D:\pv\ParaView\VTKExtensions\Core;D:\pv\rebuild\VTKExtensions\Core;D:\pv\ParaView\VTK\Common\DataModel;D:\pv\rebuild\VTK\Common\DataModel;D:\pv\ParaView\VTK\Common\Math;D:\pv\rebuild\VTK\Common\Math;D:\pv\ParaView\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\rebuild\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\ParaView\VTK\Common\Transforms;D:\pv\rebuild\VTK\Common\Transforms;D:\pv\ParaView\VTK\Common\ExecutionModel;D:\pv\rebuild\VTK\Common\ExecutionModel;D:\pv\ParaView\VTK\IO\XML;D:\pv\rebuild\VTK\IO\XML;D:\pv\ParaView\VTK\IO\XMLParser;D:\pv\rebuild\VTK\IO\XMLParser;D:\pv\ParaView\VTK\ThirdParty\fmt\vtkfmt;D:\pv\rebuild\VTK\ThirdParty\fmt\vtkfmt;D:\pv\ParaView\VTK\Common\Misc;D:\pv\rebuild\VTK\Common\Misc;D:\pv\ParaView\VTK\Parallel\Core;D:\pv\rebuild\VTK\Parallel\Core;D:\pv\ParaView\VTK\ThirdParty\jsoncpp\vtkjsoncpp;D:\pv\rebuild\VTK\ThirdParty\jsoncpp\vtkjsoncpp;D:\pv\rebuild\VTK\ThirdParty\jsoncpp\vtkjsoncpp\json;D:\pv\ParaView\VTK\Charts\Core;D:\pv\rebuild\VTK\Charts\Core;D:\pv\ParaView\VTK\Filters\General;D:\pv\rebuild\VTK\Filters\General;D:\pv\ParaView\VTK\Filters\Core;D:\pv\rebuild\VTK\Filters\Core;D:\pv\ParaView\VTK\Rendering\Context2D;D:\pv\rebuild\VTK\Rendering\Context2D;D:\pv\ParaView\VTK\Rendering\Core;D:\pv\rebuild\VTK\Rendering\Core;D:\pv\ParaView\VTK\Rendering\Annotation;D:\pv\rebuild\VTK\Rendering\Annotation;D:\pv\ParaView\VTK\Rendering\CellGrid;D:\pv\rebuild\VTK\Rendering\CellGrid;D:\pv\ParaView\VTK\Filters\CellGrid;D:\pv\rebuild\VTK\Filters\CellGrid;D:\pv\ParaView\VTK\Rendering\OpenGL2;D:\pv\rebuild\VTK\Rendering\OpenGL2;D:\pv\ParaView\VTK\IO\Image;D:\pv\rebuild\VTK\IO\Image;D:\pv\ParaView\VTK\Imaging\Core;D:\pv\rebuild\VTK\Imaging\Core;D:\pv\ParaView\VTK\Rendering\HyperTreeGrid;D:\pv\rebuild\VTK\Rendering\HyperTreeGrid;D:\pv\ParaView\VTK\Rendering\UI;D:\pv\rebuild\VTK\Rendering\UI;D:\pv\ParaView\VTK\ThirdParty\glew\vtkglew;D:\pv\rebuild\VTK\ThirdParty\glew\vtkglew;D:\pv\ParaView\VTK\Rendering\Parallel;D:\pv\rebuild\VTK\Rendering\Parallel;D:\pv\ParaView\VTK\Views\Context2D;D:\pv\rebuild\VTK\Views\Context2D;D:\pv\ParaView\VTK\Views\Core;D:\pv\rebuild\VTK\Views\Core;D:\pv\ParaView\VTK\Interaction\Widgets;D:\pv\rebuild\VTK\Interaction\Widgets;D:\pv\ParaView\VTK\Filters\Sources;D:\pv\rebuild\VTK\Filters\Sources;D:\pv\rebuild\ThirdParty\protobuf;D:\pv\ParaView\ThirdParty\protobuf;D:\pv\rebuild\VTK\Utilities\KWIML;D:\pv\ParaView\VTK\Utilities\KWIML;D:\pv\rebuild\VTK\Utilities\KWSys;D:\pv\ParaView\VTK\Utilities\KWSys;D:\pv\rebuild\VTK\ThirdParty\token;D:\pv\ParaView\VTK\ThirdParty\token;D:\pv\rebuild\VTK\ThirdParty\nlohmannjson;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson;D:\pv\rebuild\VTK\ThirdParty\kissfft;D:\pv\ParaView\VTK\ThirdParty\kissfft;D:\pv\rebuild\VTK\ThirdParty\cli11;D:\pv\ParaView\VTK\ThirdParty\cli11;D:\pv\rebuild\VTK\ThirdParty\fmt;D:\pv\ParaView\VTK\ThirdParty\fmt;D:\pv\rebuild\VTK\ThirdParty\jsoncpp;D:\pv\ParaView\VTK\ThirdParty\jsoncpp;D:\pv\rebuild\VTK\ThirdParty\glew;D:\pv\ParaView\VTK\ThirdParty\glew;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\pv\rebuild\Plugins\BagPlotViewsAndFilters;D:\pv\ParaView\Plugins\BagPlotViewsAndFilters\BagPlot;D:\pv\rebuild\Plugins\BagPlotViewsAndFilters\BagPlot;D:\pv\ParaView\Remoting\Views;D:\pv\rebuild\Remoting\Views;D:\pv\ParaView\Remoting\ServerManager;D:\pv\rebuild\Remoting\ServerManager;D:\pv\ParaView\ThirdParty\protobuf\vtkprotobuf\src;D:\pv\ParaView\Remoting\ClientServerStream;D:\pv\rebuild\Remoting\ClientServerStream;D:\pv\ParaView\VTK\Common\Core;D:\pv\rebuild\VTK\Common\Core;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken\token;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken\token;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\rebuild\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson\include;D:\pv\ParaView\Remoting\Core;D:\pv\rebuild\Remoting\Core;D:\pv\ParaView\Utilities\Versioning;D:\pv\rebuild\Utilities\Versioning;D:\pv\ParaView\VTKExtensions\Core;D:\pv\rebuild\VTKExtensions\Core;D:\pv\ParaView\VTK\Common\DataModel;D:\pv\rebuild\VTK\Common\DataModel;D:\pv\ParaView\VTK\Common\Math;D:\pv\rebuild\VTK\Common\Math;D:\pv\ParaView\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\rebuild\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\ParaView\VTK\Common\Transforms;D:\pv\rebuild\VTK\Common\Transforms;D:\pv\ParaView\VTK\Common\ExecutionModel;D:\pv\rebuild\VTK\Common\ExecutionModel;D:\pv\ParaView\VTK\IO\XML;D:\pv\rebuild\VTK\IO\XML;D:\pv\ParaView\VTK\IO\XMLParser;D:\pv\rebuild\VTK\IO\XMLParser;D:\pv\ParaView\VTK\ThirdParty\fmt\vtkfmt;D:\pv\rebuild\VTK\ThirdParty\fmt\vtkfmt;D:\pv\ParaView\VTK\Common\Misc;D:\pv\rebuild\VTK\Common\Misc;D:\pv\ParaView\VTK\Parallel\Core;D:\pv\rebuild\VTK\Parallel\Core;D:\pv\ParaView\VTK\ThirdParty\jsoncpp\vtkjsoncpp;D:\pv\rebuild\VTK\ThirdParty\jsoncpp\vtkjsoncpp;D:\pv\rebuild\VTK\ThirdParty\jsoncpp\vtkjsoncpp\json;D:\pv\ParaView\VTK\Charts\Core;D:\pv\rebuild\VTK\Charts\Core;D:\pv\ParaView\VTK\Filters\General;D:\pv\rebuild\VTK\Filters\General;D:\pv\ParaView\VTK\Filters\Core;D:\pv\rebuild\VTK\Filters\Core;D:\pv\ParaView\VTK\Rendering\Context2D;D:\pv\rebuild\VTK\Rendering\Context2D;D:\pv\ParaView\VTK\Rendering\Core;D:\pv\rebuild\VTK\Rendering\Core;D:\pv\ParaView\VTK\Rendering\Annotation;D:\pv\rebuild\VTK\Rendering\Annotation;D:\pv\ParaView\VTK\Rendering\CellGrid;D:\pv\rebuild\VTK\Rendering\CellGrid;D:\pv\ParaView\VTK\Filters\CellGrid;D:\pv\rebuild\VTK\Filters\CellGrid;D:\pv\ParaView\VTK\Rendering\OpenGL2;D:\pv\rebuild\VTK\Rendering\OpenGL2;D:\pv\ParaView\VTK\IO\Image;D:\pv\rebuild\VTK\IO\Image;D:\pv\ParaView\VTK\Imaging\Core;D:\pv\rebuild\VTK\Imaging\Core;D:\pv\ParaView\VTK\Rendering\HyperTreeGrid;D:\pv\rebuild\VTK\Rendering\HyperTreeGrid;D:\pv\ParaView\VTK\Rendering\UI;D:\pv\rebuild\VTK\Rendering\UI;D:\pv\ParaView\VTK\ThirdParty\glew\vtkglew;D:\pv\rebuild\VTK\ThirdParty\glew\vtkglew;D:\pv\ParaView\VTK\Rendering\Parallel;D:\pv\rebuild\VTK\Rendering\Parallel;D:\pv\ParaView\VTK\Views\Context2D;D:\pv\rebuild\VTK\Views\Context2D;D:\pv\ParaView\VTK\Views\Core;D:\pv\rebuild\VTK\Views\Core;D:\pv\ParaView\VTK\Interaction\Widgets;D:\pv\rebuild\VTK\Interaction\Widgets;D:\pv\ParaView\VTK\Filters\Sources;D:\pv\rebuild\VTK\Filters\Sources;D:\pv\rebuild\ThirdParty\protobuf;D:\pv\ParaView\ThirdParty\protobuf;D:\pv\rebuild\VTK\Utilities\KWIML;D:\pv\ParaView\VTK\Utilities\KWIML;D:\pv\rebuild\VTK\Utilities\KWSys;D:\pv\ParaView\VTK\Utilities\KWSys;D:\pv\rebuild\VTK\ThirdParty\token;D:\pv\ParaView\VTK\ThirdParty\token;D:\pv\rebuild\VTK\ThirdParty\nlohmannjson;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson;D:\pv\rebuild\VTK\ThirdParty\kissfft;D:\pv\ParaView\VTK\ThirdParty\kissfft;D:\pv\rebuild\VTK\ThirdParty\cli11;D:\pv\ParaView\VTK\ThirdParty\cli11;D:\pv\rebuild\VTK\ThirdParty\fmt;D:\pv\ParaView\VTK\ThirdParty\fmt;D:\pv\rebuild\VTK\ThirdParty\jsoncpp;D:\pv\ParaView\VTK\ThirdParty\jsoncpp;D:\pv\rebuild\VTK\ThirdParty\glew;D:\pv\ParaView\VTK\ThirdParty\glew;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\pv\rebuild\Plugins\BagPlotViewsAndFilters;D:\pv\ParaView\Plugins\BagPlotViewsAndFilters\BagPlot;D:\pv\rebuild\Plugins\BagPlotViewsAndFilters\BagPlot;D:\pv\ParaView\Remoting\Views;D:\pv\rebuild\Remoting\Views;D:\pv\ParaView\Remoting\ServerManager;D:\pv\rebuild\Remoting\ServerManager;D:\pv\ParaView\ThirdParty\protobuf\vtkprotobuf\src;D:\pv\ParaView\Remoting\ClientServerStream;D:\pv\rebuild\Remoting\ClientServerStream;D:\pv\ParaView\VTK\Common\Core;D:\pv\rebuild\VTK\Common\Core;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken\token;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken\token;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\rebuild\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson\include;D:\pv\ParaView\Remoting\Core;D:\pv\rebuild\Remoting\Core;D:\pv\ParaView\Utilities\Versioning;D:\pv\rebuild\Utilities\Versioning;D:\pv\ParaView\VTKExtensions\Core;D:\pv\rebuild\VTKExtensions\Core;D:\pv\ParaView\VTK\Common\DataModel;D:\pv\rebuild\VTK\Common\DataModel;D:\pv\ParaView\VTK\Common\Math;D:\pv\rebuild\VTK\Common\Math;D:\pv\ParaView\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\rebuild\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\ParaView\VTK\Common\Transforms;D:\pv\rebuild\VTK\Common\Transforms;D:\pv\ParaView\VTK\Common\ExecutionModel;D:\pv\rebuild\VTK\Common\ExecutionModel;D:\pv\ParaView\VTK\IO\XML;D:\pv\rebuild\VTK\IO\XML;D:\pv\ParaView\VTK\IO\XMLParser;D:\pv\rebuild\VTK\IO\XMLParser;D:\pv\ParaView\VTK\ThirdParty\fmt\vtkfmt;D:\pv\rebuild\VTK\ThirdParty\fmt\vtkfmt;D:\pv\ParaView\VTK\Common\Misc;D:\pv\rebuild\VTK\Common\Misc;D:\pv\ParaView\VTK\Parallel\Core;D:\pv\rebuild\VTK\Parallel\Core;D:\pv\ParaView\VTK\ThirdParty\jsoncpp\vtkjsoncpp;D:\pv\rebuild\VTK\ThirdParty\jsoncpp\vtkjsoncpp;D:\pv\rebuild\VTK\ThirdParty\jsoncpp\vtkjsoncpp\json;D:\pv\ParaView\VTK\Charts\Core;D:\pv\rebuild\VTK\Charts\Core;D:\pv\ParaView\VTK\Filters\General;D:\pv\rebuild\VTK\Filters\General;D:\pv\ParaView\VTK\Filters\Core;D:\pv\rebuild\VTK\Filters\Core;D:\pv\ParaView\VTK\Rendering\Context2D;D:\pv\rebuild\VTK\Rendering\Context2D;D:\pv\ParaView\VTK\Rendering\Core;D:\pv\rebuild\VTK\Rendering\Core;D:\pv\ParaView\VTK\Rendering\Annotation;D:\pv\rebuild\VTK\Rendering\Annotation;D:\pv\ParaView\VTK\Rendering\CellGrid;D:\pv\rebuild\VTK\Rendering\CellGrid;D:\pv\ParaView\VTK\Filters\CellGrid;D:\pv\rebuild\VTK\Filters\CellGrid;D:\pv\ParaView\VTK\Rendering\OpenGL2;D:\pv\rebuild\VTK\Rendering\OpenGL2;D:\pv\ParaView\VTK\IO\Image;D:\pv\rebuild\VTK\IO\Image;D:\pv\ParaView\VTK\Imaging\Core;D:\pv\rebuild\VTK\Imaging\Core;D:\pv\ParaView\VTK\Rendering\HyperTreeGrid;D:\pv\rebuild\VTK\Rendering\HyperTreeGrid;D:\pv\ParaView\VTK\Rendering\UI;D:\pv\rebuild\VTK\Rendering\UI;D:\pv\ParaView\VTK\ThirdParty\glew\vtkglew;D:\pv\rebuild\VTK\ThirdParty\glew\vtkglew;D:\pv\ParaView\VTK\Rendering\Parallel;D:\pv\rebuild\VTK\Rendering\Parallel;D:\pv\ParaView\VTK\Views\Context2D;D:\pv\rebuild\VTK\Views\Context2D;D:\pv\ParaView\VTK\Views\Core;D:\pv\rebuild\VTK\Views\Core;D:\pv\ParaView\VTK\Interaction\Widgets;D:\pv\rebuild\VTK\Interaction\Widgets;D:\pv\ParaView\VTK\Filters\Sources;D:\pv\rebuild\VTK\Filters\Sources;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/pv/rebuild/ThirdParty/protobuf" /external:I "D:/pv/ParaView/ThirdParty/protobuf" /external:I "D:/pv/rebuild/VTK/Utilities/KWIML" /external:I "D:/pv/ParaView/VTK/Utilities/KWIML" /external:I "D:/pv/rebuild/VTK/Utilities/KWSys" /external:I "D:/pv/ParaView/VTK/Utilities/KWSys" /external:I "D:/pv/rebuild/VTK/ThirdParty/token" /external:I "D:/pv/ParaView/VTK/ThirdParty/token" /external:I "D:/pv/rebuild/VTK/ThirdParty/nlohmannjson" /external:I "D:/pv/ParaView/VTK/ThirdParty/nlohmannjson" /external:I "D:/pv/rebuild/VTK/ThirdParty/kissfft" /external:I "D:/pv/ParaView/VTK/ThirdParty/kissfft" /external:I "D:/pv/rebuild/VTK/ThirdParty/cli11" /external:I "D:/pv/ParaView/VTK/ThirdParty/cli11" /external:I "D:/pv/rebuild/VTK/ThirdParty/fmt" /external:I "D:/pv/ParaView/VTK/ThirdParty/fmt" /external:I "D:/pv/rebuild/VTK/ThirdParty/jsoncpp" /external:I "D:/pv/ParaView/VTK/ThirdParty/jsoncpp" /external:I "D:/pv/rebuild/VTK/ThirdParty/glew" /external:I "D:/pv/ParaView/VTK/ThirdParty/glew" /bigobj /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;PROTOBUF_USE_DLLS;kiss_fft_scalar=double;KISSFFT_DLL_IMPORT=1;FMT_SHARED;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;PROTOBUF_USE_DLLS;kiss_fft_scalar=double;KISSFFT_DLL_IMPORT=1;FMT_SHARED;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\pv\rebuild\Plugins\BagPlotViewsAndFilters;D:\pv\ParaView\Plugins\BagPlotViewsAndFilters\BagPlot;D:\pv\rebuild\Plugins\BagPlotViewsAndFilters\BagPlot;D:\pv\ParaView\Remoting\Views;D:\pv\rebuild\Remoting\Views;D:\pv\ParaView\Remoting\ServerManager;D:\pv\rebuild\Remoting\ServerManager;D:\pv\ParaView\ThirdParty\protobuf\vtkprotobuf\src;D:\pv\ParaView\Remoting\ClientServerStream;D:\pv\rebuild\Remoting\ClientServerStream;D:\pv\ParaView\VTK\Common\Core;D:\pv\rebuild\VTK\Common\Core;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken\token;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken\token;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\rebuild\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson\include;D:\pv\ParaView\Remoting\Core;D:\pv\rebuild\Remoting\Core;D:\pv\ParaView\Utilities\Versioning;D:\pv\rebuild\Utilities\Versioning;D:\pv\ParaView\VTKExtensions\Core;D:\pv\rebuild\VTKExtensions\Core;D:\pv\ParaView\VTK\Common\DataModel;D:\pv\rebuild\VTK\Common\DataModel;D:\pv\ParaView\VTK\Common\Math;D:\pv\rebuild\VTK\Common\Math;D:\pv\ParaView\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\rebuild\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\ParaView\VTK\Common\Transforms;D:\pv\rebuild\VTK\Common\Transforms;D:\pv\ParaView\VTK\Common\ExecutionModel;D:\pv\rebuild\VTK\Common\ExecutionModel;D:\pv\ParaView\VTK\IO\XML;D:\pv\rebuild\VTK\IO\XML;D:\pv\ParaView\VTK\IO\XMLParser;D:\pv\rebuild\VTK\IO\XMLParser;D:\pv\ParaView\VTK\ThirdParty\fmt\vtkfmt;D:\pv\rebuild\VTK\ThirdParty\fmt\vtkfmt;D:\pv\ParaView\VTK\Common\Misc;D:\pv\rebuild\VTK\Common\Misc;D:\pv\ParaView\VTK\Parallel\Core;D:\pv\rebuild\VTK\Parallel\Core;D:\pv\ParaView\VTK\ThirdParty\jsoncpp\vtkjsoncpp;D:\pv\rebuild\VTK\ThirdParty\jsoncpp\vtkjsoncpp;D:\pv\rebuild\VTK\ThirdParty\jsoncpp\vtkjsoncpp\json;D:\pv\ParaView\VTK\Charts\Core;D:\pv\rebuild\VTK\Charts\Core;D:\pv\ParaView\VTK\Filters\General;D:\pv\rebuild\VTK\Filters\General;D:\pv\ParaView\VTK\Filters\Core;D:\pv\rebuild\VTK\Filters\Core;D:\pv\ParaView\VTK\Rendering\Context2D;D:\pv\rebuild\VTK\Rendering\Context2D;D:\pv\ParaView\VTK\Rendering\Core;D:\pv\rebuild\VTK\Rendering\Core;D:\pv\ParaView\VTK\Rendering\Annotation;D:\pv\rebuild\VTK\Rendering\Annotation;D:\pv\ParaView\VTK\Rendering\CellGrid;D:\pv\rebuild\VTK\Rendering\CellGrid;D:\pv\ParaView\VTK\Filters\CellGrid;D:\pv\rebuild\VTK\Filters\CellGrid;D:\pv\ParaView\VTK\Rendering\OpenGL2;D:\pv\rebuild\VTK\Rendering\OpenGL2;D:\pv\ParaView\VTK\IO\Image;D:\pv\rebuild\VTK\IO\Image;D:\pv\ParaView\VTK\Imaging\Core;D:\pv\rebuild\VTK\Imaging\Core;D:\pv\ParaView\VTK\Rendering\HyperTreeGrid;D:\pv\rebuild\VTK\Rendering\HyperTreeGrid;D:\pv\ParaView\VTK\Rendering\UI;D:\pv\rebuild\VTK\Rendering\UI;D:\pv\ParaView\VTK\ThirdParty\glew\vtkglew;D:\pv\rebuild\VTK\ThirdParty\glew\vtkglew;D:\pv\ParaView\VTK\Rendering\Parallel;D:\pv\rebuild\VTK\Rendering\Parallel;D:\pv\ParaView\VTK\Views\Context2D;D:\pv\rebuild\VTK\Views\Context2D;D:\pv\ParaView\VTK\Views\Core;D:\pv\rebuild\VTK\Views\Core;D:\pv\ParaView\VTK\Interaction\Widgets;D:\pv\rebuild\VTK\Interaction\Widgets;D:\pv\ParaView\VTK\Filters\Sources;D:\pv\rebuild\VTK\Filters\Sources;D:\pv\rebuild\ThirdParty\protobuf;D:\pv\ParaView\ThirdParty\protobuf;D:\pv\rebuild\VTK\Utilities\KWIML;D:\pv\ParaView\VTK\Utilities\KWIML;D:\pv\rebuild\VTK\Utilities\KWSys;D:\pv\ParaView\VTK\Utilities\KWSys;D:\pv\rebuild\VTK\ThirdParty\token;D:\pv\ParaView\VTK\ThirdParty\token;D:\pv\rebuild\VTK\ThirdParty\nlohmannjson;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson;D:\pv\rebuild\VTK\ThirdParty\kissfft;D:\pv\ParaView\VTK\ThirdParty\kissfft;D:\pv\rebuild\VTK\ThirdParty\cli11;D:\pv\ParaView\VTK\ThirdParty\cli11;D:\pv\rebuild\VTK\ThirdParty\fmt;D:\pv\ParaView\VTK\ThirdParty\fmt;D:\pv\rebuild\VTK\ThirdParty\jsoncpp;D:\pv\ParaView\VTK\ThirdParty\jsoncpp;D:\pv\rebuild\VTK\ThirdParty\glew;D:\pv\ParaView\VTK\ThirdParty\glew;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\pv\rebuild\Plugins\BagPlotViewsAndFilters;D:\pv\ParaView\Plugins\BagPlotViewsAndFilters\BagPlot;D:\pv\rebuild\Plugins\BagPlotViewsAndFilters\BagPlot;D:\pv\ParaView\Remoting\Views;D:\pv\rebuild\Remoting\Views;D:\pv\ParaView\Remoting\ServerManager;D:\pv\rebuild\Remoting\ServerManager;D:\pv\ParaView\ThirdParty\protobuf\vtkprotobuf\src;D:\pv\ParaView\Remoting\ClientServerStream;D:\pv\rebuild\Remoting\ClientServerStream;D:\pv\ParaView\VTK\Common\Core;D:\pv\rebuild\VTK\Common\Core;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken\token;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken\token;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\rebuild\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson\include;D:\pv\ParaView\Remoting\Core;D:\pv\rebuild\Remoting\Core;D:\pv\ParaView\Utilities\Versioning;D:\pv\rebuild\Utilities\Versioning;D:\pv\ParaView\VTKExtensions\Core;D:\pv\rebuild\VTKExtensions\Core;D:\pv\ParaView\VTK\Common\DataModel;D:\pv\rebuild\VTK\Common\DataModel;D:\pv\ParaView\VTK\Common\Math;D:\pv\rebuild\VTK\Common\Math;D:\pv\ParaView\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\rebuild\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\ParaView\VTK\Common\Transforms;D:\pv\rebuild\VTK\Common\Transforms;D:\pv\ParaView\VTK\Common\ExecutionModel;D:\pv\rebuild\VTK\Common\ExecutionModel;D:\pv\ParaView\VTK\IO\XML;D:\pv\rebuild\VTK\IO\XML;D:\pv\ParaView\VTK\IO\XMLParser;D:\pv\rebuild\VTK\IO\XMLParser;D:\pv\ParaView\VTK\ThirdParty\fmt\vtkfmt;D:\pv\rebuild\VTK\ThirdParty\fmt\vtkfmt;D:\pv\ParaView\VTK\Common\Misc;D:\pv\rebuild\VTK\Common\Misc;D:\pv\ParaView\VTK\Parallel\Core;D:\pv\rebuild\VTK\Parallel\Core;D:\pv\ParaView\VTK\ThirdParty\jsoncpp\vtkjsoncpp;D:\pv\rebuild\VTK\ThirdParty\jsoncpp\vtkjsoncpp;D:\pv\rebuild\VTK\ThirdParty\jsoncpp\vtkjsoncpp\json;D:\pv\ParaView\VTK\Charts\Core;D:\pv\rebuild\VTK\Charts\Core;D:\pv\ParaView\VTK\Filters\General;D:\pv\rebuild\VTK\Filters\General;D:\pv\ParaView\VTK\Filters\Core;D:\pv\rebuild\VTK\Filters\Core;D:\pv\ParaView\VTK\Rendering\Context2D;D:\pv\rebuild\VTK\Rendering\Context2D;D:\pv\ParaView\VTK\Rendering\Core;D:\pv\rebuild\VTK\Rendering\Core;D:\pv\ParaView\VTK\Rendering\Annotation;D:\pv\rebuild\VTK\Rendering\Annotation;D:\pv\ParaView\VTK\Rendering\CellGrid;D:\pv\rebuild\VTK\Rendering\CellGrid;D:\pv\ParaView\VTK\Filters\CellGrid;D:\pv\rebuild\VTK\Filters\CellGrid;D:\pv\ParaView\VTK\Rendering\OpenGL2;D:\pv\rebuild\VTK\Rendering\OpenGL2;D:\pv\ParaView\VTK\IO\Image;D:\pv\rebuild\VTK\IO\Image;D:\pv\ParaView\VTK\Imaging\Core;D:\pv\rebuild\VTK\Imaging\Core;D:\pv\ParaView\VTK\Rendering\HyperTreeGrid;D:\pv\rebuild\VTK\Rendering\HyperTreeGrid;D:\pv\ParaView\VTK\Rendering\UI;D:\pv\rebuild\VTK\Rendering\UI;D:\pv\ParaView\VTK\ThirdParty\glew\vtkglew;D:\pv\rebuild\VTK\ThirdParty\glew\vtkglew;D:\pv\ParaView\VTK\Rendering\Parallel;D:\pv\rebuild\VTK\Rendering\Parallel;D:\pv\ParaView\VTK\Views\Context2D;D:\pv\rebuild\VTK\Views\Context2D;D:\pv\ParaView\VTK\Views\Core;D:\pv\rebuild\VTK\Views\Core;D:\pv\ParaView\VTK\Interaction\Widgets;D:\pv\rebuild\VTK\Interaction\Widgets;D:\pv\ParaView\VTK\Filters\Sources;D:\pv\rebuild\VTK\Filters\Sources;D:\pv\rebuild\ThirdParty\protobuf;D:\pv\ParaView\ThirdParty\protobuf;D:\pv\rebuild\VTK\Utilities\KWIML;D:\pv\ParaView\VTK\Utilities\KWIML;D:\pv\rebuild\VTK\Utilities\KWSys;D:\pv\ParaView\VTK\Utilities\KWSys;D:\pv\rebuild\VTK\ThirdParty\token;D:\pv\ParaView\VTK\ThirdParty\token;D:\pv\rebuild\VTK\ThirdParty\nlohmannjson;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson;D:\pv\rebuild\VTK\ThirdParty\kissfft;D:\pv\ParaView\VTK\ThirdParty\kissfft;D:\pv\rebuild\VTK\ThirdParty\cli11;D:\pv\ParaView\VTK\ThirdParty\cli11;D:\pv\rebuild\VTK\ThirdParty\fmt;D:\pv\ParaView\VTK\ThirdParty\fmt;D:\pv\rebuild\VTK\ThirdParty\jsoncpp;D:\pv\ParaView\VTK\ThirdParty\jsoncpp;D:\pv\rebuild\VTK\ThirdParty\glew;D:\pv\ParaView\VTK\ThirdParty\glew;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\a84fecfb8bc3b570d5398206e5cbe238\vtkPVExtractBagPlotsClientServer.cxx.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating client_server wrapper sources for vtkPVExtractBagPlots</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+..\..\bin\Debug\vtkWrapClientServer-pv5.13d.exe -MF D:/pv/rebuild/Plugins/BagPlotViewsAndFilters/CMakeFiles/vtkBagPlotViewsAndFiltersBagPlotCS/vtkPVExtractBagPlotsClientServer.cxx.Debug.d @D:/pv/rebuild/Plugins/BagPlotViewsAndFilters/CMakeFiles/vtkBagPlotViewsAndFiltersBagPlot-client-server.Debug.args -o D:/pv/rebuild/Plugins/BagPlotViewsAndFilters/CMakeFiles/vtkBagPlotViewsAndFiltersBagPlotCS/vtkPVExtractBagPlotsClientServer.cxx D:/pv/ParaView/Plugins/BagPlotViewsAndFilters/BagPlot/vtkPVExtractBagPlots.h --types D:/pv/rebuild/bin/paraview-5.13/plugins/BagPlotViewsAndFilters/vtk/hierarchy/BagPlotViewsAndFilters/vtkBagPlotViewsAndFiltersBagPlot-hierarchy.txt
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_transform_depfile "Visual Studio 16 2019" MSBuildAdditionalInputs D:/pv/ParaView D:/pv/ParaView/Plugins/BagPlotViewsAndFilters D:/pv/rebuild D:/pv/rebuild/Plugins/BagPlotViewsAndFilters D:/pv/rebuild/Plugins/BagPlotViewsAndFilters/CMakeFiles/vtkBagPlotViewsAndFiltersBagPlotCS/vtkPVExtractBagPlotsClientServer.cxx.Debug.d D:/pv/rebuild/CMakeFiles/d/0be65d7c7ebd6f4f3ea69453c7567603d310a3f33fa94f78550946b397b1c74b.AdditionalInputs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\pv\rebuild\bin\Debug\vtkWrapClientServer-pv5.13d.exe;D:\pv\ParaView\Plugins\BagPlotViewsAndFilters\BagPlot\vtkPVExtractBagPlots.h;D:\pv\rebuild\Plugins\BagPlotViewsAndFilters\CMakeFiles\vtkBagPlotViewsAndFiltersBagPlot-client-server.Debug.args;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\pv\rebuild\Plugins\BagPlotViewsAndFilters\CMakeFiles\vtkBagPlotViewsAndFiltersBagPlotCS\vtkPVExtractBagPlotsClientServer.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <DepFileAdditionalInputsFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\pv\rebuild\CMakeFiles\d\0be65d7c7ebd6f4f3ea69453c7567603d310a3f33fa94f78550946b397b1c74b.AdditionalInputs</DepFileAdditionalInputsFile>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating client_server wrapper sources for vtkPVExtractBagPlots</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+..\..\bin\Release\vtkWrapClientServer-pv5.13.exe -MF D:/pv/rebuild/Plugins/BagPlotViewsAndFilters/CMakeFiles/vtkBagPlotViewsAndFiltersBagPlotCS/vtkPVExtractBagPlotsClientServer.cxx.Release.d @D:/pv/rebuild/Plugins/BagPlotViewsAndFilters/CMakeFiles/vtkBagPlotViewsAndFiltersBagPlot-client-server.Release.args -o D:/pv/rebuild/Plugins/BagPlotViewsAndFilters/CMakeFiles/vtkBagPlotViewsAndFiltersBagPlotCS/vtkPVExtractBagPlotsClientServer.cxx D:/pv/ParaView/Plugins/BagPlotViewsAndFilters/BagPlot/vtkPVExtractBagPlots.h --types D:/pv/rebuild/bin/paraview-5.13/plugins/BagPlotViewsAndFilters/vtk/hierarchy/BagPlotViewsAndFilters/vtkBagPlotViewsAndFiltersBagPlot-hierarchy.txt
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_transform_depfile "Visual Studio 16 2019" MSBuildAdditionalInputs D:/pv/ParaView D:/pv/ParaView/Plugins/BagPlotViewsAndFilters D:/pv/rebuild D:/pv/rebuild/Plugins/BagPlotViewsAndFilters D:/pv/rebuild/Plugins/BagPlotViewsAndFilters/CMakeFiles/vtkBagPlotViewsAndFiltersBagPlotCS/vtkPVExtractBagPlotsClientServer.cxx.Release.d D:/pv/rebuild/CMakeFiles/d/1ad54745b002ca1f12a7e475eaf28f57463b302645f9e3cc02cff6006a4c53a5.AdditionalInputs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\pv\rebuild\bin\Release\vtkWrapClientServer-pv5.13.exe;D:\pv\ParaView\Plugins\BagPlotViewsAndFilters\BagPlot\vtkPVExtractBagPlots.h;D:\pv\rebuild\Plugins\BagPlotViewsAndFilters\CMakeFiles\vtkBagPlotViewsAndFiltersBagPlot-client-server.Release.args;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\pv\rebuild\Plugins\BagPlotViewsAndFilters\CMakeFiles\vtkBagPlotViewsAndFiltersBagPlotCS\vtkPVExtractBagPlotsClientServer.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <DepFileAdditionalInputsFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\pv\rebuild\CMakeFiles\d\1ad54745b002ca1f12a7e475eaf28f57463b302645f9e3cc02cff6006a4c53a5.AdditionalInputs</DepFileAdditionalInputsFile>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating client_server wrapper sources for vtkPVExtractBagPlots</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+..\..\bin\MinSizeRel\vtkWrapClientServer-pv5.13.exe -MF D:/pv/rebuild/Plugins/BagPlotViewsAndFilters/CMakeFiles/vtkBagPlotViewsAndFiltersBagPlotCS/vtkPVExtractBagPlotsClientServer.cxx.MinSizeRel.d @D:/pv/rebuild/Plugins/BagPlotViewsAndFilters/CMakeFiles/vtkBagPlotViewsAndFiltersBagPlot-client-server.MinSizeRel.args -o D:/pv/rebuild/Plugins/BagPlotViewsAndFilters/CMakeFiles/vtkBagPlotViewsAndFiltersBagPlotCS/vtkPVExtractBagPlotsClientServer.cxx D:/pv/ParaView/Plugins/BagPlotViewsAndFilters/BagPlot/vtkPVExtractBagPlots.h --types D:/pv/rebuild/bin/paraview-5.13/plugins/BagPlotViewsAndFilters/vtk/hierarchy/BagPlotViewsAndFilters/vtkBagPlotViewsAndFiltersBagPlot-hierarchy.txt
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_transform_depfile "Visual Studio 16 2019" MSBuildAdditionalInputs D:/pv/ParaView D:/pv/ParaView/Plugins/BagPlotViewsAndFilters D:/pv/rebuild D:/pv/rebuild/Plugins/BagPlotViewsAndFilters D:/pv/rebuild/Plugins/BagPlotViewsAndFilters/CMakeFiles/vtkBagPlotViewsAndFiltersBagPlotCS/vtkPVExtractBagPlotsClientServer.cxx.MinSizeRel.d D:/pv/rebuild/CMakeFiles/d/50de1a2064cc9a0dd580669642492a72516bc330035111b65dc4a33220740971.AdditionalInputs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\pv\rebuild\bin\MinSizeRel\vtkWrapClientServer-pv5.13.exe;D:\pv\ParaView\Plugins\BagPlotViewsAndFilters\BagPlot\vtkPVExtractBagPlots.h;D:\pv\rebuild\Plugins\BagPlotViewsAndFilters\CMakeFiles\vtkBagPlotViewsAndFiltersBagPlot-client-server.MinSizeRel.args;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\pv\rebuild\Plugins\BagPlotViewsAndFilters\CMakeFiles\vtkBagPlotViewsAndFiltersBagPlotCS\vtkPVExtractBagPlotsClientServer.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <DepFileAdditionalInputsFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\pv\rebuild\CMakeFiles\d\50de1a2064cc9a0dd580669642492a72516bc330035111b65dc4a33220740971.AdditionalInputs</DepFileAdditionalInputsFile>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating client_server wrapper sources for vtkPVExtractBagPlots</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+..\..\bin\RelWithDebInfo\vtkWrapClientServer-pv5.13.exe -MF D:/pv/rebuild/Plugins/BagPlotViewsAndFilters/CMakeFiles/vtkBagPlotViewsAndFiltersBagPlotCS/vtkPVExtractBagPlotsClientServer.cxx.RelWithDebInfo.d @D:/pv/rebuild/Plugins/BagPlotViewsAndFilters/CMakeFiles/vtkBagPlotViewsAndFiltersBagPlot-client-server.RelWithDebInfo.args -o D:/pv/rebuild/Plugins/BagPlotViewsAndFilters/CMakeFiles/vtkBagPlotViewsAndFiltersBagPlotCS/vtkPVExtractBagPlotsClientServer.cxx D:/pv/ParaView/Plugins/BagPlotViewsAndFilters/BagPlot/vtkPVExtractBagPlots.h --types D:/pv/rebuild/bin/paraview-5.13/plugins/BagPlotViewsAndFilters/vtk/hierarchy/BagPlotViewsAndFilters/vtkBagPlotViewsAndFiltersBagPlot-hierarchy.txt
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_transform_depfile "Visual Studio 16 2019" MSBuildAdditionalInputs D:/pv/ParaView D:/pv/ParaView/Plugins/BagPlotViewsAndFilters D:/pv/rebuild D:/pv/rebuild/Plugins/BagPlotViewsAndFilters D:/pv/rebuild/Plugins/BagPlotViewsAndFilters/CMakeFiles/vtkBagPlotViewsAndFiltersBagPlotCS/vtkPVExtractBagPlotsClientServer.cxx.RelWithDebInfo.d D:/pv/rebuild/CMakeFiles/d/d025f5b4beec8d4def79e940d9d4191b644ce1ada1c59ffcd576c5b3594b2e2f.AdditionalInputs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\pv\rebuild\bin\RelWithDebInfo\vtkWrapClientServer-pv5.13.exe;D:\pv\ParaView\Plugins\BagPlotViewsAndFilters\BagPlot\vtkPVExtractBagPlots.h;D:\pv\rebuild\Plugins\BagPlotViewsAndFilters\CMakeFiles\vtkBagPlotViewsAndFiltersBagPlot-client-server.RelWithDebInfo.args;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\pv\rebuild\Plugins\BagPlotViewsAndFilters\CMakeFiles\vtkBagPlotViewsAndFiltersBagPlotCS\vtkPVExtractBagPlotsClientServer.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+      <DepFileAdditionalInputsFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\pv\rebuild\CMakeFiles\d\d025f5b4beec8d4def79e940d9d4191b644ce1ada1c59ffcd576c5b3594b2e2f.AdditionalInputs</DepFileAdditionalInputsFile>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\a84fecfb8bc3b570d5398206e5cbe238\vtkSMFunctionalBagChartSeriesSelectionDomainClientServer.cxx.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating client_server wrapper sources for vtkSMFunctionalBagChartSeriesSelectionDomain</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+..\..\bin\Debug\vtkWrapClientServer-pv5.13d.exe -MF D:/pv/rebuild/Plugins/BagPlotViewsAndFilters/CMakeFiles/vtkBagPlotViewsAndFiltersBagPlotCS/vtkSMFunctionalBagChartSeriesSelectionDomainClientServer.cxx.Debug.d @D:/pv/rebuild/Plugins/BagPlotViewsAndFilters/CMakeFiles/vtkBagPlotViewsAndFiltersBagPlot-client-server.Debug.args -o D:/pv/rebuild/Plugins/BagPlotViewsAndFilters/CMakeFiles/vtkBagPlotViewsAndFiltersBagPlotCS/vtkSMFunctionalBagChartSeriesSelectionDomainClientServer.cxx D:/pv/ParaView/Plugins/BagPlotViewsAndFilters/BagPlot/vtkSMFunctionalBagChartSeriesSelectionDomain.h --types D:/pv/rebuild/bin/paraview-5.13/plugins/BagPlotViewsAndFilters/vtk/hierarchy/BagPlotViewsAndFilters/vtkBagPlotViewsAndFiltersBagPlot-hierarchy.txt
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_transform_depfile "Visual Studio 16 2019" MSBuildAdditionalInputs D:/pv/ParaView D:/pv/ParaView/Plugins/BagPlotViewsAndFilters D:/pv/rebuild D:/pv/rebuild/Plugins/BagPlotViewsAndFilters D:/pv/rebuild/Plugins/BagPlotViewsAndFilters/CMakeFiles/vtkBagPlotViewsAndFiltersBagPlotCS/vtkSMFunctionalBagChartSeriesSelectionDomainClientServer.cxx.Debug.d D:/pv/rebuild/CMakeFiles/d/ac3ef7b40462211612ab498fc82b3ceaa5efdde67ffc7d22feda74c2eabfd190.AdditionalInputs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\pv\rebuild\bin\Debug\vtkWrapClientServer-pv5.13d.exe;D:\pv\ParaView\Plugins\BagPlotViewsAndFilters\BagPlot\vtkSMFunctionalBagChartSeriesSelectionDomain.h;D:\pv\rebuild\Plugins\BagPlotViewsAndFilters\CMakeFiles\vtkBagPlotViewsAndFiltersBagPlot-client-server.Debug.args;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\pv\rebuild\Plugins\BagPlotViewsAndFilters\CMakeFiles\vtkBagPlotViewsAndFiltersBagPlotCS\vtkSMFunctionalBagChartSeriesSelectionDomainClientServer.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <DepFileAdditionalInputsFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\pv\rebuild\CMakeFiles\d\ac3ef7b40462211612ab498fc82b3ceaa5efdde67ffc7d22feda74c2eabfd190.AdditionalInputs</DepFileAdditionalInputsFile>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating client_server wrapper sources for vtkSMFunctionalBagChartSeriesSelectionDomain</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+..\..\bin\Release\vtkWrapClientServer-pv5.13.exe -MF D:/pv/rebuild/Plugins/BagPlotViewsAndFilters/CMakeFiles/vtkBagPlotViewsAndFiltersBagPlotCS/vtkSMFunctionalBagChartSeriesSelectionDomainClientServer.cxx.Release.d @D:/pv/rebuild/Plugins/BagPlotViewsAndFilters/CMakeFiles/vtkBagPlotViewsAndFiltersBagPlot-client-server.Release.args -o D:/pv/rebuild/Plugins/BagPlotViewsAndFilters/CMakeFiles/vtkBagPlotViewsAndFiltersBagPlotCS/vtkSMFunctionalBagChartSeriesSelectionDomainClientServer.cxx D:/pv/ParaView/Plugins/BagPlotViewsAndFilters/BagPlot/vtkSMFunctionalBagChartSeriesSelectionDomain.h --types D:/pv/rebuild/bin/paraview-5.13/plugins/BagPlotViewsAndFilters/vtk/hierarchy/BagPlotViewsAndFilters/vtkBagPlotViewsAndFiltersBagPlot-hierarchy.txt
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_transform_depfile "Visual Studio 16 2019" MSBuildAdditionalInputs D:/pv/ParaView D:/pv/ParaView/Plugins/BagPlotViewsAndFilters D:/pv/rebuild D:/pv/rebuild/Plugins/BagPlotViewsAndFilters D:/pv/rebuild/Plugins/BagPlotViewsAndFilters/CMakeFiles/vtkBagPlotViewsAndFiltersBagPlotCS/vtkSMFunctionalBagChartSeriesSelectionDomainClientServer.cxx.Release.d D:/pv/rebuild/CMakeFiles/d/7b580769d55c6d42b70db0461f88ea3672731cd183a754b7bc8060bc2b7b67e7.AdditionalInputs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\pv\rebuild\bin\Release\vtkWrapClientServer-pv5.13.exe;D:\pv\ParaView\Plugins\BagPlotViewsAndFilters\BagPlot\vtkSMFunctionalBagChartSeriesSelectionDomain.h;D:\pv\rebuild\Plugins\BagPlotViewsAndFilters\CMakeFiles\vtkBagPlotViewsAndFiltersBagPlot-client-server.Release.args;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\pv\rebuild\Plugins\BagPlotViewsAndFilters\CMakeFiles\vtkBagPlotViewsAndFiltersBagPlotCS\vtkSMFunctionalBagChartSeriesSelectionDomainClientServer.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <DepFileAdditionalInputsFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\pv\rebuild\CMakeFiles\d\7b580769d55c6d42b70db0461f88ea3672731cd183a754b7bc8060bc2b7b67e7.AdditionalInputs</DepFileAdditionalInputsFile>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating client_server wrapper sources for vtkSMFunctionalBagChartSeriesSelectionDomain</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+..\..\bin\MinSizeRel\vtkWrapClientServer-pv5.13.exe -MF D:/pv/rebuild/Plugins/BagPlotViewsAndFilters/CMakeFiles/vtkBagPlotViewsAndFiltersBagPlotCS/vtkSMFunctionalBagChartSeriesSelectionDomainClientServer.cxx.MinSizeRel.d @D:/pv/rebuild/Plugins/BagPlotViewsAndFilters/CMakeFiles/vtkBagPlotViewsAndFiltersBagPlot-client-server.MinSizeRel.args -o D:/pv/rebuild/Plugins/BagPlotViewsAndFilters/CMakeFiles/vtkBagPlotViewsAndFiltersBagPlotCS/vtkSMFunctionalBagChartSeriesSelectionDomainClientServer.cxx D:/pv/ParaView/Plugins/BagPlotViewsAndFilters/BagPlot/vtkSMFunctionalBagChartSeriesSelectionDomain.h --types D:/pv/rebuild/bin/paraview-5.13/plugins/BagPlotViewsAndFilters/vtk/hierarchy/BagPlotViewsAndFilters/vtkBagPlotViewsAndFiltersBagPlot-hierarchy.txt
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_transform_depfile "Visual Studio 16 2019" MSBuildAdditionalInputs D:/pv/ParaView D:/pv/ParaView/Plugins/BagPlotViewsAndFilters D:/pv/rebuild D:/pv/rebuild/Plugins/BagPlotViewsAndFilters D:/pv/rebuild/Plugins/BagPlotViewsAndFilters/CMakeFiles/vtkBagPlotViewsAndFiltersBagPlotCS/vtkSMFunctionalBagChartSeriesSelectionDomainClientServer.cxx.MinSizeRel.d D:/pv/rebuild/CMakeFiles/d/f95b05325ad8c25fa1f932f79d2fa8a225a5e126145525914a11f94c968ea5b0.AdditionalInputs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\pv\rebuild\bin\MinSizeRel\vtkWrapClientServer-pv5.13.exe;D:\pv\ParaView\Plugins\BagPlotViewsAndFilters\BagPlot\vtkSMFunctionalBagChartSeriesSelectionDomain.h;D:\pv\rebuild\Plugins\BagPlotViewsAndFilters\CMakeFiles\vtkBagPlotViewsAndFiltersBagPlot-client-server.MinSizeRel.args;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\pv\rebuild\Plugins\BagPlotViewsAndFilters\CMakeFiles\vtkBagPlotViewsAndFiltersBagPlotCS\vtkSMFunctionalBagChartSeriesSelectionDomainClientServer.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <DepFileAdditionalInputsFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\pv\rebuild\CMakeFiles\d\f95b05325ad8c25fa1f932f79d2fa8a225a5e126145525914a11f94c968ea5b0.AdditionalInputs</DepFileAdditionalInputsFile>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating client_server wrapper sources for vtkSMFunctionalBagChartSeriesSelectionDomain</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+..\..\bin\RelWithDebInfo\vtkWrapClientServer-pv5.13.exe -MF D:/pv/rebuild/Plugins/BagPlotViewsAndFilters/CMakeFiles/vtkBagPlotViewsAndFiltersBagPlotCS/vtkSMFunctionalBagChartSeriesSelectionDomainClientServer.cxx.RelWithDebInfo.d @D:/pv/rebuild/Plugins/BagPlotViewsAndFilters/CMakeFiles/vtkBagPlotViewsAndFiltersBagPlot-client-server.RelWithDebInfo.args -o D:/pv/rebuild/Plugins/BagPlotViewsAndFilters/CMakeFiles/vtkBagPlotViewsAndFiltersBagPlotCS/vtkSMFunctionalBagChartSeriesSelectionDomainClientServer.cxx D:/pv/ParaView/Plugins/BagPlotViewsAndFilters/BagPlot/vtkSMFunctionalBagChartSeriesSelectionDomain.h --types D:/pv/rebuild/bin/paraview-5.13/plugins/BagPlotViewsAndFilters/vtk/hierarchy/BagPlotViewsAndFilters/vtkBagPlotViewsAndFiltersBagPlot-hierarchy.txt
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_transform_depfile "Visual Studio 16 2019" MSBuildAdditionalInputs D:/pv/ParaView D:/pv/ParaView/Plugins/BagPlotViewsAndFilters D:/pv/rebuild D:/pv/rebuild/Plugins/BagPlotViewsAndFilters D:/pv/rebuild/Plugins/BagPlotViewsAndFilters/CMakeFiles/vtkBagPlotViewsAndFiltersBagPlotCS/vtkSMFunctionalBagChartSeriesSelectionDomainClientServer.cxx.RelWithDebInfo.d D:/pv/rebuild/CMakeFiles/d/7ac871fde205d5522b5200eb867bc7b9cf295d2d08aae09948df2e2e2b24ec3d.AdditionalInputs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\pv\rebuild\bin\RelWithDebInfo\vtkWrapClientServer-pv5.13.exe;D:\pv\ParaView\Plugins\BagPlotViewsAndFilters\BagPlot\vtkSMFunctionalBagChartSeriesSelectionDomain.h;D:\pv\rebuild\Plugins\BagPlotViewsAndFilters\CMakeFiles\vtkBagPlotViewsAndFiltersBagPlot-client-server.RelWithDebInfo.args;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\pv\rebuild\Plugins\BagPlotViewsAndFilters\CMakeFiles\vtkBagPlotViewsAndFiltersBagPlotCS\vtkSMFunctionalBagChartSeriesSelectionDomainClientServer.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+      <DepFileAdditionalInputsFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\pv\rebuild\CMakeFiles\d\7ac871fde205d5522b5200eb867bc7b9cf295d2d08aae09948df2e2e2b24ec3d.AdditionalInputs</DepFileAdditionalInputsFile>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\a84fecfb8bc3b570d5398206e5cbe238\vtkSMBagChartSeriesListDomainClientServer.cxx.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating client_server wrapper sources for vtkSMBagChartSeriesListDomain</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+..\..\bin\Debug\vtkWrapClientServer-pv5.13d.exe -MF D:/pv/rebuild/Plugins/BagPlotViewsAndFilters/CMakeFiles/vtkBagPlotViewsAndFiltersBagPlotCS/vtkSMBagChartSeriesListDomainClientServer.cxx.Debug.d @D:/pv/rebuild/Plugins/BagPlotViewsAndFilters/CMakeFiles/vtkBagPlotViewsAndFiltersBagPlot-client-server.Debug.args -o D:/pv/rebuild/Plugins/BagPlotViewsAndFilters/CMakeFiles/vtkBagPlotViewsAndFiltersBagPlotCS/vtkSMBagChartSeriesListDomainClientServer.cxx D:/pv/ParaView/Plugins/BagPlotViewsAndFilters/BagPlot/vtkSMBagChartSeriesListDomain.h --types D:/pv/rebuild/bin/paraview-5.13/plugins/BagPlotViewsAndFilters/vtk/hierarchy/BagPlotViewsAndFilters/vtkBagPlotViewsAndFiltersBagPlot-hierarchy.txt
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_transform_depfile "Visual Studio 16 2019" MSBuildAdditionalInputs D:/pv/ParaView D:/pv/ParaView/Plugins/BagPlotViewsAndFilters D:/pv/rebuild D:/pv/rebuild/Plugins/BagPlotViewsAndFilters D:/pv/rebuild/Plugins/BagPlotViewsAndFilters/CMakeFiles/vtkBagPlotViewsAndFiltersBagPlotCS/vtkSMBagChartSeriesListDomainClientServer.cxx.Debug.d D:/pv/rebuild/CMakeFiles/d/4fa57faa7b908c5a28220f18ac0e4a6689316f65eaa7d1e03419ef31ba9dd512.AdditionalInputs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\pv\rebuild\bin\Debug\vtkWrapClientServer-pv5.13d.exe;D:\pv\ParaView\Plugins\BagPlotViewsAndFilters\BagPlot\vtkSMBagChartSeriesListDomain.h;D:\pv\rebuild\Plugins\BagPlotViewsAndFilters\CMakeFiles\vtkBagPlotViewsAndFiltersBagPlot-client-server.Debug.args;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\pv\rebuild\Plugins\BagPlotViewsAndFilters\CMakeFiles\vtkBagPlotViewsAndFiltersBagPlotCS\vtkSMBagChartSeriesListDomainClientServer.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <DepFileAdditionalInputsFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\pv\rebuild\CMakeFiles\d\4fa57faa7b908c5a28220f18ac0e4a6689316f65eaa7d1e03419ef31ba9dd512.AdditionalInputs</DepFileAdditionalInputsFile>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating client_server wrapper sources for vtkSMBagChartSeriesListDomain</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+..\..\bin\Release\vtkWrapClientServer-pv5.13.exe -MF D:/pv/rebuild/Plugins/BagPlotViewsAndFilters/CMakeFiles/vtkBagPlotViewsAndFiltersBagPlotCS/vtkSMBagChartSeriesListDomainClientServer.cxx.Release.d @D:/pv/rebuild/Plugins/BagPlotViewsAndFilters/CMakeFiles/vtkBagPlotViewsAndFiltersBagPlot-client-server.Release.args -o D:/pv/rebuild/Plugins/BagPlotViewsAndFilters/CMakeFiles/vtkBagPlotViewsAndFiltersBagPlotCS/vtkSMBagChartSeriesListDomainClientServer.cxx D:/pv/ParaView/Plugins/BagPlotViewsAndFilters/BagPlot/vtkSMBagChartSeriesListDomain.h --types D:/pv/rebuild/bin/paraview-5.13/plugins/BagPlotViewsAndFilters/vtk/hierarchy/BagPlotViewsAndFilters/vtkBagPlotViewsAndFiltersBagPlot-hierarchy.txt
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_transform_depfile "Visual Studio 16 2019" MSBuildAdditionalInputs D:/pv/ParaView D:/pv/ParaView/Plugins/BagPlotViewsAndFilters D:/pv/rebuild D:/pv/rebuild/Plugins/BagPlotViewsAndFilters D:/pv/rebuild/Plugins/BagPlotViewsAndFilters/CMakeFiles/vtkBagPlotViewsAndFiltersBagPlotCS/vtkSMBagChartSeriesListDomainClientServer.cxx.Release.d D:/pv/rebuild/CMakeFiles/d/0824e2a48b5aedf8611e0c64a98d8cbab3c32e9bdf7d77a0a099fabb6e45f8b2.AdditionalInputs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\pv\rebuild\bin\Release\vtkWrapClientServer-pv5.13.exe;D:\pv\ParaView\Plugins\BagPlotViewsAndFilters\BagPlot\vtkSMBagChartSeriesListDomain.h;D:\pv\rebuild\Plugins\BagPlotViewsAndFilters\CMakeFiles\vtkBagPlotViewsAndFiltersBagPlot-client-server.Release.args;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\pv\rebuild\Plugins\BagPlotViewsAndFilters\CMakeFiles\vtkBagPlotViewsAndFiltersBagPlotCS\vtkSMBagChartSeriesListDomainClientServer.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <DepFileAdditionalInputsFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\pv\rebuild\CMakeFiles\d\0824e2a48b5aedf8611e0c64a98d8cbab3c32e9bdf7d77a0a099fabb6e45f8b2.AdditionalInputs</DepFileAdditionalInputsFile>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating client_server wrapper sources for vtkSMBagChartSeriesListDomain</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+..\..\bin\MinSizeRel\vtkWrapClientServer-pv5.13.exe -MF D:/pv/rebuild/Plugins/BagPlotViewsAndFilters/CMakeFiles/vtkBagPlotViewsAndFiltersBagPlotCS/vtkSMBagChartSeriesListDomainClientServer.cxx.MinSizeRel.d @D:/pv/rebuild/Plugins/BagPlotViewsAndFilters/CMakeFiles/vtkBagPlotViewsAndFiltersBagPlot-client-server.MinSizeRel.args -o D:/pv/rebuild/Plugins/BagPlotViewsAndFilters/CMakeFiles/vtkBagPlotViewsAndFiltersBagPlotCS/vtkSMBagChartSeriesListDomainClientServer.cxx D:/pv/ParaView/Plugins/BagPlotViewsAndFilters/BagPlot/vtkSMBagChartSeriesListDomain.h --types D:/pv/rebuild/bin/paraview-5.13/plugins/BagPlotViewsAndFilters/vtk/hierarchy/BagPlotViewsAndFilters/vtkBagPlotViewsAndFiltersBagPlot-hierarchy.txt
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_transform_depfile "Visual Studio 16 2019" MSBuildAdditionalInputs D:/pv/ParaView D:/pv/ParaView/Plugins/BagPlotViewsAndFilters D:/pv/rebuild D:/pv/rebuild/Plugins/BagPlotViewsAndFilters D:/pv/rebuild/Plugins/BagPlotViewsAndFilters/CMakeFiles/vtkBagPlotViewsAndFiltersBagPlotCS/vtkSMBagChartSeriesListDomainClientServer.cxx.MinSizeRel.d D:/pv/rebuild/CMakeFiles/d/8a97f082395124d3f1be20a8ab758cb2e95024dc99d8747a39d6e51abd7baf9d.AdditionalInputs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\pv\rebuild\bin\MinSizeRel\vtkWrapClientServer-pv5.13.exe;D:\pv\ParaView\Plugins\BagPlotViewsAndFilters\BagPlot\vtkSMBagChartSeriesListDomain.h;D:\pv\rebuild\Plugins\BagPlotViewsAndFilters\CMakeFiles\vtkBagPlotViewsAndFiltersBagPlot-client-server.MinSizeRel.args;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\pv\rebuild\Plugins\BagPlotViewsAndFilters\CMakeFiles\vtkBagPlotViewsAndFiltersBagPlotCS\vtkSMBagChartSeriesListDomainClientServer.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <DepFileAdditionalInputsFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\pv\rebuild\CMakeFiles\d\8a97f082395124d3f1be20a8ab758cb2e95024dc99d8747a39d6e51abd7baf9d.AdditionalInputs</DepFileAdditionalInputsFile>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating client_server wrapper sources for vtkSMBagChartSeriesListDomain</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+..\..\bin\RelWithDebInfo\vtkWrapClientServer-pv5.13.exe -MF D:/pv/rebuild/Plugins/BagPlotViewsAndFilters/CMakeFiles/vtkBagPlotViewsAndFiltersBagPlotCS/vtkSMBagChartSeriesListDomainClientServer.cxx.RelWithDebInfo.d @D:/pv/rebuild/Plugins/BagPlotViewsAndFilters/CMakeFiles/vtkBagPlotViewsAndFiltersBagPlot-client-server.RelWithDebInfo.args -o D:/pv/rebuild/Plugins/BagPlotViewsAndFilters/CMakeFiles/vtkBagPlotViewsAndFiltersBagPlotCS/vtkSMBagChartSeriesListDomainClientServer.cxx D:/pv/ParaView/Plugins/BagPlotViewsAndFilters/BagPlot/vtkSMBagChartSeriesListDomain.h --types D:/pv/rebuild/bin/paraview-5.13/plugins/BagPlotViewsAndFilters/vtk/hierarchy/BagPlotViewsAndFilters/vtkBagPlotViewsAndFiltersBagPlot-hierarchy.txt
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_transform_depfile "Visual Studio 16 2019" MSBuildAdditionalInputs D:/pv/ParaView D:/pv/ParaView/Plugins/BagPlotViewsAndFilters D:/pv/rebuild D:/pv/rebuild/Plugins/BagPlotViewsAndFilters D:/pv/rebuild/Plugins/BagPlotViewsAndFilters/CMakeFiles/vtkBagPlotViewsAndFiltersBagPlotCS/vtkSMBagChartSeriesListDomainClientServer.cxx.RelWithDebInfo.d D:/pv/rebuild/CMakeFiles/d/eced30d39b5886ede6b220938e23e56e72e7d13b2acc8ff7c872f296f24eaeee.AdditionalInputs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\pv\rebuild\bin\RelWithDebInfo\vtkWrapClientServer-pv5.13.exe;D:\pv\ParaView\Plugins\BagPlotViewsAndFilters\BagPlot\vtkSMBagChartSeriesListDomain.h;D:\pv\rebuild\Plugins\BagPlotViewsAndFilters\CMakeFiles\vtkBagPlotViewsAndFiltersBagPlot-client-server.RelWithDebInfo.args;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\pv\rebuild\Plugins\BagPlotViewsAndFilters\CMakeFiles\vtkBagPlotViewsAndFiltersBagPlotCS\vtkSMBagChartSeriesListDomainClientServer.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+      <DepFileAdditionalInputsFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\pv\rebuild\CMakeFiles\d\eced30d39b5886ede6b220938e23e56e72e7d13b2acc8ff7c872f296f24eaeee.AdditionalInputs</DepFileAdditionalInputsFile>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\a84fecfb8bc3b570d5398206e5cbe238\vtkPVBagChartRepresentationClientServer.cxx.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating client_server wrapper sources for vtkPVBagChartRepresentation</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+..\..\bin\Debug\vtkWrapClientServer-pv5.13d.exe -MF D:/pv/rebuild/Plugins/BagPlotViewsAndFilters/CMakeFiles/vtkBagPlotViewsAndFiltersBagPlotCS/vtkPVBagChartRepresentationClientServer.cxx.Debug.d @D:/pv/rebuild/Plugins/BagPlotViewsAndFilters/CMakeFiles/vtkBagPlotViewsAndFiltersBagPlot-client-server.Debug.args -o D:/pv/rebuild/Plugins/BagPlotViewsAndFilters/CMakeFiles/vtkBagPlotViewsAndFiltersBagPlotCS/vtkPVBagChartRepresentationClientServer.cxx D:/pv/ParaView/Plugins/BagPlotViewsAndFilters/BagPlot/vtkPVBagChartRepresentation.h --types D:/pv/rebuild/bin/paraview-5.13/plugins/BagPlotViewsAndFilters/vtk/hierarchy/BagPlotViewsAndFilters/vtkBagPlotViewsAndFiltersBagPlot-hierarchy.txt
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_transform_depfile "Visual Studio 16 2019" MSBuildAdditionalInputs D:/pv/ParaView D:/pv/ParaView/Plugins/BagPlotViewsAndFilters D:/pv/rebuild D:/pv/rebuild/Plugins/BagPlotViewsAndFilters D:/pv/rebuild/Plugins/BagPlotViewsAndFilters/CMakeFiles/vtkBagPlotViewsAndFiltersBagPlotCS/vtkPVBagChartRepresentationClientServer.cxx.Debug.d D:/pv/rebuild/CMakeFiles/d/b5fc6c7023973879be99bebfbcbd51fb5142898e02f7f004d42d1ef78aadcbd6.AdditionalInputs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\pv\rebuild\bin\Debug\vtkWrapClientServer-pv5.13d.exe;D:\pv\ParaView\Plugins\BagPlotViewsAndFilters\BagPlot\vtkPVBagChartRepresentation.h;D:\pv\rebuild\Plugins\BagPlotViewsAndFilters\CMakeFiles\vtkBagPlotViewsAndFiltersBagPlot-client-server.Debug.args;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\pv\rebuild\Plugins\BagPlotViewsAndFilters\CMakeFiles\vtkBagPlotViewsAndFiltersBagPlotCS\vtkPVBagChartRepresentationClientServer.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <DepFileAdditionalInputsFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\pv\rebuild\CMakeFiles\d\b5fc6c7023973879be99bebfbcbd51fb5142898e02f7f004d42d1ef78aadcbd6.AdditionalInputs</DepFileAdditionalInputsFile>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating client_server wrapper sources for vtkPVBagChartRepresentation</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+..\..\bin\Release\vtkWrapClientServer-pv5.13.exe -MF D:/pv/rebuild/Plugins/BagPlotViewsAndFilters/CMakeFiles/vtkBagPlotViewsAndFiltersBagPlotCS/vtkPVBagChartRepresentationClientServer.cxx.Release.d @D:/pv/rebuild/Plugins/BagPlotViewsAndFilters/CMakeFiles/vtkBagPlotViewsAndFiltersBagPlot-client-server.Release.args -o D:/pv/rebuild/Plugins/BagPlotViewsAndFilters/CMakeFiles/vtkBagPlotViewsAndFiltersBagPlotCS/vtkPVBagChartRepresentationClientServer.cxx D:/pv/ParaView/Plugins/BagPlotViewsAndFilters/BagPlot/vtkPVBagChartRepresentation.h --types D:/pv/rebuild/bin/paraview-5.13/plugins/BagPlotViewsAndFilters/vtk/hierarchy/BagPlotViewsAndFilters/vtkBagPlotViewsAndFiltersBagPlot-hierarchy.txt
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_transform_depfile "Visual Studio 16 2019" MSBuildAdditionalInputs D:/pv/ParaView D:/pv/ParaView/Plugins/BagPlotViewsAndFilters D:/pv/rebuild D:/pv/rebuild/Plugins/BagPlotViewsAndFilters D:/pv/rebuild/Plugins/BagPlotViewsAndFilters/CMakeFiles/vtkBagPlotViewsAndFiltersBagPlotCS/vtkPVBagChartRepresentationClientServer.cxx.Release.d D:/pv/rebuild/CMakeFiles/d/6cdc630c78649a529268ee5571281e7429458b8b189eb76acff7f94936e451cf.AdditionalInputs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\pv\rebuild\bin\Release\vtkWrapClientServer-pv5.13.exe;D:\pv\ParaView\Plugins\BagPlotViewsAndFilters\BagPlot\vtkPVBagChartRepresentation.h;D:\pv\rebuild\Plugins\BagPlotViewsAndFilters\CMakeFiles\vtkBagPlotViewsAndFiltersBagPlot-client-server.Release.args;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\pv\rebuild\Plugins\BagPlotViewsAndFilters\CMakeFiles\vtkBagPlotViewsAndFiltersBagPlotCS\vtkPVBagChartRepresentationClientServer.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <DepFileAdditionalInputsFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\pv\rebuild\CMakeFiles\d\6cdc630c78649a529268ee5571281e7429458b8b189eb76acff7f94936e451cf.AdditionalInputs</DepFileAdditionalInputsFile>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating client_server wrapper sources for vtkPVBagChartRepresentation</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+..\..\bin\MinSizeRel\vtkWrapClientServer-pv5.13.exe -MF D:/pv/rebuild/Plugins/BagPlotViewsAndFilters/CMakeFiles/vtkBagPlotViewsAndFiltersBagPlotCS/vtkPVBagChartRepresentationClientServer.cxx.MinSizeRel.d @D:/pv/rebuild/Plugins/BagPlotViewsAndFilters/CMakeFiles/vtkBagPlotViewsAndFiltersBagPlot-client-server.MinSizeRel.args -o D:/pv/rebuild/Plugins/BagPlotViewsAndFilters/CMakeFiles/vtkBagPlotViewsAndFiltersBagPlotCS/vtkPVBagChartRepresentationClientServer.cxx D:/pv/ParaView/Plugins/BagPlotViewsAndFilters/BagPlot/vtkPVBagChartRepresentation.h --types D:/pv/rebuild/bin/paraview-5.13/plugins/BagPlotViewsAndFilters/vtk/hierarchy/BagPlotViewsAndFilters/vtkBagPlotViewsAndFiltersBagPlot-hierarchy.txt
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_transform_depfile "Visual Studio 16 2019" MSBuildAdditionalInputs D:/pv/ParaView D:/pv/ParaView/Plugins/BagPlotViewsAndFilters D:/pv/rebuild D:/pv/rebuild/Plugins/BagPlotViewsAndFilters D:/pv/rebuild/Plugins/BagPlotViewsAndFilters/CMakeFiles/vtkBagPlotViewsAndFiltersBagPlotCS/vtkPVBagChartRepresentationClientServer.cxx.MinSizeRel.d D:/pv/rebuild/CMakeFiles/d/8ee68ec81fd400fd095ae9acd0ded04f93ce85c07a4c2533c9a0ddc3b778d6e3.AdditionalInputs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\pv\rebuild\bin\MinSizeRel\vtkWrapClientServer-pv5.13.exe;D:\pv\ParaView\Plugins\BagPlotViewsAndFilters\BagPlot\vtkPVBagChartRepresentation.h;D:\pv\rebuild\Plugins\BagPlotViewsAndFilters\CMakeFiles\vtkBagPlotViewsAndFiltersBagPlot-client-server.MinSizeRel.args;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\pv\rebuild\Plugins\BagPlotViewsAndFilters\CMakeFiles\vtkBagPlotViewsAndFiltersBagPlotCS\vtkPVBagChartRepresentationClientServer.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <DepFileAdditionalInputsFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\pv\rebuild\CMakeFiles\d\8ee68ec81fd400fd095ae9acd0ded04f93ce85c07a4c2533c9a0ddc3b778d6e3.AdditionalInputs</DepFileAdditionalInputsFile>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating client_server wrapper sources for vtkPVBagChartRepresentation</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+..\..\bin\RelWithDebInfo\vtkWrapClientServer-pv5.13.exe -MF D:/pv/rebuild/Plugins/BagPlotViewsAndFilters/CMakeFiles/vtkBagPlotViewsAndFiltersBagPlotCS/vtkPVBagChartRepresentationClientServer.cxx.RelWithDebInfo.d @D:/pv/rebuild/Plugins/BagPlotViewsAndFilters/CMakeFiles/vtkBagPlotViewsAndFiltersBagPlot-client-server.RelWithDebInfo.args -o D:/pv/rebuild/Plugins/BagPlotViewsAndFilters/CMakeFiles/vtkBagPlotViewsAndFiltersBagPlotCS/vtkPVBagChartRepresentationClientServer.cxx D:/pv/ParaView/Plugins/BagPlotViewsAndFilters/BagPlot/vtkPVBagChartRepresentation.h --types D:/pv/rebuild/bin/paraview-5.13/plugins/BagPlotViewsAndFilters/vtk/hierarchy/BagPlotViewsAndFilters/vtkBagPlotViewsAndFiltersBagPlot-hierarchy.txt
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_transform_depfile "Visual Studio 16 2019" MSBuildAdditionalInputs D:/pv/ParaView D:/pv/ParaView/Plugins/BagPlotViewsAndFilters D:/pv/rebuild D:/pv/rebuild/Plugins/BagPlotViewsAndFilters D:/pv/rebuild/Plugins/BagPlotViewsAndFilters/CMakeFiles/vtkBagPlotViewsAndFiltersBagPlotCS/vtkPVBagChartRepresentationClientServer.cxx.RelWithDebInfo.d D:/pv/rebuild/CMakeFiles/d/d1c5c98bfe3140a7101af7383cb7f34eebf7b8d3b071561ceb9259dd81ea9dc8.AdditionalInputs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\pv\rebuild\bin\RelWithDebInfo\vtkWrapClientServer-pv5.13.exe;D:\pv\ParaView\Plugins\BagPlotViewsAndFilters\BagPlot\vtkPVBagChartRepresentation.h;D:\pv\rebuild\Plugins\BagPlotViewsAndFilters\CMakeFiles\vtkBagPlotViewsAndFiltersBagPlot-client-server.RelWithDebInfo.args;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\pv\rebuild\Plugins\BagPlotViewsAndFilters\CMakeFiles\vtkBagPlotViewsAndFiltersBagPlotCS\vtkPVBagChartRepresentationClientServer.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+      <DepFileAdditionalInputsFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\pv\rebuild\CMakeFiles\d\d1c5c98bfe3140a7101af7383cb7f34eebf7b8d3b071561ceb9259dd81ea9dc8.AdditionalInputs</DepFileAdditionalInputsFile>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\a84fecfb8bc3b570d5398206e5cbe238\vtkPVBagPlotMatrixViewClientServer.cxx.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating client_server wrapper sources for vtkPVBagPlotMatrixView</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+..\..\bin\Debug\vtkWrapClientServer-pv5.13d.exe -MF D:/pv/rebuild/Plugins/BagPlotViewsAndFilters/CMakeFiles/vtkBagPlotViewsAndFiltersBagPlotCS/vtkPVBagPlotMatrixViewClientServer.cxx.Debug.d @D:/pv/rebuild/Plugins/BagPlotViewsAndFilters/CMakeFiles/vtkBagPlotViewsAndFiltersBagPlot-client-server.Debug.args -o D:/pv/rebuild/Plugins/BagPlotViewsAndFilters/CMakeFiles/vtkBagPlotViewsAndFiltersBagPlotCS/vtkPVBagPlotMatrixViewClientServer.cxx D:/pv/ParaView/Plugins/BagPlotViewsAndFilters/BagPlot/vtkPVBagPlotMatrixView.h --types D:/pv/rebuild/bin/paraview-5.13/plugins/BagPlotViewsAndFilters/vtk/hierarchy/BagPlotViewsAndFilters/vtkBagPlotViewsAndFiltersBagPlot-hierarchy.txt
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_transform_depfile "Visual Studio 16 2019" MSBuildAdditionalInputs D:/pv/ParaView D:/pv/ParaView/Plugins/BagPlotViewsAndFilters D:/pv/rebuild D:/pv/rebuild/Plugins/BagPlotViewsAndFilters D:/pv/rebuild/Plugins/BagPlotViewsAndFilters/CMakeFiles/vtkBagPlotViewsAndFiltersBagPlotCS/vtkPVBagPlotMatrixViewClientServer.cxx.Debug.d D:/pv/rebuild/CMakeFiles/d/f0fb76c736008722fe12a8571532dcd7f56059a2f92f11774cbe04d09a306200.AdditionalInputs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\pv\rebuild\bin\Debug\vtkWrapClientServer-pv5.13d.exe;D:\pv\ParaView\Plugins\BagPlotViewsAndFilters\BagPlot\vtkPVBagPlotMatrixView.h;D:\pv\rebuild\Plugins\BagPlotViewsAndFilters\CMakeFiles\vtkBagPlotViewsAndFiltersBagPlot-client-server.Debug.args;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\pv\rebuild\Plugins\BagPlotViewsAndFilters\CMakeFiles\vtkBagPlotViewsAndFiltersBagPlotCS\vtkPVBagPlotMatrixViewClientServer.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <DepFileAdditionalInputsFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\pv\rebuild\CMakeFiles\d\f0fb76c736008722fe12a8571532dcd7f56059a2f92f11774cbe04d09a306200.AdditionalInputs</DepFileAdditionalInputsFile>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating client_server wrapper sources for vtkPVBagPlotMatrixView</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+..\..\bin\Release\vtkWrapClientServer-pv5.13.exe -MF D:/pv/rebuild/Plugins/BagPlotViewsAndFilters/CMakeFiles/vtkBagPlotViewsAndFiltersBagPlotCS/vtkPVBagPlotMatrixViewClientServer.cxx.Release.d @D:/pv/rebuild/Plugins/BagPlotViewsAndFilters/CMakeFiles/vtkBagPlotViewsAndFiltersBagPlot-client-server.Release.args -o D:/pv/rebuild/Plugins/BagPlotViewsAndFilters/CMakeFiles/vtkBagPlotViewsAndFiltersBagPlotCS/vtkPVBagPlotMatrixViewClientServer.cxx D:/pv/ParaView/Plugins/BagPlotViewsAndFilters/BagPlot/vtkPVBagPlotMatrixView.h --types D:/pv/rebuild/bin/paraview-5.13/plugins/BagPlotViewsAndFilters/vtk/hierarchy/BagPlotViewsAndFilters/vtkBagPlotViewsAndFiltersBagPlot-hierarchy.txt
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_transform_depfile "Visual Studio 16 2019" MSBuildAdditionalInputs D:/pv/ParaView D:/pv/ParaView/Plugins/BagPlotViewsAndFilters D:/pv/rebuild D:/pv/rebuild/Plugins/BagPlotViewsAndFilters D:/pv/rebuild/Plugins/BagPlotViewsAndFilters/CMakeFiles/vtkBagPlotViewsAndFiltersBagPlotCS/vtkPVBagPlotMatrixViewClientServer.cxx.Release.d D:/pv/rebuild/CMakeFiles/d/07a59258bd630da6cb490cbe819aaf272ea6dbb7a7e3cd7e9faecef8c37e29f1.AdditionalInputs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\pv\rebuild\bin\Release\vtkWrapClientServer-pv5.13.exe;D:\pv\ParaView\Plugins\BagPlotViewsAndFilters\BagPlot\vtkPVBagPlotMatrixView.h;D:\pv\rebuild\Plugins\BagPlotViewsAndFilters\CMakeFiles\vtkBagPlotViewsAndFiltersBagPlot-client-server.Release.args;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\pv\rebuild\Plugins\BagPlotViewsAndFilters\CMakeFiles\vtkBagPlotViewsAndFiltersBagPlotCS\vtkPVBagPlotMatrixViewClientServer.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <DepFileAdditionalInputsFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\pv\rebuild\CMakeFiles\d\07a59258bd630da6cb490cbe819aaf272ea6dbb7a7e3cd7e9faecef8c37e29f1.AdditionalInputs</DepFileAdditionalInputsFile>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating client_server wrapper sources for vtkPVBagPlotMatrixView</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+..\..\bin\MinSizeRel\vtkWrapClientServer-pv5.13.exe -MF D:/pv/rebuild/Plugins/BagPlotViewsAndFilters/CMakeFiles/vtkBagPlotViewsAndFiltersBagPlotCS/vtkPVBagPlotMatrixViewClientServer.cxx.MinSizeRel.d @D:/pv/rebuild/Plugins/BagPlotViewsAndFilters/CMakeFiles/vtkBagPlotViewsAndFiltersBagPlot-client-server.MinSizeRel.args -o D:/pv/rebuild/Plugins/BagPlotViewsAndFilters/CMakeFiles/vtkBagPlotViewsAndFiltersBagPlotCS/vtkPVBagPlotMatrixViewClientServer.cxx D:/pv/ParaView/Plugins/BagPlotViewsAndFilters/BagPlot/vtkPVBagPlotMatrixView.h --types D:/pv/rebuild/bin/paraview-5.13/plugins/BagPlotViewsAndFilters/vtk/hierarchy/BagPlotViewsAndFilters/vtkBagPlotViewsAndFiltersBagPlot-hierarchy.txt
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_transform_depfile "Visual Studio 16 2019" MSBuildAdditionalInputs D:/pv/ParaView D:/pv/ParaView/Plugins/BagPlotViewsAndFilters D:/pv/rebuild D:/pv/rebuild/Plugins/BagPlotViewsAndFilters D:/pv/rebuild/Plugins/BagPlotViewsAndFilters/CMakeFiles/vtkBagPlotViewsAndFiltersBagPlotCS/vtkPVBagPlotMatrixViewClientServer.cxx.MinSizeRel.d D:/pv/rebuild/CMakeFiles/d/7ce49aba29dcd8f34c5020a7f87a5effa903a18b56cafdbe0e0406309da18d31.AdditionalInputs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\pv\rebuild\bin\MinSizeRel\vtkWrapClientServer-pv5.13.exe;D:\pv\ParaView\Plugins\BagPlotViewsAndFilters\BagPlot\vtkPVBagPlotMatrixView.h;D:\pv\rebuild\Plugins\BagPlotViewsAndFilters\CMakeFiles\vtkBagPlotViewsAndFiltersBagPlot-client-server.MinSizeRel.args;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\pv\rebuild\Plugins\BagPlotViewsAndFilters\CMakeFiles\vtkBagPlotViewsAndFiltersBagPlotCS\vtkPVBagPlotMatrixViewClientServer.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <DepFileAdditionalInputsFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\pv\rebuild\CMakeFiles\d\7ce49aba29dcd8f34c5020a7f87a5effa903a18b56cafdbe0e0406309da18d31.AdditionalInputs</DepFileAdditionalInputsFile>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating client_server wrapper sources for vtkPVBagPlotMatrixView</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+..\..\bin\RelWithDebInfo\vtkWrapClientServer-pv5.13.exe -MF D:/pv/rebuild/Plugins/BagPlotViewsAndFilters/CMakeFiles/vtkBagPlotViewsAndFiltersBagPlotCS/vtkPVBagPlotMatrixViewClientServer.cxx.RelWithDebInfo.d @D:/pv/rebuild/Plugins/BagPlotViewsAndFilters/CMakeFiles/vtkBagPlotViewsAndFiltersBagPlot-client-server.RelWithDebInfo.args -o D:/pv/rebuild/Plugins/BagPlotViewsAndFilters/CMakeFiles/vtkBagPlotViewsAndFiltersBagPlotCS/vtkPVBagPlotMatrixViewClientServer.cxx D:/pv/ParaView/Plugins/BagPlotViewsAndFilters/BagPlot/vtkPVBagPlotMatrixView.h --types D:/pv/rebuild/bin/paraview-5.13/plugins/BagPlotViewsAndFilters/vtk/hierarchy/BagPlotViewsAndFilters/vtkBagPlotViewsAndFiltersBagPlot-hierarchy.txt
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_transform_depfile "Visual Studio 16 2019" MSBuildAdditionalInputs D:/pv/ParaView D:/pv/ParaView/Plugins/BagPlotViewsAndFilters D:/pv/rebuild D:/pv/rebuild/Plugins/BagPlotViewsAndFilters D:/pv/rebuild/Plugins/BagPlotViewsAndFilters/CMakeFiles/vtkBagPlotViewsAndFiltersBagPlotCS/vtkPVBagPlotMatrixViewClientServer.cxx.RelWithDebInfo.d D:/pv/rebuild/CMakeFiles/d/b1183a7f6a19c2b29db76a0fac81e681c6f14b541d9561a8bbe6108e8efe0852.AdditionalInputs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\pv\rebuild\bin\RelWithDebInfo\vtkWrapClientServer-pv5.13.exe;D:\pv\ParaView\Plugins\BagPlotViewsAndFilters\BagPlot\vtkPVBagPlotMatrixView.h;D:\pv\rebuild\Plugins\BagPlotViewsAndFilters\CMakeFiles\vtkBagPlotViewsAndFiltersBagPlot-client-server.RelWithDebInfo.args;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\pv\rebuild\Plugins\BagPlotViewsAndFilters\CMakeFiles\vtkBagPlotViewsAndFiltersBagPlotCS\vtkPVBagPlotMatrixViewClientServer.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+      <DepFileAdditionalInputsFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\pv\rebuild\CMakeFiles\d\b1183a7f6a19c2b29db76a0fac81e681c6f14b541d9561a8bbe6108e8efe0852.AdditionalInputs</DepFileAdditionalInputsFile>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\a84fecfb8bc3b570d5398206e5cbe238\vtkPVBagPlotMatrixRepresentationClientServer.cxx.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating client_server wrapper sources for vtkPVBagPlotMatrixRepresentation</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+..\..\bin\Debug\vtkWrapClientServer-pv5.13d.exe -MF D:/pv/rebuild/Plugins/BagPlotViewsAndFilters/CMakeFiles/vtkBagPlotViewsAndFiltersBagPlotCS/vtkPVBagPlotMatrixRepresentationClientServer.cxx.Debug.d @D:/pv/rebuild/Plugins/BagPlotViewsAndFilters/CMakeFiles/vtkBagPlotViewsAndFiltersBagPlot-client-server.Debug.args -o D:/pv/rebuild/Plugins/BagPlotViewsAndFilters/CMakeFiles/vtkBagPlotViewsAndFiltersBagPlotCS/vtkPVBagPlotMatrixRepresentationClientServer.cxx D:/pv/ParaView/Plugins/BagPlotViewsAndFilters/BagPlot/vtkPVBagPlotMatrixRepresentation.h --types D:/pv/rebuild/bin/paraview-5.13/plugins/BagPlotViewsAndFilters/vtk/hierarchy/BagPlotViewsAndFilters/vtkBagPlotViewsAndFiltersBagPlot-hierarchy.txt
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_transform_depfile "Visual Studio 16 2019" MSBuildAdditionalInputs D:/pv/ParaView D:/pv/ParaView/Plugins/BagPlotViewsAndFilters D:/pv/rebuild D:/pv/rebuild/Plugins/BagPlotViewsAndFilters D:/pv/rebuild/Plugins/BagPlotViewsAndFilters/CMakeFiles/vtkBagPlotViewsAndFiltersBagPlotCS/vtkPVBagPlotMatrixRepresentationClientServer.cxx.Debug.d D:/pv/rebuild/CMakeFiles/d/a54c8b755537490133190f879e833775c1fb4cf99f669d616dc5e8c34900ea54.AdditionalInputs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\pv\rebuild\bin\Debug\vtkWrapClientServer-pv5.13d.exe;D:\pv\ParaView\Plugins\BagPlotViewsAndFilters\BagPlot\vtkPVBagPlotMatrixRepresentation.h;D:\pv\rebuild\Plugins\BagPlotViewsAndFilters\CMakeFiles\vtkBagPlotViewsAndFiltersBagPlot-client-server.Debug.args;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\pv\rebuild\Plugins\BagPlotViewsAndFilters\CMakeFiles\vtkBagPlotViewsAndFiltersBagPlotCS\vtkPVBagPlotMatrixRepresentationClientServer.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <DepFileAdditionalInputsFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\pv\rebuild\CMakeFiles\d\a54c8b755537490133190f879e833775c1fb4cf99f669d616dc5e8c34900ea54.AdditionalInputs</DepFileAdditionalInputsFile>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating client_server wrapper sources for vtkPVBagPlotMatrixRepresentation</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+..\..\bin\Release\vtkWrapClientServer-pv5.13.exe -MF D:/pv/rebuild/Plugins/BagPlotViewsAndFilters/CMakeFiles/vtkBagPlotViewsAndFiltersBagPlotCS/vtkPVBagPlotMatrixRepresentationClientServer.cxx.Release.d @D:/pv/rebuild/Plugins/BagPlotViewsAndFilters/CMakeFiles/vtkBagPlotViewsAndFiltersBagPlot-client-server.Release.args -o D:/pv/rebuild/Plugins/BagPlotViewsAndFilters/CMakeFiles/vtkBagPlotViewsAndFiltersBagPlotCS/vtkPVBagPlotMatrixRepresentationClientServer.cxx D:/pv/ParaView/Plugins/BagPlotViewsAndFilters/BagPlot/vtkPVBagPlotMatrixRepresentation.h --types D:/pv/rebuild/bin/paraview-5.13/plugins/BagPlotViewsAndFilters/vtk/hierarchy/BagPlotViewsAndFilters/vtkBagPlotViewsAndFiltersBagPlot-hierarchy.txt
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_transform_depfile "Visual Studio 16 2019" MSBuildAdditionalInputs D:/pv/ParaView D:/pv/ParaView/Plugins/BagPlotViewsAndFilters D:/pv/rebuild D:/pv/rebuild/Plugins/BagPlotViewsAndFilters D:/pv/rebuild/Plugins/BagPlotViewsAndFilters/CMakeFiles/vtkBagPlotViewsAndFiltersBagPlotCS/vtkPVBagPlotMatrixRepresentationClientServer.cxx.Release.d D:/pv/rebuild/CMakeFiles/d/49a852a9f5d8f0dd1f9d0661130a4ec82a965011821c49555368cbdc9f253f33.AdditionalInputs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\pv\rebuild\bin\Release\vtkWrapClientServer-pv5.13.exe;D:\pv\ParaView\Plugins\BagPlotViewsAndFilters\BagPlot\vtkPVBagPlotMatrixRepresentation.h;D:\pv\rebuild\Plugins\BagPlotViewsAndFilters\CMakeFiles\vtkBagPlotViewsAndFiltersBagPlot-client-server.Release.args;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\pv\rebuild\Plugins\BagPlotViewsAndFilters\CMakeFiles\vtkBagPlotViewsAndFiltersBagPlotCS\vtkPVBagPlotMatrixRepresentationClientServer.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <DepFileAdditionalInputsFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\pv\rebuild\CMakeFiles\d\49a852a9f5d8f0dd1f9d0661130a4ec82a965011821c49555368cbdc9f253f33.AdditionalInputs</DepFileAdditionalInputsFile>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating client_server wrapper sources for vtkPVBagPlotMatrixRepresentation</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+..\..\bin\MinSizeRel\vtkWrapClientServer-pv5.13.exe -MF D:/pv/rebuild/Plugins/BagPlotViewsAndFilters/CMakeFiles/vtkBagPlotViewsAndFiltersBagPlotCS/vtkPVBagPlotMatrixRepresentationClientServer.cxx.MinSizeRel.d @D:/pv/rebuild/Plugins/BagPlotViewsAndFilters/CMakeFiles/vtkBagPlotViewsAndFiltersBagPlot-client-server.MinSizeRel.args -o D:/pv/rebuild/Plugins/BagPlotViewsAndFilters/CMakeFiles/vtkBagPlotViewsAndFiltersBagPlotCS/vtkPVBagPlotMatrixRepresentationClientServer.cxx D:/pv/ParaView/Plugins/BagPlotViewsAndFilters/BagPlot/vtkPVBagPlotMatrixRepresentation.h --types D:/pv/rebuild/bin/paraview-5.13/plugins/BagPlotViewsAndFilters/vtk/hierarchy/BagPlotViewsAndFilters/vtkBagPlotViewsAndFiltersBagPlot-hierarchy.txt
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_transform_depfile "Visual Studio 16 2019" MSBuildAdditionalInputs D:/pv/ParaView D:/pv/ParaView/Plugins/BagPlotViewsAndFilters D:/pv/rebuild D:/pv/rebuild/Plugins/BagPlotViewsAndFilters D:/pv/rebuild/Plugins/BagPlotViewsAndFilters/CMakeFiles/vtkBagPlotViewsAndFiltersBagPlotCS/vtkPVBagPlotMatrixRepresentationClientServer.cxx.MinSizeRel.d D:/pv/rebuild/CMakeFiles/d/a507bf28e45200863b578609762c94181621b3fb2e57fecde5c55ef3b29c85e3.AdditionalInputs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\pv\rebuild\bin\MinSizeRel\vtkWrapClientServer-pv5.13.exe;D:\pv\ParaView\Plugins\BagPlotViewsAndFilters\BagPlot\vtkPVBagPlotMatrixRepresentation.h;D:\pv\rebuild\Plugins\BagPlotViewsAndFilters\CMakeFiles\vtkBagPlotViewsAndFiltersBagPlot-client-server.MinSizeRel.args;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\pv\rebuild\Plugins\BagPlotViewsAndFilters\CMakeFiles\vtkBagPlotViewsAndFiltersBagPlotCS\vtkPVBagPlotMatrixRepresentationClientServer.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <DepFileAdditionalInputsFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\pv\rebuild\CMakeFiles\d\a507bf28e45200863b578609762c94181621b3fb2e57fecde5c55ef3b29c85e3.AdditionalInputs</DepFileAdditionalInputsFile>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating client_server wrapper sources for vtkPVBagPlotMatrixRepresentation</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+..\..\bin\RelWithDebInfo\vtkWrapClientServer-pv5.13.exe -MF D:/pv/rebuild/Plugins/BagPlotViewsAndFilters/CMakeFiles/vtkBagPlotViewsAndFiltersBagPlotCS/vtkPVBagPlotMatrixRepresentationClientServer.cxx.RelWithDebInfo.d @D:/pv/rebuild/Plugins/BagPlotViewsAndFilters/CMakeFiles/vtkBagPlotViewsAndFiltersBagPlot-client-server.RelWithDebInfo.args -o D:/pv/rebuild/Plugins/BagPlotViewsAndFilters/CMakeFiles/vtkBagPlotViewsAndFiltersBagPlotCS/vtkPVBagPlotMatrixRepresentationClientServer.cxx D:/pv/ParaView/Plugins/BagPlotViewsAndFilters/BagPlot/vtkPVBagPlotMatrixRepresentation.h --types D:/pv/rebuild/bin/paraview-5.13/plugins/BagPlotViewsAndFilters/vtk/hierarchy/BagPlotViewsAndFilters/vtkBagPlotViewsAndFiltersBagPlot-hierarchy.txt
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_transform_depfile "Visual Studio 16 2019" MSBuildAdditionalInputs D:/pv/ParaView D:/pv/ParaView/Plugins/BagPlotViewsAndFilters D:/pv/rebuild D:/pv/rebuild/Plugins/BagPlotViewsAndFilters D:/pv/rebuild/Plugins/BagPlotViewsAndFilters/CMakeFiles/vtkBagPlotViewsAndFiltersBagPlotCS/vtkPVBagPlotMatrixRepresentationClientServer.cxx.RelWithDebInfo.d D:/pv/rebuild/CMakeFiles/d/5d8712cd2f2471122bd429f0992b6d5a890e8ae28f921a776c3d77ec2b293e25.AdditionalInputs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\pv\rebuild\bin\RelWithDebInfo\vtkWrapClientServer-pv5.13.exe;D:\pv\ParaView\Plugins\BagPlotViewsAndFilters\BagPlot\vtkPVBagPlotMatrixRepresentation.h;D:\pv\rebuild\Plugins\BagPlotViewsAndFilters\CMakeFiles\vtkBagPlotViewsAndFiltersBagPlot-client-server.RelWithDebInfo.args;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\pv\rebuild\Plugins\BagPlotViewsAndFilters\CMakeFiles\vtkBagPlotViewsAndFiltersBagPlotCS\vtkPVBagPlotMatrixRepresentationClientServer.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+      <DepFileAdditionalInputsFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\pv\rebuild\CMakeFiles\d\5d8712cd2f2471122bd429f0992b6d5a890e8ae28f921a776c3d77ec2b293e25.AdditionalInputs</DepFileAdditionalInputsFile>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\pv\ParaView\Plugins\BagPlotViewsAndFilters\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/pv/ParaView/Plugins/BagPlotViewsAndFilters/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/pv/ParaView -BD:/pv/rebuild --check-stamp-file D:/pv/rebuild/Plugins/BagPlotViewsAndFilters/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeParseArguments.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5\Qt5Config.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5\Qt5ConfigVersion.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5\Qt5ModuleLocation.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QInsightTrackerPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QSvgIconPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QSvgPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QVirtualKeyboardPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWebGLIntegrationPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QXdgDesktopPortalThemePlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Help\Qt5HelpConfig.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Help\Qt5HelpConfigExtras.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Help\Qt5HelpConfigVersion.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Sql\Qt5SqlConfig.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Sql\Qt5SqlConfigVersion.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Sql\Qt5Sql_QODBCDriverPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Sql\Qt5Sql_QPSQLDriverPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Sql\Qt5Sql_QSQLiteDriverPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;D:\pv\ParaView\CMake\paraview_plugin.cxx.in;D:\pv\ParaView\CMake\paraview_plugin.h.in;D:\pv\ParaView\Plugins\BagPlotViewsAndFilters\BagPlot\vtk.module;D:\pv\ParaView\Plugins\BagPlotViewsAndFilters\BagPlotViewsAndFilters.qrc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\pv\rebuild\Plugins\BagPlotViewsAndFilters\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/pv/ParaView/Plugins/BagPlotViewsAndFilters/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/pv/ParaView -BD:/pv/rebuild --check-stamp-file D:/pv/rebuild/Plugins/BagPlotViewsAndFilters/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeParseArguments.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5\Qt5Config.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5\Qt5ConfigVersion.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5\Qt5ModuleLocation.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QInsightTrackerPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QSvgIconPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QSvgPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QVirtualKeyboardPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWebGLIntegrationPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QXdgDesktopPortalThemePlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Help\Qt5HelpConfig.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Help\Qt5HelpConfigExtras.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Help\Qt5HelpConfigVersion.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Sql\Qt5SqlConfig.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Sql\Qt5SqlConfigVersion.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Sql\Qt5Sql_QODBCDriverPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Sql\Qt5Sql_QPSQLDriverPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Sql\Qt5Sql_QSQLiteDriverPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;D:\pv\ParaView\CMake\paraview_plugin.cxx.in;D:\pv\ParaView\CMake\paraview_plugin.h.in;D:\pv\ParaView\Plugins\BagPlotViewsAndFilters\BagPlot\vtk.module;D:\pv\ParaView\Plugins\BagPlotViewsAndFilters\BagPlotViewsAndFilters.qrc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\pv\rebuild\Plugins\BagPlotViewsAndFilters\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/pv/ParaView/Plugins/BagPlotViewsAndFilters/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/pv/ParaView -BD:/pv/rebuild --check-stamp-file D:/pv/rebuild/Plugins/BagPlotViewsAndFilters/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeParseArguments.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5\Qt5Config.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5\Qt5ConfigVersion.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5\Qt5ModuleLocation.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QInsightTrackerPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QSvgIconPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QSvgPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QVirtualKeyboardPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWebGLIntegrationPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QXdgDesktopPortalThemePlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Help\Qt5HelpConfig.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Help\Qt5HelpConfigExtras.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Help\Qt5HelpConfigVersion.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Sql\Qt5SqlConfig.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Sql\Qt5SqlConfigVersion.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Sql\Qt5Sql_QODBCDriverPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Sql\Qt5Sql_QPSQLDriverPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Sql\Qt5Sql_QSQLiteDriverPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;D:\pv\ParaView\CMake\paraview_plugin.cxx.in;D:\pv\ParaView\CMake\paraview_plugin.h.in;D:\pv\ParaView\Plugins\BagPlotViewsAndFilters\BagPlot\vtk.module;D:\pv\ParaView\Plugins\BagPlotViewsAndFilters\BagPlotViewsAndFilters.qrc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\pv\rebuild\Plugins\BagPlotViewsAndFilters\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/pv/ParaView/Plugins/BagPlotViewsAndFilters/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/pv/ParaView -BD:/pv/rebuild --check-stamp-file D:/pv/rebuild/Plugins/BagPlotViewsAndFilters/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeParseArguments.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5\Qt5Config.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5\Qt5ConfigVersion.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5\Qt5ModuleLocation.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QInsightTrackerPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QSvgIconPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QSvgPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QVirtualKeyboardPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWebGLIntegrationPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QXdgDesktopPortalThemePlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Help\Qt5HelpConfig.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Help\Qt5HelpConfigExtras.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Help\Qt5HelpConfigVersion.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Sql\Qt5SqlConfig.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Sql\Qt5SqlConfigVersion.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Sql\Qt5Sql_QODBCDriverPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Sql\Qt5Sql_QPSQLDriverPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Sql\Qt5Sql_QSQLiteDriverPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;D:\pv\ParaView\CMake\paraview_plugin.cxx.in;D:\pv\ParaView\CMake\paraview_plugin.h.in;D:\pv\ParaView\Plugins\BagPlotViewsAndFilters\BagPlot\vtk.module;D:\pv\ParaView\Plugins\BagPlotViewsAndFilters\BagPlotViewsAndFilters.qrc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\pv\rebuild\Plugins\BagPlotViewsAndFilters\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\pv\rebuild\Plugins\BagPlotViewsAndFilters\CMakeFiles\vtkBagPlotViewsAndFiltersBagPlotCS\vtkPVExtractBagPlotsClientServer.cxx" />
+    <ClCompile Include="D:\pv\rebuild\Plugins\BagPlotViewsAndFilters\CMakeFiles\vtkBagPlotViewsAndFiltersBagPlotCS\vtkSMFunctionalBagChartSeriesSelectionDomainClientServer.cxx" />
+    <ClCompile Include="D:\pv\rebuild\Plugins\BagPlotViewsAndFilters\CMakeFiles\vtkBagPlotViewsAndFiltersBagPlotCS\vtkSMBagChartSeriesListDomainClientServer.cxx" />
+    <ClCompile Include="D:\pv\rebuild\Plugins\BagPlotViewsAndFilters\CMakeFiles\vtkBagPlotViewsAndFiltersBagPlotCS\vtkPVBagChartRepresentationClientServer.cxx" />
+    <ClCompile Include="D:\pv\rebuild\Plugins\BagPlotViewsAndFilters\CMakeFiles\vtkBagPlotViewsAndFiltersBagPlotCS\vtkPVBagPlotMatrixViewClientServer.cxx" />
+    <ClCompile Include="D:\pv\rebuild\Plugins\BagPlotViewsAndFilters\CMakeFiles\vtkBagPlotViewsAndFiltersBagPlotCS\vtkPVBagPlotMatrixRepresentationClientServer.cxx" />
+    <ClCompile Include="D:\pv\rebuild\Plugins\BagPlotViewsAndFilters\CMakeFiles\vtkBagPlotViewsAndFiltersBagPlotCSInit.cxx" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="D:\pv\rebuild\ZERO_CHECK.vcxproj">
+      <Project>{F365DAD0-49D0-3E04-B6A0-AEBAF9BD405C}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\Plugins\BagPlotViewsAndFilters\BagPlot\BagPlotViewsAndFiltersBagPlot.vcxproj">
+      <Project>{7F2900A7-018B-324E-A409-754AA22F3E53}</Project>
+      <Name>BagPlotViewsAndFiltersBagPlot</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\Charts\Core\ChartsCore.vcxproj">
+      <Project>{A153A604-09B2-39BF-B410-1AA3AC969108}</Project>
+      <Name>ChartsCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\Common\Core\CommonCore.vcxproj">
+      <Project>{B619F52E-9839-377A-BAEE-BACB4D9A457F}</Project>
+      <Name>CommonCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\Common\DataModel\CommonDataModel.vcxproj">
+      <Project>{41298AA9-65F9-3C5B-8ECF-E93AC201EB02}</Project>
+      <Name>CommonDataModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\Common\ExecutionModel\CommonExecutionModel.vcxproj">
+      <Project>{80171A5E-C0D7-3ED5-A880-FCF8C3497B99}</Project>
+      <Name>CommonExecutionModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\Common\Math\CommonMath.vcxproj">
+      <Project>{194237E4-60C4-316E-8F01-9F06A2D04C6A}</Project>
+      <Name>CommonMath</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\Common\Misc\CommonMisc.vcxproj">
+      <Project>{2C21986E-CA16-3967-AC1B-5DD4E89FBFB7}</Project>
+      <Name>CommonMisc</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\Common\Transforms\CommonTransforms.vcxproj">
+      <Project>{D6924074-2195-374C-AF34-798A39B49219}</Project>
+      <Name>CommonTransforms</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\Filters\CellGrid\FiltersCellGrid.vcxproj">
+      <Project>{20FA2CC0-0727-31A7-A76C-EF711974F24F}</Project>
+      <Name>FiltersCellGrid</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\Filters\Core\FiltersCore.vcxproj">
+      <Project>{B7A8F192-AC49-3525-8F11-8E30B789871A}</Project>
+      <Name>FiltersCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\Filters\General\FiltersGeneral.vcxproj">
+      <Project>{772D814A-2239-3BCA-9297-C780F98BEB5C}</Project>
+      <Name>FiltersGeneral</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\Filters\Sources\FiltersSources.vcxproj">
+      <Project>{26743BDB-974B-39F2-BFC5-3F15D3CF965D}</Project>
+      <Name>FiltersSources</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\IO\Image\IOImage.vcxproj">
+      <Project>{39C6CE93-8622-34E4-ACD5-7B49AFF7745D}</Project>
+      <Name>IOImage</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\IO\XML\IOXML.vcxproj">
+      <Project>{9927FCFF-3A01-3B17-B631-255D55C609A6}</Project>
+      <Name>IOXML</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\IO\XMLParser\IOXMLParser.vcxproj">
+      <Project>{3BAC3771-128F-3615-8A98-E65636642CF9}</Project>
+      <Name>IOXMLParser</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\Imaging\Core\ImagingCore.vcxproj">
+      <Project>{2928103A-D626-353E-995C-44B81B9FE8A5}</Project>
+      <Name>ImagingCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\Interaction\Widgets\InteractionWidgets.vcxproj">
+      <Project>{DA2D197E-9A37-367A-B638-345F28523CBB}</Project>
+      <Name>InteractionWidgets</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\Parallel\Core\ParallelCore.vcxproj">
+      <Project>{18462D0D-F3A9-3543-A626-42965C7B83A4}</Project>
+      <Name>ParallelCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\Remoting\ClientServerStream\RemotingClientServerStream.vcxproj">
+      <Project>{37AD3169-CA99-3AE5-B80A-74511EEDA2B3}</Project>
+      <Name>RemotingClientServerStream</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\Remoting\Core\RemotingCore.vcxproj">
+      <Project>{36258644-3FAF-3443-8F96-66E8B4411189}</Project>
+      <Name>RemotingCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\Remoting\ServerManager\RemotingServerManager.vcxproj">
+      <Project>{C6B4F23A-101E-3BB0-9BEC-C7AF49AF9C7F}</Project>
+      <Name>RemotingServerManager</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\Remoting\Views\RemotingViews.vcxproj">
+      <Project>{5D30CDDD-D5B4-39D1-B96A-DD73F58155DD}</Project>
+      <Name>RemotingViews</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\Rendering\Annotation\RenderingAnnotation.vcxproj">
+      <Project>{BD86B69F-6A37-368D-BF7F-CBDE1FD86936}</Project>
+      <Name>RenderingAnnotation</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\Rendering\CellGrid\RenderingCellGrid.vcxproj">
+      <Project>{9FA1BB19-D2E5-39CE-9C51-7F1C3B9DAB4A}</Project>
+      <Name>RenderingCellGrid</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\Rendering\Context2D\RenderingContext2D.vcxproj">
+      <Project>{5B487602-C9A9-3A8F-8127-8AD91438ADFB}</Project>
+      <Name>RenderingContext2D</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\Rendering\Core\RenderingCore.vcxproj">
+      <Project>{B8B62FE5-4672-3D39-81EC-A695E1134AA2}</Project>
+      <Name>RenderingCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\Rendering\HyperTreeGrid\RenderingHyperTreeGrid.vcxproj">
+      <Project>{5850B430-F4AC-385B-AEFB-001C6636A386}</Project>
+      <Name>RenderingHyperTreeGrid</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\Rendering\OpenGL2\RenderingOpenGL2.vcxproj">
+      <Project>{8AB23879-F3E9-36F6-AB7D-B98A57C42B55}</Project>
+      <Name>RenderingOpenGL2</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\Rendering\Parallel\RenderingParallel.vcxproj">
+      <Project>{436BDDD3-E0A0-32CD-AAC2-98F3539A5B53}</Project>
+      <Name>RenderingParallel</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\Rendering\UI\RenderingUI.vcxproj">
+      <Project>{E7CB9DAF-4FEA-370B-8D2A-4708B93265B2}</Project>
+      <Name>RenderingUI</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTKExtensions\Core\VTKExtensionsCore.vcxproj">
+      <Project>{6CB127A2-004F-3CC4-AF69-E9766B4EB796}</Project>
+      <Name>VTKExtensionsCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\Utilities\Versioning\Versioning.vcxproj">
+      <Project>{30D64FB8-9F2C-34FB-A926-A8A18C7CBD9C}</Project>
+      <Name>Versioning</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\Views\Context2D\ViewsContext2D.vcxproj">
+      <Project>{20887DC6-45D0-3D68-9CB2-8F8CD2109E86}</Project>
+      <Name>ViewsContext2D</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\Views\Core\ViewsCore.vcxproj">
+      <Project>{B24DFA3A-68C2-38B3-95A4-7F020F118B42}</Project>
+      <Name>ViewsCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\Utilities\WrapClientServer\WrapClientServer.vcxproj">
+      <Project>{1186F1C1-48D1-3478-AFE4-9615BBF083CE}</Project>
+      <Name>WrapClientServer</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\ThirdParty\fmt\vtkfmt\fmt.vcxproj">
+      <Project>{7D9BD33F-6773-38B6-8B83-65AAA610F5E0}</Project>
+      <Name>fmt</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\ThirdParty\glew\vtkglew\glew.vcxproj">
+      <Project>{836D2EFD-F6F3-31D6-B38A-61DD0E2A6F71}</Project>
+      <Name>glew</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\ThirdParty\jsoncpp\vtkjsoncpp\jsoncpp.vcxproj">
+      <Project>{A7DB306F-74EE-35CF-BBA1-0E11163A18FD}</Project>
+      <Name>jsoncpp</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\ThirdParty\kissfft\vtkkissfft\kissfft.vcxproj">
+      <Project>{3CCF61F3-F985-33F3-8EC9-58E045C69827}</Project>
+      <Name>kissfft</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\ThirdParty\nlohmannjson\vtknlohmannjson\nlohmannjson.vcxproj">
+      <Project>{7457C71D-4012-3101-AF26-38DABCDE7E01}</Project>
+      <Name>nlohmannjson</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\ThirdParty\protobuf\vtkprotobuf\src\protobuf.vcxproj">
+      <Project>{DDC53A88-87B6-3E8E-9A5C-DA782CA2D8DB}</Project>
+      <Name>protobuf</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\ThirdParty\token\vtktoken\token\token.vcxproj">
+      <Project>{6AB51710-ABE5-385B-96E1-B68D0E5AAC99}</Project>
+      <Name>token</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\Plugins\BagPlotViewsAndFilters\BagPlot\vtkBagPlotViewsAndFiltersBagPlot-hierarchy.vcxproj">
+      <Project>{12864D6C-E84D-3268-B0ED-4336E96CFCB1}</Project>
+      <Name>vtkBagPlotViewsAndFiltersBagPlot-hierarchy</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\Utilities\KWSys\vtksys\vtksys.vcxproj">
+      <Project>{771F913C-BFBD-34D6-B1D7-80FEFE734E74}</Project>
+      <Name>vtksys</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <Import Project="C:\Program Files\CMake\share\cmake-3.31\Templates\MSBuild\CustomBuildDepFile.targets" />
+</Project>

@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\pv\rebuild\VTK\Rendering\LICOpenGL2\vtkLineIntegralConvolution2D_AAH.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\VTK\Rendering\LICOpenGL2\vtkLineIntegralConvolution2D_AAV.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\VTK\Rendering\LICOpenGL2\vtkLineIntegralConvolution2D_CE.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\VTK\Rendering\LICOpenGL2\vtkLineIntegralConvolution2D_EE.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\VTK\Rendering\LICOpenGL2\vtkLineIntegralConvolution2D_LIC0.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\VTK\Rendering\LICOpenGL2\vtkLineIntegralConvolution2D_LICI.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\VTK\Rendering\LICOpenGL2\vtkLineIntegralConvolution2D_LICN.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\VTK\Rendering\LICOpenGL2\vtkLineIntegralConvolution2D_VT.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\VTK\Rendering\LICOpenGL2\vtkStructuredGridLIC2D_fs.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\VTK\Rendering\LICOpenGL2\vtkSurfaceLICInterface_CE.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\VTK\Rendering\LICOpenGL2\vtkSurfaceLICInterface_DCpy.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\rebuild\VTK\Rendering\LICOpenGL2\vtkSurfaceLICInterface_SC.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\LICOpenGL2\vtkBatchedSurfaceLICMapper.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\LICOpenGL2\vtkCompositeSurfaceLICMapper.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\LICOpenGL2\vtkCompositeSurfaceLICMapperDelegator.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\LICOpenGL2\vtkImageDataLIC2D.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\LICOpenGL2\vtkLineIntegralConvolution2D.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\LICOpenGL2\vtkStructuredGridLIC2D.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\LICOpenGL2\vtkSurfaceLICComposite.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\LICOpenGL2\vtkSurfaceLICInterface.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\LICOpenGL2\vtkSurfaceLICMapper.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\LICOpenGL2\vtkTextureIO.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\LICOpenGL2\vtkLICNoiseHelper.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pv\ParaView\VTK\Rendering\LICOpenGL2\vtkSurfaceLICHelper.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\pv\rebuild\VTK\Rendering\LICOpenGL2\vtkLineIntegralConvolution2D_AAH.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\VTK\Rendering\LICOpenGL2\vtkLineIntegralConvolution2D_AAV.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\VTK\Rendering\LICOpenGL2\vtkLineIntegralConvolution2D_CE.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\VTK\Rendering\LICOpenGL2\vtkLineIntegralConvolution2D_EE.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\VTK\Rendering\LICOpenGL2\vtkLineIntegralConvolution2D_LIC0.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\VTK\Rendering\LICOpenGL2\vtkLineIntegralConvolution2D_LICI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\VTK\Rendering\LICOpenGL2\vtkLineIntegralConvolution2D_LICN.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\VTK\Rendering\LICOpenGL2\vtkLineIntegralConvolution2D_VT.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\VTK\Rendering\LICOpenGL2\vtkStructuredGridLIC2D_fs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\VTK\Rendering\LICOpenGL2\vtkSurfaceLICInterface_CE.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\VTK\Rendering\LICOpenGL2\vtkSurfaceLICInterface_DCpy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\VTK\Rendering\LICOpenGL2\vtkSurfaceLICInterface_SC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\LICOpenGL2\vtkPainterCommunicator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\LICOpenGL2\vtkBatchedSurfaceLICMapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\LICOpenGL2\vtkCompositeSurfaceLICMapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\LICOpenGL2\vtkCompositeSurfaceLICMapperDelegator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\LICOpenGL2\vtkImageDataLIC2D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\LICOpenGL2\vtkLineIntegralConvolution2D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\LICOpenGL2\vtkStructuredGridLIC2D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\LICOpenGL2\vtkSurfaceLICComposite.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\LICOpenGL2\vtkSurfaceLICInterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\LICOpenGL2\vtkSurfaceLICMapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\LICOpenGL2\vtkTextureIO.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\LICOpenGL2\vtkLICNoiseHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\ParaView\VTK\Rendering\LICOpenGL2\vtkSurfaceLICHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pv\rebuild\VTK\Rendering\LICOpenGL2\vtkRenderingLICOpenGL2Module.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\91b0b65180c42d24abaa7a95b3981266\vtkLineIntegralConvolution2D_AAH.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\91b0b65180c42d24abaa7a95b3981266\vtkLineIntegralConvolution2D_AAV.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\91b0b65180c42d24abaa7a95b3981266\vtkLineIntegralConvolution2D_CE.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\91b0b65180c42d24abaa7a95b3981266\vtkLineIntegralConvolution2D_EE.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\91b0b65180c42d24abaa7a95b3981266\vtkLineIntegralConvolution2D_LIC0.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\91b0b65180c42d24abaa7a95b3981266\vtkLineIntegralConvolution2D_LICI.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\91b0b65180c42d24abaa7a95b3981266\vtkLineIntegralConvolution2D_LICN.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\91b0b65180c42d24abaa7a95b3981266\vtkLineIntegralConvolution2D_VT.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\91b0b65180c42d24abaa7a95b3981266\vtkStructuredGridLIC2D_fs.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\91b0b65180c42d24abaa7a95b3981266\vtkSurfaceLICInterface_CE.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\91b0b65180c42d24abaa7a95b3981266\vtkSurfaceLICInterface_DCpy.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\91b0b65180c42d24abaa7a95b3981266\vtkSurfaceLICInterface_SC.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\pv\ParaView\VTK\Rendering\LICOpenGL2\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{FEFA764E-8736-3FD4-9B90-BE7174AE3DEA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{345BF67A-A46B-3569-AD4B-B0F9BB083ED9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{CE016C83-18D7-3CBD-A2E7-E2EB93EA0748}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

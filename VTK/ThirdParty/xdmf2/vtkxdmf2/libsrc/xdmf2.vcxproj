@@ -1,0 +1,446 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{9250526D-1856-34D6-99E7-2528ECD100D8}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>xdmf2</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\pv\rebuild\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">xdmf2.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">vtkxdmf2-pv5.13d</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\pv\rebuild\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">xdmf2.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">vtkxdmf2-pv5.13</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\pv\rebuild\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">xdmf2.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">vtkxdmf2-pv5.13</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\pv\rebuild\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">xdmf2.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">vtkxdmf2-pv5.13</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\pv\ParaView\VTK\ThirdParty\xdmf2\vtkxdmf2\libsrc;D:\pv\rebuild\VTK\ThirdParty\xdmf2\vtkxdmf2\libsrc;D:\pv\ParaView\VTK\ThirdParty\hdf5\vtkhdf5;D:\pv\rebuild\VTK\ThirdParty\hdf5\vtkhdf5;D:\pv\rebuild\VTK\ThirdParty\hdf5\vtkhdf5\src;D:\pv\ParaView\VTK\ThirdParty\hdf5\vtkhdf5\src;D:\pv\rebuild\VTK\ThirdParty\hdf5\vtkhdf5\hl\src;D:\pv\ParaView\VTK\ThirdParty\hdf5\vtkhdf5\hl\src;D:\pv\ParaView\VTK\ThirdParty\libxml2\vtklibxml2;D:\pv\rebuild\VTK\ThirdParty\libxml2\vtklibxml2;D:\pv\ParaView\VTK\ThirdParty\libxml2\vtklibxml2\include;D:\pv\rebuild\VTK\ThirdParty\libxml2\vtklibxml2\include;D:\pv\ParaView\VTK\ThirdParty\zlib\vtkzlib;D:\pv\rebuild\VTK\ThirdParty\zlib\vtkzlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/pv/rebuild/VTK/ThirdParty/xdmf2" /external:I "D:/pv/ParaView/VTK/ThirdParty/xdmf2" /external:I "D:/pv/rebuild/VTK/ThirdParty/hdf5" /external:I "D:/pv/ParaView/VTK/ThirdParty/hdf5" /external:I "D:/pv/rebuild/VTK/ThirdParty/libxml2" /external:I "D:/pv/ParaView/VTK/ThirdParty/libxml2" /external:I "D:/pv/rebuild/VTK/ThirdParty/zlib" /external:I "D:/pv/ParaView/VTK/ThirdParty/zlib" /bigobj /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;USE_SERIAL_XMDF;Windows;XDMF_NO_MPI;H5_BUILT_AS_DYNAMIC_LIB;CMAKE_INTDIR="Debug";Xdmf_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;USE_SERIAL_XMDF;Windows;XDMF_NO_MPI;H5_BUILT_AS_DYNAMIC_LIB;CMAKE_INTDIR=\"Debug\";Xdmf_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\pv\ParaView\VTK\ThirdParty\xdmf2\vtkxdmf2\libsrc;D:\pv\rebuild\VTK\ThirdParty\xdmf2\vtkxdmf2\libsrc;D:\pv\ParaView\VTK\ThirdParty\hdf5\vtkhdf5;D:\pv\rebuild\VTK\ThirdParty\hdf5\vtkhdf5;D:\pv\rebuild\VTK\ThirdParty\hdf5\vtkhdf5\src;D:\pv\ParaView\VTK\ThirdParty\hdf5\vtkhdf5\src;D:\pv\rebuild\VTK\ThirdParty\hdf5\vtkhdf5\hl\src;D:\pv\ParaView\VTK\ThirdParty\hdf5\vtkhdf5\hl\src;D:\pv\ParaView\VTK\ThirdParty\libxml2\vtklibxml2;D:\pv\rebuild\VTK\ThirdParty\libxml2\vtklibxml2;D:\pv\ParaView\VTK\ThirdParty\libxml2\vtklibxml2\include;D:\pv\rebuild\VTK\ThirdParty\libxml2\vtklibxml2\include;D:\pv\ParaView\VTK\ThirdParty\zlib\vtkzlib;D:\pv\rebuild\VTK\ThirdParty\zlib\vtkzlib;D:\pv\rebuild\VTK\ThirdParty\xdmf2;D:\pv\ParaView\VTK\ThirdParty\xdmf2;D:\pv\rebuild\VTK\ThirdParty\hdf5;D:\pv\ParaView\VTK\ThirdParty\hdf5;D:\pv\rebuild\VTK\ThirdParty\libxml2;D:\pv\ParaView\VTK\ThirdParty\libxml2;D:\pv\rebuild\VTK\ThirdParty\zlib;D:\pv\ParaView\VTK\ThirdParty\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\pv\ParaView\VTK\ThirdParty\xdmf2\vtkxdmf2\libsrc;D:\pv\rebuild\VTK\ThirdParty\xdmf2\vtkxdmf2\libsrc;D:\pv\ParaView\VTK\ThirdParty\hdf5\vtkhdf5;D:\pv\rebuild\VTK\ThirdParty\hdf5\vtkhdf5;D:\pv\rebuild\VTK\ThirdParty\hdf5\vtkhdf5\src;D:\pv\ParaView\VTK\ThirdParty\hdf5\vtkhdf5\src;D:\pv\rebuild\VTK\ThirdParty\hdf5\vtkhdf5\hl\src;D:\pv\ParaView\VTK\ThirdParty\hdf5\vtkhdf5\hl\src;D:\pv\ParaView\VTK\ThirdParty\libxml2\vtklibxml2;D:\pv\rebuild\VTK\ThirdParty\libxml2\vtklibxml2;D:\pv\ParaView\VTK\ThirdParty\libxml2\vtklibxml2\include;D:\pv\rebuild\VTK\ThirdParty\libxml2\vtklibxml2\include;D:\pv\ParaView\VTK\ThirdParty\zlib\vtkzlib;D:\pv\rebuild\VTK\ThirdParty\zlib\vtkzlib;D:\pv\rebuild\VTK\ThirdParty\xdmf2;D:\pv\ParaView\VTK\ThirdParty\xdmf2;D:\pv\rebuild\VTK\ThirdParty\hdf5;D:\pv\ParaView\VTK\ThirdParty\hdf5;D:\pv\rebuild\VTK\ThirdParty\libxml2;D:\pv\ParaView\VTK\ThirdParty\libxml2;D:\pv\rebuild\VTK\ThirdParty\zlib;D:\pv\ParaView\VTK\ThirdParty\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\..\..\..\lib\Debug\vtklibxml2-pv5.13d.lib;..\..\..\..\..\lib\Debug\vtkhdf5_hl-pv5.13d.lib;..\..\..\..\..\lib\Debug\vtkhdf5-pv5.13d.lib;..\..\..\..\..\lib\Debug\vtkzlib-pv5.13d.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/pv/rebuild/lib/Debug/vtkxdmf2-pv5.13d.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/pv/rebuild/bin/Debug/vtkxdmf2-pv5.13d.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\pv\ParaView\VTK\ThirdParty\xdmf2\vtkxdmf2\libsrc;D:\pv\rebuild\VTK\ThirdParty\xdmf2\vtkxdmf2\libsrc;D:\pv\ParaView\VTK\ThirdParty\hdf5\vtkhdf5;D:\pv\rebuild\VTK\ThirdParty\hdf5\vtkhdf5;D:\pv\rebuild\VTK\ThirdParty\hdf5\vtkhdf5\src;D:\pv\ParaView\VTK\ThirdParty\hdf5\vtkhdf5\src;D:\pv\rebuild\VTK\ThirdParty\hdf5\vtkhdf5\hl\src;D:\pv\ParaView\VTK\ThirdParty\hdf5\vtkhdf5\hl\src;D:\pv\ParaView\VTK\ThirdParty\libxml2\vtklibxml2;D:\pv\rebuild\VTK\ThirdParty\libxml2\vtklibxml2;D:\pv\ParaView\VTK\ThirdParty\libxml2\vtklibxml2\include;D:\pv\rebuild\VTK\ThirdParty\libxml2\vtklibxml2\include;D:\pv\ParaView\VTK\ThirdParty\zlib\vtkzlib;D:\pv\rebuild\VTK\ThirdParty\zlib\vtkzlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/pv/rebuild/VTK/ThirdParty/xdmf2" /external:I "D:/pv/ParaView/VTK/ThirdParty/xdmf2" /external:I "D:/pv/rebuild/VTK/ThirdParty/hdf5" /external:I "D:/pv/ParaView/VTK/ThirdParty/hdf5" /external:I "D:/pv/rebuild/VTK/ThirdParty/libxml2" /external:I "D:/pv/ParaView/VTK/ThirdParty/libxml2" /external:I "D:/pv/rebuild/VTK/ThirdParty/zlib" /external:I "D:/pv/ParaView/VTK/ThirdParty/zlib" /bigobj /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;USE_SERIAL_XMDF;Windows;XDMF_NO_MPI;H5_BUILT_AS_DYNAMIC_LIB;CMAKE_INTDIR="Release";Xdmf_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;USE_SERIAL_XMDF;Windows;XDMF_NO_MPI;H5_BUILT_AS_DYNAMIC_LIB;CMAKE_INTDIR=\"Release\";Xdmf_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\pv\ParaView\VTK\ThirdParty\xdmf2\vtkxdmf2\libsrc;D:\pv\rebuild\VTK\ThirdParty\xdmf2\vtkxdmf2\libsrc;D:\pv\ParaView\VTK\ThirdParty\hdf5\vtkhdf5;D:\pv\rebuild\VTK\ThirdParty\hdf5\vtkhdf5;D:\pv\rebuild\VTK\ThirdParty\hdf5\vtkhdf5\src;D:\pv\ParaView\VTK\ThirdParty\hdf5\vtkhdf5\src;D:\pv\rebuild\VTK\ThirdParty\hdf5\vtkhdf5\hl\src;D:\pv\ParaView\VTK\ThirdParty\hdf5\vtkhdf5\hl\src;D:\pv\ParaView\VTK\ThirdParty\libxml2\vtklibxml2;D:\pv\rebuild\VTK\ThirdParty\libxml2\vtklibxml2;D:\pv\ParaView\VTK\ThirdParty\libxml2\vtklibxml2\include;D:\pv\rebuild\VTK\ThirdParty\libxml2\vtklibxml2\include;D:\pv\ParaView\VTK\ThirdParty\zlib\vtkzlib;D:\pv\rebuild\VTK\ThirdParty\zlib\vtkzlib;D:\pv\rebuild\VTK\ThirdParty\xdmf2;D:\pv\ParaView\VTK\ThirdParty\xdmf2;D:\pv\rebuild\VTK\ThirdParty\hdf5;D:\pv\ParaView\VTK\ThirdParty\hdf5;D:\pv\rebuild\VTK\ThirdParty\libxml2;D:\pv\ParaView\VTK\ThirdParty\libxml2;D:\pv\rebuild\VTK\ThirdParty\zlib;D:\pv\ParaView\VTK\ThirdParty\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\pv\ParaView\VTK\ThirdParty\xdmf2\vtkxdmf2\libsrc;D:\pv\rebuild\VTK\ThirdParty\xdmf2\vtkxdmf2\libsrc;D:\pv\ParaView\VTK\ThirdParty\hdf5\vtkhdf5;D:\pv\rebuild\VTK\ThirdParty\hdf5\vtkhdf5;D:\pv\rebuild\VTK\ThirdParty\hdf5\vtkhdf5\src;D:\pv\ParaView\VTK\ThirdParty\hdf5\vtkhdf5\src;D:\pv\rebuild\VTK\ThirdParty\hdf5\vtkhdf5\hl\src;D:\pv\ParaView\VTK\ThirdParty\hdf5\vtkhdf5\hl\src;D:\pv\ParaView\VTK\ThirdParty\libxml2\vtklibxml2;D:\pv\rebuild\VTK\ThirdParty\libxml2\vtklibxml2;D:\pv\ParaView\VTK\ThirdParty\libxml2\vtklibxml2\include;D:\pv\rebuild\VTK\ThirdParty\libxml2\vtklibxml2\include;D:\pv\ParaView\VTK\ThirdParty\zlib\vtkzlib;D:\pv\rebuild\VTK\ThirdParty\zlib\vtkzlib;D:\pv\rebuild\VTK\ThirdParty\xdmf2;D:\pv\ParaView\VTK\ThirdParty\xdmf2;D:\pv\rebuild\VTK\ThirdParty\hdf5;D:\pv\ParaView\VTK\ThirdParty\hdf5;D:\pv\rebuild\VTK\ThirdParty\libxml2;D:\pv\ParaView\VTK\ThirdParty\libxml2;D:\pv\rebuild\VTK\ThirdParty\zlib;D:\pv\ParaView\VTK\ThirdParty\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\..\..\..\lib\Release\vtklibxml2-pv5.13.lib;..\..\..\..\..\lib\Release\vtkhdf5_hl-pv5.13.lib;..\..\..\..\..\lib\Release\vtkhdf5-pv5.13.lib;..\..\..\..\..\lib\Release\vtkzlib-pv5.13.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/pv/rebuild/lib/Release/vtkxdmf2-pv5.13.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/pv/rebuild/bin/Release/vtkxdmf2-pv5.13.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\pv\ParaView\VTK\ThirdParty\xdmf2\vtkxdmf2\libsrc;D:\pv\rebuild\VTK\ThirdParty\xdmf2\vtkxdmf2\libsrc;D:\pv\ParaView\VTK\ThirdParty\hdf5\vtkhdf5;D:\pv\rebuild\VTK\ThirdParty\hdf5\vtkhdf5;D:\pv\rebuild\VTK\ThirdParty\hdf5\vtkhdf5\src;D:\pv\ParaView\VTK\ThirdParty\hdf5\vtkhdf5\src;D:\pv\rebuild\VTK\ThirdParty\hdf5\vtkhdf5\hl\src;D:\pv\ParaView\VTK\ThirdParty\hdf5\vtkhdf5\hl\src;D:\pv\ParaView\VTK\ThirdParty\libxml2\vtklibxml2;D:\pv\rebuild\VTK\ThirdParty\libxml2\vtklibxml2;D:\pv\ParaView\VTK\ThirdParty\libxml2\vtklibxml2\include;D:\pv\rebuild\VTK\ThirdParty\libxml2\vtklibxml2\include;D:\pv\ParaView\VTK\ThirdParty\zlib\vtkzlib;D:\pv\rebuild\VTK\ThirdParty\zlib\vtkzlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/pv/rebuild/VTK/ThirdParty/xdmf2" /external:I "D:/pv/ParaView/VTK/ThirdParty/xdmf2" /external:I "D:/pv/rebuild/VTK/ThirdParty/hdf5" /external:I "D:/pv/ParaView/VTK/ThirdParty/hdf5" /external:I "D:/pv/rebuild/VTK/ThirdParty/libxml2" /external:I "D:/pv/ParaView/VTK/ThirdParty/libxml2" /external:I "D:/pv/rebuild/VTK/ThirdParty/zlib" /external:I "D:/pv/ParaView/VTK/ThirdParty/zlib" /bigobj /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;USE_SERIAL_XMDF;Windows;XDMF_NO_MPI;H5_BUILT_AS_DYNAMIC_LIB;CMAKE_INTDIR="MinSizeRel";Xdmf_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;USE_SERIAL_XMDF;Windows;XDMF_NO_MPI;H5_BUILT_AS_DYNAMIC_LIB;CMAKE_INTDIR=\"MinSizeRel\";Xdmf_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\pv\ParaView\VTK\ThirdParty\xdmf2\vtkxdmf2\libsrc;D:\pv\rebuild\VTK\ThirdParty\xdmf2\vtkxdmf2\libsrc;D:\pv\ParaView\VTK\ThirdParty\hdf5\vtkhdf5;D:\pv\rebuild\VTK\ThirdParty\hdf5\vtkhdf5;D:\pv\rebuild\VTK\ThirdParty\hdf5\vtkhdf5\src;D:\pv\ParaView\VTK\ThirdParty\hdf5\vtkhdf5\src;D:\pv\rebuild\VTK\ThirdParty\hdf5\vtkhdf5\hl\src;D:\pv\ParaView\VTK\ThirdParty\hdf5\vtkhdf5\hl\src;D:\pv\ParaView\VTK\ThirdParty\libxml2\vtklibxml2;D:\pv\rebuild\VTK\ThirdParty\libxml2\vtklibxml2;D:\pv\ParaView\VTK\ThirdParty\libxml2\vtklibxml2\include;D:\pv\rebuild\VTK\ThirdParty\libxml2\vtklibxml2\include;D:\pv\ParaView\VTK\ThirdParty\zlib\vtkzlib;D:\pv\rebuild\VTK\ThirdParty\zlib\vtkzlib;D:\pv\rebuild\VTK\ThirdParty\xdmf2;D:\pv\ParaView\VTK\ThirdParty\xdmf2;D:\pv\rebuild\VTK\ThirdParty\hdf5;D:\pv\ParaView\VTK\ThirdParty\hdf5;D:\pv\rebuild\VTK\ThirdParty\libxml2;D:\pv\ParaView\VTK\ThirdParty\libxml2;D:\pv\rebuild\VTK\ThirdParty\zlib;D:\pv\ParaView\VTK\ThirdParty\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\pv\ParaView\VTK\ThirdParty\xdmf2\vtkxdmf2\libsrc;D:\pv\rebuild\VTK\ThirdParty\xdmf2\vtkxdmf2\libsrc;D:\pv\ParaView\VTK\ThirdParty\hdf5\vtkhdf5;D:\pv\rebuild\VTK\ThirdParty\hdf5\vtkhdf5;D:\pv\rebuild\VTK\ThirdParty\hdf5\vtkhdf5\src;D:\pv\ParaView\VTK\ThirdParty\hdf5\vtkhdf5\src;D:\pv\rebuild\VTK\ThirdParty\hdf5\vtkhdf5\hl\src;D:\pv\ParaView\VTK\ThirdParty\hdf5\vtkhdf5\hl\src;D:\pv\ParaView\VTK\ThirdParty\libxml2\vtklibxml2;D:\pv\rebuild\VTK\ThirdParty\libxml2\vtklibxml2;D:\pv\ParaView\VTK\ThirdParty\libxml2\vtklibxml2\include;D:\pv\rebuild\VTK\ThirdParty\libxml2\vtklibxml2\include;D:\pv\ParaView\VTK\ThirdParty\zlib\vtkzlib;D:\pv\rebuild\VTK\ThirdParty\zlib\vtkzlib;D:\pv\rebuild\VTK\ThirdParty\xdmf2;D:\pv\ParaView\VTK\ThirdParty\xdmf2;D:\pv\rebuild\VTK\ThirdParty\hdf5;D:\pv\ParaView\VTK\ThirdParty\hdf5;D:\pv\rebuild\VTK\ThirdParty\libxml2;D:\pv\ParaView\VTK\ThirdParty\libxml2;D:\pv\rebuild\VTK\ThirdParty\zlib;D:\pv\ParaView\VTK\ThirdParty\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\..\..\..\lib\MinSizeRel\vtklibxml2-pv5.13.lib;..\..\..\..\..\lib\MinSizeRel\vtkhdf5_hl-pv5.13.lib;..\..\..\..\..\lib\MinSizeRel\vtkhdf5-pv5.13.lib;..\..\..\..\..\lib\MinSizeRel\vtkzlib-pv5.13.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/pv/rebuild/lib/MinSizeRel/vtkxdmf2-pv5.13.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/pv/rebuild/bin/MinSizeRel/vtkxdmf2-pv5.13.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\pv\ParaView\VTK\ThirdParty\xdmf2\vtkxdmf2\libsrc;D:\pv\rebuild\VTK\ThirdParty\xdmf2\vtkxdmf2\libsrc;D:\pv\ParaView\VTK\ThirdParty\hdf5\vtkhdf5;D:\pv\rebuild\VTK\ThirdParty\hdf5\vtkhdf5;D:\pv\rebuild\VTK\ThirdParty\hdf5\vtkhdf5\src;D:\pv\ParaView\VTK\ThirdParty\hdf5\vtkhdf5\src;D:\pv\rebuild\VTK\ThirdParty\hdf5\vtkhdf5\hl\src;D:\pv\ParaView\VTK\ThirdParty\hdf5\vtkhdf5\hl\src;D:\pv\ParaView\VTK\ThirdParty\libxml2\vtklibxml2;D:\pv\rebuild\VTK\ThirdParty\libxml2\vtklibxml2;D:\pv\ParaView\VTK\ThirdParty\libxml2\vtklibxml2\include;D:\pv\rebuild\VTK\ThirdParty\libxml2\vtklibxml2\include;D:\pv\ParaView\VTK\ThirdParty\zlib\vtkzlib;D:\pv\rebuild\VTK\ThirdParty\zlib\vtkzlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/pv/rebuild/VTK/ThirdParty/xdmf2" /external:I "D:/pv/ParaView/VTK/ThirdParty/xdmf2" /external:I "D:/pv/rebuild/VTK/ThirdParty/hdf5" /external:I "D:/pv/ParaView/VTK/ThirdParty/hdf5" /external:I "D:/pv/rebuild/VTK/ThirdParty/libxml2" /external:I "D:/pv/ParaView/VTK/ThirdParty/libxml2" /external:I "D:/pv/rebuild/VTK/ThirdParty/zlib" /external:I "D:/pv/ParaView/VTK/ThirdParty/zlib" /bigobj /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;USE_SERIAL_XMDF;Windows;XDMF_NO_MPI;H5_BUILT_AS_DYNAMIC_LIB;CMAKE_INTDIR="RelWithDebInfo";Xdmf_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;USE_SERIAL_XMDF;Windows;XDMF_NO_MPI;H5_BUILT_AS_DYNAMIC_LIB;CMAKE_INTDIR=\"RelWithDebInfo\";Xdmf_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\pv\ParaView\VTK\ThirdParty\xdmf2\vtkxdmf2\libsrc;D:\pv\rebuild\VTK\ThirdParty\xdmf2\vtkxdmf2\libsrc;D:\pv\ParaView\VTK\ThirdParty\hdf5\vtkhdf5;D:\pv\rebuild\VTK\ThirdParty\hdf5\vtkhdf5;D:\pv\rebuild\VTK\ThirdParty\hdf5\vtkhdf5\src;D:\pv\ParaView\VTK\ThirdParty\hdf5\vtkhdf5\src;D:\pv\rebuild\VTK\ThirdParty\hdf5\vtkhdf5\hl\src;D:\pv\ParaView\VTK\ThirdParty\hdf5\vtkhdf5\hl\src;D:\pv\ParaView\VTK\ThirdParty\libxml2\vtklibxml2;D:\pv\rebuild\VTK\ThirdParty\libxml2\vtklibxml2;D:\pv\ParaView\VTK\ThirdParty\libxml2\vtklibxml2\include;D:\pv\rebuild\VTK\ThirdParty\libxml2\vtklibxml2\include;D:\pv\ParaView\VTK\ThirdParty\zlib\vtkzlib;D:\pv\rebuild\VTK\ThirdParty\zlib\vtkzlib;D:\pv\rebuild\VTK\ThirdParty\xdmf2;D:\pv\ParaView\VTK\ThirdParty\xdmf2;D:\pv\rebuild\VTK\ThirdParty\hdf5;D:\pv\ParaView\VTK\ThirdParty\hdf5;D:\pv\rebuild\VTK\ThirdParty\libxml2;D:\pv\ParaView\VTK\ThirdParty\libxml2;D:\pv\rebuild\VTK\ThirdParty\zlib;D:\pv\ParaView\VTK\ThirdParty\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\pv\ParaView\VTK\ThirdParty\xdmf2\vtkxdmf2\libsrc;D:\pv\rebuild\VTK\ThirdParty\xdmf2\vtkxdmf2\libsrc;D:\pv\ParaView\VTK\ThirdParty\hdf5\vtkhdf5;D:\pv\rebuild\VTK\ThirdParty\hdf5\vtkhdf5;D:\pv\rebuild\VTK\ThirdParty\hdf5\vtkhdf5\src;D:\pv\ParaView\VTK\ThirdParty\hdf5\vtkhdf5\src;D:\pv\rebuild\VTK\ThirdParty\hdf5\vtkhdf5\hl\src;D:\pv\ParaView\VTK\ThirdParty\hdf5\vtkhdf5\hl\src;D:\pv\ParaView\VTK\ThirdParty\libxml2\vtklibxml2;D:\pv\rebuild\VTK\ThirdParty\libxml2\vtklibxml2;D:\pv\ParaView\VTK\ThirdParty\libxml2\vtklibxml2\include;D:\pv\rebuild\VTK\ThirdParty\libxml2\vtklibxml2\include;D:\pv\ParaView\VTK\ThirdParty\zlib\vtkzlib;D:\pv\rebuild\VTK\ThirdParty\zlib\vtkzlib;D:\pv\rebuild\VTK\ThirdParty\xdmf2;D:\pv\ParaView\VTK\ThirdParty\xdmf2;D:\pv\rebuild\VTK\ThirdParty\hdf5;D:\pv\ParaView\VTK\ThirdParty\hdf5;D:\pv\rebuild\VTK\ThirdParty\libxml2;D:\pv\ParaView\VTK\ThirdParty\libxml2;D:\pv\rebuild\VTK\ThirdParty\zlib;D:\pv\ParaView\VTK\ThirdParty\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\..\..\..\lib\RelWithDebInfo\vtklibxml2-pv5.13.lib;..\..\..\..\..\lib\RelWithDebInfo\vtkhdf5_hl-pv5.13.lib;..\..\..\..\..\lib\RelWithDebInfo\vtkhdf5-pv5.13.lib;..\..\..\..\..\lib\RelWithDebInfo\vtkzlib-pv5.13.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/pv/rebuild/lib/RelWithDebInfo/vtkxdmf2-pv5.13.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/pv/rebuild/bin/RelWithDebInfo/vtkxdmf2-pv5.13.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\pv\ParaView\VTK\ThirdParty\xdmf2\vtkxdmf2\libsrc\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/pv/ParaView/VTK/ThirdParty/xdmf2/vtkxdmf2/libsrc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/pv/ParaView -BD:/pv/rebuild --check-stamp-file D:/pv/rebuild/VTK/ThirdParty/xdmf2/vtkxdmf2/libsrc/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\CheckCXXSourceRuns.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckTypeSize.cmake;D:\pv\ParaView\VTK\ThirdParty\xdmf2\vtkxdmf2\CMake\CheckFor64BitStreams.cmake;D:\pv\ParaView\VTK\ThirdParty\xdmf2\vtkxdmf2\CMake\CheckFor64BitStreams.cxx;D:\pv\ParaView\VTK\ThirdParty\xdmf2\vtkxdmf2\libsrc\XdmfConfig.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\pv\rebuild\VTK\ThirdParty\xdmf2\vtkxdmf2\libsrc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/pv/ParaView/VTK/ThirdParty/xdmf2/vtkxdmf2/libsrc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/pv/ParaView -BD:/pv/rebuild --check-stamp-file D:/pv/rebuild/VTK/ThirdParty/xdmf2/vtkxdmf2/libsrc/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\CheckCXXSourceRuns.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckTypeSize.cmake;D:\pv\ParaView\VTK\ThirdParty\xdmf2\vtkxdmf2\CMake\CheckFor64BitStreams.cmake;D:\pv\ParaView\VTK\ThirdParty\xdmf2\vtkxdmf2\CMake\CheckFor64BitStreams.cxx;D:\pv\ParaView\VTK\ThirdParty\xdmf2\vtkxdmf2\libsrc\XdmfConfig.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\pv\rebuild\VTK\ThirdParty\xdmf2\vtkxdmf2\libsrc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/pv/ParaView/VTK/ThirdParty/xdmf2/vtkxdmf2/libsrc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/pv/ParaView -BD:/pv/rebuild --check-stamp-file D:/pv/rebuild/VTK/ThirdParty/xdmf2/vtkxdmf2/libsrc/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\CheckCXXSourceRuns.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckTypeSize.cmake;D:\pv\ParaView\VTK\ThirdParty\xdmf2\vtkxdmf2\CMake\CheckFor64BitStreams.cmake;D:\pv\ParaView\VTK\ThirdParty\xdmf2\vtkxdmf2\CMake\CheckFor64BitStreams.cxx;D:\pv\ParaView\VTK\ThirdParty\xdmf2\vtkxdmf2\libsrc\XdmfConfig.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\pv\rebuild\VTK\ThirdParty\xdmf2\vtkxdmf2\libsrc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/pv/ParaView/VTK/ThirdParty/xdmf2/vtkxdmf2/libsrc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/pv/ParaView -BD:/pv/rebuild --check-stamp-file D:/pv/rebuild/VTK/ThirdParty/xdmf2/vtkxdmf2/libsrc/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\CheckCXXSourceRuns.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckTypeSize.cmake;D:\pv\ParaView\VTK\ThirdParty\xdmf2\vtkxdmf2\CMake\CheckFor64BitStreams.cmake;D:\pv\ParaView\VTK\ThirdParty\xdmf2\vtkxdmf2\CMake\CheckFor64BitStreams.cxx;D:\pv\ParaView\VTK\ThirdParty\xdmf2\vtkxdmf2\libsrc\XdmfConfig.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\pv\rebuild\VTK\ThirdParty\xdmf2\vtkxdmf2\libsrc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\xdmf2\vtkxdmf2\libsrc\XdmfExprLex.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\xdmf2\vtkxdmf2\libsrc\XdmfExprYacc.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\xdmf2\vtkxdmf2\libsrc\XdmfArray.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\xdmf2\vtkxdmf2\libsrc\XdmfDOM.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\xdmf2\vtkxdmf2\libsrc\XdmfDataDesc.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\xdmf2\vtkxdmf2\libsrc\XdmfDataItem.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\xdmf2\vtkxdmf2\libsrc\XdmfDataStructure.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\xdmf2\vtkxdmf2\libsrc\XdmfDataTransform.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\xdmf2\vtkxdmf2\libsrc\XdmfElement.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\xdmf2\vtkxdmf2\libsrc\XdmfExpression.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\xdmf2\vtkxdmf2\libsrc\XdmfHDF.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\xdmf2\vtkxdmf2\libsrc\XdmfHDFSupport.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\xdmf2\vtkxdmf2\libsrc\XdmfHeavyData.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\xdmf2\vtkxdmf2\libsrc\XdmfInformation.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\xdmf2\vtkxdmf2\libsrc\XdmfLightData.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\xdmf2\vtkxdmf2\libsrc\XdmfObject.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\xdmf2\vtkxdmf2\libsrc\XdmfValues.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\xdmf2\vtkxdmf2\libsrc\XdmfValuesBinary.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\xdmf2\vtkxdmf2\libsrc\XdmfValuesHDF.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\xdmf2\vtkxdmf2\libsrc\XdmfValuesXML.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\xdmf2\vtkxdmf2\libsrc\XdmfAttribute.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\xdmf2\vtkxdmf2\libsrc\XdmfDomain.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\xdmf2\vtkxdmf2\libsrc\XdmfDsm.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\xdmf2\vtkxdmf2\libsrc\XdmfDsmBuffer.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\xdmf2\vtkxdmf2\libsrc\XdmfDsmComm.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\xdmf2\vtkxdmf2\libsrc\XdmfDsmMsg.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\xdmf2\vtkxdmf2\libsrc\XdmfGeometry.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\xdmf2\vtkxdmf2\libsrc\XdmfGrid.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\xdmf2\vtkxdmf2\libsrc\XdmfH5Driver.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\xdmf2\vtkxdmf2\libsrc\XdmfMap.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\xdmf2\vtkxdmf2\libsrc\XdmfRegion.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\xdmf2\vtkxdmf2\libsrc\XdmfRoot.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\xdmf2\vtkxdmf2\libsrc\XdmfSet.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\xdmf2\vtkxdmf2\libsrc\XdmfTime.cxx" />
+    <ClCompile Include="D:\pv\ParaView\VTK\ThirdParty\xdmf2\vtkxdmf2\libsrc\XdmfTopology.cxx" />
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\xdmf2\vtkxdmf2\libsrc\Xdmf.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\xdmf2\vtkxdmf2\libsrc\XdmfExport.h" />
+    <ClInclude Include="D:\pv\rebuild\VTK\ThirdParty\xdmf2\vtkxdmf2\libsrc\XdmfConfig.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\xdmf2\vtkxdmf2\libsrc\XdmfArray.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\xdmf2\vtkxdmf2\libsrc\XdmfDOM.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\xdmf2\vtkxdmf2\libsrc\XdmfDataDesc.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\xdmf2\vtkxdmf2\libsrc\XdmfDataItem.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\xdmf2\vtkxdmf2\libsrc\XdmfDataStructure.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\xdmf2\vtkxdmf2\libsrc\XdmfDataTransform.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\xdmf2\vtkxdmf2\libsrc\XdmfElement.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\xdmf2\vtkxdmf2\libsrc\XdmfExpression.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\xdmf2\vtkxdmf2\libsrc\XdmfHDF.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\xdmf2\vtkxdmf2\libsrc\XdmfHDFSupport.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\xdmf2\vtkxdmf2\libsrc\XdmfHeavyData.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\xdmf2\vtkxdmf2\libsrc\XdmfInformation.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\xdmf2\vtkxdmf2\libsrc\XdmfLightData.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\xdmf2\vtkxdmf2\libsrc\XdmfObject.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\xdmf2\vtkxdmf2\libsrc\XdmfValues.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\xdmf2\vtkxdmf2\libsrc\XdmfValuesBinary.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\xdmf2\vtkxdmf2\libsrc\XdmfValuesHDF.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\xdmf2\vtkxdmf2\libsrc\XdmfValuesXML.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\xdmf2\vtkxdmf2\libsrc\XdmfAttribute.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\xdmf2\vtkxdmf2\libsrc\XdmfDomain.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\xdmf2\vtkxdmf2\libsrc\XdmfDsm.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\xdmf2\vtkxdmf2\libsrc\XdmfDsmBuffer.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\xdmf2\vtkxdmf2\libsrc\XdmfDsmComm.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\xdmf2\vtkxdmf2\libsrc\XdmfDsmMsg.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\xdmf2\vtkxdmf2\libsrc\XdmfGeometry.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\xdmf2\vtkxdmf2\libsrc\XdmfGrid.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\xdmf2\vtkxdmf2\libsrc\XdmfH5Driver.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\xdmf2\vtkxdmf2\libsrc\XdmfMap.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\xdmf2\vtkxdmf2\libsrc\XdmfRegion.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\xdmf2\vtkxdmf2\libsrc\XdmfRoot.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\xdmf2\vtkxdmf2\libsrc\XdmfSet.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\xdmf2\vtkxdmf2\libsrc\XdmfTime.h" />
+    <ClInclude Include="D:\pv\ParaView\VTK\ThirdParty\xdmf2\vtkxdmf2\libsrc\XdmfTopology.h" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="D:\pv\rebuild\ZERO_CHECK.vcxproj">
+      <Project>{F365DAD0-49D0-3E04-B6A0-AEBAF9BD405C}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\ThirdParty\hdf5\vtkhdf5\hdf5.vcxproj">
+      <Project>{BDA459BD-EBE7-3518-B283-86E2F936492D}</Project>
+      <Name>hdf5</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\ThirdParty\libxml2\vtklibxml2\libxml2.vcxproj">
+      <Project>{B7AD7068-D062-3614-9B50-21B77D63F4A0}</Project>
+      <Name>libxml2</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\ThirdParty\hdf5\vtkhdf5\hl\src\vtkhdf5_hl_src.vcxproj">
+      <Project>{D1CA7F5D-DA8E-3BF0-8A0B-73AC757B6639}</Project>
+      <Name>vtkhdf5_hl_src</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\ThirdParty\hdf5\vtkhdf5\src\vtkhdf5_src.vcxproj">
+      <Project>{707F8B6C-A0FA-3AD0-B787-57C353A27ED9}</Project>
+      <Name>vtkhdf5_src</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\ThirdParty\zlib\vtkzlib\zlib.vcxproj">
+      <Project>{BBEDA3FC-E93F-38B4-9C60-55E277D9AFFB}</Project>
+      <Name>zlib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

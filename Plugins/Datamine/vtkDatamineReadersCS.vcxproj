@@ -1,0 +1,845 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A97C79B8-C552-3CE2-BDB9-7F83C8EAAC70}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>vtkDatamineReadersCS</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\pv\rebuild\lib\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">vtkDatamineReadersCS.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">vtkDatamineReadersCSd</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\pv\rebuild\lib\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">vtkDatamineReadersCS.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">vtkDatamineReadersCS</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\pv\rebuild\lib\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">vtkDatamineReadersCS.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">vtkDatamineReadersCS</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\pv\rebuild\lib\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">vtkDatamineReadersCS.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">vtkDatamineReadersCS</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\pv\rebuild\Plugins\Datamine;D:\pv\ParaView\Plugins\Datamine\Readers;D:\pv\rebuild\Plugins\Datamine\Readers;D:\pv\ParaView\VTK\Common\ExecutionModel;D:\pv\rebuild\VTK\Common\ExecutionModel;D:\pv\ParaView\VTK\Common\Core;D:\pv\rebuild\VTK\Common\Core;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken\token;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken\token;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\rebuild\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson\include;D:\pv\ParaView\VTK\Common\DataModel;D:\pv\rebuild\VTK\Common\DataModel;D:\pv\ParaView\VTK\Common\Math;D:\pv\rebuild\VTK\Common\Math;D:\pv\ParaView\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\rebuild\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\ParaView\VTK\Common\Transforms;D:\pv\rebuild\VTK\Common\Transforms;D:\pv\ParaView\Remoting\ClientServerStream;D:\pv\rebuild\Remoting\ClientServerStream;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/pv/rebuild/VTK/Utilities/KWIML" /external:I "D:/pv/ParaView/VTK/Utilities/KWIML" /external:I "D:/pv/rebuild/VTK/Utilities/KWSys" /external:I "D:/pv/ParaView/VTK/Utilities/KWSys" /external:I "D:/pv/rebuild/VTK/ThirdParty/token" /external:I "D:/pv/ParaView/VTK/ThirdParty/token" /external:I "D:/pv/rebuild/VTK/ThirdParty/nlohmannjson" /external:I "D:/pv/ParaView/VTK/ThirdParty/nlohmannjson" /external:I "D:/pv/rebuild/VTK/ThirdParty/kissfft" /external:I "D:/pv/ParaView/VTK/ThirdParty/kissfft" /bigobj /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;kiss_fft_scalar=double;KISSFFT_DLL_IMPORT=1;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;kiss_fft_scalar=double;KISSFFT_DLL_IMPORT=1;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\pv\rebuild\Plugins\Datamine;D:\pv\ParaView\Plugins\Datamine\Readers;D:\pv\rebuild\Plugins\Datamine\Readers;D:\pv\ParaView\VTK\Common\ExecutionModel;D:\pv\rebuild\VTK\Common\ExecutionModel;D:\pv\ParaView\VTK\Common\Core;D:\pv\rebuild\VTK\Common\Core;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken\token;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken\token;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\rebuild\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson\include;D:\pv\ParaView\VTK\Common\DataModel;D:\pv\rebuild\VTK\Common\DataModel;D:\pv\ParaView\VTK\Common\Math;D:\pv\rebuild\VTK\Common\Math;D:\pv\ParaView\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\rebuild\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\ParaView\VTK\Common\Transforms;D:\pv\rebuild\VTK\Common\Transforms;D:\pv\ParaView\Remoting\ClientServerStream;D:\pv\rebuild\Remoting\ClientServerStream;D:\pv\rebuild\VTK\Utilities\KWIML;D:\pv\ParaView\VTK\Utilities\KWIML;D:\pv\rebuild\VTK\Utilities\KWSys;D:\pv\ParaView\VTK\Utilities\KWSys;D:\pv\rebuild\VTK\ThirdParty\token;D:\pv\ParaView\VTK\ThirdParty\token;D:\pv\rebuild\VTK\ThirdParty\nlohmannjson;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson;D:\pv\rebuild\VTK\ThirdParty\kissfft;D:\pv\ParaView\VTK\ThirdParty\kissfft;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\pv\rebuild\Plugins\Datamine;D:\pv\ParaView\Plugins\Datamine\Readers;D:\pv\rebuild\Plugins\Datamine\Readers;D:\pv\ParaView\VTK\Common\ExecutionModel;D:\pv\rebuild\VTK\Common\ExecutionModel;D:\pv\ParaView\VTK\Common\Core;D:\pv\rebuild\VTK\Common\Core;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken\token;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken\token;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\rebuild\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson\include;D:\pv\ParaView\VTK\Common\DataModel;D:\pv\rebuild\VTK\Common\DataModel;D:\pv\ParaView\VTK\Common\Math;D:\pv\rebuild\VTK\Common\Math;D:\pv\ParaView\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\rebuild\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\ParaView\VTK\Common\Transforms;D:\pv\rebuild\VTK\Common\Transforms;D:\pv\ParaView\Remoting\ClientServerStream;D:\pv\rebuild\Remoting\ClientServerStream;D:\pv\rebuild\VTK\Utilities\KWIML;D:\pv\ParaView\VTK\Utilities\KWIML;D:\pv\rebuild\VTK\Utilities\KWSys;D:\pv\ParaView\VTK\Utilities\KWSys;D:\pv\rebuild\VTK\ThirdParty\token;D:\pv\ParaView\VTK\ThirdParty\token;D:\pv\rebuild\VTK\ThirdParty\nlohmannjson;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson;D:\pv\rebuild\VTK\ThirdParty\kissfft;D:\pv\ParaView\VTK\ThirdParty\kissfft;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\pv\rebuild\Plugins\Datamine;D:\pv\ParaView\Plugins\Datamine\Readers;D:\pv\rebuild\Plugins\Datamine\Readers;D:\pv\ParaView\VTK\Common\ExecutionModel;D:\pv\rebuild\VTK\Common\ExecutionModel;D:\pv\ParaView\VTK\Common\Core;D:\pv\rebuild\VTK\Common\Core;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken\token;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken\token;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\rebuild\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson\include;D:\pv\ParaView\VTK\Common\DataModel;D:\pv\rebuild\VTK\Common\DataModel;D:\pv\ParaView\VTK\Common\Math;D:\pv\rebuild\VTK\Common\Math;D:\pv\ParaView\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\rebuild\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\ParaView\VTK\Common\Transforms;D:\pv\rebuild\VTK\Common\Transforms;D:\pv\ParaView\Remoting\ClientServerStream;D:\pv\rebuild\Remoting\ClientServerStream;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/pv/rebuild/VTK/Utilities/KWIML" /external:I "D:/pv/ParaView/VTK/Utilities/KWIML" /external:I "D:/pv/rebuild/VTK/Utilities/KWSys" /external:I "D:/pv/ParaView/VTK/Utilities/KWSys" /external:I "D:/pv/rebuild/VTK/ThirdParty/token" /external:I "D:/pv/ParaView/VTK/ThirdParty/token" /external:I "D:/pv/rebuild/VTK/ThirdParty/nlohmannjson" /external:I "D:/pv/ParaView/VTK/ThirdParty/nlohmannjson" /external:I "D:/pv/rebuild/VTK/ThirdParty/kissfft" /external:I "D:/pv/ParaView/VTK/ThirdParty/kissfft" /bigobj /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;kiss_fft_scalar=double;KISSFFT_DLL_IMPORT=1;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;kiss_fft_scalar=double;KISSFFT_DLL_IMPORT=1;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\pv\rebuild\Plugins\Datamine;D:\pv\ParaView\Plugins\Datamine\Readers;D:\pv\rebuild\Plugins\Datamine\Readers;D:\pv\ParaView\VTK\Common\ExecutionModel;D:\pv\rebuild\VTK\Common\ExecutionModel;D:\pv\ParaView\VTK\Common\Core;D:\pv\rebuild\VTK\Common\Core;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken\token;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken\token;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\rebuild\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson\include;D:\pv\ParaView\VTK\Common\DataModel;D:\pv\rebuild\VTK\Common\DataModel;D:\pv\ParaView\VTK\Common\Math;D:\pv\rebuild\VTK\Common\Math;D:\pv\ParaView\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\rebuild\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\ParaView\VTK\Common\Transforms;D:\pv\rebuild\VTK\Common\Transforms;D:\pv\ParaView\Remoting\ClientServerStream;D:\pv\rebuild\Remoting\ClientServerStream;D:\pv\rebuild\VTK\Utilities\KWIML;D:\pv\ParaView\VTK\Utilities\KWIML;D:\pv\rebuild\VTK\Utilities\KWSys;D:\pv\ParaView\VTK\Utilities\KWSys;D:\pv\rebuild\VTK\ThirdParty\token;D:\pv\ParaView\VTK\ThirdParty\token;D:\pv\rebuild\VTK\ThirdParty\nlohmannjson;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson;D:\pv\rebuild\VTK\ThirdParty\kissfft;D:\pv\ParaView\VTK\ThirdParty\kissfft;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\pv\rebuild\Plugins\Datamine;D:\pv\ParaView\Plugins\Datamine\Readers;D:\pv\rebuild\Plugins\Datamine\Readers;D:\pv\ParaView\VTK\Common\ExecutionModel;D:\pv\rebuild\VTK\Common\ExecutionModel;D:\pv\ParaView\VTK\Common\Core;D:\pv\rebuild\VTK\Common\Core;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken\token;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken\token;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\rebuild\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson\include;D:\pv\ParaView\VTK\Common\DataModel;D:\pv\rebuild\VTK\Common\DataModel;D:\pv\ParaView\VTK\Common\Math;D:\pv\rebuild\VTK\Common\Math;D:\pv\ParaView\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\rebuild\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\ParaView\VTK\Common\Transforms;D:\pv\rebuild\VTK\Common\Transforms;D:\pv\ParaView\Remoting\ClientServerStream;D:\pv\rebuild\Remoting\ClientServerStream;D:\pv\rebuild\VTK\Utilities\KWIML;D:\pv\ParaView\VTK\Utilities\KWIML;D:\pv\rebuild\VTK\Utilities\KWSys;D:\pv\ParaView\VTK\Utilities\KWSys;D:\pv\rebuild\VTK\ThirdParty\token;D:\pv\ParaView\VTK\ThirdParty\token;D:\pv\rebuild\VTK\ThirdParty\nlohmannjson;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson;D:\pv\rebuild\VTK\ThirdParty\kissfft;D:\pv\ParaView\VTK\ThirdParty\kissfft;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\pv\rebuild\Plugins\Datamine;D:\pv\ParaView\Plugins\Datamine\Readers;D:\pv\rebuild\Plugins\Datamine\Readers;D:\pv\ParaView\VTK\Common\ExecutionModel;D:\pv\rebuild\VTK\Common\ExecutionModel;D:\pv\ParaView\VTK\Common\Core;D:\pv\rebuild\VTK\Common\Core;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken\token;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken\token;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\rebuild\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson\include;D:\pv\ParaView\VTK\Common\DataModel;D:\pv\rebuild\VTK\Common\DataModel;D:\pv\ParaView\VTK\Common\Math;D:\pv\rebuild\VTK\Common\Math;D:\pv\ParaView\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\rebuild\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\ParaView\VTK\Common\Transforms;D:\pv\rebuild\VTK\Common\Transforms;D:\pv\ParaView\Remoting\ClientServerStream;D:\pv\rebuild\Remoting\ClientServerStream;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/pv/rebuild/VTK/Utilities/KWIML" /external:I "D:/pv/ParaView/VTK/Utilities/KWIML" /external:I "D:/pv/rebuild/VTK/Utilities/KWSys" /external:I "D:/pv/ParaView/VTK/Utilities/KWSys" /external:I "D:/pv/rebuild/VTK/ThirdParty/token" /external:I "D:/pv/ParaView/VTK/ThirdParty/token" /external:I "D:/pv/rebuild/VTK/ThirdParty/nlohmannjson" /external:I "D:/pv/ParaView/VTK/ThirdParty/nlohmannjson" /external:I "D:/pv/rebuild/VTK/ThirdParty/kissfft" /external:I "D:/pv/ParaView/VTK/ThirdParty/kissfft" /bigobj /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;kiss_fft_scalar=double;KISSFFT_DLL_IMPORT=1;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;kiss_fft_scalar=double;KISSFFT_DLL_IMPORT=1;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\pv\rebuild\Plugins\Datamine;D:\pv\ParaView\Plugins\Datamine\Readers;D:\pv\rebuild\Plugins\Datamine\Readers;D:\pv\ParaView\VTK\Common\ExecutionModel;D:\pv\rebuild\VTK\Common\ExecutionModel;D:\pv\ParaView\VTK\Common\Core;D:\pv\rebuild\VTK\Common\Core;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken\token;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken\token;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\rebuild\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson\include;D:\pv\ParaView\VTK\Common\DataModel;D:\pv\rebuild\VTK\Common\DataModel;D:\pv\ParaView\VTK\Common\Math;D:\pv\rebuild\VTK\Common\Math;D:\pv\ParaView\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\rebuild\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\ParaView\VTK\Common\Transforms;D:\pv\rebuild\VTK\Common\Transforms;D:\pv\ParaView\Remoting\ClientServerStream;D:\pv\rebuild\Remoting\ClientServerStream;D:\pv\rebuild\VTK\Utilities\KWIML;D:\pv\ParaView\VTK\Utilities\KWIML;D:\pv\rebuild\VTK\Utilities\KWSys;D:\pv\ParaView\VTK\Utilities\KWSys;D:\pv\rebuild\VTK\ThirdParty\token;D:\pv\ParaView\VTK\ThirdParty\token;D:\pv\rebuild\VTK\ThirdParty\nlohmannjson;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson;D:\pv\rebuild\VTK\ThirdParty\kissfft;D:\pv\ParaView\VTK\ThirdParty\kissfft;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\pv\rebuild\Plugins\Datamine;D:\pv\ParaView\Plugins\Datamine\Readers;D:\pv\rebuild\Plugins\Datamine\Readers;D:\pv\ParaView\VTK\Common\ExecutionModel;D:\pv\rebuild\VTK\Common\ExecutionModel;D:\pv\ParaView\VTK\Common\Core;D:\pv\rebuild\VTK\Common\Core;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken\token;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken\token;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\rebuild\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson\include;D:\pv\ParaView\VTK\Common\DataModel;D:\pv\rebuild\VTK\Common\DataModel;D:\pv\ParaView\VTK\Common\Math;D:\pv\rebuild\VTK\Common\Math;D:\pv\ParaView\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\rebuild\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\ParaView\VTK\Common\Transforms;D:\pv\rebuild\VTK\Common\Transforms;D:\pv\ParaView\Remoting\ClientServerStream;D:\pv\rebuild\Remoting\ClientServerStream;D:\pv\rebuild\VTK\Utilities\KWIML;D:\pv\ParaView\VTK\Utilities\KWIML;D:\pv\rebuild\VTK\Utilities\KWSys;D:\pv\ParaView\VTK\Utilities\KWSys;D:\pv\rebuild\VTK\ThirdParty\token;D:\pv\ParaView\VTK\ThirdParty\token;D:\pv\rebuild\VTK\ThirdParty\nlohmannjson;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson;D:\pv\rebuild\VTK\ThirdParty\kissfft;D:\pv\ParaView\VTK\ThirdParty\kissfft;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\pv\rebuild\Plugins\Datamine;D:\pv\ParaView\Plugins\Datamine\Readers;D:\pv\rebuild\Plugins\Datamine\Readers;D:\pv\ParaView\VTK\Common\ExecutionModel;D:\pv\rebuild\VTK\Common\ExecutionModel;D:\pv\ParaView\VTK\Common\Core;D:\pv\rebuild\VTK\Common\Core;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken\token;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken\token;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\rebuild\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson\include;D:\pv\ParaView\VTK\Common\DataModel;D:\pv\rebuild\VTK\Common\DataModel;D:\pv\ParaView\VTK\Common\Math;D:\pv\rebuild\VTK\Common\Math;D:\pv\ParaView\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\rebuild\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\ParaView\VTK\Common\Transforms;D:\pv\rebuild\VTK\Common\Transforms;D:\pv\ParaView\Remoting\ClientServerStream;D:\pv\rebuild\Remoting\ClientServerStream;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/pv/rebuild/VTK/Utilities/KWIML" /external:I "D:/pv/ParaView/VTK/Utilities/KWIML" /external:I "D:/pv/rebuild/VTK/Utilities/KWSys" /external:I "D:/pv/ParaView/VTK/Utilities/KWSys" /external:I "D:/pv/rebuild/VTK/ThirdParty/token" /external:I "D:/pv/ParaView/VTK/ThirdParty/token" /external:I "D:/pv/rebuild/VTK/ThirdParty/nlohmannjson" /external:I "D:/pv/ParaView/VTK/ThirdParty/nlohmannjson" /external:I "D:/pv/rebuild/VTK/ThirdParty/kissfft" /external:I "D:/pv/ParaView/VTK/ThirdParty/kissfft" /bigobj /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;kiss_fft_scalar=double;KISSFFT_DLL_IMPORT=1;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;kiss_fft_scalar=double;KISSFFT_DLL_IMPORT=1;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\pv\rebuild\Plugins\Datamine;D:\pv\ParaView\Plugins\Datamine\Readers;D:\pv\rebuild\Plugins\Datamine\Readers;D:\pv\ParaView\VTK\Common\ExecutionModel;D:\pv\rebuild\VTK\Common\ExecutionModel;D:\pv\ParaView\VTK\Common\Core;D:\pv\rebuild\VTK\Common\Core;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken\token;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken\token;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\rebuild\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson\include;D:\pv\ParaView\VTK\Common\DataModel;D:\pv\rebuild\VTK\Common\DataModel;D:\pv\ParaView\VTK\Common\Math;D:\pv\rebuild\VTK\Common\Math;D:\pv\ParaView\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\rebuild\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\ParaView\VTK\Common\Transforms;D:\pv\rebuild\VTK\Common\Transforms;D:\pv\ParaView\Remoting\ClientServerStream;D:\pv\rebuild\Remoting\ClientServerStream;D:\pv\rebuild\VTK\Utilities\KWIML;D:\pv\ParaView\VTK\Utilities\KWIML;D:\pv\rebuild\VTK\Utilities\KWSys;D:\pv\ParaView\VTK\Utilities\KWSys;D:\pv\rebuild\VTK\ThirdParty\token;D:\pv\ParaView\VTK\ThirdParty\token;D:\pv\rebuild\VTK\ThirdParty\nlohmannjson;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson;D:\pv\rebuild\VTK\ThirdParty\kissfft;D:\pv\ParaView\VTK\ThirdParty\kissfft;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\pv\rebuild\Plugins\Datamine;D:\pv\ParaView\Plugins\Datamine\Readers;D:\pv\rebuild\Plugins\Datamine\Readers;D:\pv\ParaView\VTK\Common\ExecutionModel;D:\pv\rebuild\VTK\Common\ExecutionModel;D:\pv\ParaView\VTK\Common\Core;D:\pv\rebuild\VTK\Common\Core;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken\token;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken\token;D:\pv\ParaView\VTK\ThirdParty\token\vtktoken;D:\pv\rebuild\VTK\ThirdParty\token\vtktoken;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\rebuild\VTK\ThirdParty\nlohmannjson\vtknlohmannjson;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson\vtknlohmannjson\include;D:\pv\ParaView\VTK\Common\DataModel;D:\pv\rebuild\VTK\Common\DataModel;D:\pv\ParaView\VTK\Common\Math;D:\pv\rebuild\VTK\Common\Math;D:\pv\ParaView\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\rebuild\VTK\ThirdParty\kissfft\vtkkissfft;D:\pv\ParaView\VTK\Common\Transforms;D:\pv\rebuild\VTK\Common\Transforms;D:\pv\ParaView\Remoting\ClientServerStream;D:\pv\rebuild\Remoting\ClientServerStream;D:\pv\rebuild\VTK\Utilities\KWIML;D:\pv\ParaView\VTK\Utilities\KWIML;D:\pv\rebuild\VTK\Utilities\KWSys;D:\pv\ParaView\VTK\Utilities\KWSys;D:\pv\rebuild\VTK\ThirdParty\token;D:\pv\ParaView\VTK\ThirdParty\token;D:\pv\rebuild\VTK\ThirdParty\nlohmannjson;D:\pv\ParaView\VTK\ThirdParty\nlohmannjson;D:\pv\rebuild\VTK\ThirdParty\kissfft;D:\pv\ParaView\VTK\ThirdParty\kissfft;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\e1ca64db799e8daf53b2add9ae2e7e41\vtkDataMineBlockReaderClientServer.cxx.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating client_server wrapper sources for vtkDataMineBlockReader</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+..\..\bin\Debug\vtkWrapClientServer-pv5.13d.exe -MF D:/pv/rebuild/Plugins/Datamine/CMakeFiles/vtkDatamineReadersCS/vtkDataMineBlockReaderClientServer.cxx.Debug.d @D:/pv/rebuild/Plugins/Datamine/CMakeFiles/vtkDatamineReaders-client-server.Debug.args -o D:/pv/rebuild/Plugins/Datamine/CMakeFiles/vtkDatamineReadersCS/vtkDataMineBlockReaderClientServer.cxx D:/pv/ParaView/Plugins/Datamine/Readers/vtkDataMineBlockReader.h --types D:/pv/rebuild/bin/paraview-5.13/plugins/Datamine/vtk/hierarchy/Datamine/vtkDatamineReaders-hierarchy.txt
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_transform_depfile "Visual Studio 16 2019" MSBuildAdditionalInputs D:/pv/ParaView D:/pv/ParaView/Plugins/Datamine D:/pv/rebuild D:/pv/rebuild/Plugins/Datamine D:/pv/rebuild/Plugins/Datamine/CMakeFiles/vtkDatamineReadersCS/vtkDataMineBlockReaderClientServer.cxx.Debug.d D:/pv/rebuild/CMakeFiles/d/03f8044dbdec42bb17ddc952d3f3deeb95b9832028b8ab1ae939a7ce835a855f.AdditionalInputs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\pv\rebuild\bin\Debug\vtkWrapClientServer-pv5.13d.exe;D:\pv\ParaView\Plugins\Datamine\Readers\vtkDataMineBlockReader.h;D:\pv\rebuild\Plugins\Datamine\CMakeFiles\vtkDatamineReaders-client-server.Debug.args;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\pv\rebuild\Plugins\Datamine\CMakeFiles\vtkDatamineReadersCS\vtkDataMineBlockReaderClientServer.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <DepFileAdditionalInputsFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\pv\rebuild\CMakeFiles\d\03f8044dbdec42bb17ddc952d3f3deeb95b9832028b8ab1ae939a7ce835a855f.AdditionalInputs</DepFileAdditionalInputsFile>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating client_server wrapper sources for vtkDataMineBlockReader</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+..\..\bin\Release\vtkWrapClientServer-pv5.13.exe -MF D:/pv/rebuild/Plugins/Datamine/CMakeFiles/vtkDatamineReadersCS/vtkDataMineBlockReaderClientServer.cxx.Release.d @D:/pv/rebuild/Plugins/Datamine/CMakeFiles/vtkDatamineReaders-client-server.Release.args -o D:/pv/rebuild/Plugins/Datamine/CMakeFiles/vtkDatamineReadersCS/vtkDataMineBlockReaderClientServer.cxx D:/pv/ParaView/Plugins/Datamine/Readers/vtkDataMineBlockReader.h --types D:/pv/rebuild/bin/paraview-5.13/plugins/Datamine/vtk/hierarchy/Datamine/vtkDatamineReaders-hierarchy.txt
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_transform_depfile "Visual Studio 16 2019" MSBuildAdditionalInputs D:/pv/ParaView D:/pv/ParaView/Plugins/Datamine D:/pv/rebuild D:/pv/rebuild/Plugins/Datamine D:/pv/rebuild/Plugins/Datamine/CMakeFiles/vtkDatamineReadersCS/vtkDataMineBlockReaderClientServer.cxx.Release.d D:/pv/rebuild/CMakeFiles/d/d67b8a7128f86bc16ea51cc7c081a0df6e54d8e4c3ade7c437c40e2a5489dd5d.AdditionalInputs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\pv\rebuild\bin\Release\vtkWrapClientServer-pv5.13.exe;D:\pv\ParaView\Plugins\Datamine\Readers\vtkDataMineBlockReader.h;D:\pv\rebuild\Plugins\Datamine\CMakeFiles\vtkDatamineReaders-client-server.Release.args;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\pv\rebuild\Plugins\Datamine\CMakeFiles\vtkDatamineReadersCS\vtkDataMineBlockReaderClientServer.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <DepFileAdditionalInputsFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\pv\rebuild\CMakeFiles\d\d67b8a7128f86bc16ea51cc7c081a0df6e54d8e4c3ade7c437c40e2a5489dd5d.AdditionalInputs</DepFileAdditionalInputsFile>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating client_server wrapper sources for vtkDataMineBlockReader</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+..\..\bin\MinSizeRel\vtkWrapClientServer-pv5.13.exe -MF D:/pv/rebuild/Plugins/Datamine/CMakeFiles/vtkDatamineReadersCS/vtkDataMineBlockReaderClientServer.cxx.MinSizeRel.d @D:/pv/rebuild/Plugins/Datamine/CMakeFiles/vtkDatamineReaders-client-server.MinSizeRel.args -o D:/pv/rebuild/Plugins/Datamine/CMakeFiles/vtkDatamineReadersCS/vtkDataMineBlockReaderClientServer.cxx D:/pv/ParaView/Plugins/Datamine/Readers/vtkDataMineBlockReader.h --types D:/pv/rebuild/bin/paraview-5.13/plugins/Datamine/vtk/hierarchy/Datamine/vtkDatamineReaders-hierarchy.txt
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_transform_depfile "Visual Studio 16 2019" MSBuildAdditionalInputs D:/pv/ParaView D:/pv/ParaView/Plugins/Datamine D:/pv/rebuild D:/pv/rebuild/Plugins/Datamine D:/pv/rebuild/Plugins/Datamine/CMakeFiles/vtkDatamineReadersCS/vtkDataMineBlockReaderClientServer.cxx.MinSizeRel.d D:/pv/rebuild/CMakeFiles/d/c0313ef78535b5fbefda6d418efc14c7b22d9c57bc7cbe8225b407af65279f35.AdditionalInputs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\pv\rebuild\bin\MinSizeRel\vtkWrapClientServer-pv5.13.exe;D:\pv\ParaView\Plugins\Datamine\Readers\vtkDataMineBlockReader.h;D:\pv\rebuild\Plugins\Datamine\CMakeFiles\vtkDatamineReaders-client-server.MinSizeRel.args;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\pv\rebuild\Plugins\Datamine\CMakeFiles\vtkDatamineReadersCS\vtkDataMineBlockReaderClientServer.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <DepFileAdditionalInputsFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\pv\rebuild\CMakeFiles\d\c0313ef78535b5fbefda6d418efc14c7b22d9c57bc7cbe8225b407af65279f35.AdditionalInputs</DepFileAdditionalInputsFile>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating client_server wrapper sources for vtkDataMineBlockReader</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+..\..\bin\RelWithDebInfo\vtkWrapClientServer-pv5.13.exe -MF D:/pv/rebuild/Plugins/Datamine/CMakeFiles/vtkDatamineReadersCS/vtkDataMineBlockReaderClientServer.cxx.RelWithDebInfo.d @D:/pv/rebuild/Plugins/Datamine/CMakeFiles/vtkDatamineReaders-client-server.RelWithDebInfo.args -o D:/pv/rebuild/Plugins/Datamine/CMakeFiles/vtkDatamineReadersCS/vtkDataMineBlockReaderClientServer.cxx D:/pv/ParaView/Plugins/Datamine/Readers/vtkDataMineBlockReader.h --types D:/pv/rebuild/bin/paraview-5.13/plugins/Datamine/vtk/hierarchy/Datamine/vtkDatamineReaders-hierarchy.txt
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_transform_depfile "Visual Studio 16 2019" MSBuildAdditionalInputs D:/pv/ParaView D:/pv/ParaView/Plugins/Datamine D:/pv/rebuild D:/pv/rebuild/Plugins/Datamine D:/pv/rebuild/Plugins/Datamine/CMakeFiles/vtkDatamineReadersCS/vtkDataMineBlockReaderClientServer.cxx.RelWithDebInfo.d D:/pv/rebuild/CMakeFiles/d/d061bd6fa45798b6d2cfc4844715c8666237ee43230acbe670d97bcfb75db18a.AdditionalInputs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\pv\rebuild\bin\RelWithDebInfo\vtkWrapClientServer-pv5.13.exe;D:\pv\ParaView\Plugins\Datamine\Readers\vtkDataMineBlockReader.h;D:\pv\rebuild\Plugins\Datamine\CMakeFiles\vtkDatamineReaders-client-server.RelWithDebInfo.args;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\pv\rebuild\Plugins\Datamine\CMakeFiles\vtkDatamineReadersCS\vtkDataMineBlockReaderClientServer.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+      <DepFileAdditionalInputsFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\pv\rebuild\CMakeFiles\d\d061bd6fa45798b6d2cfc4844715c8666237ee43230acbe670d97bcfb75db18a.AdditionalInputs</DepFileAdditionalInputsFile>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\e1ca64db799e8daf53b2add9ae2e7e41\vtkDataMineDrillHoleReaderClientServer.cxx.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating client_server wrapper sources for vtkDataMineDrillHoleReader</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+..\..\bin\Debug\vtkWrapClientServer-pv5.13d.exe -MF D:/pv/rebuild/Plugins/Datamine/CMakeFiles/vtkDatamineReadersCS/vtkDataMineDrillHoleReaderClientServer.cxx.Debug.d @D:/pv/rebuild/Plugins/Datamine/CMakeFiles/vtkDatamineReaders-client-server.Debug.args -o D:/pv/rebuild/Plugins/Datamine/CMakeFiles/vtkDatamineReadersCS/vtkDataMineDrillHoleReaderClientServer.cxx D:/pv/ParaView/Plugins/Datamine/Readers/vtkDataMineDrillHoleReader.h --types D:/pv/rebuild/bin/paraview-5.13/plugins/Datamine/vtk/hierarchy/Datamine/vtkDatamineReaders-hierarchy.txt
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_transform_depfile "Visual Studio 16 2019" MSBuildAdditionalInputs D:/pv/ParaView D:/pv/ParaView/Plugins/Datamine D:/pv/rebuild D:/pv/rebuild/Plugins/Datamine D:/pv/rebuild/Plugins/Datamine/CMakeFiles/vtkDatamineReadersCS/vtkDataMineDrillHoleReaderClientServer.cxx.Debug.d D:/pv/rebuild/CMakeFiles/d/216870801dcee24353947b6ae0c1cbece82b22d4661f5942db2d51fc8d0d8b58.AdditionalInputs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\pv\rebuild\bin\Debug\vtkWrapClientServer-pv5.13d.exe;D:\pv\ParaView\Plugins\Datamine\Readers\vtkDataMineDrillHoleReader.h;D:\pv\rebuild\Plugins\Datamine\CMakeFiles\vtkDatamineReaders-client-server.Debug.args;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\pv\rebuild\Plugins\Datamine\CMakeFiles\vtkDatamineReadersCS\vtkDataMineDrillHoleReaderClientServer.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <DepFileAdditionalInputsFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\pv\rebuild\CMakeFiles\d\216870801dcee24353947b6ae0c1cbece82b22d4661f5942db2d51fc8d0d8b58.AdditionalInputs</DepFileAdditionalInputsFile>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating client_server wrapper sources for vtkDataMineDrillHoleReader</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+..\..\bin\Release\vtkWrapClientServer-pv5.13.exe -MF D:/pv/rebuild/Plugins/Datamine/CMakeFiles/vtkDatamineReadersCS/vtkDataMineDrillHoleReaderClientServer.cxx.Release.d @D:/pv/rebuild/Plugins/Datamine/CMakeFiles/vtkDatamineReaders-client-server.Release.args -o D:/pv/rebuild/Plugins/Datamine/CMakeFiles/vtkDatamineReadersCS/vtkDataMineDrillHoleReaderClientServer.cxx D:/pv/ParaView/Plugins/Datamine/Readers/vtkDataMineDrillHoleReader.h --types D:/pv/rebuild/bin/paraview-5.13/plugins/Datamine/vtk/hierarchy/Datamine/vtkDatamineReaders-hierarchy.txt
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_transform_depfile "Visual Studio 16 2019" MSBuildAdditionalInputs D:/pv/ParaView D:/pv/ParaView/Plugins/Datamine D:/pv/rebuild D:/pv/rebuild/Plugins/Datamine D:/pv/rebuild/Plugins/Datamine/CMakeFiles/vtkDatamineReadersCS/vtkDataMineDrillHoleReaderClientServer.cxx.Release.d D:/pv/rebuild/CMakeFiles/d/c6ab17fba0d0935097ec46134baab5e53a1b407eaf3b010d2166f414a5959e9d.AdditionalInputs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\pv\rebuild\bin\Release\vtkWrapClientServer-pv5.13.exe;D:\pv\ParaView\Plugins\Datamine\Readers\vtkDataMineDrillHoleReader.h;D:\pv\rebuild\Plugins\Datamine\CMakeFiles\vtkDatamineReaders-client-server.Release.args;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\pv\rebuild\Plugins\Datamine\CMakeFiles\vtkDatamineReadersCS\vtkDataMineDrillHoleReaderClientServer.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <DepFileAdditionalInputsFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\pv\rebuild\CMakeFiles\d\c6ab17fba0d0935097ec46134baab5e53a1b407eaf3b010d2166f414a5959e9d.AdditionalInputs</DepFileAdditionalInputsFile>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating client_server wrapper sources for vtkDataMineDrillHoleReader</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+..\..\bin\MinSizeRel\vtkWrapClientServer-pv5.13.exe -MF D:/pv/rebuild/Plugins/Datamine/CMakeFiles/vtkDatamineReadersCS/vtkDataMineDrillHoleReaderClientServer.cxx.MinSizeRel.d @D:/pv/rebuild/Plugins/Datamine/CMakeFiles/vtkDatamineReaders-client-server.MinSizeRel.args -o D:/pv/rebuild/Plugins/Datamine/CMakeFiles/vtkDatamineReadersCS/vtkDataMineDrillHoleReaderClientServer.cxx D:/pv/ParaView/Plugins/Datamine/Readers/vtkDataMineDrillHoleReader.h --types D:/pv/rebuild/bin/paraview-5.13/plugins/Datamine/vtk/hierarchy/Datamine/vtkDatamineReaders-hierarchy.txt
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_transform_depfile "Visual Studio 16 2019" MSBuildAdditionalInputs D:/pv/ParaView D:/pv/ParaView/Plugins/Datamine D:/pv/rebuild D:/pv/rebuild/Plugins/Datamine D:/pv/rebuild/Plugins/Datamine/CMakeFiles/vtkDatamineReadersCS/vtkDataMineDrillHoleReaderClientServer.cxx.MinSizeRel.d D:/pv/rebuild/CMakeFiles/d/cf690d647f1458dea790b4c8d268b26887b4b286f427e72fa329a95dc0f92412.AdditionalInputs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\pv\rebuild\bin\MinSizeRel\vtkWrapClientServer-pv5.13.exe;D:\pv\ParaView\Plugins\Datamine\Readers\vtkDataMineDrillHoleReader.h;D:\pv\rebuild\Plugins\Datamine\CMakeFiles\vtkDatamineReaders-client-server.MinSizeRel.args;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\pv\rebuild\Plugins\Datamine\CMakeFiles\vtkDatamineReadersCS\vtkDataMineDrillHoleReaderClientServer.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <DepFileAdditionalInputsFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\pv\rebuild\CMakeFiles\d\cf690d647f1458dea790b4c8d268b26887b4b286f427e72fa329a95dc0f92412.AdditionalInputs</DepFileAdditionalInputsFile>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating client_server wrapper sources for vtkDataMineDrillHoleReader</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+..\..\bin\RelWithDebInfo\vtkWrapClientServer-pv5.13.exe -MF D:/pv/rebuild/Plugins/Datamine/CMakeFiles/vtkDatamineReadersCS/vtkDataMineDrillHoleReaderClientServer.cxx.RelWithDebInfo.d @D:/pv/rebuild/Plugins/Datamine/CMakeFiles/vtkDatamineReaders-client-server.RelWithDebInfo.args -o D:/pv/rebuild/Plugins/Datamine/CMakeFiles/vtkDatamineReadersCS/vtkDataMineDrillHoleReaderClientServer.cxx D:/pv/ParaView/Plugins/Datamine/Readers/vtkDataMineDrillHoleReader.h --types D:/pv/rebuild/bin/paraview-5.13/plugins/Datamine/vtk/hierarchy/Datamine/vtkDatamineReaders-hierarchy.txt
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_transform_depfile "Visual Studio 16 2019" MSBuildAdditionalInputs D:/pv/ParaView D:/pv/ParaView/Plugins/Datamine D:/pv/rebuild D:/pv/rebuild/Plugins/Datamine D:/pv/rebuild/Plugins/Datamine/CMakeFiles/vtkDatamineReadersCS/vtkDataMineDrillHoleReaderClientServer.cxx.RelWithDebInfo.d D:/pv/rebuild/CMakeFiles/d/d9bb5de44ef2695a5279fc109777b287f8ed9ce3693311fc204ae9dfdfe61e5b.AdditionalInputs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\pv\rebuild\bin\RelWithDebInfo\vtkWrapClientServer-pv5.13.exe;D:\pv\ParaView\Plugins\Datamine\Readers\vtkDataMineDrillHoleReader.h;D:\pv\rebuild\Plugins\Datamine\CMakeFiles\vtkDatamineReaders-client-server.RelWithDebInfo.args;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\pv\rebuild\Plugins\Datamine\CMakeFiles\vtkDatamineReadersCS\vtkDataMineDrillHoleReaderClientServer.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+      <DepFileAdditionalInputsFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\pv\rebuild\CMakeFiles\d\d9bb5de44ef2695a5279fc109777b287f8ed9ce3693311fc204ae9dfdfe61e5b.AdditionalInputs</DepFileAdditionalInputsFile>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\e1ca64db799e8daf53b2add9ae2e7e41\vtkDataMineDummyReaderClientServer.cxx.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating client_server wrapper sources for vtkDataMineDummyReader</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+..\..\bin\Debug\vtkWrapClientServer-pv5.13d.exe -MF D:/pv/rebuild/Plugins/Datamine/CMakeFiles/vtkDatamineReadersCS/vtkDataMineDummyReaderClientServer.cxx.Debug.d @D:/pv/rebuild/Plugins/Datamine/CMakeFiles/vtkDatamineReaders-client-server.Debug.args -o D:/pv/rebuild/Plugins/Datamine/CMakeFiles/vtkDatamineReadersCS/vtkDataMineDummyReaderClientServer.cxx D:/pv/ParaView/Plugins/Datamine/Readers/vtkDataMineDummyReader.h --types D:/pv/rebuild/bin/paraview-5.13/plugins/Datamine/vtk/hierarchy/Datamine/vtkDatamineReaders-hierarchy.txt
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_transform_depfile "Visual Studio 16 2019" MSBuildAdditionalInputs D:/pv/ParaView D:/pv/ParaView/Plugins/Datamine D:/pv/rebuild D:/pv/rebuild/Plugins/Datamine D:/pv/rebuild/Plugins/Datamine/CMakeFiles/vtkDatamineReadersCS/vtkDataMineDummyReaderClientServer.cxx.Debug.d D:/pv/rebuild/CMakeFiles/d/9026e051dc990ce0daa53b3d74a6368da4ecaaedd5d9b60748b6024720d5f296.AdditionalInputs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\pv\rebuild\bin\Debug\vtkWrapClientServer-pv5.13d.exe;D:\pv\ParaView\Plugins\Datamine\Readers\vtkDataMineDummyReader.h;D:\pv\rebuild\Plugins\Datamine\CMakeFiles\vtkDatamineReaders-client-server.Debug.args;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\pv\rebuild\Plugins\Datamine\CMakeFiles\vtkDatamineReadersCS\vtkDataMineDummyReaderClientServer.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <DepFileAdditionalInputsFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\pv\rebuild\CMakeFiles\d\9026e051dc990ce0daa53b3d74a6368da4ecaaedd5d9b60748b6024720d5f296.AdditionalInputs</DepFileAdditionalInputsFile>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating client_server wrapper sources for vtkDataMineDummyReader</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+..\..\bin\Release\vtkWrapClientServer-pv5.13.exe -MF D:/pv/rebuild/Plugins/Datamine/CMakeFiles/vtkDatamineReadersCS/vtkDataMineDummyReaderClientServer.cxx.Release.d @D:/pv/rebuild/Plugins/Datamine/CMakeFiles/vtkDatamineReaders-client-server.Release.args -o D:/pv/rebuild/Plugins/Datamine/CMakeFiles/vtkDatamineReadersCS/vtkDataMineDummyReaderClientServer.cxx D:/pv/ParaView/Plugins/Datamine/Readers/vtkDataMineDummyReader.h --types D:/pv/rebuild/bin/paraview-5.13/plugins/Datamine/vtk/hierarchy/Datamine/vtkDatamineReaders-hierarchy.txt
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_transform_depfile "Visual Studio 16 2019" MSBuildAdditionalInputs D:/pv/ParaView D:/pv/ParaView/Plugins/Datamine D:/pv/rebuild D:/pv/rebuild/Plugins/Datamine D:/pv/rebuild/Plugins/Datamine/CMakeFiles/vtkDatamineReadersCS/vtkDataMineDummyReaderClientServer.cxx.Release.d D:/pv/rebuild/CMakeFiles/d/fe9ff2b51c0fa08b1b2dbf27980941c6e0bf03e6a2be20fc8b1b3a0c47a61a2f.AdditionalInputs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\pv\rebuild\bin\Release\vtkWrapClientServer-pv5.13.exe;D:\pv\ParaView\Plugins\Datamine\Readers\vtkDataMineDummyReader.h;D:\pv\rebuild\Plugins\Datamine\CMakeFiles\vtkDatamineReaders-client-server.Release.args;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\pv\rebuild\Plugins\Datamine\CMakeFiles\vtkDatamineReadersCS\vtkDataMineDummyReaderClientServer.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <DepFileAdditionalInputsFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\pv\rebuild\CMakeFiles\d\fe9ff2b51c0fa08b1b2dbf27980941c6e0bf03e6a2be20fc8b1b3a0c47a61a2f.AdditionalInputs</DepFileAdditionalInputsFile>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating client_server wrapper sources for vtkDataMineDummyReader</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+..\..\bin\MinSizeRel\vtkWrapClientServer-pv5.13.exe -MF D:/pv/rebuild/Plugins/Datamine/CMakeFiles/vtkDatamineReadersCS/vtkDataMineDummyReaderClientServer.cxx.MinSizeRel.d @D:/pv/rebuild/Plugins/Datamine/CMakeFiles/vtkDatamineReaders-client-server.MinSizeRel.args -o D:/pv/rebuild/Plugins/Datamine/CMakeFiles/vtkDatamineReadersCS/vtkDataMineDummyReaderClientServer.cxx D:/pv/ParaView/Plugins/Datamine/Readers/vtkDataMineDummyReader.h --types D:/pv/rebuild/bin/paraview-5.13/plugins/Datamine/vtk/hierarchy/Datamine/vtkDatamineReaders-hierarchy.txt
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_transform_depfile "Visual Studio 16 2019" MSBuildAdditionalInputs D:/pv/ParaView D:/pv/ParaView/Plugins/Datamine D:/pv/rebuild D:/pv/rebuild/Plugins/Datamine D:/pv/rebuild/Plugins/Datamine/CMakeFiles/vtkDatamineReadersCS/vtkDataMineDummyReaderClientServer.cxx.MinSizeRel.d D:/pv/rebuild/CMakeFiles/d/57fff3b685079b28a10d1047c230a27d1677af3f6f989afce355f300c3e70c73.AdditionalInputs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\pv\rebuild\bin\MinSizeRel\vtkWrapClientServer-pv5.13.exe;D:\pv\ParaView\Plugins\Datamine\Readers\vtkDataMineDummyReader.h;D:\pv\rebuild\Plugins\Datamine\CMakeFiles\vtkDatamineReaders-client-server.MinSizeRel.args;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\pv\rebuild\Plugins\Datamine\CMakeFiles\vtkDatamineReadersCS\vtkDataMineDummyReaderClientServer.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <DepFileAdditionalInputsFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\pv\rebuild\CMakeFiles\d\57fff3b685079b28a10d1047c230a27d1677af3f6f989afce355f300c3e70c73.AdditionalInputs</DepFileAdditionalInputsFile>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating client_server wrapper sources for vtkDataMineDummyReader</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+..\..\bin\RelWithDebInfo\vtkWrapClientServer-pv5.13.exe -MF D:/pv/rebuild/Plugins/Datamine/CMakeFiles/vtkDatamineReadersCS/vtkDataMineDummyReaderClientServer.cxx.RelWithDebInfo.d @D:/pv/rebuild/Plugins/Datamine/CMakeFiles/vtkDatamineReaders-client-server.RelWithDebInfo.args -o D:/pv/rebuild/Plugins/Datamine/CMakeFiles/vtkDatamineReadersCS/vtkDataMineDummyReaderClientServer.cxx D:/pv/ParaView/Plugins/Datamine/Readers/vtkDataMineDummyReader.h --types D:/pv/rebuild/bin/paraview-5.13/plugins/Datamine/vtk/hierarchy/Datamine/vtkDatamineReaders-hierarchy.txt
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_transform_depfile "Visual Studio 16 2019" MSBuildAdditionalInputs D:/pv/ParaView D:/pv/ParaView/Plugins/Datamine D:/pv/rebuild D:/pv/rebuild/Plugins/Datamine D:/pv/rebuild/Plugins/Datamine/CMakeFiles/vtkDatamineReadersCS/vtkDataMineDummyReaderClientServer.cxx.RelWithDebInfo.d D:/pv/rebuild/CMakeFiles/d/280efbfc1e63f8f3ac4d1aa32ab1181d048196f8eba7a4232e74227eca1ceddc.AdditionalInputs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\pv\rebuild\bin\RelWithDebInfo\vtkWrapClientServer-pv5.13.exe;D:\pv\ParaView\Plugins\Datamine\Readers\vtkDataMineDummyReader.h;D:\pv\rebuild\Plugins\Datamine\CMakeFiles\vtkDatamineReaders-client-server.RelWithDebInfo.args;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\pv\rebuild\Plugins\Datamine\CMakeFiles\vtkDatamineReadersCS\vtkDataMineDummyReaderClientServer.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+      <DepFileAdditionalInputsFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\pv\rebuild\CMakeFiles\d\280efbfc1e63f8f3ac4d1aa32ab1181d048196f8eba7a4232e74227eca1ceddc.AdditionalInputs</DepFileAdditionalInputsFile>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\e1ca64db799e8daf53b2add9ae2e7e41\vtkDataMinePerimeterReaderClientServer.cxx.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating client_server wrapper sources for vtkDataMinePerimeterReader</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+..\..\bin\Debug\vtkWrapClientServer-pv5.13d.exe -MF D:/pv/rebuild/Plugins/Datamine/CMakeFiles/vtkDatamineReadersCS/vtkDataMinePerimeterReaderClientServer.cxx.Debug.d @D:/pv/rebuild/Plugins/Datamine/CMakeFiles/vtkDatamineReaders-client-server.Debug.args -o D:/pv/rebuild/Plugins/Datamine/CMakeFiles/vtkDatamineReadersCS/vtkDataMinePerimeterReaderClientServer.cxx D:/pv/ParaView/Plugins/Datamine/Readers/vtkDataMinePerimeterReader.h --types D:/pv/rebuild/bin/paraview-5.13/plugins/Datamine/vtk/hierarchy/Datamine/vtkDatamineReaders-hierarchy.txt
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_transform_depfile "Visual Studio 16 2019" MSBuildAdditionalInputs D:/pv/ParaView D:/pv/ParaView/Plugins/Datamine D:/pv/rebuild D:/pv/rebuild/Plugins/Datamine D:/pv/rebuild/Plugins/Datamine/CMakeFiles/vtkDatamineReadersCS/vtkDataMinePerimeterReaderClientServer.cxx.Debug.d D:/pv/rebuild/CMakeFiles/d/468671a49d58a8f3fe97643699e4258b0805f3495c798732b08c87274533d1c4.AdditionalInputs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\pv\rebuild\bin\Debug\vtkWrapClientServer-pv5.13d.exe;D:\pv\ParaView\Plugins\Datamine\Readers\vtkDataMinePerimeterReader.h;D:\pv\rebuild\Plugins\Datamine\CMakeFiles\vtkDatamineReaders-client-server.Debug.args;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\pv\rebuild\Plugins\Datamine\CMakeFiles\vtkDatamineReadersCS\vtkDataMinePerimeterReaderClientServer.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <DepFileAdditionalInputsFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\pv\rebuild\CMakeFiles\d\468671a49d58a8f3fe97643699e4258b0805f3495c798732b08c87274533d1c4.AdditionalInputs</DepFileAdditionalInputsFile>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating client_server wrapper sources for vtkDataMinePerimeterReader</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+..\..\bin\Release\vtkWrapClientServer-pv5.13.exe -MF D:/pv/rebuild/Plugins/Datamine/CMakeFiles/vtkDatamineReadersCS/vtkDataMinePerimeterReaderClientServer.cxx.Release.d @D:/pv/rebuild/Plugins/Datamine/CMakeFiles/vtkDatamineReaders-client-server.Release.args -o D:/pv/rebuild/Plugins/Datamine/CMakeFiles/vtkDatamineReadersCS/vtkDataMinePerimeterReaderClientServer.cxx D:/pv/ParaView/Plugins/Datamine/Readers/vtkDataMinePerimeterReader.h --types D:/pv/rebuild/bin/paraview-5.13/plugins/Datamine/vtk/hierarchy/Datamine/vtkDatamineReaders-hierarchy.txt
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_transform_depfile "Visual Studio 16 2019" MSBuildAdditionalInputs D:/pv/ParaView D:/pv/ParaView/Plugins/Datamine D:/pv/rebuild D:/pv/rebuild/Plugins/Datamine D:/pv/rebuild/Plugins/Datamine/CMakeFiles/vtkDatamineReadersCS/vtkDataMinePerimeterReaderClientServer.cxx.Release.d D:/pv/rebuild/CMakeFiles/d/c94a44a1cad38cb060e05c8a4cf0806395564ca8b501301b3455bafe951a6c6d.AdditionalInputs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\pv\rebuild\bin\Release\vtkWrapClientServer-pv5.13.exe;D:\pv\ParaView\Plugins\Datamine\Readers\vtkDataMinePerimeterReader.h;D:\pv\rebuild\Plugins\Datamine\CMakeFiles\vtkDatamineReaders-client-server.Release.args;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\pv\rebuild\Plugins\Datamine\CMakeFiles\vtkDatamineReadersCS\vtkDataMinePerimeterReaderClientServer.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <DepFileAdditionalInputsFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\pv\rebuild\CMakeFiles\d\c94a44a1cad38cb060e05c8a4cf0806395564ca8b501301b3455bafe951a6c6d.AdditionalInputs</DepFileAdditionalInputsFile>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating client_server wrapper sources for vtkDataMinePerimeterReader</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+..\..\bin\MinSizeRel\vtkWrapClientServer-pv5.13.exe -MF D:/pv/rebuild/Plugins/Datamine/CMakeFiles/vtkDatamineReadersCS/vtkDataMinePerimeterReaderClientServer.cxx.MinSizeRel.d @D:/pv/rebuild/Plugins/Datamine/CMakeFiles/vtkDatamineReaders-client-server.MinSizeRel.args -o D:/pv/rebuild/Plugins/Datamine/CMakeFiles/vtkDatamineReadersCS/vtkDataMinePerimeterReaderClientServer.cxx D:/pv/ParaView/Plugins/Datamine/Readers/vtkDataMinePerimeterReader.h --types D:/pv/rebuild/bin/paraview-5.13/plugins/Datamine/vtk/hierarchy/Datamine/vtkDatamineReaders-hierarchy.txt
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_transform_depfile "Visual Studio 16 2019" MSBuildAdditionalInputs D:/pv/ParaView D:/pv/ParaView/Plugins/Datamine D:/pv/rebuild D:/pv/rebuild/Plugins/Datamine D:/pv/rebuild/Plugins/Datamine/CMakeFiles/vtkDatamineReadersCS/vtkDataMinePerimeterReaderClientServer.cxx.MinSizeRel.d D:/pv/rebuild/CMakeFiles/d/a6756e4964f49e0c00b6d7542d0a62757a98b5c01c2fe8a8c969ffbbfce79f8c.AdditionalInputs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\pv\rebuild\bin\MinSizeRel\vtkWrapClientServer-pv5.13.exe;D:\pv\ParaView\Plugins\Datamine\Readers\vtkDataMinePerimeterReader.h;D:\pv\rebuild\Plugins\Datamine\CMakeFiles\vtkDatamineReaders-client-server.MinSizeRel.args;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\pv\rebuild\Plugins\Datamine\CMakeFiles\vtkDatamineReadersCS\vtkDataMinePerimeterReaderClientServer.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <DepFileAdditionalInputsFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\pv\rebuild\CMakeFiles\d\a6756e4964f49e0c00b6d7542d0a62757a98b5c01c2fe8a8c969ffbbfce79f8c.AdditionalInputs</DepFileAdditionalInputsFile>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating client_server wrapper sources for vtkDataMinePerimeterReader</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+..\..\bin\RelWithDebInfo\vtkWrapClientServer-pv5.13.exe -MF D:/pv/rebuild/Plugins/Datamine/CMakeFiles/vtkDatamineReadersCS/vtkDataMinePerimeterReaderClientServer.cxx.RelWithDebInfo.d @D:/pv/rebuild/Plugins/Datamine/CMakeFiles/vtkDatamineReaders-client-server.RelWithDebInfo.args -o D:/pv/rebuild/Plugins/Datamine/CMakeFiles/vtkDatamineReadersCS/vtkDataMinePerimeterReaderClientServer.cxx D:/pv/ParaView/Plugins/Datamine/Readers/vtkDataMinePerimeterReader.h --types D:/pv/rebuild/bin/paraview-5.13/plugins/Datamine/vtk/hierarchy/Datamine/vtkDatamineReaders-hierarchy.txt
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_transform_depfile "Visual Studio 16 2019" MSBuildAdditionalInputs D:/pv/ParaView D:/pv/ParaView/Plugins/Datamine D:/pv/rebuild D:/pv/rebuild/Plugins/Datamine D:/pv/rebuild/Plugins/Datamine/CMakeFiles/vtkDatamineReadersCS/vtkDataMinePerimeterReaderClientServer.cxx.RelWithDebInfo.d D:/pv/rebuild/CMakeFiles/d/b31281c47e39439b2b208cf537a95b16ef9e0c84e1292f10a30c671b8a33047f.AdditionalInputs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\pv\rebuild\bin\RelWithDebInfo\vtkWrapClientServer-pv5.13.exe;D:\pv\ParaView\Plugins\Datamine\Readers\vtkDataMinePerimeterReader.h;D:\pv\rebuild\Plugins\Datamine\CMakeFiles\vtkDatamineReaders-client-server.RelWithDebInfo.args;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\pv\rebuild\Plugins\Datamine\CMakeFiles\vtkDatamineReadersCS\vtkDataMinePerimeterReaderClientServer.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+      <DepFileAdditionalInputsFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\pv\rebuild\CMakeFiles\d\b31281c47e39439b2b208cf537a95b16ef9e0c84e1292f10a30c671b8a33047f.AdditionalInputs</DepFileAdditionalInputsFile>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\e1ca64db799e8daf53b2add9ae2e7e41\vtkDataMinePointReaderClientServer.cxx.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating client_server wrapper sources for vtkDataMinePointReader</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+..\..\bin\Debug\vtkWrapClientServer-pv5.13d.exe -MF D:/pv/rebuild/Plugins/Datamine/CMakeFiles/vtkDatamineReadersCS/vtkDataMinePointReaderClientServer.cxx.Debug.d @D:/pv/rebuild/Plugins/Datamine/CMakeFiles/vtkDatamineReaders-client-server.Debug.args -o D:/pv/rebuild/Plugins/Datamine/CMakeFiles/vtkDatamineReadersCS/vtkDataMinePointReaderClientServer.cxx D:/pv/ParaView/Plugins/Datamine/Readers/vtkDataMinePointReader.h --types D:/pv/rebuild/bin/paraview-5.13/plugins/Datamine/vtk/hierarchy/Datamine/vtkDatamineReaders-hierarchy.txt
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_transform_depfile "Visual Studio 16 2019" MSBuildAdditionalInputs D:/pv/ParaView D:/pv/ParaView/Plugins/Datamine D:/pv/rebuild D:/pv/rebuild/Plugins/Datamine D:/pv/rebuild/Plugins/Datamine/CMakeFiles/vtkDatamineReadersCS/vtkDataMinePointReaderClientServer.cxx.Debug.d D:/pv/rebuild/CMakeFiles/d/46f821963b3ec9bc44689aef693d8c911247c6e16fac22f7552e3d3677463285.AdditionalInputs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\pv\rebuild\bin\Debug\vtkWrapClientServer-pv5.13d.exe;D:\pv\ParaView\Plugins\Datamine\Readers\vtkDataMinePointReader.h;D:\pv\rebuild\Plugins\Datamine\CMakeFiles\vtkDatamineReaders-client-server.Debug.args;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\pv\rebuild\Plugins\Datamine\CMakeFiles\vtkDatamineReadersCS\vtkDataMinePointReaderClientServer.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <DepFileAdditionalInputsFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\pv\rebuild\CMakeFiles\d\46f821963b3ec9bc44689aef693d8c911247c6e16fac22f7552e3d3677463285.AdditionalInputs</DepFileAdditionalInputsFile>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating client_server wrapper sources for vtkDataMinePointReader</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+..\..\bin\Release\vtkWrapClientServer-pv5.13.exe -MF D:/pv/rebuild/Plugins/Datamine/CMakeFiles/vtkDatamineReadersCS/vtkDataMinePointReaderClientServer.cxx.Release.d @D:/pv/rebuild/Plugins/Datamine/CMakeFiles/vtkDatamineReaders-client-server.Release.args -o D:/pv/rebuild/Plugins/Datamine/CMakeFiles/vtkDatamineReadersCS/vtkDataMinePointReaderClientServer.cxx D:/pv/ParaView/Plugins/Datamine/Readers/vtkDataMinePointReader.h --types D:/pv/rebuild/bin/paraview-5.13/plugins/Datamine/vtk/hierarchy/Datamine/vtkDatamineReaders-hierarchy.txt
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_transform_depfile "Visual Studio 16 2019" MSBuildAdditionalInputs D:/pv/ParaView D:/pv/ParaView/Plugins/Datamine D:/pv/rebuild D:/pv/rebuild/Plugins/Datamine D:/pv/rebuild/Plugins/Datamine/CMakeFiles/vtkDatamineReadersCS/vtkDataMinePointReaderClientServer.cxx.Release.d D:/pv/rebuild/CMakeFiles/d/f2f112ee90d97130f8df0c64a4b7fc0e56dc50358d6ceebbf2680c011d18aa42.AdditionalInputs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\pv\rebuild\bin\Release\vtkWrapClientServer-pv5.13.exe;D:\pv\ParaView\Plugins\Datamine\Readers\vtkDataMinePointReader.h;D:\pv\rebuild\Plugins\Datamine\CMakeFiles\vtkDatamineReaders-client-server.Release.args;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\pv\rebuild\Plugins\Datamine\CMakeFiles\vtkDatamineReadersCS\vtkDataMinePointReaderClientServer.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <DepFileAdditionalInputsFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\pv\rebuild\CMakeFiles\d\f2f112ee90d97130f8df0c64a4b7fc0e56dc50358d6ceebbf2680c011d18aa42.AdditionalInputs</DepFileAdditionalInputsFile>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating client_server wrapper sources for vtkDataMinePointReader</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+..\..\bin\MinSizeRel\vtkWrapClientServer-pv5.13.exe -MF D:/pv/rebuild/Plugins/Datamine/CMakeFiles/vtkDatamineReadersCS/vtkDataMinePointReaderClientServer.cxx.MinSizeRel.d @D:/pv/rebuild/Plugins/Datamine/CMakeFiles/vtkDatamineReaders-client-server.MinSizeRel.args -o D:/pv/rebuild/Plugins/Datamine/CMakeFiles/vtkDatamineReadersCS/vtkDataMinePointReaderClientServer.cxx D:/pv/ParaView/Plugins/Datamine/Readers/vtkDataMinePointReader.h --types D:/pv/rebuild/bin/paraview-5.13/plugins/Datamine/vtk/hierarchy/Datamine/vtkDatamineReaders-hierarchy.txt
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_transform_depfile "Visual Studio 16 2019" MSBuildAdditionalInputs D:/pv/ParaView D:/pv/ParaView/Plugins/Datamine D:/pv/rebuild D:/pv/rebuild/Plugins/Datamine D:/pv/rebuild/Plugins/Datamine/CMakeFiles/vtkDatamineReadersCS/vtkDataMinePointReaderClientServer.cxx.MinSizeRel.d D:/pv/rebuild/CMakeFiles/d/46849db4d86e438875fb38213c2dd4aea9c932f1cd77d8d7ef223455c7e73707.AdditionalInputs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\pv\rebuild\bin\MinSizeRel\vtkWrapClientServer-pv5.13.exe;D:\pv\ParaView\Plugins\Datamine\Readers\vtkDataMinePointReader.h;D:\pv\rebuild\Plugins\Datamine\CMakeFiles\vtkDatamineReaders-client-server.MinSizeRel.args;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\pv\rebuild\Plugins\Datamine\CMakeFiles\vtkDatamineReadersCS\vtkDataMinePointReaderClientServer.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <DepFileAdditionalInputsFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\pv\rebuild\CMakeFiles\d\46849db4d86e438875fb38213c2dd4aea9c932f1cd77d8d7ef223455c7e73707.AdditionalInputs</DepFileAdditionalInputsFile>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating client_server wrapper sources for vtkDataMinePointReader</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+..\..\bin\RelWithDebInfo\vtkWrapClientServer-pv5.13.exe -MF D:/pv/rebuild/Plugins/Datamine/CMakeFiles/vtkDatamineReadersCS/vtkDataMinePointReaderClientServer.cxx.RelWithDebInfo.d @D:/pv/rebuild/Plugins/Datamine/CMakeFiles/vtkDatamineReaders-client-server.RelWithDebInfo.args -o D:/pv/rebuild/Plugins/Datamine/CMakeFiles/vtkDatamineReadersCS/vtkDataMinePointReaderClientServer.cxx D:/pv/ParaView/Plugins/Datamine/Readers/vtkDataMinePointReader.h --types D:/pv/rebuild/bin/paraview-5.13/plugins/Datamine/vtk/hierarchy/Datamine/vtkDatamineReaders-hierarchy.txt
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_transform_depfile "Visual Studio 16 2019" MSBuildAdditionalInputs D:/pv/ParaView D:/pv/ParaView/Plugins/Datamine D:/pv/rebuild D:/pv/rebuild/Plugins/Datamine D:/pv/rebuild/Plugins/Datamine/CMakeFiles/vtkDatamineReadersCS/vtkDataMinePointReaderClientServer.cxx.RelWithDebInfo.d D:/pv/rebuild/CMakeFiles/d/623f39b487cfadaa98675ddac88660111fcfc0649756ae558a3cff86a7513ade.AdditionalInputs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\pv\rebuild\bin\RelWithDebInfo\vtkWrapClientServer-pv5.13.exe;D:\pv\ParaView\Plugins\Datamine\Readers\vtkDataMinePointReader.h;D:\pv\rebuild\Plugins\Datamine\CMakeFiles\vtkDatamineReaders-client-server.RelWithDebInfo.args;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\pv\rebuild\Plugins\Datamine\CMakeFiles\vtkDatamineReadersCS\vtkDataMinePointReaderClientServer.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+      <DepFileAdditionalInputsFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\pv\rebuild\CMakeFiles\d\623f39b487cfadaa98675ddac88660111fcfc0649756ae558a3cff86a7513ade.AdditionalInputs</DepFileAdditionalInputsFile>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\e1ca64db799e8daf53b2add9ae2e7e41\vtkDataMineReaderClientServer.cxx.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating client_server wrapper sources for vtkDataMineReader</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+..\..\bin\Debug\vtkWrapClientServer-pv5.13d.exe -MF D:/pv/rebuild/Plugins/Datamine/CMakeFiles/vtkDatamineReadersCS/vtkDataMineReaderClientServer.cxx.Debug.d @D:/pv/rebuild/Plugins/Datamine/CMakeFiles/vtkDatamineReaders-client-server.Debug.args -o D:/pv/rebuild/Plugins/Datamine/CMakeFiles/vtkDatamineReadersCS/vtkDataMineReaderClientServer.cxx D:/pv/ParaView/Plugins/Datamine/Readers/vtkDataMineReader.h --types D:/pv/rebuild/bin/paraview-5.13/plugins/Datamine/vtk/hierarchy/Datamine/vtkDatamineReaders-hierarchy.txt
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_transform_depfile "Visual Studio 16 2019" MSBuildAdditionalInputs D:/pv/ParaView D:/pv/ParaView/Plugins/Datamine D:/pv/rebuild D:/pv/rebuild/Plugins/Datamine D:/pv/rebuild/Plugins/Datamine/CMakeFiles/vtkDatamineReadersCS/vtkDataMineReaderClientServer.cxx.Debug.d D:/pv/rebuild/CMakeFiles/d/584c1326b4ce818f381bea683dbe6fa1637d72292fb757ed5374017f54b5abbf.AdditionalInputs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\pv\rebuild\bin\Debug\vtkWrapClientServer-pv5.13d.exe;D:\pv\ParaView\Plugins\Datamine\Readers\vtkDataMineReader.h;D:\pv\rebuild\Plugins\Datamine\CMakeFiles\vtkDatamineReaders-client-server.Debug.args;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\pv\rebuild\Plugins\Datamine\CMakeFiles\vtkDatamineReadersCS\vtkDataMineReaderClientServer.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <DepFileAdditionalInputsFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\pv\rebuild\CMakeFiles\d\584c1326b4ce818f381bea683dbe6fa1637d72292fb757ed5374017f54b5abbf.AdditionalInputs</DepFileAdditionalInputsFile>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating client_server wrapper sources for vtkDataMineReader</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+..\..\bin\Release\vtkWrapClientServer-pv5.13.exe -MF D:/pv/rebuild/Plugins/Datamine/CMakeFiles/vtkDatamineReadersCS/vtkDataMineReaderClientServer.cxx.Release.d @D:/pv/rebuild/Plugins/Datamine/CMakeFiles/vtkDatamineReaders-client-server.Release.args -o D:/pv/rebuild/Plugins/Datamine/CMakeFiles/vtkDatamineReadersCS/vtkDataMineReaderClientServer.cxx D:/pv/ParaView/Plugins/Datamine/Readers/vtkDataMineReader.h --types D:/pv/rebuild/bin/paraview-5.13/plugins/Datamine/vtk/hierarchy/Datamine/vtkDatamineReaders-hierarchy.txt
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_transform_depfile "Visual Studio 16 2019" MSBuildAdditionalInputs D:/pv/ParaView D:/pv/ParaView/Plugins/Datamine D:/pv/rebuild D:/pv/rebuild/Plugins/Datamine D:/pv/rebuild/Plugins/Datamine/CMakeFiles/vtkDatamineReadersCS/vtkDataMineReaderClientServer.cxx.Release.d D:/pv/rebuild/CMakeFiles/d/0b27d1c32e4e0704c2233684215038dc9b38f0db161d9de41a5c37266e81743b.AdditionalInputs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\pv\rebuild\bin\Release\vtkWrapClientServer-pv5.13.exe;D:\pv\ParaView\Plugins\Datamine\Readers\vtkDataMineReader.h;D:\pv\rebuild\Plugins\Datamine\CMakeFiles\vtkDatamineReaders-client-server.Release.args;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\pv\rebuild\Plugins\Datamine\CMakeFiles\vtkDatamineReadersCS\vtkDataMineReaderClientServer.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <DepFileAdditionalInputsFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\pv\rebuild\CMakeFiles\d\0b27d1c32e4e0704c2233684215038dc9b38f0db161d9de41a5c37266e81743b.AdditionalInputs</DepFileAdditionalInputsFile>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating client_server wrapper sources for vtkDataMineReader</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+..\..\bin\MinSizeRel\vtkWrapClientServer-pv5.13.exe -MF D:/pv/rebuild/Plugins/Datamine/CMakeFiles/vtkDatamineReadersCS/vtkDataMineReaderClientServer.cxx.MinSizeRel.d @D:/pv/rebuild/Plugins/Datamine/CMakeFiles/vtkDatamineReaders-client-server.MinSizeRel.args -o D:/pv/rebuild/Plugins/Datamine/CMakeFiles/vtkDatamineReadersCS/vtkDataMineReaderClientServer.cxx D:/pv/ParaView/Plugins/Datamine/Readers/vtkDataMineReader.h --types D:/pv/rebuild/bin/paraview-5.13/plugins/Datamine/vtk/hierarchy/Datamine/vtkDatamineReaders-hierarchy.txt
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_transform_depfile "Visual Studio 16 2019" MSBuildAdditionalInputs D:/pv/ParaView D:/pv/ParaView/Plugins/Datamine D:/pv/rebuild D:/pv/rebuild/Plugins/Datamine D:/pv/rebuild/Plugins/Datamine/CMakeFiles/vtkDatamineReadersCS/vtkDataMineReaderClientServer.cxx.MinSizeRel.d D:/pv/rebuild/CMakeFiles/d/2bbf31ea2f29f9c258a16955180850d068f37816376ca809c2bb621f83d8f10e.AdditionalInputs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\pv\rebuild\bin\MinSizeRel\vtkWrapClientServer-pv5.13.exe;D:\pv\ParaView\Plugins\Datamine\Readers\vtkDataMineReader.h;D:\pv\rebuild\Plugins\Datamine\CMakeFiles\vtkDatamineReaders-client-server.MinSizeRel.args;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\pv\rebuild\Plugins\Datamine\CMakeFiles\vtkDatamineReadersCS\vtkDataMineReaderClientServer.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <DepFileAdditionalInputsFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\pv\rebuild\CMakeFiles\d\2bbf31ea2f29f9c258a16955180850d068f37816376ca809c2bb621f83d8f10e.AdditionalInputs</DepFileAdditionalInputsFile>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating client_server wrapper sources for vtkDataMineReader</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+..\..\bin\RelWithDebInfo\vtkWrapClientServer-pv5.13.exe -MF D:/pv/rebuild/Plugins/Datamine/CMakeFiles/vtkDatamineReadersCS/vtkDataMineReaderClientServer.cxx.RelWithDebInfo.d @D:/pv/rebuild/Plugins/Datamine/CMakeFiles/vtkDatamineReaders-client-server.RelWithDebInfo.args -o D:/pv/rebuild/Plugins/Datamine/CMakeFiles/vtkDatamineReadersCS/vtkDataMineReaderClientServer.cxx D:/pv/ParaView/Plugins/Datamine/Readers/vtkDataMineReader.h --types D:/pv/rebuild/bin/paraview-5.13/plugins/Datamine/vtk/hierarchy/Datamine/vtkDatamineReaders-hierarchy.txt
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_transform_depfile "Visual Studio 16 2019" MSBuildAdditionalInputs D:/pv/ParaView D:/pv/ParaView/Plugins/Datamine D:/pv/rebuild D:/pv/rebuild/Plugins/Datamine D:/pv/rebuild/Plugins/Datamine/CMakeFiles/vtkDatamineReadersCS/vtkDataMineReaderClientServer.cxx.RelWithDebInfo.d D:/pv/rebuild/CMakeFiles/d/73537aff6a67b203e2a6e6eecc993f3bfa66025d7126829f995ba13a852d2ad2.AdditionalInputs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\pv\rebuild\bin\RelWithDebInfo\vtkWrapClientServer-pv5.13.exe;D:\pv\ParaView\Plugins\Datamine\Readers\vtkDataMineReader.h;D:\pv\rebuild\Plugins\Datamine\CMakeFiles\vtkDatamineReaders-client-server.RelWithDebInfo.args;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\pv\rebuild\Plugins\Datamine\CMakeFiles\vtkDatamineReadersCS\vtkDataMineReaderClientServer.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+      <DepFileAdditionalInputsFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\pv\rebuild\CMakeFiles\d\73537aff6a67b203e2a6e6eecc993f3bfa66025d7126829f995ba13a852d2ad2.AdditionalInputs</DepFileAdditionalInputsFile>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\e1ca64db799e8daf53b2add9ae2e7e41\vtkDataMineWireFrameReaderClientServer.cxx.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating client_server wrapper sources for vtkDataMineWireFrameReader</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+..\..\bin\Debug\vtkWrapClientServer-pv5.13d.exe -MF D:/pv/rebuild/Plugins/Datamine/CMakeFiles/vtkDatamineReadersCS/vtkDataMineWireFrameReaderClientServer.cxx.Debug.d @D:/pv/rebuild/Plugins/Datamine/CMakeFiles/vtkDatamineReaders-client-server.Debug.args -o D:/pv/rebuild/Plugins/Datamine/CMakeFiles/vtkDatamineReadersCS/vtkDataMineWireFrameReaderClientServer.cxx D:/pv/ParaView/Plugins/Datamine/Readers/vtkDataMineWireFrameReader.h --types D:/pv/rebuild/bin/paraview-5.13/plugins/Datamine/vtk/hierarchy/Datamine/vtkDatamineReaders-hierarchy.txt
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_transform_depfile "Visual Studio 16 2019" MSBuildAdditionalInputs D:/pv/ParaView D:/pv/ParaView/Plugins/Datamine D:/pv/rebuild D:/pv/rebuild/Plugins/Datamine D:/pv/rebuild/Plugins/Datamine/CMakeFiles/vtkDatamineReadersCS/vtkDataMineWireFrameReaderClientServer.cxx.Debug.d D:/pv/rebuild/CMakeFiles/d/3795f1bd32722e720c31b6b247d67bdb34d33508f70797843953c142a7e15d4d.AdditionalInputs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\pv\rebuild\bin\Debug\vtkWrapClientServer-pv5.13d.exe;D:\pv\ParaView\Plugins\Datamine\Readers\vtkDataMineWireFrameReader.h;D:\pv\rebuild\Plugins\Datamine\CMakeFiles\vtkDatamineReaders-client-server.Debug.args;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\pv\rebuild\Plugins\Datamine\CMakeFiles\vtkDatamineReadersCS\vtkDataMineWireFrameReaderClientServer.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <DepFileAdditionalInputsFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\pv\rebuild\CMakeFiles\d\3795f1bd32722e720c31b6b247d67bdb34d33508f70797843953c142a7e15d4d.AdditionalInputs</DepFileAdditionalInputsFile>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating client_server wrapper sources for vtkDataMineWireFrameReader</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+..\..\bin\Release\vtkWrapClientServer-pv5.13.exe -MF D:/pv/rebuild/Plugins/Datamine/CMakeFiles/vtkDatamineReadersCS/vtkDataMineWireFrameReaderClientServer.cxx.Release.d @D:/pv/rebuild/Plugins/Datamine/CMakeFiles/vtkDatamineReaders-client-server.Release.args -o D:/pv/rebuild/Plugins/Datamine/CMakeFiles/vtkDatamineReadersCS/vtkDataMineWireFrameReaderClientServer.cxx D:/pv/ParaView/Plugins/Datamine/Readers/vtkDataMineWireFrameReader.h --types D:/pv/rebuild/bin/paraview-5.13/plugins/Datamine/vtk/hierarchy/Datamine/vtkDatamineReaders-hierarchy.txt
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_transform_depfile "Visual Studio 16 2019" MSBuildAdditionalInputs D:/pv/ParaView D:/pv/ParaView/Plugins/Datamine D:/pv/rebuild D:/pv/rebuild/Plugins/Datamine D:/pv/rebuild/Plugins/Datamine/CMakeFiles/vtkDatamineReadersCS/vtkDataMineWireFrameReaderClientServer.cxx.Release.d D:/pv/rebuild/CMakeFiles/d/e26125ffef82f97ff00bab087b064232cdaaf6387a25dc501d03a33dd4902737.AdditionalInputs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\pv\rebuild\bin\Release\vtkWrapClientServer-pv5.13.exe;D:\pv\ParaView\Plugins\Datamine\Readers\vtkDataMineWireFrameReader.h;D:\pv\rebuild\Plugins\Datamine\CMakeFiles\vtkDatamineReaders-client-server.Release.args;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\pv\rebuild\Plugins\Datamine\CMakeFiles\vtkDatamineReadersCS\vtkDataMineWireFrameReaderClientServer.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <DepFileAdditionalInputsFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\pv\rebuild\CMakeFiles\d\e26125ffef82f97ff00bab087b064232cdaaf6387a25dc501d03a33dd4902737.AdditionalInputs</DepFileAdditionalInputsFile>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating client_server wrapper sources for vtkDataMineWireFrameReader</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+..\..\bin\MinSizeRel\vtkWrapClientServer-pv5.13.exe -MF D:/pv/rebuild/Plugins/Datamine/CMakeFiles/vtkDatamineReadersCS/vtkDataMineWireFrameReaderClientServer.cxx.MinSizeRel.d @D:/pv/rebuild/Plugins/Datamine/CMakeFiles/vtkDatamineReaders-client-server.MinSizeRel.args -o D:/pv/rebuild/Plugins/Datamine/CMakeFiles/vtkDatamineReadersCS/vtkDataMineWireFrameReaderClientServer.cxx D:/pv/ParaView/Plugins/Datamine/Readers/vtkDataMineWireFrameReader.h --types D:/pv/rebuild/bin/paraview-5.13/plugins/Datamine/vtk/hierarchy/Datamine/vtkDatamineReaders-hierarchy.txt
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_transform_depfile "Visual Studio 16 2019" MSBuildAdditionalInputs D:/pv/ParaView D:/pv/ParaView/Plugins/Datamine D:/pv/rebuild D:/pv/rebuild/Plugins/Datamine D:/pv/rebuild/Plugins/Datamine/CMakeFiles/vtkDatamineReadersCS/vtkDataMineWireFrameReaderClientServer.cxx.MinSizeRel.d D:/pv/rebuild/CMakeFiles/d/d95f6910b05c8d5967c46f69b4cf0dbb226c915a022b2f98558a0c50ad80d56f.AdditionalInputs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\pv\rebuild\bin\MinSizeRel\vtkWrapClientServer-pv5.13.exe;D:\pv\ParaView\Plugins\Datamine\Readers\vtkDataMineWireFrameReader.h;D:\pv\rebuild\Plugins\Datamine\CMakeFiles\vtkDatamineReaders-client-server.MinSizeRel.args;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\pv\rebuild\Plugins\Datamine\CMakeFiles\vtkDatamineReadersCS\vtkDataMineWireFrameReaderClientServer.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <DepFileAdditionalInputsFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\pv\rebuild\CMakeFiles\d\d95f6910b05c8d5967c46f69b4cf0dbb226c915a022b2f98558a0c50ad80d56f.AdditionalInputs</DepFileAdditionalInputsFile>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating client_server wrapper sources for vtkDataMineWireFrameReader</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+..\..\bin\RelWithDebInfo\vtkWrapClientServer-pv5.13.exe -MF D:/pv/rebuild/Plugins/Datamine/CMakeFiles/vtkDatamineReadersCS/vtkDataMineWireFrameReaderClientServer.cxx.RelWithDebInfo.d @D:/pv/rebuild/Plugins/Datamine/CMakeFiles/vtkDatamineReaders-client-server.RelWithDebInfo.args -o D:/pv/rebuild/Plugins/Datamine/CMakeFiles/vtkDatamineReadersCS/vtkDataMineWireFrameReaderClientServer.cxx D:/pv/ParaView/Plugins/Datamine/Readers/vtkDataMineWireFrameReader.h --types D:/pv/rebuild/bin/paraview-5.13/plugins/Datamine/vtk/hierarchy/Datamine/vtkDatamineReaders-hierarchy.txt
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_transform_depfile "Visual Studio 16 2019" MSBuildAdditionalInputs D:/pv/ParaView D:/pv/ParaView/Plugins/Datamine D:/pv/rebuild D:/pv/rebuild/Plugins/Datamine D:/pv/rebuild/Plugins/Datamine/CMakeFiles/vtkDatamineReadersCS/vtkDataMineWireFrameReaderClientServer.cxx.RelWithDebInfo.d D:/pv/rebuild/CMakeFiles/d/957b29b146e9cba153f3c2655e3d6a0b306528e0c4456be3310c48277f4d6e68.AdditionalInputs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\pv\rebuild\bin\RelWithDebInfo\vtkWrapClientServer-pv5.13.exe;D:\pv\ParaView\Plugins\Datamine\Readers\vtkDataMineWireFrameReader.h;D:\pv\rebuild\Plugins\Datamine\CMakeFiles\vtkDatamineReaders-client-server.RelWithDebInfo.args;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\pv\rebuild\Plugins\Datamine\CMakeFiles\vtkDatamineReadersCS\vtkDataMineWireFrameReaderClientServer.cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+      <DepFileAdditionalInputsFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\pv\rebuild\CMakeFiles\d\957b29b146e9cba153f3c2655e3d6a0b306528e0c4456be3310c48277f4d6e68.AdditionalInputs</DepFileAdditionalInputsFile>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\pv\ParaView\Plugins\Datamine\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/pv/ParaView/Plugins/Datamine/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/pv/ParaView -BD:/pv/rebuild --check-stamp-file D:/pv/rebuild/Plugins/Datamine/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeParseArguments.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5\Qt5Config.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5\Qt5ConfigVersion.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5\Qt5ModuleLocation.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QInsightTrackerPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QSvgIconPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QSvgPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QVirtualKeyboardPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWebGLIntegrationPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QXdgDesktopPortalThemePlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Help\Qt5HelpConfig.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Help\Qt5HelpConfigExtras.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Help\Qt5HelpConfigVersion.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Sql\Qt5SqlConfig.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Sql\Qt5SqlConfigVersion.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Sql\Qt5Sql_QODBCDriverPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Sql\Qt5Sql_QPSQLDriverPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Sql\Qt5Sql_QSQLiteDriverPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;D:\pv\ParaView\CMake\paraview_plugin.cxx.in;D:\pv\ParaView\CMake\paraview_plugin.h.in;D:\pv\ParaView\Plugins\Datamine\Readers\vtk.module;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\pv\rebuild\Plugins\Datamine\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/pv/ParaView/Plugins/Datamine/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/pv/ParaView -BD:/pv/rebuild --check-stamp-file D:/pv/rebuild/Plugins/Datamine/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeParseArguments.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5\Qt5Config.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5\Qt5ConfigVersion.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5\Qt5ModuleLocation.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QInsightTrackerPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QSvgIconPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QSvgPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QVirtualKeyboardPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWebGLIntegrationPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QXdgDesktopPortalThemePlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Help\Qt5HelpConfig.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Help\Qt5HelpConfigExtras.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Help\Qt5HelpConfigVersion.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Sql\Qt5SqlConfig.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Sql\Qt5SqlConfigVersion.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Sql\Qt5Sql_QODBCDriverPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Sql\Qt5Sql_QPSQLDriverPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Sql\Qt5Sql_QSQLiteDriverPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;D:\pv\ParaView\CMake\paraview_plugin.cxx.in;D:\pv\ParaView\CMake\paraview_plugin.h.in;D:\pv\ParaView\Plugins\Datamine\Readers\vtk.module;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\pv\rebuild\Plugins\Datamine\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/pv/ParaView/Plugins/Datamine/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/pv/ParaView -BD:/pv/rebuild --check-stamp-file D:/pv/rebuild/Plugins/Datamine/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeParseArguments.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5\Qt5Config.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5\Qt5ConfigVersion.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5\Qt5ModuleLocation.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QInsightTrackerPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QSvgIconPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QSvgPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QVirtualKeyboardPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWebGLIntegrationPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QXdgDesktopPortalThemePlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Help\Qt5HelpConfig.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Help\Qt5HelpConfigExtras.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Help\Qt5HelpConfigVersion.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Sql\Qt5SqlConfig.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Sql\Qt5SqlConfigVersion.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Sql\Qt5Sql_QODBCDriverPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Sql\Qt5Sql_QPSQLDriverPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Sql\Qt5Sql_QSQLiteDriverPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;D:\pv\ParaView\CMake\paraview_plugin.cxx.in;D:\pv\ParaView\CMake\paraview_plugin.h.in;D:\pv\ParaView\Plugins\Datamine\Readers\vtk.module;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\pv\rebuild\Plugins\Datamine\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/pv/ParaView/Plugins/Datamine/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/pv/ParaView -BD:/pv/rebuild --check-stamp-file D:/pv/rebuild/Plugins/Datamine/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeParseArguments.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5\Qt5Config.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5\Qt5ConfigVersion.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5\Qt5ModuleLocation.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QInsightTrackerPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QSvgIconPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QSvgPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QVirtualKeyboardPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWebGLIntegrationPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QXdgDesktopPortalThemePlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Help\Qt5HelpConfig.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Help\Qt5HelpConfigExtras.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Help\Qt5HelpConfigVersion.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Sql\Qt5SqlConfig.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Sql\Qt5SqlConfigVersion.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Sql\Qt5Sql_QODBCDriverPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Sql\Qt5Sql_QPSQLDriverPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Sql\Qt5Sql_QSQLiteDriverPlugin.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;D:\Qt\5.15.2\msvc2019_64\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;D:\pv\ParaView\CMake\paraview_plugin.cxx.in;D:\pv\ParaView\CMake\paraview_plugin.h.in;D:\pv\ParaView\Plugins\Datamine\Readers\vtk.module;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\pv\rebuild\Plugins\Datamine\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\pv\rebuild\Plugins\Datamine\CMakeFiles\vtkDatamineReadersCS\vtkDataMineBlockReaderClientServer.cxx" />
+    <ClCompile Include="D:\pv\rebuild\Plugins\Datamine\CMakeFiles\vtkDatamineReadersCS\vtkDataMineDrillHoleReaderClientServer.cxx" />
+    <ClCompile Include="D:\pv\rebuild\Plugins\Datamine\CMakeFiles\vtkDatamineReadersCS\vtkDataMineDummyReaderClientServer.cxx" />
+    <ClCompile Include="D:\pv\rebuild\Plugins\Datamine\CMakeFiles\vtkDatamineReadersCS\vtkDataMinePerimeterReaderClientServer.cxx" />
+    <ClCompile Include="D:\pv\rebuild\Plugins\Datamine\CMakeFiles\vtkDatamineReadersCS\vtkDataMinePointReaderClientServer.cxx" />
+    <ClCompile Include="D:\pv\rebuild\Plugins\Datamine\CMakeFiles\vtkDatamineReadersCS\vtkDataMineReaderClientServer.cxx" />
+    <ClCompile Include="D:\pv\rebuild\Plugins\Datamine\CMakeFiles\vtkDatamineReadersCS\vtkDataMineWireFrameReaderClientServer.cxx" />
+    <ClCompile Include="D:\pv\rebuild\Plugins\Datamine\CMakeFiles\vtkDatamineReadersCSInit.cxx" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="D:\pv\rebuild\ZERO_CHECK.vcxproj">
+      <Project>{F365DAD0-49D0-3E04-B6A0-AEBAF9BD405C}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\Common\Core\CommonCore.vcxproj">
+      <Project>{B619F52E-9839-377A-BAEE-BACB4D9A457F}</Project>
+      <Name>CommonCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\Common\DataModel\CommonDataModel.vcxproj">
+      <Project>{41298AA9-65F9-3C5B-8ECF-E93AC201EB02}</Project>
+      <Name>CommonDataModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\Common\ExecutionModel\CommonExecutionModel.vcxproj">
+      <Project>{80171A5E-C0D7-3ED5-A880-FCF8C3497B99}</Project>
+      <Name>CommonExecutionModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\Common\Math\CommonMath.vcxproj">
+      <Project>{194237E4-60C4-316E-8F01-9F06A2D04C6A}</Project>
+      <Name>CommonMath</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\Common\Transforms\CommonTransforms.vcxproj">
+      <Project>{D6924074-2195-374C-AF34-798A39B49219}</Project>
+      <Name>CommonTransforms</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\Plugins\Datamine\Readers\DatamineReaders.vcxproj">
+      <Project>{59DD02AB-F1BA-3FA1-BF90-39EABD56EB41}</Project>
+      <Name>DatamineReaders</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\Remoting\ClientServerStream\RemotingClientServerStream.vcxproj">
+      <Project>{37AD3169-CA99-3AE5-B80A-74511EEDA2B3}</Project>
+      <Name>RemotingClientServerStream</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\Utilities\WrapClientServer\WrapClientServer.vcxproj">
+      <Project>{1186F1C1-48D1-3478-AFE4-9615BBF083CE}</Project>
+      <Name>WrapClientServer</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\ThirdParty\kissfft\vtkkissfft\kissfft.vcxproj">
+      <Project>{3CCF61F3-F985-33F3-8EC9-58E045C69827}</Project>
+      <Name>kissfft</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\ThirdParty\nlohmannjson\vtknlohmannjson\nlohmannjson.vcxproj">
+      <Project>{7457C71D-4012-3101-AF26-38DABCDE7E01}</Project>
+      <Name>nlohmannjson</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\ThirdParty\token\vtktoken\token\token.vcxproj">
+      <Project>{6AB51710-ABE5-385B-96E1-B68D0E5AAC99}</Project>
+      <Name>token</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\Plugins\Datamine\Readers\vtkDatamineReaders-hierarchy.vcxproj">
+      <Project>{89F3C6B6-A29D-3D6D-8E7B-3DD9B182C52A}</Project>
+      <Name>vtkDatamineReaders-hierarchy</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\Utilities\KWSys\vtksys\vtksys.vcxproj">
+      <Project>{771F913C-BFBD-34D6-B1D7-80FEFE734E74}</Project>
+      <Name>vtksys</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <Import Project="C:\Program Files\CMake\share\cmake-3.31\Templates\MSBuild\CustomBuildDepFile.targets" />
+</Project>

@@ -1,0 +1,20 @@
+#----------------------------------------------------------------
+# Generated CMake target import file for configuration "MinSizeRel".
+#----------------------------------------------------------------
+
+# Commands may need to know the format version.
+set(CMAKE_IMPORT_FILE_VERSION 1)
+
+# Import target "ExplicitStructuredGrid::vtkExplicitStructuredGrid" for configuration "MinSizeRel"
+set_property(TARGET ExplicitStructuredGrid::vtkExplicitStructuredGrid APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
+set_target_properties(ExplicitStructuredGrid::vtkExplicitStructuredGrid PROPERTIES
+  IMPORTED_IMPLIB_MINSIZEREL "${_IMPORT_PREFIX}/bin/paraview-5.13/plugins/ExplicitStructuredGrid/vtkExplicitStructuredGrid.lib"
+  IMPORTED_LINK_DEPENDENT_LIBRARIES_MINSIZEREL "VTK::CommonDataModel;VTK::CommonCore;VTK::ParallelCore"
+  IMPORTED_LOCATION_MINSIZEREL "${_IMPORT_PREFIX}/bin/paraview-5.13/plugins/ExplicitStructuredGrid/vtkExplicitStructuredGrid.dll"
+  )
+
+list(APPEND _cmake_import_check_targets ExplicitStructuredGrid::vtkExplicitStructuredGrid )
+list(APPEND _cmake_import_check_files_for_ExplicitStructuredGrid::vtkExplicitStructuredGrid "${_IMPORT_PREFIX}/bin/paraview-5.13/plugins/ExplicitStructuredGrid/vtkExplicitStructuredGrid.lib" "${_IMPORT_PREFIX}/bin/paraview-5.13/plugins/ExplicitStructuredGrid/vtkExplicitStructuredGrid.dll" )
+
+# Commands beyond this point should not need to know the version.
+set(CMAKE_IMPORT_FILE_VERSION)

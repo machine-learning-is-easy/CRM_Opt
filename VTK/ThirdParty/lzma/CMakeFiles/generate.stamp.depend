@@ -1,0 +1,4 @@
+# CMake generation dependency list for this directory.
+D:/pv/ParaView/VTK/CMake/vtkDetectLibraryType.cmake
+D:/pv/ParaView/VTK/ThirdParty/lzma/CMakeLists.txt
+D:/pv/ParaView/VTK/ThirdParty/lzma/vtk_lzma.h.in

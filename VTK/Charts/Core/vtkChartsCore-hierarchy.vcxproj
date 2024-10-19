@@ -1,0 +1,335 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{9E4E1730-7051-3279-BF98-82198E30A89B}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>vtkChartsCore-hierarchy</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\8f409c800f1da56b4716c9500cce654f\vtkChartsCore-hierarchy.txt.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating the wrap hierarchy for VTK::ChartsCore</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+..\..\..\bin\Debug\vtkWrapHierarchy-pv5.13d.exe -MF D:/pv/rebuild/VTK/Charts/Core/CMakeFiles/vtkChartsCore-hierarchy.txt.Debug.d @D:/pv/rebuild/VTK/Charts/Core/CMakeFiles/vtkChartsCore-hierarchy.Debug.args -o D:/pv/rebuild/lib/vtk/hierarchy/ParaView/vtkChartsCore-hierarchy.txt D:/pv/rebuild/VTK/Charts/Core/CMakeFiles/vtkChartsCore-hierarchy.data @D:/pv/rebuild/VTK/Charts/Core/CMakeFiles/vtkChartsCore-hierarchy.depends.args
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_transform_depfile "Visual Studio 16 2019" MSBuildAdditionalInputs D:/pv/ParaView D:/pv/ParaView/VTK/Charts/Core D:/pv/rebuild D:/pv/rebuild/VTK/Charts/Core D:/pv/rebuild/VTK/Charts/Core/CMakeFiles/vtkChartsCore-hierarchy.txt.Debug.d D:/pv/rebuild/CMakeFiles/d/3a2d529ff3e6ea9f85b4c187fe076f96d1d2f1d11324f20e5a7406e1eabb4ce0.AdditionalInputs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\pv\ParaView\VTK\Charts\Core\vtkAxis.h;D:\pv\ParaView\VTK\Charts\Core\vtkAxisExtended.h;D:\pv\ParaView\VTK\Charts\Core\vtkCategoryLegend.h;D:\pv\ParaView\VTK\Charts\Core\vtkChart.h;D:\pv\ParaView\VTK\Charts\Core\vtkChartBox.h;D:\pv\ParaView\VTK\Charts\Core\vtkChartHistogram2D.h;D:\pv\ParaView\VTK\Charts\Core\vtkChartLegend.h;D:\pv\ParaView\VTK\Charts\Core\vtkChartMatrix.h;D:\pv\ParaView\VTK\Charts\Core\vtkChartParallelCoordinates.h;D:\pv\ParaView\VTK\Charts\Core\vtkChartPie.h;D:\pv\ParaView\VTK\Charts\Core\vtkChartXY.h;D:\pv\ParaView\VTK\Charts\Core\vtkChartXYZ.h;D:\pv\ParaView\VTK\Charts\Core\vtkColorLegend.h;D:\pv\ParaView\VTK\Charts\Core\vtkColorTransferControlPointsItem.h;D:\pv\ParaView\VTK\Charts\Core\vtkColorTransferFunctionItem.h;D:\pv\ParaView\VTK\Charts\Core\vtkCompositeControlPointsItem.h;D:\pv\ParaView\VTK\Charts\Core\vtkCompositeTransferFunctionItem.h;D:\pv\ParaView\VTK\Charts\Core\vtkContextArea.h;D:\pv\ParaView\VTK\Charts\Core\vtkContextPolygon.h;D:\pv\ParaView\VTK\Charts\Core\vtkControlPointsItem.h;D:\pv\ParaView\VTK\Charts\Core\vtkInteractiveArea.h;D:\pv\ParaView\VTK\Charts\Core\vtkLookupTableItem.h;D:\pv\ParaView\VTK\Charts\Core\vtkPiecewiseControlPointsItem.h;D:\pv\ParaView\VTK\Charts\Core\vtkPiecewiseFunctionItem.h;D:\pv\ParaView\VTK\Charts\Core\vtkPiecewisePointHandleItem.h;D:\pv\ParaView\VTK\Charts\Core\vtkPlot.h;D:\pv\ParaView\VTK\Charts\Core\vtkPlot3D.h;D:\pv\ParaView\VTK\Charts\Core\vtkPlotArea.h;D:\pv\ParaView\VTK\Charts\Core\vtkPlotBag.h;D:\pv\ParaView\VTK\Charts\Core\vtkPlotBar.h;D:\pv\ParaView\VTK\Charts\Core\vtkPlotBarRangeHandlesItem.h;D:\pv\ParaView\VTK\Charts\Core\vtkPlotBox.h;D:\pv\ParaView\VTK\Charts\Core\vtkPlotFunctionalBag.h;D:\pv\ParaView\VTK\Charts\Core\vtkPlotGrid.h;D:\pv\ParaView\VTK\Charts\Core\vtkPlotHistogram2D.h;D:\pv\ParaView\VTK\Charts\Core\vtkPlotLine.h;D:\pv\ParaView\VTK\Charts\Core\vtkPlotLine3D.h;D:\pv\ParaView\VTK\Charts\Core\vtkPlotParallelCoordinates.h;D:\pv\ParaView\VTK\Charts\Core\vtkPlotPie.h;D:\pv\ParaView\VTK\Charts\Core\vtkPlotPoints.h;D:\pv\ParaView\VTK\Charts\Core\vtkPlotPoints3D.h;D:\pv\ParaView\VTK\Charts\Core\vtkPlotRangeHandlesItem.h;D:\pv\ParaView\VTK\Charts\Core\vtkPlotStacked.h;D:\pv\ParaView\VTK\Charts\Core\vtkPlotSurface.h;D:\pv\ParaView\VTK\Charts\Core\vtkRangeHandlesItem.h;D:\pv\ParaView\VTK\Charts\Core\vtkScalarsToColorsItem.h;D:\pv\ParaView\VTK\Charts\Core\vtkScatterPlotMatrix.h;D:\pv\rebuild\VTK\Charts\Core\CMakeFiles\vtkChartsCore-hierarchy.Debug.args;D:\pv\rebuild\VTK\Charts\Core\CMakeFiles\vtkChartsCore-hierarchy.data;D:\pv\rebuild\VTK\Charts\Core\CMakeFiles\vtkChartsCore-hierarchy.depends.args;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\pv\rebuild\lib\vtk\hierarchy\ParaView\vtkChartsCore-hierarchy.txt</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <DepFileAdditionalInputsFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\pv\rebuild\CMakeFiles\d\3a2d529ff3e6ea9f85b4c187fe076f96d1d2f1d11324f20e5a7406e1eabb4ce0.AdditionalInputs</DepFileAdditionalInputsFile>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating the wrap hierarchy for VTK::ChartsCore</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+..\..\..\bin\Release\vtkWrapHierarchy-pv5.13.exe -MF D:/pv/rebuild/VTK/Charts/Core/CMakeFiles/vtkChartsCore-hierarchy.txt.Release.d @D:/pv/rebuild/VTK/Charts/Core/CMakeFiles/vtkChartsCore-hierarchy.Release.args -o D:/pv/rebuild/lib/vtk/hierarchy/ParaView/vtkChartsCore-hierarchy.txt D:/pv/rebuild/VTK/Charts/Core/CMakeFiles/vtkChartsCore-hierarchy.data @D:/pv/rebuild/VTK/Charts/Core/CMakeFiles/vtkChartsCore-hierarchy.depends.args
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_transform_depfile "Visual Studio 16 2019" MSBuildAdditionalInputs D:/pv/ParaView D:/pv/ParaView/VTK/Charts/Core D:/pv/rebuild D:/pv/rebuild/VTK/Charts/Core D:/pv/rebuild/VTK/Charts/Core/CMakeFiles/vtkChartsCore-hierarchy.txt.Release.d D:/pv/rebuild/CMakeFiles/d/039f7d3c6d7a980f44a897bd24a05b9e20eb86a6990b7607db3359de11130aa3.AdditionalInputs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\pv\ParaView\VTK\Charts\Core\vtkAxis.h;D:\pv\ParaView\VTK\Charts\Core\vtkAxisExtended.h;D:\pv\ParaView\VTK\Charts\Core\vtkCategoryLegend.h;D:\pv\ParaView\VTK\Charts\Core\vtkChart.h;D:\pv\ParaView\VTK\Charts\Core\vtkChartBox.h;D:\pv\ParaView\VTK\Charts\Core\vtkChartHistogram2D.h;D:\pv\ParaView\VTK\Charts\Core\vtkChartLegend.h;D:\pv\ParaView\VTK\Charts\Core\vtkChartMatrix.h;D:\pv\ParaView\VTK\Charts\Core\vtkChartParallelCoordinates.h;D:\pv\ParaView\VTK\Charts\Core\vtkChartPie.h;D:\pv\ParaView\VTK\Charts\Core\vtkChartXY.h;D:\pv\ParaView\VTK\Charts\Core\vtkChartXYZ.h;D:\pv\ParaView\VTK\Charts\Core\vtkColorLegend.h;D:\pv\ParaView\VTK\Charts\Core\vtkColorTransferControlPointsItem.h;D:\pv\ParaView\VTK\Charts\Core\vtkColorTransferFunctionItem.h;D:\pv\ParaView\VTK\Charts\Core\vtkCompositeControlPointsItem.h;D:\pv\ParaView\VTK\Charts\Core\vtkCompositeTransferFunctionItem.h;D:\pv\ParaView\VTK\Charts\Core\vtkContextArea.h;D:\pv\ParaView\VTK\Charts\Core\vtkContextPolygon.h;D:\pv\ParaView\VTK\Charts\Core\vtkControlPointsItem.h;D:\pv\ParaView\VTK\Charts\Core\vtkInteractiveArea.h;D:\pv\ParaView\VTK\Charts\Core\vtkLookupTableItem.h;D:\pv\ParaView\VTK\Charts\Core\vtkPiecewiseControlPointsItem.h;D:\pv\ParaView\VTK\Charts\Core\vtkPiecewiseFunctionItem.h;D:\pv\ParaView\VTK\Charts\Core\vtkPiecewisePointHandleItem.h;D:\pv\ParaView\VTK\Charts\Core\vtkPlot.h;D:\pv\ParaView\VTK\Charts\Core\vtkPlot3D.h;D:\pv\ParaView\VTK\Charts\Core\vtkPlotArea.h;D:\pv\ParaView\VTK\Charts\Core\vtkPlotBag.h;D:\pv\ParaView\VTK\Charts\Core\vtkPlotBar.h;D:\pv\ParaView\VTK\Charts\Core\vtkPlotBarRangeHandlesItem.h;D:\pv\ParaView\VTK\Charts\Core\vtkPlotBox.h;D:\pv\ParaView\VTK\Charts\Core\vtkPlotFunctionalBag.h;D:\pv\ParaView\VTK\Charts\Core\vtkPlotGrid.h;D:\pv\ParaView\VTK\Charts\Core\vtkPlotHistogram2D.h;D:\pv\ParaView\VTK\Charts\Core\vtkPlotLine.h;D:\pv\ParaView\VTK\Charts\Core\vtkPlotLine3D.h;D:\pv\ParaView\VTK\Charts\Core\vtkPlotParallelCoordinates.h;D:\pv\ParaView\VTK\Charts\Core\vtkPlotPie.h;D:\pv\ParaView\VTK\Charts\Core\vtkPlotPoints.h;D:\pv\ParaView\VTK\Charts\Core\vtkPlotPoints3D.h;D:\pv\ParaView\VTK\Charts\Core\vtkPlotRangeHandlesItem.h;D:\pv\ParaView\VTK\Charts\Core\vtkPlotStacked.h;D:\pv\ParaView\VTK\Charts\Core\vtkPlotSurface.h;D:\pv\ParaView\VTK\Charts\Core\vtkRangeHandlesItem.h;D:\pv\ParaView\VTK\Charts\Core\vtkScalarsToColorsItem.h;D:\pv\ParaView\VTK\Charts\Core\vtkScatterPlotMatrix.h;D:\pv\rebuild\VTK\Charts\Core\CMakeFiles\vtkChartsCore-hierarchy.Release.args;D:\pv\rebuild\VTK\Charts\Core\CMakeFiles\vtkChartsCore-hierarchy.data;D:\pv\rebuild\VTK\Charts\Core\CMakeFiles\vtkChartsCore-hierarchy.depends.args;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\pv\rebuild\lib\vtk\hierarchy\ParaView\vtkChartsCore-hierarchy.txt</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <DepFileAdditionalInputsFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\pv\rebuild\CMakeFiles\d\039f7d3c6d7a980f44a897bd24a05b9e20eb86a6990b7607db3359de11130aa3.AdditionalInputs</DepFileAdditionalInputsFile>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating the wrap hierarchy for VTK::ChartsCore</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+..\..\..\bin\MinSizeRel\vtkWrapHierarchy-pv5.13.exe -MF D:/pv/rebuild/VTK/Charts/Core/CMakeFiles/vtkChartsCore-hierarchy.txt.MinSizeRel.d @D:/pv/rebuild/VTK/Charts/Core/CMakeFiles/vtkChartsCore-hierarchy.MinSizeRel.args -o D:/pv/rebuild/lib/vtk/hierarchy/ParaView/vtkChartsCore-hierarchy.txt D:/pv/rebuild/VTK/Charts/Core/CMakeFiles/vtkChartsCore-hierarchy.data @D:/pv/rebuild/VTK/Charts/Core/CMakeFiles/vtkChartsCore-hierarchy.depends.args
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_transform_depfile "Visual Studio 16 2019" MSBuildAdditionalInputs D:/pv/ParaView D:/pv/ParaView/VTK/Charts/Core D:/pv/rebuild D:/pv/rebuild/VTK/Charts/Core D:/pv/rebuild/VTK/Charts/Core/CMakeFiles/vtkChartsCore-hierarchy.txt.MinSizeRel.d D:/pv/rebuild/CMakeFiles/d/fbdb3790808b80b4836db84e11124c192e24649a93bc920315c5a95fbffc6371.AdditionalInputs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\pv\ParaView\VTK\Charts\Core\vtkAxis.h;D:\pv\ParaView\VTK\Charts\Core\vtkAxisExtended.h;D:\pv\ParaView\VTK\Charts\Core\vtkCategoryLegend.h;D:\pv\ParaView\VTK\Charts\Core\vtkChart.h;D:\pv\ParaView\VTK\Charts\Core\vtkChartBox.h;D:\pv\ParaView\VTK\Charts\Core\vtkChartHistogram2D.h;D:\pv\ParaView\VTK\Charts\Core\vtkChartLegend.h;D:\pv\ParaView\VTK\Charts\Core\vtkChartMatrix.h;D:\pv\ParaView\VTK\Charts\Core\vtkChartParallelCoordinates.h;D:\pv\ParaView\VTK\Charts\Core\vtkChartPie.h;D:\pv\ParaView\VTK\Charts\Core\vtkChartXY.h;D:\pv\ParaView\VTK\Charts\Core\vtkChartXYZ.h;D:\pv\ParaView\VTK\Charts\Core\vtkColorLegend.h;D:\pv\ParaView\VTK\Charts\Core\vtkColorTransferControlPointsItem.h;D:\pv\ParaView\VTK\Charts\Core\vtkColorTransferFunctionItem.h;D:\pv\ParaView\VTK\Charts\Core\vtkCompositeControlPointsItem.h;D:\pv\ParaView\VTK\Charts\Core\vtkCompositeTransferFunctionItem.h;D:\pv\ParaView\VTK\Charts\Core\vtkContextArea.h;D:\pv\ParaView\VTK\Charts\Core\vtkContextPolygon.h;D:\pv\ParaView\VTK\Charts\Core\vtkControlPointsItem.h;D:\pv\ParaView\VTK\Charts\Core\vtkInteractiveArea.h;D:\pv\ParaView\VTK\Charts\Core\vtkLookupTableItem.h;D:\pv\ParaView\VTK\Charts\Core\vtkPiecewiseControlPointsItem.h;D:\pv\ParaView\VTK\Charts\Core\vtkPiecewiseFunctionItem.h;D:\pv\ParaView\VTK\Charts\Core\vtkPiecewisePointHandleItem.h;D:\pv\ParaView\VTK\Charts\Core\vtkPlot.h;D:\pv\ParaView\VTK\Charts\Core\vtkPlot3D.h;D:\pv\ParaView\VTK\Charts\Core\vtkPlotArea.h;D:\pv\ParaView\VTK\Charts\Core\vtkPlotBag.h;D:\pv\ParaView\VTK\Charts\Core\vtkPlotBar.h;D:\pv\ParaView\VTK\Charts\Core\vtkPlotBarRangeHandlesItem.h;D:\pv\ParaView\VTK\Charts\Core\vtkPlotBox.h;D:\pv\ParaView\VTK\Charts\Core\vtkPlotFunctionalBag.h;D:\pv\ParaView\VTK\Charts\Core\vtkPlotGrid.h;D:\pv\ParaView\VTK\Charts\Core\vtkPlotHistogram2D.h;D:\pv\ParaView\VTK\Charts\Core\vtkPlotLine.h;D:\pv\ParaView\VTK\Charts\Core\vtkPlotLine3D.h;D:\pv\ParaView\VTK\Charts\Core\vtkPlotParallelCoordinates.h;D:\pv\ParaView\VTK\Charts\Core\vtkPlotPie.h;D:\pv\ParaView\VTK\Charts\Core\vtkPlotPoints.h;D:\pv\ParaView\VTK\Charts\Core\vtkPlotPoints3D.h;D:\pv\ParaView\VTK\Charts\Core\vtkPlotRangeHandlesItem.h;D:\pv\ParaView\VTK\Charts\Core\vtkPlotStacked.h;D:\pv\ParaView\VTK\Charts\Core\vtkPlotSurface.h;D:\pv\ParaView\VTK\Charts\Core\vtkRangeHandlesItem.h;D:\pv\ParaView\VTK\Charts\Core\vtkScalarsToColorsItem.h;D:\pv\ParaView\VTK\Charts\Core\vtkScatterPlotMatrix.h;D:\pv\rebuild\VTK\Charts\Core\CMakeFiles\vtkChartsCore-hierarchy.MinSizeRel.args;D:\pv\rebuild\VTK\Charts\Core\CMakeFiles\vtkChartsCore-hierarchy.data;D:\pv\rebuild\VTK\Charts\Core\CMakeFiles\vtkChartsCore-hierarchy.depends.args;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\pv\rebuild\lib\vtk\hierarchy\ParaView\vtkChartsCore-hierarchy.txt</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <DepFileAdditionalInputsFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\pv\rebuild\CMakeFiles\d\fbdb3790808b80b4836db84e11124c192e24649a93bc920315c5a95fbffc6371.AdditionalInputs</DepFileAdditionalInputsFile>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating the wrap hierarchy for VTK::ChartsCore</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+..\..\..\bin\RelWithDebInfo\vtkWrapHierarchy-pv5.13.exe -MF D:/pv/rebuild/VTK/Charts/Core/CMakeFiles/vtkChartsCore-hierarchy.txt.RelWithDebInfo.d @D:/pv/rebuild/VTK/Charts/Core/CMakeFiles/vtkChartsCore-hierarchy.RelWithDebInfo.args -o D:/pv/rebuild/lib/vtk/hierarchy/ParaView/vtkChartsCore-hierarchy.txt D:/pv/rebuild/VTK/Charts/Core/CMakeFiles/vtkChartsCore-hierarchy.data @D:/pv/rebuild/VTK/Charts/Core/CMakeFiles/vtkChartsCore-hierarchy.depends.args
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_transform_depfile "Visual Studio 16 2019" MSBuildAdditionalInputs D:/pv/ParaView D:/pv/ParaView/VTK/Charts/Core D:/pv/rebuild D:/pv/rebuild/VTK/Charts/Core D:/pv/rebuild/VTK/Charts/Core/CMakeFiles/vtkChartsCore-hierarchy.txt.RelWithDebInfo.d D:/pv/rebuild/CMakeFiles/d/218d73c7fbe0b292ef3f025ef9d0cc536be74df68891165b845194e319b38284.AdditionalInputs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\pv\ParaView\VTK\Charts\Core\vtkAxis.h;D:\pv\ParaView\VTK\Charts\Core\vtkAxisExtended.h;D:\pv\ParaView\VTK\Charts\Core\vtkCategoryLegend.h;D:\pv\ParaView\VTK\Charts\Core\vtkChart.h;D:\pv\ParaView\VTK\Charts\Core\vtkChartBox.h;D:\pv\ParaView\VTK\Charts\Core\vtkChartHistogram2D.h;D:\pv\ParaView\VTK\Charts\Core\vtkChartLegend.h;D:\pv\ParaView\VTK\Charts\Core\vtkChartMatrix.h;D:\pv\ParaView\VTK\Charts\Core\vtkChartParallelCoordinates.h;D:\pv\ParaView\VTK\Charts\Core\vtkChartPie.h;D:\pv\ParaView\VTK\Charts\Core\vtkChartXY.h;D:\pv\ParaView\VTK\Charts\Core\vtkChartXYZ.h;D:\pv\ParaView\VTK\Charts\Core\vtkColorLegend.h;D:\pv\ParaView\VTK\Charts\Core\vtkColorTransferControlPointsItem.h;D:\pv\ParaView\VTK\Charts\Core\vtkColorTransferFunctionItem.h;D:\pv\ParaView\VTK\Charts\Core\vtkCompositeControlPointsItem.h;D:\pv\ParaView\VTK\Charts\Core\vtkCompositeTransferFunctionItem.h;D:\pv\ParaView\VTK\Charts\Core\vtkContextArea.h;D:\pv\ParaView\VTK\Charts\Core\vtkContextPolygon.h;D:\pv\ParaView\VTK\Charts\Core\vtkControlPointsItem.h;D:\pv\ParaView\VTK\Charts\Core\vtkInteractiveArea.h;D:\pv\ParaView\VTK\Charts\Core\vtkLookupTableItem.h;D:\pv\ParaView\VTK\Charts\Core\vtkPiecewiseControlPointsItem.h;D:\pv\ParaView\VTK\Charts\Core\vtkPiecewiseFunctionItem.h;D:\pv\ParaView\VTK\Charts\Core\vtkPiecewisePointHandleItem.h;D:\pv\ParaView\VTK\Charts\Core\vtkPlot.h;D:\pv\ParaView\VTK\Charts\Core\vtkPlot3D.h;D:\pv\ParaView\VTK\Charts\Core\vtkPlotArea.h;D:\pv\ParaView\VTK\Charts\Core\vtkPlotBag.h;D:\pv\ParaView\VTK\Charts\Core\vtkPlotBar.h;D:\pv\ParaView\VTK\Charts\Core\vtkPlotBarRangeHandlesItem.h;D:\pv\ParaView\VTK\Charts\Core\vtkPlotBox.h;D:\pv\ParaView\VTK\Charts\Core\vtkPlotFunctionalBag.h;D:\pv\ParaView\VTK\Charts\Core\vtkPlotGrid.h;D:\pv\ParaView\VTK\Charts\Core\vtkPlotHistogram2D.h;D:\pv\ParaView\VTK\Charts\Core\vtkPlotLine.h;D:\pv\ParaView\VTK\Charts\Core\vtkPlotLine3D.h;D:\pv\ParaView\VTK\Charts\Core\vtkPlotParallelCoordinates.h;D:\pv\ParaView\VTK\Charts\Core\vtkPlotPie.h;D:\pv\ParaView\VTK\Charts\Core\vtkPlotPoints.h;D:\pv\ParaView\VTK\Charts\Core\vtkPlotPoints3D.h;D:\pv\ParaView\VTK\Charts\Core\vtkPlotRangeHandlesItem.h;D:\pv\ParaView\VTK\Charts\Core\vtkPlotStacked.h;D:\pv\ParaView\VTK\Charts\Core\vtkPlotSurface.h;D:\pv\ParaView\VTK\Charts\Core\vtkRangeHandlesItem.h;D:\pv\ParaView\VTK\Charts\Core\vtkScalarsToColorsItem.h;D:\pv\ParaView\VTK\Charts\Core\vtkScatterPlotMatrix.h;D:\pv\rebuild\VTK\Charts\Core\CMakeFiles\vtkChartsCore-hierarchy.RelWithDebInfo.args;D:\pv\rebuild\VTK\Charts\Core\CMakeFiles\vtkChartsCore-hierarchy.data;D:\pv\rebuild\VTK\Charts\Core\CMakeFiles\vtkChartsCore-hierarchy.depends.args;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\pv\rebuild\lib\vtk\hierarchy\ParaView\vtkChartsCore-hierarchy.txt</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+      <DepFileAdditionalInputsFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\pv\rebuild\CMakeFiles\d\218d73c7fbe0b292ef3f025ef9d0cc536be74df68891165b845194e319b38284.AdditionalInputs</DepFileAdditionalInputsFile>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\pv\rebuild\CMakeFiles\9af1ff4c0b2bb01eadbf232d83ac3465\vtkChartsCore-hierarchy.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\pv\rebuild\lib\vtk\hierarchy\ParaView\vtkChartsCore-hierarchy.txt;D:\pv\rebuild\bin\Debug\vtkWrapHierarchy-pv5.13d.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\pv\rebuild\VTK\Charts\Core\CMakeFiles\vtkChartsCore-hierarchy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\pv\rebuild\lib\vtk\hierarchy\ParaView\vtkChartsCore-hierarchy.txt;D:\pv\rebuild\bin\Release\vtkWrapHierarchy-pv5.13.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\pv\rebuild\VTK\Charts\Core\CMakeFiles\vtkChartsCore-hierarchy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\pv\rebuild\lib\vtk\hierarchy\ParaView\vtkChartsCore-hierarchy.txt;D:\pv\rebuild\bin\MinSizeRel\vtkWrapHierarchy-pv5.13.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\pv\rebuild\VTK\Charts\Core\CMakeFiles\vtkChartsCore-hierarchy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\pv\rebuild\lib\vtk\hierarchy\ParaView\vtkChartsCore-hierarchy.txt;D:\pv\rebuild\bin\RelWithDebInfo\vtkWrapHierarchy-pv5.13.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\pv\rebuild\VTK\Charts\Core\CMakeFiles\vtkChartsCore-hierarchy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</VerifyInputsAndOutputsExist>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\pv\ParaView\VTK\Charts\Core\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/pv/ParaView/VTK/Charts/Core/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/pv/ParaView -BD:/pv/rebuild --check-stamp-file D:/pv/rebuild/VTK/Charts/Core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\exportheader.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\pv\rebuild\VTK\Charts\Core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/pv/ParaView/VTK/Charts/Core/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/pv/ParaView -BD:/pv/rebuild --check-stamp-file D:/pv/rebuild/VTK/Charts/Core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\exportheader.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\pv\rebuild\VTK\Charts\Core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/pv/ParaView/VTK/Charts/Core/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/pv/ParaView -BD:/pv/rebuild --check-stamp-file D:/pv/rebuild/VTK/Charts/Core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\exportheader.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\pv\rebuild\VTK\Charts\Core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/pv/ParaView/VTK/Charts/Core/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/pv/ParaView -BD:/pv/rebuild --check-stamp-file D:/pv/rebuild/VTK/Charts/Core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\exportheader.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\pv\rebuild\VTK\Charts\Core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\pv\rebuild\VTK\Charts\Core\CMakeFiles\vtkChartsCore-hierarchy">
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="D:\pv\rebuild\ZERO_CHECK.vcxproj">
+      <Project>{F365DAD0-49D0-3E04-B6A0-AEBAF9BD405C}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\Wrapping\Tools\WrapHierarchy.vcxproj">
+      <Project>{6B762A16-ED2D-3193-9824-B7A0CCE4E942}</Project>
+      <Name>WrapHierarchy</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\Common\Core\vtkCommonCore-hierarchy.vcxproj">
+      <Project>{943D225E-181F-3C21-9E89-7C404A14E156}</Project>
+      <Name>vtkCommonCore-hierarchy</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\Common\DataModel\vtkCommonDataModel-hierarchy.vcxproj">
+      <Project>{33976DCB-4C89-3C16-899B-B5D0C3ED48BE}</Project>
+      <Name>vtkCommonDataModel-hierarchy</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\Filters\General\vtkFiltersGeneral-hierarchy.vcxproj">
+      <Project>{0BA9EB62-F6F2-391E-A81E-36CB5F6B94E3}</Project>
+      <Name>vtkFiltersGeneral-hierarchy</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\Rendering\Context2D\vtkRenderingContext2D-hierarchy.vcxproj">
+      <Project>{B76EBF4A-830D-3834-9A62-52661B31410C}</Project>
+      <Name>vtkRenderingContext2D-hierarchy</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\pv\rebuild\VTK\Rendering\Core\vtkRenderingCore-hierarchy.vcxproj">
+      <Project>{B0746D1C-2AB6-3DC2-82E5-BFE9841F9C71}</Project>
+      <Name>vtkRenderingCore-hierarchy</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <Import Project="C:\Program Files\CMake\share\cmake-3.31\Templates\MSBuild\CustomBuildDepFile.targets" />
+</Project>

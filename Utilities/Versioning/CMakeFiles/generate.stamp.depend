@@ -1,0 +1,4 @@
+# CMake generation dependency list for this directory.
+D:/pv/ParaView/Utilities/Versioning/CMakeLists.txt
+D:/pv/ParaView/Utilities/Versioning/vtkPVVersion.h.in
+D:/pv/ParaView/Utilities/Versioning/vtkPVVersionQuick.h.in
