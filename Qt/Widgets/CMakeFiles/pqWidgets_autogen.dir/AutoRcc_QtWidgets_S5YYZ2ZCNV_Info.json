@@ -1,0 +1,30 @@
+{
+	"BUILD_DIR" : "D:/pv/build/Qt/Widgets/pqWidgets_autogen",
+	"CMAKE_BINARY_DIR" : "D:/pv/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "D:/pv/build/Qt/Widgets",
+	"CMAKE_CURRENT_SOURCE_DIR" : "D:/pv/ParaView/Qt/Widgets",
+	"CMAKE_SOURCE_DIR" : "D:/pv/ParaView",
+	"CROSS_CONFIG" : false,
+	"GENERATOR" : "Ninja",
+	"INCLUDE_DIR" : "D:/pv/build/Qt/Widgets/pqWidgets_autogen/include",
+	"INPUTS" : 
+	[
+		"D:/pv/ParaView/Qt/Widgets/Resources/Icons/pqShowMenu.svg",
+		"D:/pv/ParaView/Qt/Widgets/Resources/Icons/pqMinus.svg",
+		"D:/pv/ParaView/Qt/Widgets/Resources/Icons/pqDelete.svg",
+		"D:/pv/ParaView/Qt/Widgets/Resources/Icons/pqMultiply.png",
+		"D:/pv/ParaView/Qt/Widgets/Resources/Icons/pqMultiply@2x.png",
+		"D:/pv/ParaView/Qt/Widgets/Resources/Icons/pqPlus.svg"
+	],
+	"LOCK_FILE" : "D:/pv/build/Qt/Widgets/CMakeFiles/pqWidgets_autogen.dir/AutoRcc_QtWidgets_S5YYZ2ZCNV_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "QtWidgets" ],
+	"OUTPUT_CHECKSUM" : "S5YYZ2ZCNV",
+	"OUTPUT_NAME" : "qrc_QtWidgets.cpp",
+	"RCC_EXECUTABLE" : "D:/Qt/5.15.2/msvc2019_64/bin/rcc.exe",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "D:/pv/build/Qt/Widgets/CMakeFiles/pqWidgets_autogen.dir/AutoRcc_QtWidgets_S5YYZ2ZCNV_Used.txt",
+	"SOURCE" : "D:/pv/ParaView/Qt/Widgets/Resources/QtWidgets.qrc",
+	"USE_BETTER_GRAPH" : false,
+	"VERBOSITY" : 0
+}

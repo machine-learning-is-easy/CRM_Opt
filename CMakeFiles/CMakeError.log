@@ -1,0 +1,195 @@
+Checking whether C compiler has ssize_t in unistd.h failed to compile with the following output:
+Change Dir: 'D:/pv/build/VTK/Utilities/KWSys/vtksys/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): C:/PROGRA~2/MICROS~2/2019/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe -v cmTC_b654b
+[1/2] C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx64\x64\cl.exe  /nologo -DTEST_KWSYS_C_HAS_SSIZE_T  /DWIN32 /D_WINDOWS /bigobj /utf-8   /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\cmTC_b654b.dir\kwsysPlatformTestsC.c.obj /FdCMakeFiles\cmTC_b654b.dir\ /FS -c D:\pv\ParaView\VTK\Utilities\KWSys\vtksys\kwsysPlatformTestsC.c
+FAILED: CMakeFiles/cmTC_b654b.dir/kwsysPlatformTestsC.c.obj 
+C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx64\x64\cl.exe  /nologo -DTEST_KWSYS_C_HAS_SSIZE_T  /DWIN32 /D_WINDOWS /bigobj /utf-8   /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\cmTC_b654b.dir\kwsysPlatformTestsC.c.obj /FdCMakeFiles\cmTC_b654b.dir\ /FS -c D:\pv\ParaView\VTK\Utilities\KWSys\vtksys\kwsysPlatformTestsC.c
+D:\pv\ParaView\VTK\Utilities\KWSys\vtksys\kwsysPlatformTestsC.c(46): fatal error C1083: Cannot open include file: 'unistd.h': No such file or directory
+ninja: build stopped: subcommand failed.
+
+
+
+Checking whether C compiler has clock_gettime failed to compile with the following output:
+Change Dir: 'D:/pv/build/VTK/Utilities/KWSys/vtksys/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): C:/PROGRA~2/MICROS~2/2019/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe -v cmTC_f0903
+[1/2] C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx64\x64\cl.exe  /nologo -DTEST_KWSYS_C_HAS_CLOCK_GETTIME_MONOTONIC  /DWIN32 /D_WINDOWS /bigobj /utf-8   /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\cmTC_f0903.dir\kwsysPlatformTestsC.c.obj /FdCMakeFiles\cmTC_f0903.dir\ /FS -c D:\pv\ParaView\VTK\Utilities\KWSys\vtksys\kwsysPlatformTestsC.c
+FAILED: CMakeFiles/cmTC_f0903.dir/kwsysPlatformTestsC.c.obj 
+C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx64\x64\cl.exe  /nologo -DTEST_KWSYS_C_HAS_CLOCK_GETTIME_MONOTONIC  /DWIN32 /D_WINDOWS /bigobj /utf-8   /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\cmTC_f0903.dir\kwsysPlatformTestsC.c.obj /FdCMakeFiles\cmTC_f0903.dir\ /FS -c D:\pv\ParaView\VTK\Utilities\KWSys\vtksys\kwsysPlatformTestsC.c
+D:\pv\ParaView\VTK\Utilities\KWSys\vtksys\kwsysPlatformTestsC.c(69): error C2065: 'CLOCK_MONOTONIC': undeclared identifier
+ninja: build stopped: subcommand failed.
+
+
+
+Checking whether CXX compiler has setenv failed to compile with the following output:
+Change Dir: 'D:/pv/build/VTK/Utilities/KWSys/vtksys/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): C:/PROGRA~2/MICROS~2/2019/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe -v cmTC_fbfc0
+[1/2] C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx64\x64\cl.exe  /nologo /TP -DTEST_KWSYS_CXX_HAS_SETENV  /DWIN32 /D_WINDOWS /GR /EHsc /W4 /bigobj /utf-8   /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\cmTC_fbfc0.dir\kwsysPlatformTestsCXX.cxx.obj /FdCMakeFiles\cmTC_fbfc0.dir\ /FS -c D:\pv\ParaView\VTK\Utilities\KWSys\vtksys\kwsysPlatformTestsCXX.cxx
+FAILED: CMakeFiles/cmTC_fbfc0.dir/kwsysPlatformTestsCXX.cxx.obj 
+C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx64\x64\cl.exe  /nologo /TP -DTEST_KWSYS_CXX_HAS_SETENV  /DWIN32 /D_WINDOWS /GR /EHsc /W4 /bigobj /utf-8   /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\cmTC_fbfc0.dir\kwsysPlatformTestsCXX.cxx.obj /FdCMakeFiles\cmTC_fbfc0.dir\ /FS -c D:\pv\ParaView\VTK\Utilities\KWSys\vtksys\kwsysPlatformTestsCXX.cxx
+D:\pv\ParaView\VTK\Utilities\KWSys\vtksys\kwsysPlatformTestsCXX.cxx(36): error C3861: 'setenv': identifier not found
+ninja: build stopped: subcommand failed.
+
+
+
+Checking whether CXX compiler has unsetenv failed to compile with the following output:
+Change Dir: 'D:/pv/build/VTK/Utilities/KWSys/vtksys/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): C:/PROGRA~2/MICROS~2/2019/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe -v cmTC_02273
+[1/2] C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx64\x64\cl.exe  /nologo /TP -DTEST_KWSYS_CXX_HAS_UNSETENV  /DWIN32 /D_WINDOWS /GR /EHsc /W4 /bigobj /utf-8   /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\cmTC_02273.dir\kwsysPlatformTestsCXX.cxx.obj /FdCMakeFiles\cmTC_02273.dir\ /FS -c D:\pv\ParaView\VTK\Utilities\KWSys\vtksys\kwsysPlatformTestsCXX.cxx
+FAILED: CMakeFiles/cmTC_02273.dir/kwsysPlatformTestsCXX.cxx.obj 
+C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx64\x64\cl.exe  /nologo /TP -DTEST_KWSYS_CXX_HAS_UNSETENV  /DWIN32 /D_WINDOWS /GR /EHsc /W4 /bigobj /utf-8   /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\cmTC_02273.dir\kwsysPlatformTestsCXX.cxx.obj /FdCMakeFiles\cmTC_02273.dir\ /FS -c D:\pv\ParaView\VTK\Utilities\KWSys\vtksys\kwsysPlatformTestsCXX.cxx
+D:\pv\ParaView\VTK\Utilities\KWSys\vtksys\kwsysPlatformTestsCXX.cxx(44): error C3861: 'unsetenv': identifier not found
+ninja: build stopped: subcommand failed.
+
+
+
+Checking whether CXX compiler has utimes failed to compile with the following output:
+Change Dir: 'D:/pv/build/VTK/Utilities/KWSys/vtksys/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): C:/PROGRA~2/MICROS~2/2019/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe -v cmTC_940a4
+[1/2] C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx64\x64\cl.exe  /nologo /TP -DTEST_KWSYS_CXX_HAS_UTIMES  /DWIN32 /D_WINDOWS /GR /EHsc /W4 /bigobj /utf-8   /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\cmTC_940a4.dir\kwsysPlatformTestsCXX.cxx.obj /FdCMakeFiles\cmTC_940a4.dir\ /FS -c D:\pv\ParaView\VTK\Utilities\KWSys\vtksys\kwsysPlatformTestsCXX.cxx
+FAILED: CMakeFiles/cmTC_940a4.dir/kwsysPlatformTestsCXX.cxx.obj 
+C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx64\x64\cl.exe  /nologo /TP -DTEST_KWSYS_CXX_HAS_UTIMES  /DWIN32 /D_WINDOWS /GR /EHsc /W4 /bigobj /utf-8   /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\cmTC_940a4.dir\kwsysPlatformTestsCXX.cxx.obj /FdCMakeFiles\cmTC_940a4.dir\ /FS -c D:\pv\ParaView\VTK\Utilities\KWSys\vtksys\kwsysPlatformTestsCXX.cxx
+D:\pv\ParaView\VTK\Utilities\KWSys\vtksys\kwsysPlatformTestsCXX.cxx(81): fatal error C1083: Cannot open include file: 'sys/time.h': No such file or directory
+ninja: build stopped: subcommand failed.
+
+
+
+Checking whether CXX compiler has utimensat failed to compile with the following output:
+Change Dir: 'D:/pv/build/VTK/Utilities/KWSys/vtksys/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): C:/PROGRA~2/MICROS~2/2019/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe -v cmTC_7e287
+[1/2] C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx64\x64\cl.exe  /nologo /TP -DTEST_KWSYS_CXX_HAS_UTIMENSAT  /DWIN32 /D_WINDOWS /GR /EHsc /W4 /bigobj /utf-8   /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\cmTC_7e287.dir\kwsysPlatformTestsCXX.cxx.obj /FdCMakeFiles\cmTC_7e287.dir\ /FS -c D:\pv\ParaView\VTK\Utilities\KWSys\vtksys\kwsysPlatformTestsCXX.cxx
+FAILED: CMakeFiles/cmTC_7e287.dir/kwsysPlatformTestsCXX.cxx.obj 
+C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx64\x64\cl.exe  /nologo /TP -DTEST_KWSYS_CXX_HAS_UTIMENSAT  /DWIN32 /D_WINDOWS /GR /EHsc /W4 /bigobj /utf-8   /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\cmTC_7e287.dir\kwsysPlatformTestsCXX.cxx.obj /FdCMakeFiles\cmTC_7e287.dir\ /FS -c D:\pv\ParaView\VTK\Utilities\KWSys\vtksys\kwsysPlatformTestsCXX.cxx
+D:\pv\ParaView\VTK\Utilities\KWSys\vtksys\kwsysPlatformTestsCXX.cxx(100): error C2079: 'times' uses undefined struct 'main::timespec'
+D:\pv\ParaView\VTK\Utilities\KWSys\vtksys\kwsysPlatformTestsCXX.cxx(100): error C2065: 'UTIME_OMIT': undeclared identifier
+D:\pv\ParaView\VTK\Utilities\KWSys\vtksys\kwsysPlatformTestsCXX.cxx(100): error C2065: 'UTIME_NOW': undeclared identifier
+D:\pv\ParaView\VTK\Utilities\KWSys\vtksys\kwsysPlatformTestsCXX.cxx(100): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
+D:\pv\ParaView\VTK\Utilities\KWSys\vtksys\kwsysPlatformTestsCXX.cxx(100): note: The initializer contains too many elements
+D:\pv\ParaView\VTK\Utilities\KWSys\vtksys\kwsysPlatformTestsCXX.cxx(101): error C2065: 'AT_FDCWD': undeclared identifier
+D:\pv\ParaView\VTK\Utilities\KWSys\vtksys\kwsysPlatformTestsCXX.cxx(101): error C2065: 'AT_SYMLINK_NOFOLLOW': undeclared identifier
+D:\pv\ParaView\VTK\Utilities\KWSys\vtksys\kwsysPlatformTestsCXX.cxx(101): error C3861: 'utimensat': identifier not found
+ninja: build stopped: subcommand failed.
+
+
+
+Checking whether CXX compiler struct stat has st_mtim member failed to compile with the following output:
+Change Dir: 'D:/pv/build/VTK/Utilities/KWSys/vtksys/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): C:/PROGRA~2/MICROS~2/2019/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe -v cmTC_fa060
+[1/2] C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx64\x64\cl.exe  /nologo /TP -DTEST_KWSYS_CXX_STAT_HAS_ST_MTIM  /DWIN32 /D_WINDOWS /GR /EHsc /W4 /bigobj /utf-8   /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\cmTC_fa060.dir\kwsysPlatformTestsCXX.cxx.obj /FdCMakeFiles\cmTC_fa060.dir\ /FS -c D:\pv\ParaView\VTK\Utilities\KWSys\vtksys\kwsysPlatformTestsCXX.cxx
+FAILED: CMakeFiles/cmTC_fa060.dir/kwsysPlatformTestsCXX.cxx.obj 
+C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx64\x64\cl.exe  /nologo /TP -DTEST_KWSYS_CXX_STAT_HAS_ST_MTIM  /DWIN32 /D_WINDOWS /GR /EHsc /W4 /bigobj /utf-8   /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\cmTC_fa060.dir\kwsysPlatformTestsCXX.cxx.obj /FdCMakeFiles\cmTC_fa060.dir\ /FS -c D:\pv\ParaView\VTK\Utilities\KWSys\vtksys\kwsysPlatformTestsCXX.cxx
+D:\pv\ParaView\VTK\Utilities\KWSys\vtksys\kwsysPlatformTestsCXX.cxx(8): fatal error C1083: Cannot open include file: 'unistd.h': No such file or directory
+ninja: build stopped: subcommand failed.
+
+
+
+Checking whether CXX compiler struct stat has st_mtimespec member failed to compile with the following output:
+Change Dir: 'D:/pv/build/VTK/Utilities/KWSys/vtksys/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): C:/PROGRA~2/MICROS~2/2019/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe -v cmTC_a73f9
+[1/2] C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx64\x64\cl.exe  /nologo /TP -DTEST_KWSYS_CXX_STAT_HAS_ST_MTIMESPEC  /DWIN32 /D_WINDOWS /GR /EHsc /W4 /bigobj /utf-8   /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\cmTC_a73f9.dir\kwsysPlatformTestsCXX.cxx.obj /FdCMakeFiles\cmTC_a73f9.dir\ /FS -c D:\pv\ParaView\VTK\Utilities\KWSys\vtksys\kwsysPlatformTestsCXX.cxx
+FAILED: CMakeFiles/cmTC_a73f9.dir/kwsysPlatformTestsCXX.cxx.obj 
+C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx64\x64\cl.exe  /nologo /TP -DTEST_KWSYS_CXX_STAT_HAS_ST_MTIMESPEC  /DWIN32 /D_WINDOWS /GR /EHsc /W4 /bigobj /utf-8   /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\cmTC_a73f9.dir\kwsysPlatformTestsCXX.cxx.obj /FdCMakeFiles\cmTC_a73f9.dir\ /FS -c D:\pv\ParaView\VTK\Utilities\KWSys\vtksys\kwsysPlatformTestsCXX.cxx
+D:\pv\ParaView\VTK\Utilities\KWSys\vtksys\kwsysPlatformTestsCXX.cxx(22): fatal error C1083: Cannot open include file: 'unistd.h': No such file or directory
+ninja: build stopped: subcommand failed.
+
+
+
+Checking whether CXX compiler has rlimit64 failed to compile with the following output:
+Change Dir: 'D:/pv/build/VTK/Utilities/KWSys/vtksys/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): C:/PROGRA~2/MICROS~2/2019/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe -v cmTC_704c1
+[1/2] C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx64\x64\cl.exe  /nologo /TP -DTEST_KWSYS_CXX_HAS_RLIMIT64  /DWIN32 /D_WINDOWS /GR /EHsc /W4 /bigobj /utf-8   /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\cmTC_704c1.dir\kwsysPlatformTestsCXX.cxx.obj /FdCMakeFiles\cmTC_704c1.dir\ /FS -c D:\pv\ParaView\VTK\Utilities\KWSys\vtksys\kwsysPlatformTestsCXX.cxx
+FAILED: CMakeFiles/cmTC_704c1.dir/kwsysPlatformTestsCXX.cxx.obj 
+C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx64\x64\cl.exe  /nologo /TP -DTEST_KWSYS_CXX_HAS_RLIMIT64  /DWIN32 /D_WINDOWS /GR /EHsc /W4 /bigobj /utf-8   /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\cmTC_704c1.dir\kwsysPlatformTestsCXX.cxx.obj /FdCMakeFiles\cmTC_704c1.dir\ /FS -c D:\pv\ParaView\VTK\Utilities\KWSys\vtksys\kwsysPlatformTestsCXX.cxx
+D:\pv\ParaView\VTK\Utilities\KWSys\vtksys\kwsysPlatformTestsCXX.cxx(72): fatal error C1083: Cannot open include file: 'sys/resource.h': No such file or directory
+ninja: build stopped: subcommand failed.
+
+
+
+Checking whether <ext/stdio_filebuf.h> is available failed to compile with the following output:
+Change Dir: 'D:/pv/build/VTK/Utilities/KWSys/vtksys/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): C:/PROGRA~2/MICROS~2/2019/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe -v cmTC_16493
+[1/2] C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx64\x64\cl.exe  /nologo /TP -DTEST_KWSYS_CXX_HAS_EXT_STDIO_FILEBUF_H  /DWIN32 /D_WINDOWS /GR /EHsc /W4 /bigobj /utf-8   /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\cmTC_16493.dir\kwsysPlatformTestsCXX.cxx.obj /FdCMakeFiles\cmTC_16493.dir\ /FS -c D:\pv\ParaView\VTK\Utilities\KWSys\vtksys\kwsysPlatformTestsCXX.cxx
+FAILED: CMakeFiles/cmTC_16493.dir/kwsysPlatformTestsCXX.cxx.obj 
+C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx64\x64\cl.exe  /nologo /TP -DTEST_KWSYS_CXX_HAS_EXT_STDIO_FILEBUF_H  /DWIN32 /D_WINDOWS /GR /EHsc /W4 /bigobj /utf-8   /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\cmTC_16493.dir\kwsysPlatformTestsCXX.cxx.obj /FdCMakeFiles\cmTC_16493.dir\ /FS -c D:\pv\ParaView\VTK\Utilities\KWSys\vtksys\kwsysPlatformTestsCXX.cxx
+D:\pv\ParaView\VTK\Utilities\KWSys\vtksys\kwsysPlatformTestsCXX.cxx(169): fatal error C1083: Cannot open include file: 'ext/stdio_filebuf.h': No such file or directory
+ninja: build stopped: subcommand failed.
+
+
+
+Test H5_LDOUBLE_TO_LONG_SPECIAL Run failed with the following output and exit code:
+ Change Dir: 'D:/pv/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): C:/PROGRA~2/MICROS~2/2019/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe -v cmTC_1dbef
+[1/2] C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx64\x64\cl.exe  /nologo   /DWIN32 /D_WINDOWS /bigobj /utf-8  -DH5_LDOUBLE_TO_LONG_SPECIAL_TEST /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\cmTC_1dbef.dir\ConversionTests.c.obj /FdCMakeFiles\cmTC_1dbef.dir\ /FS -c D:\pv\ParaView\VTK\ThirdParty\hdf5\vtkhdf5\config\cmake\ConversionTests.c
+[2/2] C:\Windows\system32\cmd.exe /C "cd . && "C:\Program Files\CMake\bin\cmake.exe" -E vs_link_exe --msvc-ver=1929 --intdir=CMakeFiles\cmTC_1dbef.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x64\mt.exe --manifests  -- C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_1dbef.dir\ConversionTests.c.obj  /out:cmTC_1dbef.exe /implib:cmTC_1dbef.lib /pdb:cmTC_1dbef.pdb /version:0.0 /machine:x64   /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+
+
+Test H5_LONG_TO_LDOUBLE_SPECIAL Run failed with the following output and exit code:
+ Change Dir: 'D:/pv/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): C:/PROGRA~2/MICROS~2/2019/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe -v cmTC_0b7ab
+[1/2] C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx64\x64\cl.exe  /nologo   /DWIN32 /D_WINDOWS /bigobj /utf-8  -DH5_LONG_TO_LDOUBLE_SPECIAL_TEST /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\cmTC_0b7ab.dir\ConversionTests.c.obj /FdCMakeFiles\cmTC_0b7ab.dir\ /FS -c D:\pv\ParaView\VTK\ThirdParty\hdf5\vtkhdf5\config\cmake\ConversionTests.c
+[2/2] C:\Windows\system32\cmd.exe /C "cd . && "C:\Program Files\CMake\bin\cmake.exe" -E vs_link_exe --msvc-ver=1929 --intdir=CMakeFiles\cmTC_0b7ab.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x64\mt.exe --manifests  -- C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_0b7ab.dir\ConversionTests.c.obj  /out:cmTC_0b7ab.exe /implib:cmTC_0b7ab.lib /pdb:cmTC_0b7ab.pdb /version:0.0 /machine:x64   /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+
+
+Test H5_DISABLE_SOME_LDOUBLE_CONV Compile failed with the following output:
+ Change Dir: 'D:/pv/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): C:/PROGRA~2/MICROS~2/2019/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe -v cmTC_85f69
+[1/2] C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx64\x64\cl.exe  /nologo   /DWIN32 /D_WINDOWS /bigobj /utf-8  -DH5_DISABLE_SOME_LDOUBLE_CONV_TEST /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\cmTC_85f69.dir\ConversionTests.c.obj /FdCMakeFiles\cmTC_85f69.dir\ /FS -c D:\pv\ParaView\VTK\ThirdParty\hdf5\vtkhdf5\config\cmake\ConversionTests.c
+D:\pv\ParaView\VTK\ThirdParty\hdf5\vtkhdf5\config\cmake\ConversionTests.c(301): warning C4047: '=': 'FILE *' differs in levels of indirection from 'int'
+[2/2] C:\Windows\system32\cmd.exe /C "cd . && "C:\Program Files\CMake\bin\cmake.exe" -E vs_link_exe --msvc-ver=1929 --intdir=CMakeFiles\cmTC_85f69.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x64\mt.exe --manifests  -- C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_85f69.dir\ConversionTests.c.obj  /out:cmTC_85f69.exe /implib:cmTC_85f69.lib /pdb:cmTC_85f69.pdb /version:0.0 /machine:x64   /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+FAILED: cmTC_85f69.exe 
+C:\Windows\system32\cmd.exe /C "cd . && "C:\Program Files\CMake\bin\cmake.exe" -E vs_link_exe --msvc-ver=1929 --intdir=CMakeFiles\cmTC_85f69.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x64\mt.exe --manifests  -- C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_85f69.dir\ConversionTests.c.obj  /out:cmTC_85f69.exe /implib:cmTC_85f69.lib /pdb:cmTC_85f69.pdb /version:0.0 /machine:x64   /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+LINK Pass 1: command "C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_85f69.dir\ConversionTests.c.obj /out:cmTC_85f69.exe /implib:cmTC_85f69.lib /pdb:cmTC_85f69.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\cmTC_85f69.dir/intermediate.manifest CMakeFiles\cmTC_85f69.dir/manifest.res" failed (exit code 1120) with the following output:
+ConversionTests.c.obj : error LNK2019: unresolved external symbol popen referenced in function main
+ConversionTests.c.obj : error LNK2019: unresolved external symbol pclose referenced in function main
+cmTC_85f69.exe : fatal error LNK1120: 2 unresolved externals
+ninja: build stopped: subcommand failed.
+
+
+Determining if the HDF5 Multi_Dataset exists failed with the following output:
+Change Dir: 'D:/pv/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): C:/PROGRA~2/MICROS~2/2019/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe -v cmTC_31a60
+[1/2] C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx64\x64\cl.exe  /nologo   /DWIN32 /D_WINDOWS /bigobj /utf-8   /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\cmTC_31a60.dir\test_HDF.c.obj /FdCMakeFiles\cmTC_31a60.dir\ /FS -c D:\pv\build\CMakeFiles\CMakeTmp\test_HDF.c
+FAILED: CMakeFiles/cmTC_31a60.dir/test_HDF.c.obj 
+C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx64\x64\cl.exe  /nologo   /DWIN32 /D_WINDOWS /bigobj /utf-8   /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\cmTC_31a60.dir\test_HDF.c.obj /FdCMakeFiles\cmTC_31a60.dir\ /FS -c D:\pv\build\CMakeFiles\CMakeTmp\test_HDF.c
+D:\pv\build\CMakeFiles\CMakeTmp\test_HDF.c(2): fatal error C1083: Cannot open include file: 'hdf5.h': No such file or directory
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the HDF5 Collective_metadata exists failed with the following output:
+Change Dir: 'D:/pv/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): C:/PROGRA~2/MICROS~2/2019/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe -v cmTC_02bf2
+[1/2] C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx64\x64\cl.exe  /nologo   /DWIN32 /D_WINDOWS /bigobj /utf-8   /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\cmTC_02bf2.dir\test_HDF.c.obj /FdCMakeFiles\cmTC_02bf2.dir\ /FS -c D:\pv\build\CMakeFiles\CMakeTmp\test_HDF.c
+FAILED: CMakeFiles/cmTC_02bf2.dir/test_HDF.c.obj 
+C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx64\x64\cl.exe  /nologo   /DWIN32 /D_WINDOWS /bigobj /utf-8   /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\cmTC_02bf2.dir\test_HDF.c.obj /FdCMakeFiles\cmTC_02bf2.dir\ /FS -c D:\pv\build\CMakeFiles\CMakeTmp\test_HDF.c
+D:\pv\build\CMakeFiles\CMakeTmp\test_HDF.c(2): fatal error C1083: Cannot open include file: 'hdf5.h': No such file or directory
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the HDF5 H5Pset_file_space_strategy exists failed with the following output:
+Change Dir: 'D:/pv/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): C:/PROGRA~2/MICROS~2/2019/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe -v cmTC_77649
+[1/2] C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx64\x64\cl.exe  /nologo   /DWIN32 /D_WINDOWS /bigobj /utf-8   /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\cmTC_77649.dir\test_HDF.c.obj /FdCMakeFiles\cmTC_77649.dir\ /FS -c D:\pv\build\CMakeFiles\CMakeTmp\test_HDF.c
+FAILED: CMakeFiles/cmTC_77649.dir/test_HDF.c.obj 
+C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx64\x64\cl.exe  /nologo   /DWIN32 /D_WINDOWS /bigobj /utf-8   /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\cmTC_77649.dir\test_HDF.c.obj /FdCMakeFiles\cmTC_77649.dir\ /FS -c D:\pv\build\CMakeFiles\CMakeTmp\test_HDF.c
+D:\pv\build\CMakeFiles\CMakeTmp\test_HDF.c(2): fatal error C1083: Cannot open include file: 'hdf5.h': No such file or directory
+ninja: build stopped: subcommand failed.
+
+
+

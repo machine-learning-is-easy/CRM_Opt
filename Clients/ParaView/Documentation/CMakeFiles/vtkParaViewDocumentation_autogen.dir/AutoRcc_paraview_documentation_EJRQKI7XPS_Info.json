@@ -1,0 +1,22 @@
+{
+	"BUILD_DIR" : "D:/pv/build/Clients/ParaView/Documentation/vtkParaViewDocumentation_autogen",
+	"CMAKE_BINARY_DIR" : "D:/pv/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "D:/pv/build/Clients/ParaView/Documentation",
+	"CMAKE_CURRENT_SOURCE_DIR" : "D:/pv/ParaView/Clients/ParaView/Documentation",
+	"CMAKE_SOURCE_DIR" : "D:/pv/ParaView",
+	"CROSS_CONFIG" : false,
+	"GENERATOR" : "Ninja",
+	"INCLUDE_DIR" : "D:/pv/build/Clients/ParaView/Documentation/vtkParaViewDocumentation_autogen/include",
+	"INPUTS" : [ "D:/pv/build/Clients/ParaView/Documentation/paraview.qch" ],
+	"LOCK_FILE" : "D:/pv/build/Clients/ParaView/Documentation/CMakeFiles/vtkParaViewDocumentation_autogen.dir/AutoRcc_paraview_documentation_EJRQKI7XPS_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "paraview_documentation" ],
+	"OUTPUT_CHECKSUM" : "EJRQKI7XPS",
+	"OUTPUT_NAME" : "qrc_paraview_documentation.cpp",
+	"RCC_EXECUTABLE" : "D:/Qt/5.15.2/msvc2019_64/bin/rcc.exe",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "D:/pv/build/Clients/ParaView/Documentation/CMakeFiles/vtkParaViewDocumentation_autogen.dir/AutoRcc_paraview_documentation_EJRQKI7XPS_Used.txt",
+	"SOURCE" : "D:/pv/build/Clients/ParaView/Documentation/paraview_documentation.qrc",
+	"USE_BETTER_GRAPH" : false,
+	"VERBOSITY" : 0
+}

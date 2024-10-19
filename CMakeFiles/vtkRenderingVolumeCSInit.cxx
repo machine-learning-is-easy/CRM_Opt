@@ -1,0 +1,80 @@
+#include "vtkABI.h"
+#include "vtkClientServerInterpreter.h"
+
+extern void vtkBlockSortHelper_Init(vtkClientServerInterpreter*);
+extern void vtkDirectionEncoder_Init(vtkClientServerInterpreter*);
+extern void vtkEncodedGradientEstimator_Init(vtkClientServerInterpreter*);
+extern void vtkEncodedGradientShader_Init(vtkClientServerInterpreter*);
+extern void vtkFiniteDifferenceGradientEstimator_Init(vtkClientServerInterpreter*);
+extern void vtkFixedPointRayCastImage_Init(vtkClientServerInterpreter*);
+extern void vtkFixedPointVolumeRayCastCompositeGOHelper_Init(vtkClientServerInterpreter*);
+extern void vtkFixedPointVolumeRayCastCompositeGOShadeHelper_Init(vtkClientServerInterpreter*);
+extern void vtkFixedPointVolumeRayCastCompositeHelper_Init(vtkClientServerInterpreter*);
+extern void vtkFixedPointVolumeRayCastCompositeShadeHelper_Init(vtkClientServerInterpreter*);
+extern void vtkFixedPointVolumeRayCastHelper_Init(vtkClientServerInterpreter*);
+extern void vtkFixedPointVolumeRayCastMapper_Init(vtkClientServerInterpreter*);
+extern void vtkFixedPointVolumeRayCastMIPHelper_Init(vtkClientServerInterpreter*);
+extern void vtkGPUVolumeRayCastMapper_Init(vtkClientServerInterpreter*);
+extern void vtkMultiVolume_Init(vtkClientServerInterpreter*);
+extern void vtkOSPRayVolumeInterface_Init(vtkClientServerInterpreter*);
+extern void vtkAnariVolumeInterface_Init(vtkClientServerInterpreter*);
+extern void vtkProjectedTetrahedraMapper_Init(vtkClientServerInterpreter*);
+extern void vtkRayCastImageDisplayHelper_Init(vtkClientServerInterpreter*);
+extern void vtkRecursiveSphereDirectionEncoder_Init(vtkClientServerInterpreter*);
+extern void vtkSphericalDirectionEncoder_Init(vtkClientServerInterpreter*);
+extern void vtkUnstructuredGridBunykRayCastFunction_Init(vtkClientServerInterpreter*);
+extern void vtkUnstructuredGridHomogeneousRayIntegrator_Init(vtkClientServerInterpreter*);
+extern void vtkUnstructuredGridLinearRayIntegrator_Init(vtkClientServerInterpreter*);
+extern void vtkUnstructuredGridPartialPreIntegration_Init(vtkClientServerInterpreter*);
+extern void vtkUnstructuredGridPreIntegration_Init(vtkClientServerInterpreter*);
+extern void vtkUnstructuredGridVolumeMapper_Init(vtkClientServerInterpreter*);
+extern void vtkUnstructuredGridVolumeRayCastFunction_Init(vtkClientServerInterpreter*);
+extern void vtkUnstructuredGridVolumeRayCastIterator_Init(vtkClientServerInterpreter*);
+extern void vtkUnstructuredGridVolumeRayCastMapper_Init(vtkClientServerInterpreter*);
+extern void vtkUnstructuredGridVolumeRayIntegrator_Init(vtkClientServerInterpreter*);
+extern void vtkUnstructuredGridVolumeZSweepMapper_Init(vtkClientServerInterpreter*);
+extern void vtkVolumeMapper_Init(vtkClientServerInterpreter*);
+extern void vtkVolumeOutlineSource_Init(vtkClientServerInterpreter*);
+extern void vtkVolumePicker_Init(vtkClientServerInterpreter*);
+extern void vtkVolumeRayCastSpaceLeapingImageFilter_Init(vtkClientServerInterpreter*);
+
+extern "C" void VTK_ABI_EXPORT vtkRenderingVolumeCS_Initialize(vtkClientServerInterpreter* csi)
+{
+  (void)csi;
+  vtkBlockSortHelper_Init(csi);
+  vtkDirectionEncoder_Init(csi);
+  vtkEncodedGradientEstimator_Init(csi);
+  vtkEncodedGradientShader_Init(csi);
+  vtkFiniteDifferenceGradientEstimator_Init(csi);
+  vtkFixedPointRayCastImage_Init(csi);
+  vtkFixedPointVolumeRayCastCompositeGOHelper_Init(csi);
+  vtkFixedPointVolumeRayCastCompositeGOShadeHelper_Init(csi);
+  vtkFixedPointVolumeRayCastCompositeHelper_Init(csi);
+  vtkFixedPointVolumeRayCastCompositeShadeHelper_Init(csi);
+  vtkFixedPointVolumeRayCastHelper_Init(csi);
+  vtkFixedPointVolumeRayCastMapper_Init(csi);
+  vtkFixedPointVolumeRayCastMIPHelper_Init(csi);
+  vtkGPUVolumeRayCastMapper_Init(csi);
+  vtkMultiVolume_Init(csi);
+  vtkOSPRayVolumeInterface_Init(csi);
+  vtkAnariVolumeInterface_Init(csi);
+  vtkProjectedTetrahedraMapper_Init(csi);
+  vtkRayCastImageDisplayHelper_Init(csi);
+  vtkRecursiveSphereDirectionEncoder_Init(csi);
+  vtkSphericalDirectionEncoder_Init(csi);
+  vtkUnstructuredGridBunykRayCastFunction_Init(csi);
+  vtkUnstructuredGridHomogeneousRayIntegrator_Init(csi);
+  vtkUnstructuredGridLinearRayIntegrator_Init(csi);
+  vtkUnstructuredGridPartialPreIntegration_Init(csi);
+  vtkUnstructuredGridPreIntegration_Init(csi);
+  vtkUnstructuredGridVolumeMapper_Init(csi);
+  vtkUnstructuredGridVolumeRayCastFunction_Init(csi);
+  vtkUnstructuredGridVolumeRayCastIterator_Init(csi);
+  vtkUnstructuredGridVolumeRayCastMapper_Init(csi);
+  vtkUnstructuredGridVolumeRayIntegrator_Init(csi);
+  vtkUnstructuredGridVolumeZSweepMapper_Init(csi);
+  vtkVolumeMapper_Init(csi);
+  vtkVolumeOutlineSource_Init(csi);
+  vtkVolumePicker_Init(csi);
+  vtkVolumeRayCastSpaceLeapingImageFilter_Init(csi);
+}

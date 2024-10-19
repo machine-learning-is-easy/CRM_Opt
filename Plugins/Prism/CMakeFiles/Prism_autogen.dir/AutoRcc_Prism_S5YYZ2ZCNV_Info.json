@@ -1,0 +1,22 @@
+{
+	"BUILD_DIR" : "D:/pv/build/Plugins/Prism/Prism_autogen",
+	"CMAKE_BINARY_DIR" : "D:/pv/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "D:/pv/build/Plugins/Prism",
+	"CMAKE_CURRENT_SOURCE_DIR" : "D:/pv/ParaView/Plugins/Prism",
+	"CMAKE_SOURCE_DIR" : "D:/pv/ParaView",
+	"CROSS_CONFIG" : false,
+	"GENERATOR" : "Ninja",
+	"INCLUDE_DIR" : "D:/pv/build/Plugins/Prism/Prism_autogen/include",
+	"INPUTS" : [ "D:/pv/ParaView/Plugins/Prism/Resources/SESAMEConversions.xml" ],
+	"LOCK_FILE" : "D:/pv/build/Plugins/Prism/CMakeFiles/Prism_autogen.dir/AutoRcc_Prism_S5YYZ2ZCNV_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "Prism" ],
+	"OUTPUT_CHECKSUM" : "S5YYZ2ZCNV",
+	"OUTPUT_NAME" : "qrc_Prism.cpp",
+	"RCC_EXECUTABLE" : "D:/Qt/5.15.2/msvc2019_64/bin/rcc.exe",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "D:/pv/build/Plugins/Prism/CMakeFiles/Prism_autogen.dir/AutoRcc_Prism_S5YYZ2ZCNV_Used.txt",
+	"SOURCE" : "D:/pv/ParaView/Plugins/Prism/Resources/Prism.qrc",
+	"USE_BETTER_GRAPH" : false,
+	"VERBOSITY" : 0
+}

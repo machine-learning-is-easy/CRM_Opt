@@ -1,0 +1,12 @@
+D:/pv/ParaView/VTK/Domains/Chemistry/vtkBlueObeliskData.h;vtkDomainsChemistry
+D:/pv/ParaView/VTK/Domains/Chemistry/vtkBlueObeliskDataParser.h;vtkDomainsChemistry
+D:/pv/ParaView/VTK/Domains/Chemistry/vtkMoleculeMapper.h;vtkDomainsChemistry
+D:/pv/ParaView/VTK/Domains/Chemistry/vtkMoleculeToAtomBallFilter.h;vtkDomainsChemistry
+D:/pv/ParaView/VTK/Domains/Chemistry/vtkMoleculeToBondStickFilter.h;vtkDomainsChemistry
+D:/pv/ParaView/VTK/Domains/Chemistry/vtkMoleculeToLinesFilter.h;vtkDomainsChemistry
+D:/pv/ParaView/VTK/Domains/Chemistry/vtkMoleculeToPolyDataFilter.h;vtkDomainsChemistry
+D:/pv/ParaView/VTK/Domains/Chemistry/vtkPeriodicTable.h;vtkDomainsChemistry
+D:/pv/ParaView/VTK/Domains/Chemistry/vtkPointSetToMoleculeFilter.h;vtkDomainsChemistry
+D:/pv/ParaView/VTK/Domains/Chemistry/vtkProgrammableElectronicData.h;vtkDomainsChemistry
+D:/pv/ParaView/VTK/Domains/Chemistry/vtkProteinRibbonFilter.h;vtkDomainsChemistry
+D:/pv/ParaView/VTK/Domains/Chemistry/vtkSimpleBondPerceiver.h;vtkDomainsChemistry

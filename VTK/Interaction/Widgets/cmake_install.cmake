@@ -1,0 +1,235 @@
+# Install script for directory: D:/pv/ParaView/VTK/Interaction/Widgets
+
+# Set the install prefix
+if(NOT DEFINED CMAKE_INSTALL_PREFIX)
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/ParaView")
+endif()
+string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
+
+# Set the install configuration name.
+if(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
+  if(BUILD_TYPE)
+    string(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
+           CMAKE_INSTALL_CONFIG_NAME "${BUILD_TYPE}")
+  else()
+    set(CMAKE_INSTALL_CONFIG_NAME "Release")
+  endif()
+  message(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
+endif()
+
+# Set the component getting installed.
+if(NOT CMAKE_INSTALL_COMPONENT)
+  if(COMPONENT)
+    message(STATUS "Install component: \"${COMPONENT}\"")
+    set(CMAKE_INSTALL_COMPONENT "${COMPONENT}")
+  else()
+    set(CMAKE_INSTALL_COMPONENT)
+  endif()
+endif()
+
+# Is this installation the result of a crosscompile?
+if(NOT DEFINED CMAKE_CROSSCOMPILING)
+  set(CMAKE_CROSSCOMPILING "FALSE")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "development" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/vtk/hierarchy/ParaView" TYPE FILE RENAME "vtkInteractionWidgets-hierarchy.txt" FILES "D:/pv/build/lib/vtk/hierarchy/ParaView/vtkInteractionWidgets-hierarchy.txt")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "runtime" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY OPTIONAL FILES "D:/pv/build/lib/vtkInteractionWidgets-pv5.13.lib")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "runtime" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE SHARED_LIBRARY FILES "D:/pv/build/bin/vtkInteractionWidgets-pv5.13.dll")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "development" OR NOT CMAKE_INSTALL_COMPONENT)
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "development" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/paraview-5.13" TYPE FILE FILES
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtk3DCursorRepresentation.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtk3DCursorWidget.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtk3DWidget.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkAbstractPolygonalHandleRepresentation3D.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkAbstractSplineRepresentation.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkAbstractWidget.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkAffineRepresentation.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkAffineRepresentation2D.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkAffineWidget.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkAngleRepresentation.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkAngleRepresentation2D.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkAngleRepresentation3D.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkAngleWidget.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkAxesTransformRepresentation.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkAxesTransformWidget.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkBalloonRepresentation.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkBalloonWidget.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkBezierContourLineInterpolator.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkBiDimensionalRepresentation.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkBiDimensionalRepresentation2D.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkBiDimensionalWidget.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkBorderRepresentation.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkBorderWidget.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkBoundedPlanePointPlacer.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkBoxRepresentation.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkBoxWidget.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkBoxWidget2.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkBrokenLineWidget.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkButtonRepresentation.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkButtonWidget.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkCamera3DRepresentation.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkCamera3DWidget.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkCameraHandleSource.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkCameraOrientationWidget.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkCameraOrientationRepresentation.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkCameraPathRepresentation.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkCameraPathWidget.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkCameraRepresentation.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkCameraWidget.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkCaptionRepresentation.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkCaptionWidget.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkCellCentersPointPlacer.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkCenteredSliderRepresentation.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkCenteredSliderWidget.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkCheckerboardRepresentation.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkCheckerboardWidget.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkClosedSurfacePointPlacer.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkCompassRepresentation.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkCompassWidget.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkConstrainedPointHandleRepresentation.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkContinuousValueWidget.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkContinuousValueWidgetRepresentation.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkContourLineInterpolator.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkContourRepresentation.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkContourWidget.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkCoordinateFrameRepresentation.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkCoordinateFrameWidget.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkCurveRepresentation.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkDijkstraImageContourLineInterpolator.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkDisplaySizedImplicitPlaneWidget.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkDisplaySizedImplicitPlaneRepresentation.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkDistanceRepresentation.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkDistanceRepresentation2D.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkDistanceRepresentation3D.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkDistanceWidget.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkEllipsoidTensorProbeRepresentation.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkEqualizerContextItem.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkEvent.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkFinitePlaneRepresentation.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkFinitePlaneWidget.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkFixedSizeHandleRepresentation3D.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkFocalPlaneContourRepresentation.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkFocalPlanePointPlacer.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkHandleRepresentation.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkHandleWidget.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkHoverWidget.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkImageActorPointPlacer.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkImageCroppingRegionsWidget.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkImageOrthoPlanes.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkImagePlaneWidget.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkImageTracerWidget.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkImplicitCylinderRepresentation.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkImplicitCylinderWidget.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkImplicitImageRepresentation.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkImplicitPlaneRepresentation.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkImplicitPlaneWidget.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkImplicitPlaneWidget2.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkLightRepresentation.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkLightWidget.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkLinearContourLineInterpolator.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkLineRepresentation.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkLineWidget.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkLineWidget2.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkLogoRepresentation.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkLogoWidget.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkMagnifierRepresentation.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkMagnifierWidget.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkMeasurementCubeHandleRepresentation3D.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkOrientationMarkerWidget.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkOrientationRepresentation.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkOrientationWidget.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkOrientedGlyphContourRepresentation.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkOrientedGlyphFocalPlaneContourRepresentation.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkOrientedPolygonalHandleRepresentation3D.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkParallelopipedRepresentation.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkParallelopipedWidget.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkPlaneWidget.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkPlaybackRepresentation.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkPlaybackWidget.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkPointCloudRepresentation.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkPointCloudWidget.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkPointHandleRepresentation2D.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkPointHandleRepresentation3D.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkPointPlacer.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkPointWidget.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkPolyDataContourLineInterpolator.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkPolyDataPointPlacer.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkPolyDataSourceWidget.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkPolygonalHandleRepresentation3D.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkPolygonalSurfaceContourLineInterpolator.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkPolygonalSurfacePointPlacer.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkPolyLineRepresentation.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkPolyLineWidget.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkProgressBarRepresentation.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkProgressBarWidget.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkProp3DButtonRepresentation.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkRectilinearWipeRepresentation.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkRectilinearWipeWidget.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkResliceCursor.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkResliceCursorActor.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkResliceCursorLineRepresentation.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkResliceCursorPicker.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkResliceCursorPolyDataAlgorithm.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkResliceCursorRepresentation.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkResliceCursorThickLineRepresentation.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkResliceCursorWidget.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkScalarBarRepresentation.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkScalarBarWidget.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkSeedRepresentation.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkSeedWidget.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkSliderRepresentation.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkSliderRepresentation2D.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkSliderRepresentation3D.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkSliderWidget.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkSphereHandleRepresentation.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkSphereRepresentation.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkSphereWidget.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkSphereWidget2.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkSplineRepresentation.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkSplineWidget.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkSplineWidget2.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkTensorProbeRepresentation.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkTensorProbeWidget.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkTensorRepresentation.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkTensorWidget.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkTerrainContourLineInterpolator.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkTerrainDataPointPlacer.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkTextRepresentation.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkTexturedButtonRepresentation.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkTexturedButtonRepresentation2D.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkTextWidget.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkWidgetCallbackMapper.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkWidgetEvent.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkWidgetEventTranslator.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkWidgetRepresentation.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkWidgetSet.h"
+    "D:/pv/ParaView/VTK/Interaction/Widgets/vtkXYPlotWidget.h"
+    )
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "development" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/paraview-5.13" TYPE FILE FILES "D:/pv/build/VTK/Interaction/Widgets/vtkInteractionWidgetsModule.h")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "licenses" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/licenses/ParaView/vtkInteractionWidgets" TYPE FILE FILES "D:/pv/ParaView/VTK/Interaction/Widgets/LICENSE")
+endif()
+
+string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
+       "${CMAKE_INSTALL_MANIFEST_FILES}")
+if(CMAKE_INSTALL_LOCAL_ONLY)
+  file(WRITE "D:/pv/build/VTK/Interaction/Widgets/install_local_manifest.txt"
+     "${CMAKE_INSTALL_MANIFEST_CONTENT}")
+endif()

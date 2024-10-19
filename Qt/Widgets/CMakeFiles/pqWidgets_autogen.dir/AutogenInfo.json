@@ -1,0 +1,678 @@
+{
+	"AUTOGEN_COMMAND_LINE_LENGTH_MAX" : 32000,
+	"BUILD_DIR" : "D:/pv/build/Qt/Widgets/pqWidgets_autogen",
+	"CMAKE_BINARY_DIR" : "D:/pv/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "D:/pv/build/Qt/Widgets",
+	"CMAKE_CURRENT_SOURCE_DIR" : "D:/pv/ParaView/Qt/Widgets",
+	"CMAKE_EXECUTABLE" : "C:/Program Files/CMake/bin/cmake.exe",
+	"CMAKE_LIST_FILES" : 
+	[
+		"D:/pv/ParaView/Qt/Widgets/CMakeLists.txt",
+		"D:/pv/ParaView/Qt/Widgets/pqQtWidgetsConfig.h.in",
+		"D:/Qt/5.15.2/msvc2019_64/lib/cmake/Qt5/Qt5ConfigVersion.cmake",
+		"D:/Qt/5.15.2/msvc2019_64/lib/cmake/Qt5/Qt5Config.cmake",
+		"D:/Qt/5.15.2/msvc2019_64/lib/cmake/Qt5/Qt5ModuleLocation.cmake",
+		"D:/Qt/5.15.2/msvc2019_64/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake",
+		"D:/Qt/5.15.2/msvc2019_64/lib/cmake/Qt5Core/Qt5CoreConfig.cmake",
+		"D:/Qt/5.15.2/msvc2019_64/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake",
+		"D:/Qt/5.15.2/msvc2019_64/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake",
+		"D:/Qt/5.15.2/msvc2019_64/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake",
+		"D:/Qt/5.15.2/msvc2019_64/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake",
+		"D:/Qt/5.15.2/msvc2019_64/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake",
+		"D:/Qt/5.15.2/msvc2019_64/lib/cmake/Qt5Gui/Qt5Gui_QInsightTrackerPlugin.cmake",
+		"D:/Qt/5.15.2/msvc2019_64/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake",
+		"D:/Qt/5.15.2/msvc2019_64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake",
+		"D:/Qt/5.15.2/msvc2019_64/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake",
+		"D:/Qt/5.15.2/msvc2019_64/lib/cmake/Qt5Gui/Qt5Gui_QSvgIconPlugin.cmake",
+		"D:/Qt/5.15.2/msvc2019_64/lib/cmake/Qt5Gui/Qt5Gui_QSvgPlugin.cmake",
+		"D:/Qt/5.15.2/msvc2019_64/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake",
+		"D:/Qt/5.15.2/msvc2019_64/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake",
+		"D:/Qt/5.15.2/msvc2019_64/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake",
+		"D:/Qt/5.15.2/msvc2019_64/lib/cmake/Qt5Gui/Qt5Gui_QVirtualKeyboardPlugin.cmake",
+		"D:/Qt/5.15.2/msvc2019_64/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake",
+		"D:/Qt/5.15.2/msvc2019_64/lib/cmake/Qt5Gui/Qt5Gui_QWebGLIntegrationPlugin.cmake",
+		"D:/Qt/5.15.2/msvc2019_64/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake",
+		"D:/Qt/5.15.2/msvc2019_64/lib/cmake/Qt5Gui/Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake",
+		"D:/Qt/5.15.2/msvc2019_64/lib/cmake/Qt5Gui/Qt5Gui_QWindowsIntegrationPlugin.cmake",
+		"D:/Qt/5.15.2/msvc2019_64/lib/cmake/Qt5Gui/Qt5Gui_QXdgDesktopPortalThemePlugin.cmake",
+		"D:/Qt/5.15.2/msvc2019_64/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake",
+		"D:/Qt/5.15.2/msvc2019_64/lib/cmake/Qt5Network/Qt5NetworkConfigVersion.cmake",
+		"D:/Qt/5.15.2/msvc2019_64/lib/cmake/Qt5Network/Qt5NetworkConfig.cmake",
+		"D:/Qt/5.15.2/msvc2019_64/lib/cmake/Qt5Network/Qt5Network_QGenericEnginePlugin.cmake",
+		"D:/Qt/5.15.2/msvc2019_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake",
+		"D:/Qt/5.15.2/msvc2019_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake",
+		"D:/Qt/5.15.2/msvc2019_64/lib/cmake/Qt5Widgets/Qt5Widgets_QWindowsVistaStylePlugin.cmake",
+		"D:/Qt/5.15.2/msvc2019_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake",
+		"D:/Qt/5.15.2/msvc2019_64/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake",
+		"C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeParseArguments.cmake",
+		"C:/Program Files/CMake/share/cmake-3.31/Modules/exportheader.cmake.in",
+		"D:/pv/ParaView/Qt/Widgets/Resources/QtWidgets.qrc"
+	],
+	"CMAKE_SOURCE_DIR" : "D:/pv/ParaView",
+	"CROSS_CONFIG" : false,
+	"DEP_FILE" : "D:/pv/build/Qt/Widgets/pqWidgets_autogen/deps",
+	"DEP_FILE_RULE_NAME" : "pqWidgets_autogen/timestamp",
+	"HEADERS" : 
+	[
+		[
+			"D:/pv/ParaView/Qt/Widgets/pqCheckBoxPixMaps.h",
+			"MU",
+			"EWIEGA46WW/moc_pqCheckBoxPixMaps.cpp",
+			null
+		],
+		[
+			"D:/pv/ParaView/Qt/Widgets/pqCheckableHeaderView.h",
+			"MU",
+			"EWIEGA46WW/moc_pqCheckableHeaderView.cpp",
+			null
+		],
+		[
+			"D:/pv/ParaView/Qt/Widgets/pqClickableLabel.h",
+			"MU",
+			"EWIEGA46WW/moc_pqClickableLabel.cpp",
+			null
+		],
+		[
+			"D:/pv/ParaView/Qt/Widgets/pqCollapsedGroup.h",
+			"MU",
+			"EWIEGA46WW/moc_pqCollapsedGroup.cpp",
+			null
+		],
+		[
+			"D:/pv/ParaView/Qt/Widgets/pqColorButtonEventPlayer.h",
+			"MU",
+			"EWIEGA46WW/moc_pqColorButtonEventPlayer.cpp",
+			null
+		],
+		[
+			"D:/pv/ParaView/Qt/Widgets/pqColorButtonEventTranslator.h",
+			"MU",
+			"EWIEGA46WW/moc_pqColorButtonEventTranslator.cpp",
+			null
+		],
+		[
+			"D:/pv/ParaView/Qt/Widgets/pqColorChooserButton.h",
+			"MU",
+			"EWIEGA46WW/moc_pqColorChooserButton.cpp",
+			null
+		],
+		[
+			"D:/pv/ParaView/Qt/Widgets/pqColorDialogEventPlayer.h",
+			"MU",
+			"EWIEGA46WW/moc_pqColorDialogEventPlayer.cpp",
+			null
+		],
+		[
+			"D:/pv/ParaView/Qt/Widgets/pqColorDialogEventTranslator.h",
+			"MU",
+			"EWIEGA46WW/moc_pqColorDialogEventTranslator.cpp",
+			null
+		],
+		[
+			"D:/pv/ParaView/Qt/Widgets/pqConnect.h",
+			"MU",
+			"EWIEGA46WW/moc_pqConnect.cpp",
+			null
+		],
+		[
+			"D:/pv/ParaView/Qt/Widgets/pqConsoleWidget.h",
+			"MU",
+			"EWIEGA46WW/moc_pqConsoleWidget.cpp",
+			null
+		],
+		[
+			"D:/pv/ParaView/Qt/Widgets/pqConsoleWidgetEventPlayer.h",
+			"MU",
+			"EWIEGA46WW/moc_pqConsoleWidgetEventPlayer.cpp",
+			null
+		],
+		[
+			"D:/pv/ParaView/Qt/Widgets/pqConsoleWidgetEventTranslator.h",
+			"MU",
+			"EWIEGA46WW/moc_pqConsoleWidgetEventTranslator.cpp",
+			null
+		],
+		[
+			"D:/pv/ParaView/Qt/Widgets/pqDelimitedTextParser.h",
+			"MU",
+			"EWIEGA46WW/moc_pqDelimitedTextParser.cpp",
+			null
+		],
+		[
+			"D:/pv/ParaView/Qt/Widgets/pqDiscreteDoubleWidget.h",
+			"MU",
+			"EWIEGA46WW/moc_pqDiscreteDoubleWidget.cpp",
+			null
+		],
+		[
+			"D:/pv/ParaView/Qt/Widgets/pqDoubleLineEdit.h",
+			"MU",
+			"EWIEGA46WW/moc_pqDoubleLineEdit.cpp",
+			null
+		],
+		[
+			"D:/pv/ParaView/Qt/Widgets/pqDoubleRangeDialog.h",
+			"MU",
+			"EWIEGA46WW/moc_pqDoubleRangeDialog.cpp",
+			null
+		],
+		[
+			"D:/pv/ParaView/Qt/Widgets/pqDoubleRangeWidget.h",
+			"MU",
+			"EWIEGA46WW/moc_pqDoubleRangeWidget.cpp",
+			null
+		],
+		[
+			"D:/pv/ParaView/Qt/Widgets/pqDoubleSliderWidget.h",
+			"MU",
+			"EWIEGA46WW/moc_pqDoubleSliderWidget.cpp",
+			null
+		],
+		[
+			"D:/pv/ParaView/Qt/Widgets/pqDoubleSpinBox.h",
+			"MU",
+			"EWIEGA46WW/moc_pqDoubleSpinBox.cpp",
+			null
+		],
+		[
+			"D:/pv/ParaView/Qt/Widgets/pqExpandableTableView.h",
+			"MU",
+			"EWIEGA46WW/moc_pqExpandableTableView.cpp",
+			null
+		],
+		[
+			"D:/pv/ParaView/Qt/Widgets/pqExpanderButton.h",
+			"MU",
+			"EWIEGA46WW/moc_pqExpanderButton.cpp",
+			null
+		],
+		[
+			"D:/pv/ParaView/Qt/Widgets/pqExtendedSortFilterProxyModel.h",
+			"MU",
+			"EWIEGA46WW/moc_pqExtendedSortFilterProxyModel.cpp",
+			null
+		],
+		[
+			"D:/pv/ParaView/Qt/Widgets/pqFlatTreeView.h",
+			"MU",
+			"EWIEGA46WW/moc_pqFlatTreeView.cpp",
+			null
+		],
+		[
+			"D:/pv/ParaView/Qt/Widgets/pqHeaderView.h",
+			"MU",
+			"EWIEGA46WW/moc_pqHeaderView.cpp",
+			null
+		],
+		[
+			"D:/pv/ParaView/Qt/Widgets/pqHierarchicalGridLayout.h",
+			"MU",
+			"EWIEGA46WW/moc_pqHierarchicalGridLayout.cpp",
+			null
+		],
+		[
+			"D:/pv/ParaView/Qt/Widgets/pqHierarchicalGridWidget.h",
+			"MU",
+			"EWIEGA46WW/moc_pqHierarchicalGridWidget.cpp",
+			null
+		],
+		[
+			"D:/pv/ParaView/Qt/Widgets/pqHighlightablePushButton.h",
+			"MU",
+			"EWIEGA46WW/moc_pqHighlightablePushButton.cpp",
+			null
+		],
+		[
+			"D:/pv/ParaView/Qt/Widgets/pqHighlightableToolButton.h",
+			"MU",
+			"EWIEGA46WW/moc_pqHighlightableToolButton.cpp",
+			null
+		],
+		[
+			"D:/pv/ParaView/Qt/Widgets/pqLineEdit.h",
+			"MU",
+			"EWIEGA46WW/moc_pqLineEdit.cpp",
+			null
+		],
+		[
+			"D:/pv/ParaView/Qt/Widgets/pqLineEditEventPlayer.h",
+			"MU",
+			"EWIEGA46WW/moc_pqLineEditEventPlayer.cpp",
+			null
+		],
+		[
+			"D:/pv/ParaView/Qt/Widgets/pqListWidgetCheckHelper.h",
+			"MU",
+			"EWIEGA46WW/moc_pqListWidgetCheckHelper.cpp",
+			null
+		],
+		[
+			"D:/pv/ParaView/Qt/Widgets/pqListWidgetItemObject.h",
+			"MU",
+			"EWIEGA46WW/moc_pqListWidgetItemObject.cpp",
+			null
+		],
+		[
+			"D:/pv/ParaView/Qt/Widgets/pqMultiColumnHeaderView.h",
+			"MU",
+			"EWIEGA46WW/moc_pqMultiColumnHeaderView.cpp",
+			null
+		],
+		[
+			"D:/pv/ParaView/Qt/Widgets/pqProgressWidget.h",
+			"MU",
+			"EWIEGA46WW/moc_pqProgressWidget.cpp",
+			null
+		],
+		[
+			"D:/pv/ParaView/Qt/Widgets/pqQtDeprecated.h",
+			"MU",
+			"EWIEGA46WW/moc_pqQtDeprecated.cpp",
+			null
+		],
+		[
+			"D:/pv/ParaView/Qt/Widgets/pqQuickLaunchDialog.h",
+			"MU",
+			"EWIEGA46WW/moc_pqQuickLaunchDialog.cpp",
+			null
+		],
+		[
+			"D:/pv/ParaView/Qt/Widgets/pqScaleByButton.h",
+			"MU",
+			"EWIEGA46WW/moc_pqScaleByButton.cpp",
+			null
+		],
+		[
+			"D:/pv/ParaView/Qt/Widgets/pqScaledSpinBox.h",
+			"MU",
+			"EWIEGA46WW/moc_pqScaledSpinBox.cpp",
+			null
+		],
+		[
+			"D:/pv/ParaView/Qt/Widgets/pqScopedOverrideCursor.h",
+			"MU",
+			"EWIEGA46WW/moc_pqScopedOverrideCursor.cpp",
+			null
+		],
+		[
+			"D:/pv/ParaView/Qt/Widgets/pqSectionVisibilityContextMenu.h",
+			"MU",
+			"EWIEGA46WW/moc_pqSectionVisibilityContextMenu.cpp",
+			null
+		],
+		[
+			"D:/pv/ParaView/Qt/Widgets/pqSeriesGeneratorDialog.h",
+			"MU",
+			"EWIEGA46WW/moc_pqSeriesGeneratorDialog.cpp",
+			null
+		],
+		[
+			"D:/pv/ParaView/Qt/Widgets/pqSetData.h",
+			"MU",
+			"EWIEGA46WW/moc_pqSetData.cpp",
+			null
+		],
+		[
+			"D:/pv/ParaView/Qt/Widgets/pqSetName.h",
+			"MU",
+			"EWIEGA46WW/moc_pqSetName.cpp",
+			null
+		],
+		[
+			"D:/pv/ParaView/Qt/Widgets/pqSignalAdaptors.h",
+			"MU",
+			"EWIEGA46WW/moc_pqSignalAdaptors.cpp",
+			null
+		],
+		[
+			"D:/pv/ParaView/Qt/Widgets/pqSpinBox.h",
+			"MU",
+			"EWIEGA46WW/moc_pqSpinBox.cpp",
+			null
+		],
+		[
+			"D:/pv/ParaView/Qt/Widgets/pqTableView.h",
+			"MU",
+			"EWIEGA46WW/moc_pqTableView.cpp",
+			null
+		],
+		[
+			"D:/pv/ParaView/Qt/Widgets/pqTextEdit.h",
+			"MU",
+			"EWIEGA46WW/moc_pqTextEdit.cpp",
+			null
+		],
+		[
+			"D:/pv/ParaView/Qt/Widgets/pqTreeView.h",
+			"MU",
+			"EWIEGA46WW/moc_pqTreeView.cpp",
+			null
+		],
+		[
+			"D:/pv/ParaView/Qt/Widgets/pqTreeViewExpandState.h",
+			"MU",
+			"EWIEGA46WW/moc_pqTreeViewExpandState.cpp",
+			null
+		],
+		[
+			"D:/pv/ParaView/Qt/Widgets/pqTreeViewSelectionHelper.h",
+			"MU",
+			"EWIEGA46WW/moc_pqTreeViewSelectionHelper.cpp",
+			null
+		],
+		[
+			"D:/pv/ParaView/Qt/Widgets/pqTreeWidget.h",
+			"MU",
+			"EWIEGA46WW/moc_pqTreeWidget.cpp",
+			null
+		],
+		[
+			"D:/pv/ParaView/Qt/Widgets/pqTreeWidgetCheckHelper.h",
+			"MU",
+			"EWIEGA46WW/moc_pqTreeWidgetCheckHelper.cpp",
+			null
+		],
+		[
+			"D:/pv/ParaView/Qt/Widgets/pqTreeWidgetItem.h",
+			"MU",
+			"EWIEGA46WW/moc_pqTreeWidgetItem.cpp",
+			null
+		],
+		[
+			"D:/pv/ParaView/Qt/Widgets/pqTreeWidgetItemObject.h",
+			"MU",
+			"EWIEGA46WW/moc_pqTreeWidgetItemObject.cpp",
+			null
+		],
+		[
+			"D:/pv/ParaView/Qt/Widgets/pqTreeWidgetSelectionHelper.h",
+			"MU",
+			"EWIEGA46WW/moc_pqTreeWidgetSelectionHelper.cpp",
+			null
+		],
+		[
+			"D:/pv/ParaView/Qt/Widgets/pqVectorWidget.h",
+			"MU",
+			"EWIEGA46WW/moc_pqVectorWidget.cpp",
+			null
+		],
+		[
+			"D:/pv/ParaView/Qt/Widgets/pqWaitCursor.h",
+			"MU",
+			"EWIEGA46WW/moc_pqWaitCursor.cpp",
+			null
+		],
+		[
+			"D:/pv/ParaView/Qt/Widgets/pqWidgetCompleter.h",
+			"MU",
+			"EWIEGA46WW/moc_pqWidgetCompleter.cpp",
+			null
+		],
+		[
+			"D:/pv/ParaView/Qt/Widgets/pqWidgetsInit.h",
+			"MU",
+			"EWIEGA46WW/moc_pqWidgetsInit.cpp",
+			null
+		],
+		[
+			"D:/pv/build/Qt/Widgets/pqQtWidgetsConfig.h",
+			"MU",
+			"EJRQKI7XPS/moc_pqQtWidgetsConfig.cpp",
+			null
+		],
+		[
+			"D:/pv/build/Qt/Widgets/pqWidgetsModule.h",
+			"MU",
+			"EJRQKI7XPS/moc_pqWidgetsModule.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "D:/pv/build/Qt/Widgets/pqWidgets_autogen/include",
+	"MOC_COMPILATION_FILE" : "D:/pv/build/Qt/Widgets/pqWidgets_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"FMT_SHARED",
+		"KISSFFT_DLL_IMPORT=1",
+		"PROTOBUF_USE_DLLS",
+		"QT_CORE_LIB",
+		"QT_GUI_LIB",
+		"QT_NETWORK_LIB",
+		"QT_NO_DEBUG",
+		"QT_NO_KEYWORDS",
+		"QT_OPENGL_LIB",
+		"QT_WIDGETS_LIB",
+		"WIN32",
+		"_CRT_NONSTDC_NO_DEPRECATE",
+		"_CRT_SECURE_NO_DEPRECATE",
+		"_CRT_SECURE_NO_WARNINGS",
+		"_SCL_SECURE_NO_DEPRECATE",
+		"_SCL_SECURE_NO_WARNINGS",
+		"kiss_fft_scalar=double",
+		"pqWidgets_EXPORTS"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"D:/pv/ParaView/Qt/Widgets",
+		"D:/pv/build/Qt/Widgets",
+		"D:/pv/ParaView/ThirdParty/QtTesting/vtkqttesting",
+		"D:/pv/build/ThirdParty/QtTesting/vtkqttesting",
+		"D:/pv/ParaView/Utilities/Versioning",
+		"D:/pv/build/Utilities/Versioning",
+		"D:/pv/ParaView/VTK/GUISupport/Qt",
+		"D:/pv/build/VTK/GUISupport/Qt",
+		"D:/pv/ParaView/VTK/Common/Core",
+		"D:/pv/build/VTK/Common/Core",
+		"D:/pv/ParaView/VTK/ThirdParty/token/vtktoken/token",
+		"D:/pv/build/VTK/ThirdParty/token/vtktoken/token",
+		"D:/pv/ParaView/VTK/ThirdParty/token/vtktoken",
+		"D:/pv/build/VTK/ThirdParty/token/vtktoken",
+		"D:/pv/ParaView/VTK/ThirdParty/nlohmannjson/vtknlohmannjson",
+		"D:/pv/build/VTK/ThirdParty/nlohmannjson/vtknlohmannjson",
+		"D:/pv/ParaView/VTK/ThirdParty/nlohmannjson/vtknlohmannjson/include",
+		"D:/pv/ParaView/VTK/Rendering/Core",
+		"D:/pv/build/VTK/Rendering/Core",
+		"D:/pv/ParaView/VTK/Common/DataModel",
+		"D:/pv/build/VTK/Common/DataModel",
+		"D:/pv/ParaView/VTK/Common/Math",
+		"D:/pv/build/VTK/Common/Math",
+		"D:/pv/ParaView/VTK/ThirdParty/kissfft/vtkkissfft",
+		"D:/pv/build/VTK/ThirdParty/kissfft/vtkkissfft",
+		"D:/pv/ParaView/VTK/Common/Transforms",
+		"D:/pv/build/VTK/Common/Transforms",
+		"D:/pv/ParaView/VTK/Common/ExecutionModel",
+		"D:/pv/build/VTK/Common/ExecutionModel",
+		"D:/pv/ParaView/VTK/Filters/Core",
+		"D:/pv/build/VTK/Filters/Core",
+		"D:/pv/ParaView/VTK/Common/Misc",
+		"D:/pv/build/VTK/Common/Misc",
+		"D:/pv/ParaView/VTK/Rendering/OpenGL2",
+		"D:/pv/build/VTK/Rendering/OpenGL2",
+		"D:/pv/ParaView/VTK/Filters/General",
+		"D:/pv/build/VTK/Filters/General",
+		"D:/pv/ParaView/VTK/IO/Image",
+		"D:/pv/build/VTK/IO/Image",
+		"D:/pv/ParaView/VTK/Imaging/Core",
+		"D:/pv/build/VTK/Imaging/Core",
+		"D:/pv/ParaView/VTK/Rendering/HyperTreeGrid",
+		"D:/pv/build/VTK/Rendering/HyperTreeGrid",
+		"D:/pv/ParaView/VTK/Rendering/UI",
+		"D:/pv/build/VTK/Rendering/UI",
+		"D:/pv/ParaView/VTK/ThirdParty/glew/vtkglew",
+		"D:/pv/build/VTK/ThirdParty/glew/vtkglew",
+		"D:/pv/ParaView/VTK/Interaction/Widgets",
+		"D:/pv/build/VTK/Interaction/Widgets",
+		"D:/pv/ParaView/VTK/Filters/Sources",
+		"D:/pv/build/VTK/Filters/Sources",
+		"D:/pv/ParaView/VTK/Rendering/Context2D",
+		"D:/pv/build/VTK/Rendering/Context2D",
+		"D:/pv/ParaView/VTK/IO/Core",
+		"D:/pv/build/VTK/IO/Core",
+		"D:/pv/ParaView/Remoting/ServerManager",
+		"D:/pv/build/Remoting/ServerManager",
+		"D:/pv/ParaView/ThirdParty/protobuf/vtkprotobuf/src",
+		"D:/pv/ParaView/Remoting/ClientServerStream",
+		"D:/pv/build/Remoting/ClientServerStream",
+		"D:/pv/ParaView/Remoting/Core",
+		"D:/pv/build/Remoting/Core",
+		"D:/pv/ParaView/VTKExtensions/Core",
+		"D:/pv/build/VTKExtensions/Core",
+		"D:/pv/ParaView/VTK/IO/XML",
+		"D:/pv/build/VTK/IO/XML",
+		"D:/pv/ParaView/VTK/IO/XMLParser",
+		"D:/pv/build/VTK/IO/XMLParser",
+		"D:/pv/ParaView/VTK/ThirdParty/fmt/vtkfmt",
+		"D:/pv/build/VTK/ThirdParty/fmt/vtkfmt",
+		"D:/pv/ParaView/VTK/Parallel/Core",
+		"D:/pv/build/VTK/Parallel/Core",
+		"D:/pv/ParaView/VTK/ThirdParty/jsoncpp/vtkjsoncpp",
+		"D:/pv/build/VTK/ThirdParty/jsoncpp/vtkjsoncpp",
+		"D:/pv/build/VTK/ThirdParty/jsoncpp/vtkjsoncpp/json",
+		"D:/pv/build/VTK/Utilities/KWIML",
+		"D:/pv/ParaView/VTK/Utilities/KWIML",
+		"D:/pv/build/VTK/Utilities/KWSys",
+		"D:/pv/ParaView/VTK/Utilities/KWSys",
+		"D:/pv/build/VTK/ThirdParty/token",
+		"D:/pv/ParaView/VTK/ThirdParty/token",
+		"D:/pv/build/VTK/ThirdParty/nlohmannjson",
+		"D:/pv/ParaView/VTK/ThirdParty/nlohmannjson",
+		"D:/pv/build/VTK/ThirdParty/kissfft",
+		"D:/pv/ParaView/VTK/ThirdParty/kissfft",
+		"D:/pv/build/VTK/ThirdParty/glew",
+		"D:/pv/ParaView/VTK/ThirdParty/glew",
+		"D:/Qt/5.15.2/msvc2019_64/include",
+		"D:/Qt/5.15.2/msvc2019_64/include/QtOpenGL",
+		"D:/Qt/5.15.2/msvc2019_64/include/QtWidgets",
+		"D:/Qt/5.15.2/msvc2019_64/include/QtGui",
+		"D:/Qt/5.15.2/msvc2019_64/include/QtANGLE",
+		"D:/Qt/5.15.2/msvc2019_64/include/QtCore",
+		"D:/Qt/5.15.2/msvc2019_64/mkspecs/win32-msvc",
+		"D:/pv/build/ThirdParty/protobuf",
+		"D:/pv/ParaView/ThirdParty/protobuf",
+		"D:/pv/build/VTK/ThirdParty/cli11",
+		"D:/pv/ParaView/VTK/ThirdParty/cli11",
+		"D:/pv/build/VTK/ThirdParty/fmt",
+		"D:/pv/ParaView/VTK/ThirdParty/fmt",
+		"D:/pv/build/VTK/ThirdParty/jsoncpp",
+		"D:/pv/ParaView/VTK/ThirdParty/jsoncpp",
+		"D:/Qt/5.15.2/msvc2019_64/include/QtNetwork"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : [],
+	"MOC_PREDEFS_FILE" : "",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 4,
+	"PARSE_CACHE_FILE" : "D:/pv/build/Qt/Widgets/CMakeFiles/pqWidgets_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "D:/Qt/5.15.2/msvc2019_64/bin/moc.exe",
+	"QT_UIC_EXECUTABLE" : "D:/Qt/5.15.2/msvc2019_64/bin/uic.exe",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 15,
+	"SETTINGS_FILE" : "D:/pv/build/Qt/Widgets/CMakeFiles/pqWidgets_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[ "D:/pv/ParaView/Qt/Widgets/pqCheckBoxPixMaps.cxx", "MU", null ],
+		[ "D:/pv/ParaView/Qt/Widgets/pqCheckableHeaderView.cxx", "MU", null ],
+		[ "D:/pv/ParaView/Qt/Widgets/pqClickableLabel.cxx", "MU", null ],
+		[ "D:/pv/ParaView/Qt/Widgets/pqCollapsedGroup.cxx", "MU", null ],
+		[ "D:/pv/ParaView/Qt/Widgets/pqColorButtonEventPlayer.cxx", "MU", null ],
+		[
+			"D:/pv/ParaView/Qt/Widgets/pqColorButtonEventTranslator.cxx",
+			"MU",
+			null
+		],
+		[ "D:/pv/ParaView/Qt/Widgets/pqColorChooserButton.cxx", "MU", null ],
+		[ "D:/pv/ParaView/Qt/Widgets/pqColorDialogEventPlayer.cxx", "MU", null ],
+		[
+			"D:/pv/ParaView/Qt/Widgets/pqColorDialogEventTranslator.cxx",
+			"MU",
+			null
+		],
+		[ "D:/pv/ParaView/Qt/Widgets/pqConnect.cxx", "MU", null ],
+		[ "D:/pv/ParaView/Qt/Widgets/pqConsoleWidget.cxx", "MU", null ],
+		[
+			"D:/pv/ParaView/Qt/Widgets/pqConsoleWidgetEventPlayer.cxx",
+			"MU",
+			null
+		],
+		[
+			"D:/pv/ParaView/Qt/Widgets/pqConsoleWidgetEventTranslator.cxx",
+			"MU",
+			null
+		],
+		[ "D:/pv/ParaView/Qt/Widgets/pqDelimitedTextParser.cxx", "MU", null ],
+		[ "D:/pv/ParaView/Qt/Widgets/pqDiscreteDoubleWidget.cxx", "MU", null ],
+		[ "D:/pv/ParaView/Qt/Widgets/pqDoubleLineEdit.cxx", "MU", null ],
+		[ "D:/pv/ParaView/Qt/Widgets/pqDoubleRangeDialog.cxx", "MU", null ],
+		[ "D:/pv/ParaView/Qt/Widgets/pqDoubleRangeWidget.cxx", "MU", null ],
+		[ "D:/pv/ParaView/Qt/Widgets/pqDoubleSliderWidget.cxx", "MU", null ],
+		[ "D:/pv/ParaView/Qt/Widgets/pqDoubleSpinBox.cxx", "MU", null ],
+		[ "D:/pv/ParaView/Qt/Widgets/pqExpandableTableView.cxx", "MU", null ],
+		[ "D:/pv/ParaView/Qt/Widgets/pqExpanderButton.cxx", "MU", null ],
+		[
+			"D:/pv/ParaView/Qt/Widgets/pqExtendedSortFilterProxyModel.cxx",
+			"MU",
+			null
+		],
+		[ "D:/pv/ParaView/Qt/Widgets/pqFlatTreeView.cxx", "MU", null ],
+		[ "D:/pv/ParaView/Qt/Widgets/pqHeaderView.cxx", "MU", null ],
+		[ "D:/pv/ParaView/Qt/Widgets/pqHierarchicalGridLayout.cxx", "MU", null ],
+		[ "D:/pv/ParaView/Qt/Widgets/pqHierarchicalGridWidget.cxx", "MU", null ],
+		[ "D:/pv/ParaView/Qt/Widgets/pqHighlightablePushButton.cxx", "MU", null ],
+		[ "D:/pv/ParaView/Qt/Widgets/pqHighlightableToolButton.cxx", "MU", null ],
+		[ "D:/pv/ParaView/Qt/Widgets/pqLineEdit.cxx", "MU", null ],
+		[ "D:/pv/ParaView/Qt/Widgets/pqLineEditEventPlayer.cxx", "MU", null ],
+		[ "D:/pv/ParaView/Qt/Widgets/pqListWidgetCheckHelper.cxx", "MU", null ],
+		[ "D:/pv/ParaView/Qt/Widgets/pqListWidgetItemObject.cxx", "MU", null ],
+		[ "D:/pv/ParaView/Qt/Widgets/pqMultiColumnHeaderView.cxx", "MU", null ],
+		[ "D:/pv/ParaView/Qt/Widgets/pqProgressWidget.cxx", "MU", null ],
+		[ "D:/pv/ParaView/Qt/Widgets/pqQuickLaunchDialog.cxx", "MU", null ],
+		[ "D:/pv/ParaView/Qt/Widgets/pqScaleByButton.cxx", "MU", null ],
+		[ "D:/pv/ParaView/Qt/Widgets/pqScaledSpinBox.cxx", "MU", null ],
+		[ "D:/pv/ParaView/Qt/Widgets/pqScopedOverrideCursor.cxx", "MU", null ],
+		[
+			"D:/pv/ParaView/Qt/Widgets/pqSectionVisibilityContextMenu.cxx",
+			"MU",
+			null
+		],
+		[ "D:/pv/ParaView/Qt/Widgets/pqSeriesGeneratorDialog.cxx", "MU", null ],
+		[ "D:/pv/ParaView/Qt/Widgets/pqSetData.cxx", "MU", null ],
+		[ "D:/pv/ParaView/Qt/Widgets/pqSetName.cxx", "MU", null ],
+		[ "D:/pv/ParaView/Qt/Widgets/pqSignalAdaptors.cxx", "MU", null ],
+		[ "D:/pv/ParaView/Qt/Widgets/pqSpinBox.cxx", "MU", null ],
+		[ "D:/pv/ParaView/Qt/Widgets/pqTableView.cxx", "MU", null ],
+		[ "D:/pv/ParaView/Qt/Widgets/pqTextEdit.cxx", "MU", null ],
+		[ "D:/pv/ParaView/Qt/Widgets/pqTreeView.cxx", "MU", null ],
+		[ "D:/pv/ParaView/Qt/Widgets/pqTreeViewExpandState.cxx", "MU", null ],
+		[ "D:/pv/ParaView/Qt/Widgets/pqTreeViewSelectionHelper.cxx", "MU", null ],
+		[ "D:/pv/ParaView/Qt/Widgets/pqTreeWidget.cxx", "MU", null ],
+		[ "D:/pv/ParaView/Qt/Widgets/pqTreeWidgetCheckHelper.cxx", "MU", null ],
+		[ "D:/pv/ParaView/Qt/Widgets/pqTreeWidgetItem.cxx", "MU", null ],
+		[ "D:/pv/ParaView/Qt/Widgets/pqTreeWidgetItemObject.cxx", "MU", null ],
+		[
+			"D:/pv/ParaView/Qt/Widgets/pqTreeWidgetSelectionHelper.cxx",
+			"MU",
+			null
+		],
+		[ "D:/pv/ParaView/Qt/Widgets/pqVectorWidget.cxx", "MU", null ],
+		[ "D:/pv/ParaView/Qt/Widgets/pqWaitCursor.cxx", "MU", null ],
+		[ "D:/pv/ParaView/Qt/Widgets/pqWidgetCompleter.cxx", "MU", null ],
+		[ "D:/pv/ParaView/Qt/Widgets/pqWidgetsInit.cxx", "MU", null ]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [ "D:/pv/ParaView/Qt/Widgets/Resources/UI" ],
+	"UIC_SKIP" : [],
+	"UIC_UI_FILES" : [],
+	"USE_BETTER_GRAPH" : false,
+	"VERBOSITY" : 0
+}

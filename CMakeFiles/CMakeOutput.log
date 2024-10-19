@@ -1,0 +1,57 @@
+Checking whether wstring is available compiled with the following output:
+Change Dir: 'D:/pv/build/VTK/Utilities/KWSys/vtksys/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): C:/PROGRA~2/MICROS~2/2019/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe -v cmTC_35bb9
+[1/2] C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx64\x64\cl.exe  /nologo /TP -DTEST_KWSYS_STL_HAS_WSTRING  /DWIN32 /D_WINDOWS /GR /EHsc /W4 /bigobj /utf-8   /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\cmTC_35bb9.dir\kwsysPlatformTestsCXX.cxx.obj /FdCMakeFiles\cmTC_35bb9.dir\ /FS -c D:\pv\ParaView\VTK\Utilities\KWSys\vtksys\kwsysPlatformTestsCXX.cxx
+[2/2] C:\Windows\system32\cmd.exe /C "cd . && "C:\Program Files\CMake\bin\cmake.exe" -E vs_link_exe --msvc-ver=1929 --intdir=CMakeFiles\cmTC_35bb9.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x64\mt.exe --manifests  -- C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_35bb9.dir\kwsysPlatformTestsCXX.cxx.obj  /out:cmTC_35bb9.exe /implib:cmTC_35bb9.lib /pdb:cmTC_35bb9.pdb /version:0.0 /machine:x64   /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+
+
+
+Checking whether C compiler has ptrdiff_t in stddef.h compiled with the following output:
+Change Dir: 'D:/pv/build/VTK/Utilities/KWSys/vtksys/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): C:/PROGRA~2/MICROS~2/2019/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe -v cmTC_165fc
+[1/2] C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx64\x64\cl.exe  /nologo -DTEST_KWSYS_C_HAS_PTRDIFF_T  /DWIN32 /D_WINDOWS /bigobj /utf-8   /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\cmTC_165fc.dir\kwsysPlatformTestsC.c.obj /FdCMakeFiles\cmTC_165fc.dir\ /FS -c D:\pv\ParaView\VTK\Utilities\KWSys\vtksys\kwsysPlatformTestsC.c
+[2/2] C:\Windows\system32\cmd.exe /C "cd . && "C:\Program Files\CMake\bin\cmake.exe" -E vs_link_exe --msvc-ver=1929 --intdir=CMakeFiles\cmTC_165fc.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x64\mt.exe --manifests  -- C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_165fc.dir\kwsysPlatformTestsC.c.obj  /out:cmTC_165fc.exe /implib:cmTC_165fc.lib /pdb:cmTC_165fc.pdb /version:0.0 /machine:x64   /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+
+
+
+Checking whether CXX compiler has environ in stdlib.h compiled with the following output:
+Change Dir: 'D:/pv/build/VTK/Utilities/KWSys/vtksys/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): C:/PROGRA~2/MICROS~2/2019/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe -v cmTC_57675
+[1/2] C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx64\x64\cl.exe  /nologo /TP -DTEST_KWSYS_CXX_HAS_ENVIRON_IN_STDLIB_H  /DWIN32 /D_WINDOWS /GR /EHsc /W4 /bigobj /utf-8   /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\cmTC_57675.dir\kwsysPlatformTestsCXX.cxx.obj /FdCMakeFiles\cmTC_57675.dir\ /FS -c D:\pv\ParaView\VTK\Utilities\KWSys\vtksys\kwsysPlatformTestsCXX.cxx
+[2/2] C:\Windows\system32\cmd.exe /C "cd . && "C:\Program Files\CMake\bin\cmake.exe" -E vs_link_exe --msvc-ver=1929 --intdir=CMakeFiles\cmTC_57675.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x64\mt.exe --manifests  -- C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_57675.dir\kwsysPlatformTestsCXX.cxx.obj  /out:cmTC_57675.exe /implib:cmTC_57675.lib /pdb:cmTC_57675.pdb /version:0.0 /machine:x64   /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+
+
+
+Determining if getsockname accepts socklen_t type  completed with the following output:
+Change Dir: 'D:/pv/build/VTK/Common/System/CMakeTmp/SocklenT/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): C:/PROGRA~2/MICROS~2/2019/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe -v cmTC_48244
+[1/2] C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx64\x64\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /GR /EHsc /W4 /bigobj /utf-8   /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\cmTC_48244.dir\vtkTestSocklenT.cxx.obj /FdCMakeFiles\cmTC_48244.dir\ /FS -c D:\pv\ParaView\VTK\Common\System\vtkTestSocklenT.cxx
+FAILED: CMakeFiles/cmTC_48244.dir/vtkTestSocklenT.cxx.obj 
+C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx64\x64\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /GR /EHsc /W4 /bigobj /utf-8   /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\cmTC_48244.dir\vtkTestSocklenT.cxx.obj /FdCMakeFiles\cmTC_48244.dir\ /FS -c D:\pv\ParaView\VTK\Common\System\vtkTestSocklenT.cxx
+D:\pv\ParaView\VTK\Common\System\vtkTestSocklenT.cxx(13): error C2079: 'addr' uses undefined struct 'main::sockaddr'
+D:\pv\ParaView\VTK\Common\System\vtkTestSocklenT.cxx(14): error C2065: 'socklen_t': undeclared identifier
+D:\pv\ParaView\VTK\Common\System\vtkTestSocklenT.cxx(14): error C2146: syntax error: missing ';' before identifier 'length'
+D:\pv\ParaView\VTK\Common\System\vtkTestSocklenT.cxx(14): error C2065: 'length': undeclared identifier
+D:\pv\ParaView\VTK\Common\System\vtkTestSocklenT.cxx(15): error C2065: 'length': undeclared identifier
+D:\pv\ParaView\VTK\Common\System\vtkTestSocklenT.cxx(15): error C3861: 'getsockname': identifier not found
+D:\pv\ParaView\VTK\Common\System\vtkTestSocklenT.cxx(17): error C2065: 'socklen_t': undeclared identifier
+D:\pv\ParaView\VTK\Common\System\vtkTestSocklenT.cxx(17): warning C4127: conditional expression is constant
+ninja: build stopped: subcommand failed.
+
+
+Performing C SOURCE FILE Test InitOnceExecuteOnce succeeded with the following output:
+Change Dir: 'D:/pv/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): C:/PROGRA~2/MICROS~2/2019/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe -v cmTC_eab88
+[1/2] C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx64\x64\cl.exe  /nologo   /DWIN32 /D_WINDOWS /bigobj /utf-8   /Zi /Ob0 /Od /RTC1 -MDd    -DHAVE_IOEO /DWIN32_LEAN_AND_MEAN=1 /DNOGDI=1 /showIncludes /FoCMakeFiles\cmTC_eab88.dir\HDFTests.c.obj /FdCMakeFiles\cmTC_eab88.dir\ /FS -c D:\pv\ParaView\VTK\ThirdParty\hdf5\vtkhdf5\config\cmake_ext_mod\HDFTests.c
+[2/2] C:\Windows\system32\cmd.exe /C "cd . && "C:\Program Files\CMake\bin\cmake.exe" -E vs_link_exe --msvc-ver=1929 --intdir=CMakeFiles\cmTC_eab88.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x64\mt.exe --manifests  -- C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_eab88.dir\HDFTests.c.obj  /out:cmTC_eab88.exe /implib:cmTC_eab88.lib /pdb:cmTC_eab88.pdb /version:0.0 /machine:x64   /debug /INCREMENTAL /subsystem:console  ws2_32.lib  wsock32.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+
+
+Return value: 
+Determining if the C maximum decimal precision for C exists passed with the following output:
+15;0;
+

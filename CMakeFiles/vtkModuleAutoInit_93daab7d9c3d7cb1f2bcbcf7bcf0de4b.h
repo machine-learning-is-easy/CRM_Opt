@@ -1,0 +1,5 @@
+#define vtkDomainsChemistry_AUTOINIT 1(vtkDomainsChemistryOpenGL2)
+#define vtkFiltersCore_AUTOINIT 2(vtkFiltersParallel,vtkFiltersParallelDIY2)
+#define vtkFiltersParallel_AUTOINIT 1(vtkFiltersParallelDIY2)
+#define vtkRenderingContext2D_AUTOINIT 1(vtkRenderingContextOpenGL2)
+#define vtkRenderingCore_AUTOINIT 3(vtkInteractionStyle,vtkRenderingCellGrid,vtkRenderingOpenGL2)

@@ -1,0 +1,7 @@
+D:/pv/ParaView/Plugins/Datamine/Readers/vtkDataMineBlockReader.h;vtkDatamineReaders
+D:/pv/ParaView/Plugins/Datamine/Readers/vtkDataMineDrillHoleReader.h;vtkDatamineReaders
+D:/pv/ParaView/Plugins/Datamine/Readers/vtkDataMineDummyReader.h;vtkDatamineReaders
+D:/pv/ParaView/Plugins/Datamine/Readers/vtkDataMinePerimeterReader.h;vtkDatamineReaders
+D:/pv/ParaView/Plugins/Datamine/Readers/vtkDataMinePointReader.h;vtkDatamineReaders
+D:/pv/ParaView/Plugins/Datamine/Readers/vtkDataMineReader.h;vtkDatamineReaders
+D:/pv/ParaView/Plugins/Datamine/Readers/vtkDataMineWireFrameReader.h;vtkDatamineReaders

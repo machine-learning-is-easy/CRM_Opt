@@ -1,0 +1,86 @@
+#include "vtkABI.h"
+#include "vtkClientServerInterpreter.h"
+
+extern void vtkBMPReader_Init(vtkClientServerInterpreter*);
+extern void vtkBMPWriter_Init(vtkClientServerInterpreter*);
+extern void vtkDEMReader_Init(vtkClientServerInterpreter*);
+extern void vtkDICOMImageReader_Init(vtkClientServerInterpreter*);
+extern void vtkGESignaReader_Init(vtkClientServerInterpreter*);
+extern void vtkHDRReader_Init(vtkClientServerInterpreter*);
+extern void vtkImageExport_Init(vtkClientServerInterpreter*);
+extern void vtkImageImport_Init(vtkClientServerInterpreter*);
+extern void vtkImageImportExecutive_Init(vtkClientServerInterpreter*);
+extern void vtkImageReader_Init(vtkClientServerInterpreter*);
+extern void vtkImageReader2_Init(vtkClientServerInterpreter*);
+extern void vtkImageReader2Collection_Init(vtkClientServerInterpreter*);
+extern void vtkImageReader2Factory_Init(vtkClientServerInterpreter*);
+extern void vtkImageWriter_Init(vtkClientServerInterpreter*);
+extern void vtkJPEGReader_Init(vtkClientServerInterpreter*);
+extern void vtkJPEGWriter_Init(vtkClientServerInterpreter*);
+extern void vtkJSONImageWriter_Init(vtkClientServerInterpreter*);
+extern void vtkMedicalImageProperties_Init(vtkClientServerInterpreter*);
+extern void vtkMedicalImageReader2_Init(vtkClientServerInterpreter*);
+extern void vtkMetaImageReader_Init(vtkClientServerInterpreter*);
+extern void vtkMetaImageWriter_Init(vtkClientServerInterpreter*);
+extern void vtkMRCReader_Init(vtkClientServerInterpreter*);
+extern void vtkNIFTIImageHeader_Init(vtkClientServerInterpreter*);
+extern void vtkNIFTIImageReader_Init(vtkClientServerInterpreter*);
+extern void vtkNIFTIImageWriter_Init(vtkClientServerInterpreter*);
+extern void vtkNrrdReader_Init(vtkClientServerInterpreter*);
+extern void vtkOMETIFFReader_Init(vtkClientServerInterpreter*);
+extern void vtkPNGReader_Init(vtkClientServerInterpreter*);
+extern void vtkPNGWriter_Init(vtkClientServerInterpreter*);
+extern void vtkPNMReader_Init(vtkClientServerInterpreter*);
+extern void vtkPNMWriter_Init(vtkClientServerInterpreter*);
+extern void vtkPostScriptWriter_Init(vtkClientServerInterpreter*);
+extern void vtkSEPReader_Init(vtkClientServerInterpreter*);
+extern void vtkSLCReader_Init(vtkClientServerInterpreter*);
+extern void vtkTGAReader_Init(vtkClientServerInterpreter*);
+extern void vtkTIFFReader_Init(vtkClientServerInterpreter*);
+extern void vtkTIFFWriter_Init(vtkClientServerInterpreter*);
+extern void vtkVolume16Reader_Init(vtkClientServerInterpreter*);
+extern void vtkVolumeReader_Init(vtkClientServerInterpreter*);
+
+extern "C" void VTK_ABI_EXPORT vtkIOImageCS_Initialize(vtkClientServerInterpreter* csi)
+{
+  (void)csi;
+  vtkBMPReader_Init(csi);
+  vtkBMPWriter_Init(csi);
+  vtkDEMReader_Init(csi);
+  vtkDICOMImageReader_Init(csi);
+  vtkGESignaReader_Init(csi);
+  vtkHDRReader_Init(csi);
+  vtkImageExport_Init(csi);
+  vtkImageImport_Init(csi);
+  vtkImageImportExecutive_Init(csi);
+  vtkImageReader_Init(csi);
+  vtkImageReader2_Init(csi);
+  vtkImageReader2Collection_Init(csi);
+  vtkImageReader2Factory_Init(csi);
+  vtkImageWriter_Init(csi);
+  vtkJPEGReader_Init(csi);
+  vtkJPEGWriter_Init(csi);
+  vtkJSONImageWriter_Init(csi);
+  vtkMedicalImageProperties_Init(csi);
+  vtkMedicalImageReader2_Init(csi);
+  vtkMetaImageReader_Init(csi);
+  vtkMetaImageWriter_Init(csi);
+  vtkMRCReader_Init(csi);
+  vtkNIFTIImageHeader_Init(csi);
+  vtkNIFTIImageReader_Init(csi);
+  vtkNIFTIImageWriter_Init(csi);
+  vtkNrrdReader_Init(csi);
+  vtkOMETIFFReader_Init(csi);
+  vtkPNGReader_Init(csi);
+  vtkPNGWriter_Init(csi);
+  vtkPNMReader_Init(csi);
+  vtkPNMWriter_Init(csi);
+  vtkPostScriptWriter_Init(csi);
+  vtkSEPReader_Init(csi);
+  vtkSLCReader_Init(csi);
+  vtkTGAReader_Init(csi);
+  vtkTIFFReader_Init(csi);
+  vtkTIFFWriter_Init(csi);
+  vtkVolume16Reader_Init(csi);
+  vtkVolumeReader_Init(csi);
+}

@@ -1,0 +1,6 @@
+# CMake generated Testfile for 
+# Source directory: D:/pv/ParaView/Plugins/DSP/Filters
+# Build directory: D:/pv/build/Plugins/DSP/Filters
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.

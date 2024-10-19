@@ -1,0 +1,9 @@
+D:/pv/ParaView/VTK/IO/Chemistry/vtkCMLMoleculeReader.h;vtkIOChemistry
+D:/pv/ParaView/VTK/IO/Chemistry/vtkGaussianCubeReader.h;vtkIOChemistry
+D:/pv/ParaView/VTK/IO/Chemistry/vtkGaussianCubeReader2.h;vtkIOChemistry
+D:/pv/ParaView/VTK/IO/Chemistry/vtkMoleculeReaderBase.h;vtkIOChemistry
+D:/pv/ParaView/VTK/IO/Chemistry/vtkPDBReader.h;vtkIOChemistry
+D:/pv/ParaView/VTK/IO/Chemistry/vtkVASPAnimationReader.h;vtkIOChemistry
+D:/pv/ParaView/VTK/IO/Chemistry/vtkVASPTessellationReader.h;vtkIOChemistry
+D:/pv/ParaView/VTK/IO/Chemistry/vtkXYZMolReader.h;vtkIOChemistry
+D:/pv/ParaView/VTK/IO/Chemistry/vtkXYZMolReader2.h;vtkIOChemistry

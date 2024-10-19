@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="//ParaView/Documentation">
+    <file alias="paraview.qch">D:\pv\build\Clients\ParaView\Documentation\paraview.qch</file>
+  </qresource>
+</RCC>

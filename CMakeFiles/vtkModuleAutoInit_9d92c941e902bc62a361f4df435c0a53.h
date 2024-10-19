@@ -1,0 +1,2 @@
+#define vtkFiltersCore_AUTOINIT 2(vtkFiltersParallel,vtkFiltersParallelDIY2)
+#define vtkFiltersParallel_AUTOINIT 1(vtkFiltersParallelDIY2)

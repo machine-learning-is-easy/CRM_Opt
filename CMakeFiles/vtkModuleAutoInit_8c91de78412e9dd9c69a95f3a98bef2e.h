@@ -1,0 +1,2 @@
+#define vtkRemotingServerManager_AUTOINIT 1(vtkRemotingViews)
+#define vtkRenderingCore_AUTOINIT 1(vtkRenderingOpenGL2)

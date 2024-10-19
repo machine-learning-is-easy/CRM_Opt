@@ -1,0 +1,1 @@
+#define vtkRemotingServerManager_AUTOINIT 1(vtkRemotingViews)

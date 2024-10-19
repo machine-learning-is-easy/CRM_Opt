@@ -1,0 +1,1 @@
+D:/pv/ParaView/Plugins/Datamine/Readers/DatamineReaders.xml

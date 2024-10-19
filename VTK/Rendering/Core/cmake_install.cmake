@@ -1,0 +1,218 @@
+# Install script for directory: D:/pv/ParaView/VTK/Rendering/Core
+
+# Set the install prefix
+if(NOT DEFINED CMAKE_INSTALL_PREFIX)
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/ParaView")
+endif()
+string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
+
+# Set the install configuration name.
+if(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
+  if(BUILD_TYPE)
+    string(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
+           CMAKE_INSTALL_CONFIG_NAME "${BUILD_TYPE}")
+  else()
+    set(CMAKE_INSTALL_CONFIG_NAME "Release")
+  endif()
+  message(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
+endif()
+
+# Set the component getting installed.
+if(NOT CMAKE_INSTALL_COMPONENT)
+  if(COMPONENT)
+    message(STATUS "Install component: \"${COMPONENT}\"")
+    set(CMAKE_INSTALL_COMPONENT "${COMPONENT}")
+  else()
+    set(CMAKE_INSTALL_COMPONENT)
+  endif()
+endif()
+
+# Is this installation the result of a crosscompile?
+if(NOT DEFINED CMAKE_CROSSCOMPILING)
+  set(CMAKE_CROSSCOMPILING "FALSE")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "development" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/vtk/hierarchy/ParaView" TYPE FILE RENAME "vtkRenderingCore-hierarchy.txt" FILES "D:/pv/build/lib/vtk/hierarchy/ParaView/vtkRenderingCore-hierarchy.txt")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "runtime" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY OPTIONAL FILES "D:/pv/build/lib/vtkRenderingCore-pv5.13.lib")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "runtime" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE SHARED_LIBRARY FILES "D:/pv/build/bin/vtkRenderingCore-pv5.13.dll")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "development" OR NOT CMAKE_INSTALL_COMPONENT)
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "development" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/paraview-5.13" TYPE FILE FILES
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkGPUInfoListArray.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkPythagoreanQuadruples.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkRayCastStructures.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkRenderingCoreEnums.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkStateStorage.h"
+    "D:/pv/build/VTK/Rendering/Core/vtkTDxConfigure.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkTDxMotionEventInfo.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkAbstractHyperTreeGridMapper.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkAbstractMapper.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkAbstractMapper3D.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkAbstractPicker.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkAbstractVolumeMapper.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkActor.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkActor2D.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkActor2DCollection.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkActorCollection.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkAssembly.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkAvatar.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkBackgroundColorMonitor.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkBillboardTextActor3D.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkCamera.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkCameraActor.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkCameraInterpolator.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkCellCenterDepthSort.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkCellGraphicsPrimitiveMap.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkCellGridMapper.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkCellGridRenderRequest.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkColorTransferFunction.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkCompositeCellGridMapper.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkCompositeDataDisplayAttributes.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkCompositeDataDisplayAttributesLegacy.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkCompositePolyDataMapper.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkCompositePolyDataMapperDelegator.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkCoordinate.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkCuller.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkCullerCollection.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkDataSetMapper.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkDiscretizableColorTransferFunction.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkDistanceToCamera.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkFXAAOptions.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkFlagpoleLabel.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkFollower.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkFrameBufferObjectBase.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkFrustumCoverageCuller.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkGPUInfo.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkGPUInfoList.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkGenericVertexAttributeMapping.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkGlyph3DMapper.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkGraphMapper.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkGraphToGlyphs.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkGraphicsFactory.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkHardwarePicker.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkHardwareSelector.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkHardwareWindow.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkHierarchicalPolyDataMapper.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkImageActor.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkImageMapper.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkImageMapper3D.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkImageProperty.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkImageSlice.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkImageSliceMapper.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkInteractorEventRecorder.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkInteractorObserver.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkLabeledContourMapper.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkLight.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkLightActor.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkLightCollection.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkLightKit.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkLogLookupTable.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkLookupTableWithEnabling.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkMapArrayValues.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkMapper.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkMapper2D.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkMapperCollection.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkObserverMediator.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkPointGaussianMapper.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkPolyDataMapper.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkPolyDataMapper2D.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkProp.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkProp3D.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkProp3DCollection.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkProp3DFollower.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkPropAssembly.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkPropCollection.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkProperty.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkProperty2D.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkRenderPass.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkRenderState.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkRenderTimerLog.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkRenderWindow.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkRenderWindowCollection.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkRenderWindowInteractor.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkRenderWindowInteractor3D.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkRenderer.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkRendererCollection.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkRendererDelegate.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkRendererSource.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkResizingWindowToImageFilter.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkSelectVisiblePoints.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkShaderProperty.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkSkybox.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkStereoCompositor.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkTextActor.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkTextActor3D.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkTexture.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkTexturedActor2D.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkTransformCoordinateSystems.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkTransformInterpolator.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkTupleInterpolator.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkUniforms.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkViewDependentErrorMetric.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkViewport.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkVisibilitySort.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkVolume.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkVolumeCollection.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkVolumeProperty.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkWindowLevelLookupTable.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkWindowToImageFilter.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkAssemblyNode.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkAssemblyPath.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkAssemblyPaths.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkAreaPicker.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkPicker.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkAbstractPropPicker.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkLODProp3D.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkPropPicker.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkPickingManager.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkWorldPointPicker.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkCellPicker.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkPointPicker.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkRenderedAreaPicker.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkScenePicker.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkInteractorStyle.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkInteractorStyle3D.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkInteractorStyleSwitchBase.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkTDxInteractorStyle.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkTDxInteractorStyleCamera.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkTDxInteractorStyleSettings.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkStringToImage.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkTextMapper.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkTextProperty.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkTextPropertyCollection.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkTextRenderer.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkAbstractInteractionDevice.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkAbstractRenderDevice.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkRenderWidget.h"
+    )
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "development" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/paraview-5.13" TYPE FILE FILES
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkNoise200x200.h"
+    "D:/pv/ParaView/VTK/Rendering/Core/vtkCIEDE2000.h"
+    "D:/pv/build/VTK/Rendering/Core/vtkRenderingCoreModule.h"
+    )
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "licenses" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/licenses/ParaView/vtkRenderingCore" TYPE FILE FILES "D:/pv/ParaView/VTK/Rendering/Core/LICENSE")
+endif()
+
+string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
+       "${CMAKE_INSTALL_MANIFEST_FILES}")
+if(CMAKE_INSTALL_LOCAL_ONLY)
+  file(WRITE "D:/pv/build/VTK/Rendering/Core/install_local_manifest.txt"
+     "${CMAKE_INSTALL_MANIFEST_CONTENT}")
+endif()
