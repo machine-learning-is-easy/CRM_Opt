@@ -1,0 +1,6 @@
+If:
+  PathMatch: .*simulator/.*\.(cpp|h)
+CompileFlags:
+  Add:
+    - -std=c++17
+    - -Isimulator/include

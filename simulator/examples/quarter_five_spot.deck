@@ -1,0 +1,33 @@
+# Quarter five-spot waterflood smoke/demo case.
+# Units are arbitrary but internally consistent.
+
+nx = 20
+ny = 20
+nz = 1
+dx = 50.0
+dy = 50.0
+dz = 10.0
+
+porosity = 0.20
+permeability = 100.0
+
+mu_w = 1.0
+mu_o = 5.0
+swc = 0.20
+sor = 0.20
+nw = 2.0
+no = 2.0
+
+initial_pressure = 250.0
+initial_sw = 0.20
+
+cfl = 0.45
+dt = 2.0
+total_time = 80.0
+output_interval = 10.0
+
+output_dir = ./output/quarter_five_spot
+output_prefix = quarter_five_spot
+
+well INJ injector 0 0 0 rate=60.0 radius=0.10
+well PROD producer 19 19 0 bhp=150.0 radius=0.10
