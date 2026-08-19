@@ -27,7 +27,8 @@ IF(PARAVIEW_BUILD_QT_GUI)
   IF(VTK_WRAP_PYTHON) 
   SET(RVA_PYTHON_MODULES 
       RVAMacros/__init__.py
-      RVAMacros/ContextView.py)
+      RVAMacros/ContextView.py
+      RVAMacros/SimulatorOutput.py)
   ENDIF(VTK_WRAP_PYTHON)
 
   # Now crete a plugin for the toolbar. Here we pass IFACES and IFACE_SRCS
@@ -76,6 +77,14 @@ IF(PARAVIEW_BUILD_QT_GUI)
 IF(WIN32)
 TARGET_LINK_LIBRARIES(RVA_Core_Plugin Version.lib) # Version.lib: _GetFileVersionInfoSize used in _st_get_exe_version
 ENDIF(WIN32)
+
+IF(BUILD_TESTING)
+  FIND_PACKAGE(PythonInterp)
+  IF(PYTHONINTERP_FOUND)
+    ADD_TEST(NAME RVA_SimulatorOutputHelpers
+      COMMAND ${PYTHON_EXECUTABLE} ${CMAKE_CURRENT_SOURCE_DIR}/RVAMacros/test_SimulatorOutput.py)
+  ENDIF(PYTHONINTERP_FOUND)
+ENDIF(BUILD_TESTING)
 
 INSTALL(TARGETS RVA_Core_Plugin
 		RUNTIME DESTINATION . COMPONENT Core

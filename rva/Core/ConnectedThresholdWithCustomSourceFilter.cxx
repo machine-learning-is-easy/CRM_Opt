@@ -36,11 +36,12 @@ vtkStandardNewMacro(ConnectedThresholdWithCustomSourceFilter);
 
 //----------------------------------------------------------------------------
 ConnectedThresholdWithCustomSourceFilter::ConnectedThresholdWithCustomSourceFilter() :
-RVAArrayName(""), ResultArrayName("Connectivity"),cellLocator(NULL)//, Output(NULL)
+RVAArrayName(""), RVAArrayName2(""), ResultArrayName("Connectivity"),
+Mode(OnlyScalar1Mode), cellLocator(NULL)//, Output(NULL)
 {
-  this->SetDebug(1);    
+  this->SetDebug(1);
   this->SetNumberOfInputPorts(2);
-  this->SetNumberOfOutputPorts(1); 
+  this->SetNumberOfOutputPorts(1);
   this->isImageData = true;
 }
 
@@ -79,7 +80,7 @@ void ConnectedThresholdWithCustomSourceFilter::ThresholdBetween(double lower, do
   if ( this->LowerThreshold != lower || this->UpperThreshold != upper ||
     this->ThresholdFunction != &ConnectedThresholdWithCustomSourceFilter::Between)
   {
-    this->LowerThreshold = lower; 
+    this->LowerThreshold = lower;
     this->UpperThreshold = upper;
     this->ThresholdFunction = &ConnectedThresholdWithCustomSourceFilter::Between;
     this->Modified();
@@ -91,7 +92,7 @@ void ConnectedThresholdWithCustomSourceFilter::ThresholdBetween2(double lower, d
   if ( this->LowerThreshold2 != lower || this->UpperThreshold2 != upper ||
     this->ThresholdFunction != &ConnectedThresholdWithCustomSourceFilter::Between2)
   {
-    this->LowerThreshold2 = lower; 
+    this->LowerThreshold2 = lower;
     this->UpperThreshold2 = upper;
     this->ThresholdFunction = &ConnectedThresholdWithCustomSourceFilter::Between2;
     this->Modified();
@@ -105,7 +106,7 @@ int ConnectedThresholdWithCustomSourceFilter::RequestData(vtkInformation *vtkNot
   // Get the info objects
   vtkInformation* inInfo = inputVector[0]->GetInformationObject(0);
   vtkInformation* outInfo = outputVector->GetInformationObject(0);
-	
+
 	vtkInformation* inInfo2 = NULL;
 	vtkPolyData* input2 = NULL;
 
@@ -131,12 +132,23 @@ int ConnectedThresholdWithCustomSourceFilter::RequestData(vtkInformation *vtkNot
   output->ShallowCopy(genericInput);
 
 
-  vtkDataArray* inScalars  = genericInput->GetCellData()->GetArray(this->RVAArrayName);
-  vtkDataArray* inScalars2 = genericInput->GetCellData()->GetArray(this->RVAArrayName2);
+  const bool needsScalar1 = this->Mode != OnlyScalar2Mode;
+  const bool needsScalar2 = this->Mode != OnlyScalar1Mode;
+  vtkDataArray* inScalars = needsScalar1
+    ? genericInput->GetCellData()->GetArray(this->RVAArrayName) : NULL;
+  vtkDataArray* inScalars2 = needsScalar2
+    ? genericInput->GetCellData()->GetArray(this->RVAArrayName2) : NULL;
 
-  assert(inScalars && inScalars2);
-  if(!inScalars || !inScalars2)
-    return 1;
+  if(needsScalar1 && !inScalars) {
+    vtkErrorMacro(<<"Required cell array '" << this->RVAArrayName
+                  << "' is unavailable for the selected filter mode");
+    return 0;
+  }
+  if(needsScalar2 && !inScalars2) {
+    vtkErrorMacro(<<"Required cell array '" << this->RVAArrayName2
+                  << "' is unavailable for the selected filter mode");
+    return 0;
+  }
 
   if(!doThreshold(outInfo, genericInput, output, input2, inScalars, inScalars2))
     return 0;
@@ -146,7 +158,7 @@ int ConnectedThresholdWithCustomSourceFilter::RequestData(vtkInformation *vtkNot
 
 int ConnectedThresholdWithCustomSourceFilter::doThreshold(vtkInformation* outInfo, vtkDataSet* input, vtkDataSet* output, vtkPolyData* input2, vtkDataArray* inScalars, vtkDataArray* inScalars2)
 {
-  assert(input && output && inScalars && inScalars2 &&! this->ResultArrayName.empty());
+  assert(input && output && !this->ResultArrayName.empty());
 
   GetCellDimensions(input);
   // we need cell dimensions not point dimensions...
@@ -154,22 +166,23 @@ int ConnectedThresholdWithCustomSourceFilter::doThreshold(vtkInformation* outInf
   this->cellDimensions[1]--;
   this->cellDimensions[2]--;
 
-  if(!inScalars) return 0;
-
-  vtkIdType numTupes1  = inScalars->GetNumberOfTuples();
-  vtkIdType numTupes2  = inScalars2->GetNumberOfTuples();
-
   vtkIdType requiredNumTupes = cellDimensions[0]*cellDimensions[1] * cellDimensions[2];
 
-  if( numTupes1 != requiredNumTupes || numTupes2 != requiredNumTupes ) {
-    vtkErrorMacro(<<"Invalid array size");
+  if(inScalars && inScalars->GetNumberOfTuples() != requiredNumTupes) {
+    vtkErrorMacro(<<"Cell array '" << this->RVAArrayName
+                  << "' has an invalid tuple count");
+    return 0;
+  }
+  if(inScalars2 && inScalars2->GetNumberOfTuples() != requiredNumTupes) {
+    vtkErrorMacro(<<"Cell array '" << this->RVAArrayName2
+                  << "' has an invalid tuple count");
     return 0;
   }
 
   vtkIntArray* arr  = vtkIntArray::New();
 
   arr->SetNumberOfValues(requiredNumTupes);
-  
+
   for(vtkIdType i =0;i <requiredNumTupes;i++) {
     arr->SetValue(i,0);
   }
@@ -178,10 +191,10 @@ int ConnectedThresholdWithCustomSourceFilter::doThreshold(vtkInformation* outInf
   output->GetCellData()->AddArray(arr);
   int* rawConnectivityArray = arr->GetPointer(0);
   assert(rawConnectivityArray);
-  if(!rawConnectivityArray) 
+  if(!rawConnectivityArray)
     return 0;
 
- 
+
   GetExtent(input, extent);
 
 	if(input2!=NULL)
@@ -202,11 +215,11 @@ int ConnectedThresholdWithCustomSourceFilter::doThreshold(vtkInformation* outInf
   return 1;
 }
 void ConnectedThresholdWithCustomSourceFilter::iterateOverStartingPoints(int*rawConnectivityArray,vtkDataArray*inScalars,vtkDataArray*inScalars2,  vtkDataSet*input,vtkDataSet*dataset, int autoIncrement) {
-	  //iterate over all of source points 
+	  //iterate over all of source points
   int ijk[3];
   double pcoords[3];
   double point[3];
-		
+
   int numPoints2 = dataset->GetNumberOfPoints();
 	int paint=1;
 
@@ -217,7 +230,7 @@ void ConnectedThresholdWithCustomSourceFilter::iterateOverStartingPoints(int*raw
     dataset->GetPoint(i, point);
     if (ComputeStructuredCoordinates(input, point, ijk, pcoords,extent))
     {
-      vtkIdType result = executeConnectivity(inScalars, inScalars2, rawConnectivityArray, ijk[0],ijk[1],ijk[2],paint);      
+      vtkIdType result = executeConnectivity(inScalars, inScalars2, rawConnectivityArray, ijk[0],ijk[1],ijk[2],paint);
       if(autoIncrement && result != 0) paint ++;
 		}
   }
@@ -237,13 +250,22 @@ vtkIdType ConnectedThresholdWithCustomSourceFilter::executeConnectivity(vtkDataA
 	if(i<0 || j<0 ||k<0 || i>= cellDimensions[0] || j>= cellDimensions[1] || k>=cellDimensions[2])
     return 0;
   vtkIdType cellId = i+j*this->cellDimensions[0] + k*cellDimensions[0]*cellDimensions[1];
-  double val  = data->GetComponent(cellId,0);
-  double val2 = data2->GetComponent(cellId,0);
+  const bool unpainted = connectivity[cellId] == 0;
+  bool dataCheck = false;
+  bool data2Check = false;
+  if(Mode != OnlyScalar2Mode) {
+    const double val = data->GetComponent(cellId,0);
+    dataCheck = ((Between(val) && !InsideOut) || (!Between(val) && InsideOut)) && unpainted;
+  }
+  if(Mode != OnlyScalar1Mode) {
+    const double val2 = data2->GetComponent(cellId,0);
+    data2Check = ((Between2(val2) && !InsideOut2) || (!Between2(val2) && InsideOut2)) && unpainted;
+  }
 
 	int result=0;
-  bool dataCheck  = ((Between(val) && !InsideOut) || (!Between(val) && InsideOut)) && (connectivity[cellId]==0);
-  bool data2Check = ((Between2(val2) && !InsideOut2) || (!Between2(val2) && InsideOut2)) && (connectivity[cellId]==0);
-  bool connected  = (Mode == 0) ? dataCheck && data2Check : (Mode == 1) ? dataCheck || data2Check : (Mode == 2) ? dataCheck : data2Check;
+  bool connected = (Mode == AndMode) ? dataCheck && data2Check
+    : (Mode == OrMode) ? dataCheck || data2Check
+    : (Mode == OnlyScalar1Mode) ? dataCheck : data2Check;
   if(connected) {
     connectivity[cellId]=numb;
 		result = 1;
@@ -331,7 +353,7 @@ int ConnectedThresholdWithCustomSourceFilter::ComputeStructuredCoordinates(vtkDa
       ijk[2]-=extent[4];
 			return result;
 	}
-	
+
 	else if(sgrid != NULL) {
 		if(cellLocator == NULL) {
 		  this->cellLocator = vtkCellLocator::New();

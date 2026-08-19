@@ -18,7 +18,9 @@ struct VtkCellData {
 };
 
 struct VtkWellPoint {
+  // wells.vtp assigns WellId from this vector's stable zero-based tuple order.
   std::string name;
+  // X-fastest simulator cell index written as the CellId point-data array.
   std::size_t cell = 0;
   double x = 0.0;
   double y = 0.0;

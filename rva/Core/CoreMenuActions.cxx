@@ -20,6 +20,7 @@ PURPOSE.  See the above copyright notice for more information.
 
 #include "pqApplicationCore.h"
 #include "pqCoreUtilities.h"
+#include "pqFileDialog.h"
 #include "pqObjectBuilder.h"
 #include "pqPythonDialog.h"
 #include "pqPythonManager.h"
@@ -32,6 +33,7 @@ PURPOSE.  See the above copyright notice for more information.
 
 #include <QActionGroup>
 #include <QApplication>
+#include <QByteArray>
 #include <QDesktopServices>
 #include <QDialog>
 #include <QDialogButtonBox>
@@ -43,6 +45,7 @@ PURPOSE.  See the above copyright notice for more information.
 #include <QPushButton>
 #include <QScrollArea>
 #include <QString>
+#include <QStringList>
 #include <QStyle>
 #include <QTabWidget>
 #include <QUrl>
@@ -115,6 +118,10 @@ CoreMenuActions::CoreMenuActions(QObject* p) : QActionGroup(p), geoPanel(this)
   Import->setVisible(true);
   this->addAction(Import);
 
+  QAction * LoadSimulator = new QAction("&Load Simulator Output...", this);
+  LoadSimulator->setData("LoadSimulatorOutput");
+  this->addAction(LoadSimulator);
+
   Separator = new QAction(this);
   Separator->setSeparator(true);
   
@@ -148,6 +155,11 @@ void CoreMenuActions::onAction(QAction* a)
 {
   if(a->data().toString().toStdString() == "OMIT")
     return;
+
+  if(a->data().toString().toStdString() == "LoadSimulatorOutput") {
+    this->LoadSimulatorOutput();
+    return;
+  }
 
   if(a->data().toString().toStdString() == "PythonMacro") {
     pqPythonManager* mgr = qobject_cast<pqPythonManager*>(pqApplicationCore::instance()->manager("PYTHON_MANAGER"));
@@ -202,6 +214,76 @@ void CoreMenuActions::onAction(QAction* a)
     if(stack) {
       stack->endUndoSet();
     }
+  }
+}
+
+//-----------------------------------------------------------------------------
+void CoreMenuActions::LoadSimulatorOutput()
+{
+  pqApplicationCore* core = pqApplicationCore::instance();
+  pqServerManagerModel* sm = core->getServerManagerModel();
+  if (!sm->getNumberOfItems<pqServer*>()) {
+    QMessageBox::warning(pqCoreUtilities::mainWidget(), "RVA Simulator Output",
+      "Connect to a built-in or remote ParaView server before loading simulator output.");
+    return;
+  }
+
+  pqServer* server = core->getActiveServer();
+  if (!server) {
+    QMessageBox::warning(pqCoreUtilities::mainWidget(), "RVA Simulator Output",
+      "Make a ParaView server connection active before loading simulator output.");
+    return;
+  }
+
+  pqFileDialog dialog(server, pqCoreUtilities::mainWidget(),
+    "Load Simulator Output", QString(), "ParaView Data Collection (*.pvd)");
+  dialog.setFileMode(pqFileDialog::ExistingFile);
+  if (dialog.exec() != QDialog::Accepted) {
+    return;
+  }
+
+  const QStringList selectedFiles = dialog.getSelectedFiles();
+  if (selectedFiles.isEmpty()) {
+    return;
+  }
+
+  pqPythonManager* mgr = qobject_cast<pqPythonManager*>(core->manager("PYTHON_MANAGER"));
+  if (!mgr) {
+    QMessageBox::critical(pqCoreUtilities::mainWidget(), "RVA Simulator Output",
+      "Loading simulator output requires a Python-enabled ParaView build.");
+    return;
+  }
+
+  pqPythonDialog* dlg = mgr->pythonShellDialog();
+  if (!dlg || !dlg->shell()) {
+    QMessageBox::critical(pqCoreUtilities::mainWidget(), "RVA Simulator Output",
+      "ParaView's embedded Python shell is unavailable.");
+    return;
+  }
+
+  const QByteArray encodedPath = selectedFiles[0].toUtf8().toHex();
+  const QString command = QString(
+    "try:\n"
+    "  from RVAMacros import SimulatorOutput\n"
+    "  SimulatorOutput.LoadSimulatorOutputFromHex('%1')\n"
+    "except Exception:\n"
+    "  import traceback\n"
+    "  from PyQt4.QtGui import QMessageBox\n"
+    "  QMessageBox.critical(None, 'RVA Simulator Output', traceback.format_exc())").arg(
+      QString::fromAscii(encodedPath.constData()));
+
+  pqUndoStack* stack = core->getUndoStack();
+  if (stack) {
+    stack->beginUndoSet("Load Simulator Output");
+  }
+
+  dlg->shell()->releaseControl();
+  dlg->shell()->makeCurrent();
+  dlg->runString(command);
+  dlg->shell()->releaseControl();
+
+  if (stack) {
+    stack->endUndoSet();
   }
 }
 

@@ -36,6 +36,8 @@ public slots:
   void AboutBox();
 
 private:
+  void LoadSimulatorOutput();
+
   // Other menu actions
   GeolocationPanel geoPanel;
 };

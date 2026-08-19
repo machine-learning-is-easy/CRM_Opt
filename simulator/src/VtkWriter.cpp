@@ -94,6 +94,24 @@ void writeWellScalar(std::ostream &out,
   out << "\n        </DataArray>\n";
 }
 
+void writeWellIds(std::ostream &out, const std::vector<VtkWellPoint> &wells) {
+  out << "        <DataArray type=\"Int64\" Name=\"WellId\" format=\"ascii\">\n";
+  out << "          ";
+  for (std::size_t i = 0; i < wells.size(); ++i) {
+    out << i << ' ';
+  }
+  out << "\n        </DataArray>\n";
+}
+
+void writeWellCellIds(std::ostream &out, const std::vector<VtkWellPoint> &wells) {
+  out << "        <DataArray type=\"Int64\" Name=\"CellId\" format=\"ascii\">\n";
+  out << "          ";
+  for (const VtkWellPoint &well : wells) {
+    out << well.cell << ' ';
+  }
+  out << "\n        </DataArray>\n";
+}
+
 void writeWellTypes(std::ostream &out, const std::vector<VtkWellPoint> &wells) {
   out << "        <DataArray type=\"Int32\" Name=\"WellType\" format=\"ascii\">\n";
   out << "          ";
@@ -187,6 +205,8 @@ std::filesystem::path VtkWriter::writeWellPolyData(const std::vector<VtkWellPoin
   writeWellScalar(out, "total_rate", wells, &VtkWellPoint::total_rate);
   writeWellScalar(out, "water_rate", wells, &VtkWellPoint::water_rate);
   writeWellScalar(out, "oil_rate", wells, &VtkWellPoint::oil_rate);
+  writeWellIds(out, wells);
+  writeWellCellIds(out, wells);
   writeWellTypes(out, wells);
   out << "      </PointData>\n";
   out << "      <FieldData>\n";

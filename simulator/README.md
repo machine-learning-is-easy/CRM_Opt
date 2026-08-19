@@ -2,7 +2,7 @@
 
 This directory provides a dependency-free C++17 two-phase, immiscible, incompressible reservoir simulator. It uses TPFA finite volumes, an implicit pressure solve, explicit upwind saturation transport, Corey relative permeability, Peaceman wells, CFL substepping, and a Jacobi-preconditioned conjugate-gradient solver.
 
-The `simulate` executable writes cell-centered VTK ImageData time series that ParaView can open directly. RVA remains unchanged and consumes the resulting datasets through ParaView's native VTK readers.
+The `simulate` executable writes cell-centered VTK ImageData time series that ParaView can open directly. The RVA Core plugin adds a coordinated loader while continuing to use ParaView's native VTK XML readers.
 
 ## Build and Test
 
@@ -68,9 +68,19 @@ For each report time, `simulate` writes `<prefix>_<step>.vti` with these single-
 - `Permeability`
 - `Porosity`
 
-It also writes `<prefix>.pvd` for animation and a stable `wells.vtp` containing named well points, rates, and `WellType` (`1` injector, `-1` producer).
+It also writes `<prefix>.pvd` for animation and a stable, combined `wells.vtp`. Each well point has a zero-based `WellId`, the simulator's x-fastest `CellId`, `WellType` (`1` injector, `-1` producer), its name, and the latest written rate/BHP values.
 
-Open `<prefix>.pvd` in ParaView, then load `wells.vtp` when well geometry is needed. With RVA plugins loaded, useful workflows include Global Z-Scale, ConnectedThreshold on `Sw`, RVAVolumetrics using `Porosity` and `Sw`, and CutBetweenWells using the well points.
+With `RVA_Core_Plugin` loaded in a Python-enabled ParaView 3.14.1 build, choose **RVA -> Load Simulator Output...** and select `<prefix>.pvd`. RVA creates these pipeline objects:
+
+- `<case>_grid`, the animated native PVD reader, colored by `Pressure` when available (then `Sw`, `So`, or solid color).
+- `<case>_wells_all`, the native combined VTP reader, hidden after successful preparation.
+- `<case>_well_<name>`, one large, distinctly colored one-point PolyData source per injector or producer.
+
+The loader updates ParaView's animation time range and leaves `<case>_grid` active. Well geometry and metadata are static for the run; `wells.vtp` is overwritten at each report and therefore retains the final written rate/BHP values rather than animating them.
+
+To use **Cut Between Wells**, select `<case>_grid` as the data set and two `<case>_well_<name>` sources as the well inputs. The prepared well sources each contain exactly one point and one vertex, which matches the filter's PolyData inputs. Other useful manual workflows include Connected Threshold in `Only Scalar 1` mode using `Sw`, `So`, `Pressure`, `Porosity`, or `Permeability`, and RVA Volumetrics using `Porosity * Sw` or `Porosity * So`.
+
+If the RVA Core plugin or embedded Python is unavailable, open `<prefix>.pvd` and `wells.vtp` directly with ParaView's native readers; the coordinated preparation action requires both.
 
 The VTK grid has point extents `0..nx`, `0..ny`, `0..nz` and exactly `nx * ny * nz` x-fastest cell tuples, matching RVA's reservoir reader conventions.
 

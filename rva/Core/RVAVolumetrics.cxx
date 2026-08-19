@@ -21,10 +21,10 @@ RVAVolumetrics::RVAVolumetrics()
     this->calc = vtkSmartPointer<vtkArrayCalculator>::New();
     this->integrate = vtkSmartPointer<vtkIntegrateAttributes>::New();
     this->SetInputArrayToProcess(
-            0, 
-            0, 
-            0, 
-            vtkDataObject::FIELD_ASSOCIATION_CELLS, 
+            0,
+            0,
+            0,
+            vtkDataObject::FIELD_ASSOCIATION_CELLS,
             vtkDataSetAttributes::SCALARS);
     this->SetInputArrayToProcess(
             1,
@@ -73,10 +73,15 @@ int RVAVolumetrics::RequestData(vtkInformation *vtkNotUsed(request),
 
     vtkDataArray* array1 = this->GetInputArrayToProcess(0, inputVector);
     vtkDataArray* array2 = this->GetInputArrayToProcess(1, inputVector);
+    if (!input || !array1 || !array2)
+    {
+        vtkErrorMacro("RVA Volumetrics requires two cell-data scalar arrays");
+        return 0;
+    }
 
     this->calc->SetInput(input);
     // This will only work with cell data.
-    this->calc->SetAttributeModeToUseCellData(); 
+    this->calc->SetAttributeModeToUseCellData();
     this->calc->AddScalarArrayName(array1->GetName());
     this->calc->AddScalarArrayName(array2->GetName());
     vtkStdString function(array1->GetName());
@@ -86,14 +91,18 @@ int RVAVolumetrics::RequestData(vtkInformation *vtkNotUsed(request),
 
     this->calc->SetResultArrayName("Cell-wise Volumetric Product");
     this->calc->Update();
-    
+
     this->integrate->SetInputConnection(this->calc->GetOutputPort());
     this->integrate->Update();
-    vtkStdString scalarName;
-    scalarName = this->integrate->GetOutput()->GetCellData()->GetArrayName(0);
-    this->integrate->GetOutput()->GetCellData()->SetActiveScalars(scalarName.c_str());
+    vtkDataArray* integratedProduct = this->integrate->GetOutput()->GetCellData()
+        ->GetArray("Cell-wise Volumetric Product");
+    if (!integratedProduct || integratedProduct->GetNumberOfTuples() < 1)
+    {
+        vtkErrorMacro("Integrated Cell-wise Volumetric Product is unavailable");
+        return 0;
+    }
 
-    double *volumetric = this->integrate->GetOutput()->GetCellData()->GetScalars()->GetTuple(0);
+    double *volumetric = integratedProduct->GetTuple(0);
 
     // The Integrate Variables filter creates a data set of a single point on which
     // to attached the field data output. This does the same.
@@ -104,7 +113,7 @@ int RVAVolumetrics::RequestData(vtkInformation *vtkNotUsed(request),
     vtkSmartPointer<vtkDoubleArray> results = vtkSmartPointer<vtkDoubleArray>::New();
     results->SetName("Integrated Cell-wise Volumetric Product");
     results->InsertNextTuple(volumetric);
-   
+
     output->Allocate(1);
     output->InsertNextCell(vtx->GetCellType(), vtx->GetPointIds());
     output->SetPoints(pt);

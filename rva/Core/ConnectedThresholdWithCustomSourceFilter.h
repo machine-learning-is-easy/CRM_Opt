@@ -35,11 +35,11 @@ public:
     vtkInformation *,
     vtkInformationVector **,
     vtkInformationVector *);
-  virtual int RequestInformation(vtkInformation*, 
-    vtkInformationVector**, 
+  virtual int RequestInformation(vtkInformation*,
+    vtkInformationVector**,
     vtkInformationVector*);
-  virtual int RequestData(vtkInformation*, 
-    vtkInformationVector**, 
+  virtual int RequestData(vtkInformation*,
+    vtkInformationVector**,
     vtkInformationVector*);
 
   static ConnectedThresholdWithCustomSourceFilter *New();
@@ -70,7 +70,15 @@ public:
   vtkSetMacro(InsideOut2, bool);
   vtkGetMacro(InsideOut2, bool);
 
-// First, Second or both  (And/OR) setting
+  enum FilterMode
+  {
+    AndMode = 0,
+    OrMode = 1,
+    OnlyScalar1Mode = 2,
+    OnlyScalar2Mode = 3
+  };
+
+  // First, second, or both (And/Or) setting.
   vtkSetMacro(Mode, int);
 
   //char* RVAArrayName;
@@ -84,7 +92,7 @@ public:
 
   vtkGetMacro(RVAArrayName, vtkStdString);
 
-protected: 
+protected:
   ConnectedThresholdWithCustomSourceFilter();
   virtual ~ConnectedThresholdWithCustomSourceFilter();
 
@@ -137,5 +145,3 @@ private:
 
 
 #endif
-
-
